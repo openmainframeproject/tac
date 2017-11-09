@@ -4,7 +4,7 @@ The Open Mainframe Project TSC looks for community feedback on technology areas 
 
 ## How to Contribute Project Ideas
 
-If you see where you can identify a project or task to be completed under a focus area, use the following template to define it and submit via a PR under the [proposed directory](/proposed) 
+If you see where you can identify a project or task to be completed under a focus area, use the following template to define it and submit via a PR under the [proposed_projects directory](/proposed_projects) 
 
 **Template/Sample**
   * ** Title: **Provide a short but descriptive title of what the intern project is

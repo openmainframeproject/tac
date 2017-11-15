@@ -8,7 +8,7 @@ The Open Mainframe Project will also give the ability for each intern successful
 
 ## Internship Proposals
 
-Please send your project proposal(s) to [LINK TO BE ADDED] by the application deadline (February 16th, 2018).
+Please send your project proposal(s) to https://jobs.lever.co/linuxfoundation.org/9fb9d5ac-fe01-4c82-8707-c2597111f62e by the application deadline (February 16th, 2018).
 
 Your proposal should include the following:
 

@@ -121,20 +121,3 @@ You can reach out to the mentor(s) mentioned, or the overall project owner, if y
     * https://developer.ibm.com/open/ibm-open-blockchain/
     * http://www.linuxfoundation.org/news-media/announcements/2015/12/linux-foundation-unites-industry-leaders-advance-blockchain?cm_mc_uid=29203059292514307566556&cm_mc_sid_50200000=1450363405
     * http://www.ibm.com/blockchain/
-
-## TensorFlow functionality, Proof of Concept, and enable Continuous Integration testing
-
-  * ** Description: ** Ensure that TensorFlow functions correctly on LinuxONE, generate a Proof of Concept, analyze performance, and add LinuxONE to TensorFlow Continuous Integration framework. TensorFlow utilizes the Eigen BLAS library that already has been ported to LinuxONE and optimized for z13 VX SIMD vector instruction set. This project will ensure that TensorFlow builds, installs, and operates cleanly on LinuxONE "out of the box", passing its self-test framework and functioning for simple TensorFlow examples. The project next will work with IBM to create an environment to run the TensorFlow continuous integration framework and connect to the TensorFlow CI infrastructure. As a bonus, create and deploy a real-world machine learning example on TensorFlow running on LinuxONE.
-  * ** Additional Information:** https://www.tensorflow.org/ and http://ci.tensorflow.org/
-  * ** Desirable Skills:** TensorFlow, Machine Learning, Python, C++, CMake, Jenkins, Open Source packaging
-  * ** Expected Outcomes:**
-     - Demonstrate that TensorFlow builds "out of the box" on LinuxONE.
-     - Demonstrate that TensorFlow passes self-tests.
-     - Demonstrate that TensorFlow runs simple examples.
-     - Setup and deploy Continuous Integration (CI) testing framework on IBM infrastructure.
-     - Work with TF community to connect CI to TensorFlow community CI infrastructure.
-     - Create a real-world machine learning example on TensorFlow as a Proof of Concept.
-     - Experiment and analyze performance of Proof of Concept.
-     - Write a report to describe the Proof of Concept and performance analysis.
-  * ** Difficultly:** Easy-Medium
-  * ** Mentors: ** David Edelsohn <edelsohn@us.ibm.com>, Cindy Lee <cinderel@ca.ibm.com>

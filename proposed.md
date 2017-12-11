@@ -30,7 +30,7 @@ You can reach out to the mentor(s) mentioned, or the overall project owner, if y
   * ** Desirable Skills: **how docker works (graphdrivers), understanding Linux environment internal (and how Docker uses it, like systemd, cgroups, networking setup of docker)
   * ** Expected Outcome: **3 month internship to get base + further internships to build on based. We will need good synchronization and some cycles of the FFDC folks in IBM Boeblingen to make this useful.
   * ** Difficultly: **Medium
-  * ** Mentors: **Marcel Mitran <mmitran@ca.ibm.com>
+  * ** Mentors: 
 
 ### Build dockerHub development stacks
 
@@ -39,16 +39,7 @@ You can reach out to the mentor(s) mentioned, or the overall project owner, if y
   * ** Desirable Skills: **basic Linux devops
   * ** Expected Outcome: **dockerHub images for s390x
   * ** Difficultly: **Medium
-  * ** Mentors: **Marcel Mitran <mmitran@ca.ibm.com>
-
-### Improved security for isolated containers
-
-  * ** Description: **Improved security for isolated containers
-  * ** Additional Information: **Isolated containers are a concept to run containers inside virtual machines (currently using the runv project). The project targets to add various security functions to isolated containers, both outside of the virtual machine as well as inside the VM.
-  * ** Desirable Skills: **Linux skills, compiling, some development
-  * ** Expected Outcome: **upstream code contributions
-  * ** Difficultly: **Medium
-  * ** Mentors: **Utz Bacher <utz.bacher@de.ibm.com>
+  * ** Mentors: 
 
 ### Packaging applications for Alpine Linux
 
@@ -57,16 +48,7 @@ You can reach out to the mentor(s) mentioned, or the overall project owner, if y
   * ** Desirable Skills:** Docker, Linux security concepts, Linux skills
   * ** Expected Outcome:** upstream code contributions
   * ** Difficultly:** Medium
-  * ** Mentors: **Jim Porell <jim@jimporell.com>
-
-### Leverage mainframe crypto capabilities for Docker security
-
-  * ** Description:** Leverage mainframe crypto capabilities for Docker security
-  * ** Additional Information:** The mainframe provides a large variety of crypto capabilities. The project targets at exploiting these capabilities in the context of containers, e.g. Docker Content Trust or also for containerized workload.
-  * ** Desirable Skills:** Docker, security and cryptographic concepts, Linux skills
-  * ** Expected Outcome:** upstream code contributions
-  * ** Difficultly:** Medium
-  * ** Mentors: ** Reinhard Buendgen <BUENDGEN@de.ibm.com>, Utz Bacher <utz.bacher@de.ibm.com>
+  * ** Mentors: 
 
 ## Ensure popular Linux management tools can work on Linux on z Systems
 
@@ -77,7 +59,7 @@ You can reach out to the mentor(s) mentioned, or the overall project owner, if y
   * ** Desirable Skills: **Skills would be aligned to the languages and disciplines of the selected tools, but would likely need C/C++/Java coding skills, build and packaging for Linux, some mainframe skill (but could be obtained through mentoring and study)
   * ** Expected Outcome: **Open source tools updated, certified and contributed back to their projects
   * ** Difficultly: **Easy/Medium - depending on the tools chosen
-  * ** Mentors: **Scott Fagen <scott.fagen@ca.com> will be able to assign mentors.
+  * ** Mentors: 
   * ** Additional Contacts: **N/A
 
 ## Blockchain performance

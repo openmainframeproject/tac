@@ -20,14 +20,14 @@ Any member of the Open Mainframe Project committee may participate in TSC meetin
   * [Internship Program](projects/internship.md)
   * Cloudstack on z/VM
   * [ADE](https://github.com/openmainframeproject/ade)
-  
+
 You can also review our [proposed project ideas](proposed.md) for ideas being considered.
 
 # TSC Meetings
 
 Meetings are scheduled the second Thursday of each month at 1pm ET and are open to anyone interested in participating in the project. You can review [past meeting notes](/meeting_notes)
 
-The next meeting is scheduled for **Thursday, November 9th, 2017** at **1:00pm ET**. Conference call details below:
+The next meeting is scheduled for **Thursday, January 11th, 2017** at **1:00pm ET**. Conference call details below:
 
 ```
 1.  Please join my meeting.

@@ -1,10 +1,13 @@
-# *Project Title*
+# Compliance engine
 
 ## Description
-*Provide at least two or three paragraphs describing the task. Include the problem/opportunity in need of effort, as well as a description of the task to fix the problem or realize the opportunity. If there is a probable implementation path... "this will need steps X, Y, and Z to be completed" please describe it. If part of the task is evaluating one or more potential implementation paths and selecting/executing on one of them, please describe the options and the potential paths to be explored.*
+Provide a compliance engine where humans can input rules and the compliance engine will check whether blockchain records conform to those rules.
 
 ## Additional Information
-*Provide links to bugzilla entries, release-plan notes, and/or other web-references that would be helpful information to potential interns.*
+Work to be done would be:
+- Integration with a rules engine, for example: IBM's Operational Decision Manager (ODM) – extend and modify the Compliance engine to leverage ODM for rule definition and Rule execution.
+- Data aggregations – extend and modify the Compliance engine to provide statistical data aggregation functions – functions which will allow to either statistically aggregate asset data prior rule checking or to statistically aggregate results of rule checking post analysis for reporting purposes.
+- Scalability - extend and modify the Compliance engine to leverage Spark (or other cluster computing framework) to allow processing of large data sets and large sets of rules.
 
 ## Desirable Skills
 *List both the skills needed and the tools to be used. ie. Java programing with working knowledge of mainframe.*
@@ -16,8 +19,7 @@
 *Easy/Medium/Hard*
 
 ## Mentors
-  * *John Doe <john.doe@notarealemailaddress.com>*
-  * *Jane Smith <JSmith@alsonotarealaddress.com>*
+  * Donna N Dillenberger <engd@us.ibm.com>
 
 ## Additional Contacts
 *Identify the IRC channel(s) and mailing list(s) where potential interns can ask questions and further interact with members of Open Mainframe Project project they would be working with.*

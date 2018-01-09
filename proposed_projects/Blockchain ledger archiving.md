@@ -17,6 +17,7 @@ Blockchain entries cannot be deleted or changed once committed.  However, this w
 
 ## Mentors
   * Donna N Dillenberger <engd@us.ibm.com>
+  * Jin VanStee jinxiong@us.ibm.com
 
 ## Additional Contacts
 *Identify the IRC channel(s) and mailing list(s) where potential interns can ask questions and further interact with members of Open Mainframe Project project they would be working with.*

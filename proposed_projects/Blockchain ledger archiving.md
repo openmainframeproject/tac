@@ -16,7 +16,7 @@ Blockchain entries cannot be deleted or changed once committed.  However, this w
 *Easy/Medium/Hard*
 
 ## Mentors
-  * Donna N Dillenberger <engd@us.ibm.com>
+  * Donna Dillenberger <engd@us.ibm.com>
   * Jin VanStee <jinxiong@us.ibm.com>
 
 ## Additional Contacts

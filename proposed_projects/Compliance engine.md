@@ -19,7 +19,7 @@ Work to be done would be:
 *Easy/Medium/Hard*
 
 ## Mentors
-  * Donna N Dillenberger <engd@us.ibm.com>
+  * Donna Dillenberger <engd@us.ibm.com>
   * Jin VanStee <jinxiong@us.ibm.com>
 
 ## Additional Contacts

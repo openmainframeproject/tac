@@ -23,6 +23,18 @@ Any member of the Open Mainframe Project committee may participate in TSC meetin
 
 You can also review our [proposed project ideas](proposed.md) for ideas being considered.
 
+## Committing to projects
+
+We have tried to make it as easy as possible to make contributions. This applies to how we handle the legal aspects of contribution. We use the same approach — [the Developer’s Certificate of Origin 1.1 (DCO)](https://github.com/hyperledger/fabric/blob/master/docs/source/DCO1.1.txt) — that the [Linux® Kernel community](http://elinux.org/Developer_Certificate_Of_Origin) uses to manage code contributions.
+
+We simply ask that when submitting a patch for review, the developer must include a sign-off statement in the commit message.
+
+Here is an example Signed-off-by line, which indicates that the submitter accepts the DCO:
+
+<code>Signed-off-by: John Doe <john.doe@hisdomain.com></code>
+
+You can include this automatically when you commit a change to your local git repository using <code>git commit -s</code>.
+
 # TSC Meetings
 
 Meetings are scheduled the second Thursday of each month at 1pm ET and are open to anyone interested in participating in the project. You can review [past meeting notes](/meeting_notes)

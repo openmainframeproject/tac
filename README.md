@@ -39,7 +39,16 @@ You can include this automatically when you commit a change to your local git re
 
 Meetings are scheduled the second Thursday of each month at 1pm ET and are open to anyone interested in participating in the project. You can review [past meeting notes](/meeting_notes)
 
-The next meeting is scheduled for **Thursday, January 11th, 2017** at **1:00pm ET**. Conference call details below:
+The next meeting is scheduled for **Thursday, January 11th, 2017** at **1:00pm ET**. 
+
+## Agenda
+
+* ADE Updates
+* Cloudstack updates
+* Internship updates
+* Other business
+
+## Conference call details
 
 ```
 1.  Please join my meeting.

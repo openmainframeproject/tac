@@ -10,17 +10,14 @@ Work to be done would be:
 - Scalability - extend and modify the Compliance engine to leverage Spark (or other cluster computing framework) to allow processing of large data sets and large sets of rules.
 
 ## Desirable Skills
-*List both the skills needed and the tools to be used. ie. Java programing with working knowledge of mainframe.*
+High familiarity with blockchain concepts, especially in the area of smart contract building and maintenance. Familiarity with the Hyperledger Fabric build of blockchain preferred. Familiarity with rules engines (open source or vendor based). Background in computer programming required. Background and familiarity with data science concepts and tooling (Spark, Jupyter Notebook, R, Python Pandas) preferred but not required.
 
 ## Expected Outcome
-*List the deliverable(s) (features/application(s)/report(s) etc.) expected*
+A pilot solution for blockchain compliance engine. Bonus for extending engine to provide statistical aggregations and for using Spark to handle large rule sets.
 
 ## Difficultly
-*Easy/Medium/Hard*
+Hard
 
 ## Mentors
   * Donna Dillenberger <engd@us.ibm.com>
   * Jin VanStee <jinxiong@us.ibm.com>
-
-## Additional Contacts
-*Identify the IRC channel(s) and mailing list(s) where potential interns can ask questions and further interact with members of Open Mainframe Project project they would be working with.*

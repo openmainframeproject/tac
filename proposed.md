@@ -12,6 +12,6 @@ If you see where you can identify a project or task to be completed under a focu
 
 You can reach out to the mentor(s) mentioned, or the overall project owner, if you are interested in working on a particular project/task.
 
-  * [Blockchain ledger archiving](/proposed_projects/Blockchain ledger archiving.md)
-  * [Compliance engine](/proposed_projects/Compliance engine.md)
+  * [Blockchain ledger archiving](/proposed_projects/Blockchain%20ledger%20archiving.md)
+  * [Compliance engine](/proposed_projects/Compliance%20engine.md)
   * [Legacy Projects](/proposed_projects/Legacy.md)

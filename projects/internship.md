@@ -96,3 +96,7 @@ Your proposal should include the following:
     <td>Interns present their project at an industry conference</td>
   </tr>
 </table>
+
+## Past intern program participants and projects
+
+[Past intern program participants and projects](internship/past.md)

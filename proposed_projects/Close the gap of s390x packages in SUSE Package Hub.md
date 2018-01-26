@@ -16,7 +16,7 @@ The package submission process can be reviewed at https://packagehub.suse.com/#c
 
 ## Expected Outcome
 **The following numbers are suggestions and the final numbers will be decided by the intern and mentors.**
-* Worked with the OMP TSC to identify 15 potential packages. An exmaple is kubernetes and dependent packages.
+* Worked with the OMP TSC to identify 15 potential packages. An example is kubernetes and dependent packages.
 * Reviewed and choose 10 packages that will be submission targets for SUSE Package Hub approval.
 * Provide weekly documentation that outlines the efforts to get packages submitted for Package Hub approval.
 

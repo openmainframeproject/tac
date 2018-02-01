@@ -18,6 +18,4 @@ Hard
 
 ## Additional Contacts:
   * https://www.hyperledger.org/
-  * https://developer.ibm.com/open/ibm-open-blockchain/
-  * http://www.linuxfoundation.org/news-media/announcements/2015/12/linux-foundation-unites-industry-leaders-advance-blockchain?cm_mc_uid=29203059292514307566556&cm_mc_sid_50200000=1450363405
   * http://www.ibm.com/blockchain/

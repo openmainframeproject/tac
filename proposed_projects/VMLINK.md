@@ -59,7 +59,7 @@ Most Linux distros include /etc/auto.net which serves as an example.
 (Usually also /etc/auto.smb if you like.) Maybe create /etc/auto.vmlink 
 to handle linking, varying online, and mounting of disks owned by other 
 virtual machines (assuming your v-machine has the rights to read it, 
-which is a whole other story). So then one could simply ...
+which is a whole other story).
 
 Partitioning is another matter. If a disk has one (or zero) partitions, 
 the script could just figure things out. If the disk has multiple 

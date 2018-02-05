@@ -57,11 +57,11 @@ Doing a `vmcp link` was no big deal for the VMers. Use of `mount` was
 second nature for the Linux guys. The combination was always a mental 
 stretch. Eventually we coaxed the automounter into doing it all for us.
 
-Most Linux distros include `/etc/auto.net` which serves as an example. 
-(Usually also `/etc/auto.smb` if you like.) For this project, create `/etc/auto.vmlink` 
-to handle linking, varying online, and mounting of disks owned by other 
-virtual machines (assuming your v-machine has the rights to read it, 
-which is a whole other story).
+Most Linux distributions include `/etc/auto.net` which serves as an example. 
+(Usually also `/etc/auto.smb` if you like.) For this project, create
+`/etc/auto.vmlink` to handle linking, varying online, and mounting
+of disks owned by other virtual machines (assuming your v-machine 
+has the rights to read the disk(s), which is a whole other story).
 
 Partitioning is another matter. If a disk has one (or zero) partitions, 
 the script could just figure things out. If the disk has multiple 

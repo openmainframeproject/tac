@@ -23,7 +23,11 @@ Note that a 3390 CKD volume in "compatible layout" can have
 or 0 (meaning the entire disk from the starting block, offset zero)
 
 ## Additional Information
-*See the `vmlink` command in the CMS guide.*
+See the `vmlink` command in the CMS Commands guide.
+
+https://www.ibm.com/support/knowledgecenter/SSB27U_6.4.0/com.ibm.zvm.v640.dmsb4/vmlink.htm
+
+(Link will go 404, but hopefully not before the project is completed.)
 
 ## Desirable Skills
 *Mostly shell scripting.

@@ -26,7 +26,8 @@ Note that a 9336 or 3370 FBA volume can have a PC-like partition table
 and can therefore have zero (full disk) up to (at least) 15 partitions.
 
 ## Additional Information
-See the `vmlink` command in the CMS Commands guide.
+See the `vmlink` command in the
+CMS Commands and Utilities Reference SC24-6166 (various revisions).
 
 https://www.ibm.com/support/knowledgecenter/SSB27U_6.4.0/com.ibm.zvm.v640.dmsb4/vmlink.htm
 
@@ -49,17 +50,15 @@ Medium
 ## Mentors
   * Rick Troth \<rmt@casita.net\>
 
-## Additional Contacts
-
-
+## Additional Comments
 
 In one shop, we did a lot of sharing of disks among virtual machines. 
-Doing a 'vmcp link' was no big deal for the VMers. Use of 'mount' was 
+Doing a `vmcp link` was no big deal for the VMers. Use of `mount` was 
 second nature for the Linux guys. The combination was always a mental 
 stretch. Eventually we coaxed the automounter into doing it all for us.
 
-Most Linux distros include /etc/auto.net which serves as an example. 
-(Usually also /etc/auto.smb if you like.) Maybe create /etc/auto.vmlink 
+Most Linux distros include `/etc/auto.net` which serves as an example. 
+(Usually also `/etc/auto.smb` if you like.) For this project, create `/etc/auto.vmlink` 
 to handle linking, varying online, and mounting of disks owned by other 
 virtual machines (assuming your v-machine has the rights to read it, 
 which is a whole other story).
@@ -69,7 +68,7 @@ the script could just figure things out. If the disk has multiple
 partitions, maybe tack-on an extra dotted indicator for the partition of 
 interest.
 
-I call it "VMLINK-like" because in CMS there is the 'vmlink' command 
-which provides a simila
+I call it "VMLINK-like" because in CMS there is the `vmlink` command 
+which provides a similar effect.
 
 

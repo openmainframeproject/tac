@@ -20,7 +20,10 @@ if the disk has multiple partitions
 
 Note that a 3390 CKD volume in "compatible layout" can have
 1, 2, or 3 partitions. Other layouts can have 1 partition
-or 0 (meaning the entire disk from the starting block, offset zero)
+or 0 (meaning the entire disk from the starting block, offset zero).
+
+Note that a 9336 or 3370 FBA volume can have a PC-like partition table
+and can therefore have zero (full disk) up to (at least) 15 partitions.
 
 ## Additional Information
 See the `vmlink` command in the CMS Commands guide.

@@ -27,26 +27,28 @@ See the `vmlink` command in the CMS Commands guide.
 
 https://www.ibm.com/support/knowledgecenter/SSB27U_6.4.0/com.ibm.zvm.v640.dmsb4/vmlink.htm
 
-(Link will go 404, but hopefully not before the project is completed.)
+(The link will go 404, but hopefully not before this project is completed.)
 
 ## Desirable Skills
-*Mostly shell scripting.
+Mostly shell scripting.
+
 Familiarity with the `mount` command (or acquired during the project)
 is a must. Familiarity with `vmcp link` needed too, but can be learned.
 
 ## Expected Outcome
-*Users should be able to `cd /vmlink/vmid.addr`
+Users should be able to `cd /vmlink/vmid.addr`
 or `cd /vmlink/vmid.addr.part` and have access to the filesystem(s)
 available on the linked virtual disk.
 
 ## Difficultly
-*Medium*
+Medium
 
 ## Mentors
-  * *Rick Troth <rmt@casita.net>*
+  * Rick Troth <rmt@casita.net>
 
 ## Additional Contacts
-*See the `vmlink` command in the CMS guide.*
+
+
 
 In one shop, we did a lot of sharing of disks among virtual machines. 
 Doing a 'vmcp link' was no big deal for the VMers. Use of 'mount' was 

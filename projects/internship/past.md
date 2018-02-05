@@ -6,8 +6,8 @@
   <tr>
     <th>Intern</th>
     <th>School</th>
-    <th>Mentor</th>
     <th>Project</th>
+    <th>Mentor</th>
   </tr>
   <tr>
     <td>Isong Idio</td>

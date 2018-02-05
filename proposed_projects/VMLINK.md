@@ -15,8 +15,8 @@ The automount point should be identified by
 of the owning virtual machine
 * address
 of the disk on the owning virtual machine, and optionally
-* partition
-if the disk has multiples
+* partition,
+if the disk has multiple partitions
 
 Note that a 3390 CKD volume in "compatible layout" can have
 1, 2, or 3 partitions. Other layouts can have 1 partition
@@ -44,7 +44,7 @@ available on the linked virtual disk.
 Medium
 
 ## Mentors
-  * Rick Troth <rmt@casita.net>
+  * Rick Troth \<rmt@casita.net\>
 
 ## Additional Contacts
 

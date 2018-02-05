@@ -1,7 +1,7 @@
 # VMLINK Automounter
 
 ## Description
-*A VMLINK-like automounter script combining the function of
+A VMLINK-like automounter script combining the function of
 `vmcp link`, `chccwdev`, and `mount` in one fell swoop.
 
 Use `/etc/auto.net` as a starting reference.

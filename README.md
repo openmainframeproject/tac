@@ -10,6 +10,7 @@ Any member of the Open Mainframe Project committee may participate in TSC meetin
   * Gregory MacKinnon, CA Technologies
   * Dale Hoffman, IBM
   * Mark Post, SUSE
+  * Vincent Terrone, AIG
   * Bob Dahlberg, Virginia Commonwealth University ( TSC Project Maintainer - Internship Program )
   * James Caffrey, IBM ( TSC Project Maintainer - ADE )
   * Michael MacIsaac ( TSC Project Maintainer - Cloudstack on z/VM )
@@ -43,10 +44,12 @@ The next meeting is scheduled for **Thursday, February 8th, 2017** at **1:00pm E
 
 ## Agenda
 
-* ADE Updates
 * Cloudstack updates
 * Internship updates
-* Other business
+* ADE Updates
+* TSC Chair transition
+* Sponsoring VM Workshop
+* Moving http://linuxvm.org/ to be hosted under OMP GitHub
 
 ## Conference call details
 

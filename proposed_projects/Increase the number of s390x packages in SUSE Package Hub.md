@@ -24,6 +24,6 @@ The package submission process can be reviewed at https://packagehub.suse.com/#c
 Medium
 
 ## Mentors
-  * TBD
+  * Wolfgang Engel <Wolfgang.Engel@suse.com>
 
 ## Additional Contacts

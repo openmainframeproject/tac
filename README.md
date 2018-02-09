@@ -17,6 +17,10 @@ Any member of the Open Mainframe Project committee may participate in TSC meetin
 
 # TSC Projects
 
+Open Mainframe Project TSC seeks a resource open source projects supporting or looking to support mainframe, as well as a home for open source projects specifically targetting the mainframe. The TSC looks to ensure that projects targeting the mainframe have the support they need to be successful, and does not impose hard requirements on governance or licensing.
+
+Below are some of the projects supported by the TSC.
+
   * [Internship Program](projects/internship.md)
   * Cloudstack on z/VM
   * [ADE](https://github.com/openmainframeproject/ade)

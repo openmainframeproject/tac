@@ -1,6 +1,6 @@
 # Proposed Projects for TSC Focus
 
-The Open Mainframe Project TSC looks for community feedback on technology areas as they look to improve the support of Linux on Z. Each area has a number of projects and tasks needed to help the efforts.
+The Open Mainframe Project TSC looks for community feedback on technology areas for building out the open source ecosystem on mainframe. Each area has a number of projects and tasks needed to help the efforts.
 
 You can review the list of projects in the [proposed_projects directory](/proposed_projects)
 

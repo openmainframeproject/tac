@@ -40,16 +40,15 @@ You can include this automatically when you commit a change to your local git re
 
 Meetings are scheduled the second Thursday of each month at 1pm ET and are open to anyone interested in participating in the project. You can review [past meeting notes](/meeting_notes)
 
-The next meeting is scheduled for **Thursday, February 8th, 2017** at **1:00pm ET**.
+The next meeting is scheduled for **Thursday, March 8th, 2017** at **1:00pm ET**.
 
 ## Agenda
 
 * Cloudstack updates
 * Internship updates
 * ADE Updates
-* TSC Chair transition
-* Sponsoring VM Workshop
-* Moving http://linuxvm.org/ to be hosted under OMP GitHub
+* Update on Marist/OSDL infrastructure program plans
+* Update on moving http://linuxvm.org/ to be hosted under OMP GitHub
 
 ## Conference call details
 

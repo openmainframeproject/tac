@@ -19,3 +19,4 @@ You can reach out to the mentor(s) mentioned, or the overall project owner, if y
   * [Increase the number of s390x packages in SUSE Package Hub](proposed_projects/Close%20the%20gap%20of%20s390x%20packages%20in%20SUSE%20Package%20Hub.md)
   * [Legacy Projects](/proposed_projects/Legacy.md)
   * [VMLINK Automounter](/proposed_projects/VMLINK.md)
+  * [Alpine Linux on z/VM and LPAR](/proposed_projects/Alpine.md)

@@ -5,7 +5,7 @@ Please note - these are projects not completed from the past, but aren't confirm
 ## Docker
 
   * **Goals:** Build up the Docker Hub content for Linux on Z, enhance Docker to exploit Linux on Z capabilities/scale, and Develop a reference micro-service architecture on Linux on Z.
-  * **Contact:** Dale Hoffman, Marcel Mitran
+  * **Contact:** Dale Hoffman
 
 ### Add First Failure Data Capture (FFDC) to Docker
 

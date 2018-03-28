@@ -29,15 +29,6 @@ Please note - these are projects not completed from the past, but aren't confirm
   * **Difficultly:** Medium
   * **Mentors:**
 
-### Packaging applications for Alpine Linux
-
-  * **Description:** Packaging applications to Alpine Linux
-  * **Additional Information:** Last year the core of Alpine Linux was ported to Z, but there is much in the developer tool chain that needs packaged for the platform
-  * **Desirable Skills:** Docker, Linux security concepts, Linux skills
-  * **Expected Outcome:** upstream code contributions
-  * **Difficultly:** Medium
-  * **Mentors:**
-
 ## Ensure popular Linux management tools can work on Linux on z Systems
 
   * **Description:** A key inhibitor towards moving to Linux on z Systems is the objection from administrators, developers and users that the management tools are not what they are used to on the x86 platform.  This project would be to identify a set of popular/ubiquitous open source tools that can be first, certified for Linux on z Systems and second, enhanced to take advantage of, monitor, manage the distinctive qualities of the z Systems platform (e.g. virtual network between the guests running in the same hypervisor instance, hipersockets).  The updated versions of these tools would be contributed back to their projects.

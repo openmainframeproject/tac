@@ -5,7 +5,7 @@ Please note - these are projects not completed from the past, but aren't confirm
 ## Docker
 
   * **Goals:** Build up the Docker Hub content for Linux on Z, enhance Docker to exploit Linux on Z capabilities/scale, and Develop a reference micro-service architecture on Linux on Z.
-  * **Contact:** Dale Hoffman, Marcel Mitran
+  * **Contact:** Dale Hoffman
 
 ### Add First Failure Data Capture (FFDC) to Docker
 
@@ -26,15 +26,6 @@ Please note - these are projects not completed from the past, but aren't confirm
   * **Additional Information:** Open source projects known working on s390 listed at https://www.ibm.com/developerworks/community/forums/html/topic?id=5dee144a-7c64-4bfe-884f-751d6308dbdf
   * **Desirable Skills:** Basic Linux devops
   * **Expected Outcome:** DockerHub images for s390x
-  * **Difficultly:** Medium
-  * **Mentors:**
-
-### Packaging applications for Alpine Linux
-
-  * **Description:** Packaging applications to Alpine Linux
-  * **Additional Information:** Last year the core of Alpine Linux was ported to Z, but there is much in the developer tool chain that needs packaged for the platform
-  * **Desirable Skills:** Docker, Linux security concepts, Linux skills
-  * **Expected Outcome:** upstream code contributions
   * **Difficultly:** Medium
   * **Mentors:**
 

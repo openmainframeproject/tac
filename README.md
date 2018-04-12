@@ -44,14 +44,13 @@ You can include this automatically when you commit a change to your local git re
 
 Meetings are scheduled the second Thursday of each month at 1pm ET and are open to anyone interested in participating in the project. You can review [past meeting notes](/meeting_notes)
 
-The next meeting is scheduled for **Thursday, April 12th, 2017** at **1:00pm ET**.
+The next meeting is scheduled for **Thursday, May 10th, 2017** at **1:00pm ET**.
 
 ## Agenda
 
-* New TSC rep from IBM - Enyu Wang
 * Top Level Project Updates
   * Cloudstack on z/VM
-  * Internship 
+  * Internship
   * ADE Updates
 * Update on Marist/OSDL infrastructure program plans
 * Update on moving http://linuxvm.org/ to be hosted under OMP GitHub

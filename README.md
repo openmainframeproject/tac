@@ -44,18 +44,16 @@ You can include this automatically when you commit a change to your local git re
 
 Meetings are scheduled the second Thursday of each month at 1pm ET and are open to anyone interested in participating in the project. You can review [past meeting notes](/meeting_notes)
 
-The next meeting is scheduled for **Thursday, May 10th, 2017** at **1:00pm ET**.
+The next meeting is scheduled for **Thursday, June 14th, 2017** at **1:00pm ET**.
 
 ## Agenda
 
 * Top Level Project Updates
   * Cloudstack on z/VM
-    * Ask of TSC for direction/feedback
   * Internship
   * ADE Updates
 * Update on Marist/OSDL infrastructure program plans
 * Update on moving http://linuxvm.org/ to be hosted under OMP GitHub
-* Sponsorship of VCU RamHacks 2018 Hackathon
 
 ## Conference call details
 

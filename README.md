@@ -23,7 +23,7 @@ Open Mainframe Project TSC seeks a resource open source projects supporting or l
 Below are some of the projects supported by the TSC.
 
   * [Internship Program](projects/internship.md)
-  * Cloudstack on z/VM
+  * [Cloudstack on z/VM](https://lists.openmainframeproject.org/g/omp-wg-cloudstack)
   * [ADE](https://github.com/openmainframeproject/ade)
 
 You can also review our [proposed project ideas](proposed.md) for ideas being considered.
@@ -55,6 +55,7 @@ The next meeting is scheduled for **Thursday, May 10th, 2017** at **1:00pm ET**.
   * ADE Updates
 * Update on Marist/OSDL infrastructure program plans
 * Update on moving http://linuxvm.org/ to be hosted under OMP GitHub
+* Sponsorship of VCU RamHacks 2018 Hackathon
 
 ## Conference call details
 

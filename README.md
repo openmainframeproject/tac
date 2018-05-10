@@ -50,6 +50,7 @@ The next meeting is scheduled for **Thursday, May 10th, 2017** at **1:00pm ET**.
 
 * Top Level Project Updates
   * Cloudstack on z/VM
+    * Ask of TSC for direction/feedback
   * Internship
   * ADE Updates
 * Update on Marist/OSDL infrastructure program plans

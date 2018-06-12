@@ -53,7 +53,7 @@ Your proposal should include the following:
     <td>Internship Start Date - Interns provided a $500 stipend</td>
   </tr>
   <tr>
-    <td>June 22nd, 2017</td>
+    <td>June 22nd, 2018</td>
     <td>Midterm Evaluations - Interns receiving a satisfactory evaluation are provided a $2,500 stipend</td>
   </tr>
   <tr>

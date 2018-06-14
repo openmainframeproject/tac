@@ -54,6 +54,7 @@ The next meeting is scheduled for **Thursday, June 14th, 2017** at **1:00pm ET**
   * ADE Updates
 * Update on Marist/OSDL infrastructure program plans
 * Update on moving http://linuxvm.org/ to be hosted under OMP GitHub
+* Discussion of TSC governance
 
 ## Conference call details
 

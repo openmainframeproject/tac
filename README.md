@@ -9,6 +9,7 @@ Any member of the Open Mainframe Project committee may participate in TSC meetin
   * Phil Tully, ADP (Chairperson)
   * Gregory MacKinnon, CA Technologies
   * Dale Hoffman, IBM
+  * Joe Devlin, Rocket Software
   * Mark Post, SUSE
   * Vincent Terrone, AIG
   * Bob Dahlberg, Virginia Commonwealth University ( TSC Project Maintainer - Internship Program )

@@ -7,8 +7,8 @@ Any member of the Open Mainframe Project committee may participate in TSC meetin
 ## Voting TSC Members
 
   * Phil Tully, ADP (Chairperson)
-  * Gregory MacKinnon, CA Technologies
-  * Dale Hoffman, IBM
+  * *<vacant>*, CA Technologies
+  * Enyu Wang, IBM
   * Joe Devlin, Rocket Software
   * Mark Post, SUSE
   * Vincent Terrone, AIG
@@ -24,8 +24,9 @@ Open Mainframe Project TSC seeks a resource open source projects supporting or l
 Below are some of the projects supported by the TSC.
 
   * [Internship Program](projects/internship.md)
-  * [Cloudstack on z/VM](https://lists.openmainframeproject.org/g/omp-wg-cloudstack)
+  * [Cloudstack on z/VM](https://github.com/openmainframeproject/cloudstack-wg)
   * [ADE](https://github.com/openmainframeproject/ade)
+  * [Zowe](https://github.com/zowe)
 
 You can also review our [proposed project ideas](proposed.md) for ideas being considered.
 
@@ -45,7 +46,7 @@ You can include this automatically when you commit a change to your local git re
 
 Meetings are scheduled the second Thursday of each month at 1pm ET and are open to anyone interested in participating in the project. You can review [past meeting notes](/meeting_notes)
 
-The next meeting is scheduled for **Thursday, July 19th, 2018** at **1:00pm ET**.
+The next meeting is scheduled for **Thursday, August 9th, 2018** at **1:00pm ET**.
 
 ## Agenda for next meeting
 
@@ -54,8 +55,8 @@ The next meeting is scheduled for **Thursday, July 19th, 2018** at **1:00pm ET**
   * Internship
   * ADE
   * Zowe
-* Review keypunch and mainframe-job for OMP to host ( presentation by Sean McBride )
-* Review of TSC process and governance proposed changes ( see https://github.com/openmainframeproject/tsc/tree/20180718-tsc-process-proposal/process )
+* Overview of Zowe APIs ( Matt Hogstrom )
+* Recap on TSC process and governance proposed changes ( see https://github.com/openmainframeproject/tsc/tree/20180718-tsc-process-proposal/process )
 
 ## Conference call details
 

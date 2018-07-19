@@ -47,15 +47,15 @@ Meetings are scheduled the second Thursday of each month at 1pm ET and are open 
 
 The next meeting is scheduled for **Thursday, July 19th, 2018** at **1:00pm ET**.
 
-## Agenda
+## Agenda for next meeting
 
 * Top Level Project Updates
   * Cloudstack on z/VM
   * Internship
-  * ADE Updates
-* Update on Marist/OSDL infrastructure program plans
-* Update on moving http://linuxvm.org/ to be hosted under OMP GitHub
-* TSC governance change proposals
+  * ADE
+  * Zowe
+* Review keypunch and mainframe-job for OMP to host ( presentation by Sean McBride )
+* Review of TSC process and governance proposed changes ( see https://github.com/openmainframeproject/tsc/tree/20180718-tsc-process-proposal/process )
 
 ## Conference call details
 

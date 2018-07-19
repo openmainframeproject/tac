@@ -7,7 +7,7 @@ Any member of the Open Mainframe Project committee may participate in TSC meetin
 ## Voting TSC Members
 
   * Phil Tully, ADP (Chairperson)
-  * *<vacant>*, CA Technologies
+  * *vacant*, CA Technologies
   * Enyu Wang, IBM
   * Joe Devlin, Rocket Software
   * Mark Post, SUSE

@@ -55,6 +55,7 @@ The next meeting is scheduled for **Thursday, August 9th, 2018** at **1:00pm ET*
   * Internship
   * ADE
   * Zowe
+* Further discussion on keypunch and mainframe-job ( https://github.com/open-mainframe )
 * Overview of Zowe APIs ( Matt Hogstrom )
 * Recap on TSC process and governance proposed changes ( see https://github.com/openmainframeproject/tsc/tree/20180718-tsc-process-proposal/process )
 

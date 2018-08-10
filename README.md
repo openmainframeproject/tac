@@ -15,6 +15,7 @@ Any member of the Open Mainframe Project committee may participate in TSC meetin
   * Bob Dahlberg, Virginia Commonwealth University ( TSC Project Maintainer - Internship Program )
   * James Caffrey, IBM ( TSC Project Maintainer - ADE )
   * Michael MacIsaac ( TSC Project Maintainer - Cloudstack on z/VM )
+  * Matt Hogstrom ( TSC Project Maintainer - Zowe )
   * Ingo Adlung, IBM ( CTO, non-voting member )
 
 # TSC Projects
@@ -46,7 +47,7 @@ You can include this automatically when you commit a change to your local git re
 
 Meetings are scheduled the second Thursday of each month at 1pm ET and are open to anyone interested in participating in the project. You can review [past meeting notes](/meeting_notes)
 
-The next meeting is scheduled for **Thursday, August 9th, 2018** at **1:00pm ET**.
+The next meeting is scheduled for **Thursday, September 13th, 2018** at **1:00pm ET**.
 
 ## Agenda for next meeting
 
@@ -55,8 +56,6 @@ The next meeting is scheduled for **Thursday, August 9th, 2018** at **1:00pm ET*
   * Internship
   * ADE
   * Zowe
-* Overview of Zowe APIs ( Matt Hogstrom )
-* Recap on TSC process and governance proposed changes ( see https://github.com/openmainframeproject/tsc/tree/20180718-tsc-process-proposal/process )
 
 ## Conference call details
 

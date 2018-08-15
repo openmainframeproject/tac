@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 The following commits were made pursuant to the Developer Certificate of Origin, even though a Signed-off-by: was not included in the commit message.
 
-=======
->>>>>>> 5fdf5848438f2c8e76c647251f223be7602285fd
 085a1b5 Add keypunch and mainframe-job to agenda.
 668ad61 Update README.md
 89a4063 Merge pull request #17 from sourabhtk37/patch-1

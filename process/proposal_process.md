@@ -15,7 +15,7 @@ Projects must be proposed via pull request to [../projects](GitHub). Project pro
 * Name of project (must be unique within Open Mainframe Project)
 * Project description (what it does, why it is valuable, origin and history)
 * Statement on alignment with Open Mainframe Project charter mission
-* Are there similar/releated projects in the out there? If so, why would
+* Are there similar/releated projects in the out there? If so, what is different about this project?
 * Sponsor from TSC (sponsor helps mentor projects)
 * Preferred maturity level (see [project stages](project_stages.md)))
 * License and contribution guidelines (charter dictates [Apache 2](https://spdx.org/licenses/Apache-2.0.html) by default except for Linux kernel code which must be [GPLv2](https://spdx.org/licenses/GPL-2.0), having each committer agree to the [DCO](https://developercertificate.org/)

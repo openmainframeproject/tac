@@ -4,7 +4,7 @@
 
 # Overview
 
-This project aims to governed in a transparent, accessible way for the benefit of the community. All participation in this project is open and not bound to corporate affilation. Participants all our bound the project's Code of Conduct.
+This project aims to be governed in a transparent, accessible way for the benefit of the community. All participation in this project is open and not bound to corporate affilation. Participants all our bound the project's Code of Conduct.
 
 # Project roles
 

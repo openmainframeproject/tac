@@ -19,7 +19,7 @@ In the case of an Incubation Stage project that is not renewed with OMP, the tra
 To graduate from Incubation Stage, or for a new project to join as an Active Stage project, a project must complete the [proposal process](proposal_process.md) plus:
 
 * Have committers from at least two organizations.
-* Have achieved and maintained a Core Infrastructure Initiative https://bestpractices.coreinfrastructure.org/[Best Practices Badge].
+* Have achieved and maintained a Core Infrastructure Initiative [Best Practices Badge](https://bestpractices.coreinfrastructure.org/).
 * Explicitly define a project governance and committer process. This preferably is laid out in a GOVERNANCE.md file and references an OWNERS.md file showing the current and emeritus committers. A recommended governance process is defined at [example_governance.md](example_governance.md)
 * Have a public list of project adopters for at least the primary repo (e.g., ADOPTERS.md or logos on the project website).
 * Receive a supermajority vote from the TSC to move to accepted stage.

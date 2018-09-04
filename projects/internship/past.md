@@ -1,5 +1,70 @@
 # Past Interns
 
+## Summer 2018
+
+<table>
+  <tr>
+    <th>Intern</th>
+    <th>Project</th>
+    <th>Mentor</th>
+  </tr>
+  <tr>
+    <td>Sakala Venkata Krishna Rohit</td>
+    <td>Cloud Foundry</td>
+    <td>Vlad Lovanov</td>
+  </tr>
+  <tr>
+    <td>Rushal Verma</td>
+    <td>VMLINK</td>
+    <td>Rick Troth</td>
+  </tr>
+  <tr>
+    <td>Tuan M. Hoang</td>
+    <td>Alpine</td>
+    <td>Rick Troth</td>
+  </tr>
+  <tr>
+    <td>Rajula Vineet Reddy</td>
+    <td>SUSE Kuberbnetes</td>
+    <td>Mike Friesenegger</td>
+  </tr>
+  <tr>
+    <td>Asish Varanasi</td>
+    <td>SUSE Kuberbnetes</td>
+    <td>Mike Friesenegger</td>
+  </tr>
+  <tr>
+    <td>Usman Haider</td>
+    <td>Package Hub</td>
+    <td>Wolfgang Engel</td>
+  </tr>
+  <tr>
+    <td>Shikhar Jaiswal</td>
+    <td>Package Hub</td>
+    <td>Wolfgang Engel</td>
+  </tr>
+  <tr>
+    <td>Shashank Motepalli</td>
+    <td>Blockchain Archive</td>
+    <td>Petr Novotny</td>
+  </tr>
+  <tr>
+    <td>Yash Jain</td>
+    <td>First Failure Data Capture (FFDC)</td>
+    <td>Mohammad Abdirashid</td>
+  </tr>
+  <tr>
+    <td>Mohit Bansal</td>
+    <td>Package Hub</td>
+    <td>Wolfgang Engel</td>
+  </tr>
+  <tr>
+    <td>Jayaditya Gupta</td>
+    <td>Package Hub</td>
+    <td>Wolfgang Engel (Packaging Hub)</td>
+  </tr>
+</table>
+
 ## Summer 2017
 
 <table>

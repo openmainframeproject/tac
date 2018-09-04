@@ -50,7 +50,7 @@
   </tr>
   <tr>
     <td>Yash Jain</td>
-    <td>First Failure Data Capture (FFDC)</td>
+    <td>Porting kata containers to mainframes</td>
     <td>Mohammad Abdirashid</td>
   </tr>
   <tr>

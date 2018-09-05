@@ -29,7 +29,9 @@ Below are some of the projects supported by the TSC.
   * [ADE](https://github.com/openmainframeproject/ade)
   * [Zowe](https://github.com/zowe)
 
-You can also review our [proposed project ideas](proposed.md) for ideas being considered.
+The processes and policies for the TSC to manage incoming projects and project stages to be hosted by the TSC are in the [process section](process).
+
+If you are looking for ideas on projects that can use help in supporting mainframe, review our [proposed project ideas](proposed.md) list. 
 
 ## Committing to projects
 

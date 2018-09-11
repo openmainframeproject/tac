@@ -31,7 +31,7 @@ Below are some of the projects supported by the TSC.
 
 The processes and policies for the TSC to manage incoming projects and project stages to be hosted by the TSC are in the [process section](process).
 
-If you are looking for ideas on projects that can use help in supporting mainframe, review our [proposed project ideas](proposed.md) list. 
+If you are looking for ideas on projects that can use help in supporting mainframe, review our [proposed project ideas](proposed.md) list.
 
 ## Committing to projects
 
@@ -58,6 +58,7 @@ The next meeting is scheduled for **Thursday, September 13th, 2018** at **1:00pm
   * Internship
   * ADE
   * Zowe
+* Review proposal for z/VM Cloud connector
 
 ## Conference call details
 

@@ -1,4 +1,4 @@
-*To be approved by Open Mainframe Project TSC*
+*Approved by Open Mainframe Project TSC on 2018-09-05*
 
 *NOTE: This document is intended to provide an example governance structure for any Open Mainframe Project project to consider as a starting point. All projects hosted by Open Mainframe Project are not bound by these governance polices, but in absence of any prior governance structure should consider this as a recommended structure*
 

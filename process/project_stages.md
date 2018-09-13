@@ -1,4 +1,4 @@
-*To be approved by Open Mainframe Project TSC and Governing Board*
+*Approved by Open Mainframe Project TSC on 2018-09-05*
 
 # Open Mainframe Project Top Level Project Graduation Criteria
 

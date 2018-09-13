@@ -5,20 +5,22 @@ z/VM Cloud connector
 * Project description (what it does, why it is valuable, origin and history)
 
 it's a cloud solution enablement for mainframe hypervisor (z/VM), it increase the granuliaty of the system management for z/VM and makes high level cloud solutions easy to manage z/VM
+
 it's helpful to those solutions because it provides REST API and easy to consume and don't need too much detail about z/VM itself such as CMS/CP commands etc
 
 it's created by IBM since early 2017 , the code repos comes from old IBM cloud solution (Cloud management appliance)
 
 * Statement on alignment with OMP charter mission
+
 OMP is for mainframe cooperation and it's helpful to fulfill that mission
 
 * Sponsor from TSC (sponsor helps mentor projects)
 
-I need guide on this on how to find TSC
+John Mertic and Mike Friesenegger
 
-* Preferred maturity level (see [project stages](../../process/project_stages.md))
+* Preferred maturity level
 
-I can't open this link.... I am guessing because it already has 1 year and moer development also before that we had similar functions copied from, I prefer to think it's still in incubate state but near mature
+not still in incubate state but near mature
 
 * License and contribution guidelines (charter dictates [Apache 2](https://spdx.org/licenses/Apache-2.0.html) by default except for Linux kernel code which must be [GPLv2](https://spdx.org/licenses/GPL-2.0), having each committer agree to the [DCO](https://developercertificate.org/)
 

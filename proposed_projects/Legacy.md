@@ -7,19 +7,6 @@ Please note - these are projects not completed from the past, but aren't confirm
   * **Goals:** Build up the Docker Hub content for Linux on Z, enhance Docker to exploit Linux on Z capabilities/scale, and Develop a reference micro-service architecture on Linux on Z.
   * **Contact:** Dale Hoffman
 
-### Add First Failure Data Capture (FFDC) to Docker
-
-  * **Description:** Tasks needing completed
-  * Intro into FFDC concepts, FFDC API [30hours]
-  * Create packages (in Go and if required C version) for FFDC API [30 hours]
-  * Identification of areas of interest, typical areas of failure, difficulties -- during startup and management of container, communication with registry, and runtime of container [200+ h]
-  * Implementation of FFDC information, in Docker and other Linux environment components [200+ h]
-  * **Additional Information:** Dependency is FFDC API as laid out by IBM Linux on z development. Requires NDA or some legal work to be able to share externally (not a big deal). Need to interlock with IBM Linux team to make sure FFDC concept and goals are in sync.
-  * **Desirable Skills:** how docker works (graphdrivers), understanding Linux environment internal (and how Docker uses it, like systemd, cgroups, networking setup of docker)
-  * **Expected Outcome:** 3 month internship to get base + further internships to build on based. We will need good synchronization and some cycles of the FFDC folks in IBM Boeblingen to make this useful.
-  * **Difficultly:** Medium
-  * **Mentors:**
-
 ### Build dockerHub development stacks
 
   * **Description:** Build various dockerHub development stacks, such as MEAN, LAMP, Tomcat, based on OpenSUSE
@@ -41,4 +28,3 @@ Please note - these are projects not completed from the past, but aren't confirm
   * **Difficultly:** Easy/Medium - depending on the tools chosen
   * **Mentors:**
   * **Additional Contacts:** N/A
-

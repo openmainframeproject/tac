@@ -11,17 +11,25 @@ All source code must clearly identify the open source license used. The Open Mai
 Requirements to ensure license compliance
 
 - Each repository must contain a license file. Include the plain-text version of the license as a LICENSE file in the top-level directory of the repostiory.
-- All source files need to include a header to clearly show the license. Open Mainframe Project has standardized on including [SPDX short-form license identifiers](https://spdx.org/ids) and a general copyright statement as shown below:
+- All source files need to include a header to clearly show the license. Open Mainframe Project has standardized on including [SPDX short-form license identifiers](https://spdx.org/ids) and a general copyright statement as shown below ( this example is for Apache 2.0 licensed code ):
 
 ````
 /**
-  This program and the accompanying materials are made available under the terms of the
-  Eclipse Public License v2.0 which accompanies this distribution, and is available at
-  https://www.eclipse.org/legal/epl-v20.html
-
-  SPDX-License-Identifier: EPL-2.0
-
   Copyright Contributors to the [NAME OF PROJECT] Project.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+
+  SPDX-License-Identifier: Apache-2.0
 **/
 ````
 

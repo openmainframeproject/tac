@@ -2,7 +2,7 @@
 
 The role of the Techincal Steering Committee (TSC) is to direct and coordinate the activities of the technical community. It's voting members are comprised of the Platinum members of the Open Mainframe Project, along with the leaders of each project designated as a top-level project by the TSC.
 
-Any member of the Open Mainframe Project committee may participate in TSC meetings or activities. You can subscribe and view the archives of the technical discussions at https://lists.openmainframeproject.org/mailman/listinfo/omp-tsc
+Any member of the Open Mainframe Project committee may participate in TSC meetings or activities. You can subscribe and view the archives of the technical discussions at https://lists.openmainframeproject.org/g/omp-tsc
 
 ## Voting TSC Members
 
@@ -22,40 +22,34 @@ Any member of the Open Mainframe Project committee may participate in TSC meetin
 
 Open Mainframe Project TSC seeks a resource open source projects supporting or looking to support mainframe, as well as a home for open source projects specifically targetting the mainframe. The TSC looks to ensure that projects targeting the mainframe have the support they need to be successful, and does not impose hard requirements on governance or licensing.
 
-Below are some of the projects supported by the TSC.
+Below are some of the projects supported by the TSC, listed by [project stage](process/project_stages.md).
+
+## Incubation
+
+  * [z/VM Cloud Connector](projects/proposals/z:VM Cloud connector.md)
+
+## Active
 
   * [Internship Program](projects/internship.md)
   * [Cloudstack on z/VM](https://github.com/openmainframeproject/cloudstack-wg)
   * [ADE](https://github.com/openmainframeproject/ade)
   * [Zowe](https://github.com/zowe)
 
-The processes and policies for the TSC to manage incoming projects and project stages to be hosted by the TSC are in the [process section](process).
+## Emeritus
+
+  * *None*
+
+The processes and policies for the TSC to manage incoming projects and project stages to be hosted by the TSC, as well as guidelines for projects, are in the [process section](process).
 
 If you are looking for ideas on projects that can use help in supporting mainframe, review our [proposed project ideas](proposed.md) list.
 
-## Committing to projects
+# Meetings
 
-We have tried to make it as easy as possible to make contributions. This applies to how we handle the legal aspects of contribution. We use the same approach — [the Developer’s Certificate of Origin 1.1 (DCO)](https://github.com/hyperledger/fabric/blob/master/docs/source/DCO1.1.txt) — that the [Linux® Kernel community](http://elinux.org/Developer_Certificate_Of_Origin) uses to manage code contributions.
+Meetings are scheduled the second Thursday of each month at 1pm ET and are open to anyone interested in participating in the project.
 
-We simply ask that when submitting a patch for review, the developer must include a sign-off statement in the commit message.
+You can review [past meeting notes](/meetings) and the [calendar of meetings](https://lists.openmainframeproject.org/g/omp-tsc/calendar).
 
-Here is an example Signed-off-by line, which indicates that the submitter accepts the DCO:
-
-<code>Signed-off-by: John Doe <john.doe@hisdomain.com></code>
-
-You can include this automatically when you commit a change to your local git repository using <code>git commit -s</code>.
-
-# TSC Meetings
-
-Meetings are scheduled the second Thursday of each month at 1pm ET and are open to anyone interested in participating in the project. You can review [past meeting notes](/meeting_notes) and the [calendar of meetings](https://lists.openmainframeproject.org/g/omp-tsc/calendar).
-
-## Agenda for next meeting
-
-* Top Level Project Updates
-  * Cloudstack on z/VM
-  * Internship
-  * ADE
-  * Zowe
+For the next TSC meeting, you can propose agenda items either [via email to the TSC](mailto:omp-tsc@lists.openmainframeproject.org), or as a pull request against [those meeting notes](/meetings).
 
 ## Conference call details
 

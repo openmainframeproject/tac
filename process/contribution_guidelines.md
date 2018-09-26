@@ -6,7 +6,7 @@ Note that each hosted project may adopt thier own guidelines, which would superc
 
 ## License specification
 
-All source code must clearly identify the open source license used. The Open Mainframe Project charter dictates [Apache 2](https://spdx.org/licenses/Apache-2.0.html) by default except for Linux kernel code which must be [GPLv2](https://spdx.org/licenses/GPL-2.0). All	documentation	and non-code will	be received and	madeavailable	by the Project under the Creative Commons Attribution	4.0	International	License (available at http://creativecommons.org/licenses/by/4.0/).
+All source code must clearly identify the open source license used. The Open Mainframe Project charter dictates [Apache 2](https://spdx.org/licenses/Apache-2.0.html) by default except for Linux kernel code which must be [GPLv2](https://spdx.org/licenses/GPL-2.0). All	documentation	and non-code will	be received and	made available by the Project under the Creative Commons Attribution 4.0 International License (available at http://creativecommons.org/licenses/by/4.0/).
 
 Requirements to ensure license compliance
 

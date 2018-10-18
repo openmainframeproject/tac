@@ -26,7 +26,7 @@ Below are some of the projects supported by the TSC, listed by [project stage](p
 
 ## Incubation
 
-  * [z/VM Cloud Connector](projects/proposals/z:VM Cloud connector.md)
+  * [z/VM Cloud Connector](projects/proposals/z:VM%20Cloud%20connector.md)
 
 ## Active
 

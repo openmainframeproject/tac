@@ -7,11 +7,10 @@ Any member of the Open Mainframe Project committee may participate in TSC meetin
 ## Voting TSC Members
 
   * Phil Tully, ADP (Chairperson)
-  * *vacant*, CA Technologies
+  * Gregory MacKinnon, CA Technologies
   * Enyu Wang, IBM
   * Joe Devlin, Rocket Software
   * Mark Post, SUSE
-  * Vincent Terrone, AIG
   * Bob Dahlberg, Virginia Commonwealth University ( TSC Project Maintainer - Internship Program )
   * James Caffrey, IBM ( TSC Project Maintainer - ADE )
   * Michael MacIsaac ( TSC Project Maintainer - Cloudstack on z/VM )

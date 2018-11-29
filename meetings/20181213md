@@ -30,6 +30,7 @@ Quorum NOT achieved.
   * z/VM Cloud Connector
 * Cloudstack for z/VM Emeritus status update
 * Supported Projects Program update
+** Discussion on how to determine open source projects that build on s390x but have endian issues or other runtume problems
 
 ## Action Items
 

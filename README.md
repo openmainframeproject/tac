@@ -13,7 +13,6 @@ Any member of the Open Mainframe Project committee may participate in TSC meetin
   * Mark Post, SUSE
   * Bob Dahlberg, Virginia Commonwealth University ( TSC Project Maintainer - Internship Program )
   * James Caffrey, IBM ( TSC Project Maintainer - ADE )
-  * Michael MacIsaac ( TSC Project Maintainer - Cloudstack on z/VM )
   * Matt Hogstrom ( TSC Project Maintainer - Zowe )
   * Ingo Adlung, IBM ( CTO, non-voting member )
 
@@ -26,17 +25,21 @@ Below are some of the projects supported by the TSC, listed by [project stage](p
 ## Incubation
 
   * [z/VM Cloud Connector](projects/proposals/z:VM%20Cloud%20connector.md)
+  * [Atom language syntax highlighting for z/VM](https://atom.io/users/openmainframeproject)
+    * [Rexx](https://github.com/openmainframeproject/atompkg-language-zvm-rexx)
+    * [SCRIPT](https://github.com/openmainframeproject/atompkg-language-zvm-gml)
+    * [ASM](https://github.com/openmainframeproject/atompkg-language-zvm-asm)
+    * [CMS NAMES](https://github.com/openmainframeproject/atompkg-language-zvm-names)
 
 ## Active
 
-  * [Internship Program](projects/internship.md)
-  * [Cloudstack on z/VM](https://github.com/openmainframeproject/cloudstack-wg)
+  * [Internship Program](https://github.com/openmainframeproject-internship)
   * [ADE](https://github.com/openmainframeproject/ade)
   * [Zowe](https://github.com/zowe)
 
 ## Emeritus
 
-  * *None*
+  * [Cloudstack on z/VM](https://github.com/openmainframeproject/cloudstack-wg)
 
 The processes and policies for the TSC to manage incoming projects and project stages to be hosted by the TSC, as well as guidelines for projects, are in the [process section](process).
 

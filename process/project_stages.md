@@ -21,7 +21,9 @@ To graduate from Incubation Stage, or for a new project to join as an Active Sta
 * Have committers from at least two organizations.
 * Have achieved and maintained a Core Infrastructure Initiative [Best Practices Badge](https://bestpractices.coreinfrastructure.org/).
 * Explicitly define a project governance and committer process. This preferably is laid out in a GOVERNANCE.md file and references an OWNERS.md file showing the current and emeritus committers. A recommended governance process is defined at [example_governance.md](example_governance.md)
-* Have a public list of project adopters for at least the primary repo (e.g., ADOPTERS.md or logos on the project website).
+* Have a public list of project adopters for at least the primary repo (e.g., ADOPTERS.md).
+* Complete a code licensing scan to ensure licensing is inline with the [OMP guidelines](contribution_guidelines.md)
+* Elect a project lead to represent the project on the TSC
 * Receive a supermajority vote from the TSC to move to accepted stage.
 
 Projects start at the Active Stage if they can demonstrate sufficient maturity. Projects can remain in an Incubation Stage indefinitely, but they are normally expected to move to Active Stage within two years.

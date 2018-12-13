@@ -29,6 +29,7 @@ Quorum NOT achieved.
   * Zowe
   * z/VM Cloud Connector
 * Cloudstack for z/VM Emeritus status update
+* New project proposal - TerseDecompress ( https://lists.openmainframeproject.org/g/omp-tsc/message/433 )
 * Supported Projects Program update
 ** Discussion on how to determine open source projects that build on s390x but have endian issues or other runtume problems
 

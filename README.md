@@ -34,7 +34,7 @@ Below are some of the projects supported by the TSC, listed by [project stage](p
 
 ## Active
 
-  * [Internship Program](projects/internship.md)
+  * [Internship Program](https://github.com/openmainframeproject-internship)
   * [ADE](https://github.com/openmainframeproject/ade)
   * [Zowe](https://github.com/zowe)
 

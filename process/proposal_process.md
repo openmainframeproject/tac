@@ -18,7 +18,7 @@ Projects must be proposed via pull request to [../projects](GitHub). Project pro
 * Are there similar/releated projects in the out there? If so, what is different about this project?
 * Sponsor from TSC (sponsor helps mentor projects)
 * Preferred maturity level (see [project stages](project_stages.md)))
-* License and contribution guidelines (charter dictates [Apache 2](https://spdx.org/licenses/Apache-2.0.html) by default except for Linux kernel code which must be [GPLv2](https://spdx.org/licenses/GPL-2.0), having each committer agree to the [DCO](https://developercertificate.org/)
+* License and contribution guidelines (refer to the [OMP guidelines](contribution_guidelines.md))
 * Source control (GitHub by default)
 * External dependencies (including licenses)
 * Initial committers (how long working on project)

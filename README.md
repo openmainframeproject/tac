@@ -13,7 +13,6 @@ Any member of the Open Mainframe Project committee may participate in TSC meetin
   * Mark Post, SUSE
   * Bob Dahlberg, Virginia Commonwealth University ( TSC Project Maintainer - Internship Program )
   * James Caffrey, IBM ( TSC Project Maintainer - ADE )
-  * Michael MacIsaac ( TSC Project Maintainer - Cloudstack on z/VM )
   * Matt Hogstrom ( TSC Project Maintainer - Zowe )
   * Ingo Adlung, IBM ( CTO, non-voting member )
 
@@ -31,6 +30,7 @@ Below are some of the projects supported by the TSC, listed by [project stage](p
     * [SCRIPT](https://github.com/openmainframeproject/atompkg-language-zvm-gml)
     * [ASM](https://github.com/openmainframeproject/atompkg-language-zvm-asm)
     * [CMS NAMES](https://github.com/openmainframeproject/atompkg-language-zvm-names)
+  * TerseDecompress  
 
 ## Active
 

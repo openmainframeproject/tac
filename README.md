@@ -30,6 +30,7 @@ Below are some of the projects supported by the TSC, listed by [project stage](p
     * [SCRIPT](https://github.com/openmainframeproject/atompkg-language-zvm-gml)
     * [ASM](https://github.com/openmainframeproject/atompkg-language-zvm-asm)
     * [CMS NAMES](https://github.com/openmainframeproject/atompkg-language-zvm-names)
+  * TerseDecompress  
 
 ## Active
 

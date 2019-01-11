@@ -28,4 +28,4 @@ You can reach out to the mentor(s) mentioned, or the overall project owner, if y
   * [Document the deployment of Kubernetes cluster on IBM LinuxONE](proposed_projects/past/Document%20the%20deployment%20of%20Kubernetes%20cluster%20on%20IBM%20LinuxONE.md)
   * [Increase the number of s390x packages in SUSE Package Hub](proposed_projects/past/Increase%20the%20number%20of%20s390x%20packages%20in%20SUSE%20Package%20Hub.md)
   * [Build components of a containerized implementation of Cloud Foundry on Z](/proposed_projects/past/Build%20components%20of%20a%20containerized%20implementation%20of%20Cloud%20Foundry%20on%20Z.md)
-  * [VMLINK Automounter](/proposed_projects/VMLINK.md)
+  * [VMLINK Automounter](/proposed_projects/past/VMLINK.md)

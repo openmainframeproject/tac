@@ -38,3 +38,16 @@ Here is an example Signed-off-by line, which indicates that the submitter accept
 <code>Signed-off-by: John Doe <john.doe@hisdomain.com></code>
 
 You can include this automatically when you commit a change to your local git repository using <code>git commit -s</code>.
+
+### Signoff for commits where the DCO signoff was missed
+
+When bringing in a code repository for the first time, or commits done before the DCO checks are enabled, there would be a series of commits that don't include the sign-off statement. You can retroactively signoff commits you've made by make a commit with your DCO signoff that contains a new text file ( suggested name is past_commits.txt ) with the following contents:
+
+````
+The following commits were made pursuant to the Developer Certificate of Origin, even though a Signed-off-by: was not included in the commit message.
+
+<COMMIT HASH> <COMMIT MSG>
+...
+````
+
+Each user who has made the past commits should have thier own <code>Signed-off-by:</code> line in the commit message.

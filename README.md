@@ -18,7 +18,7 @@ Any member of the Open Mainframe Project committee may participate in TSC meetin
 
 # TSC Projects
 
-Open Mainframe Project TSC seeks a resource open source projects supporting or looking to support mainframe, as well as a home for open source projects specifically targetting the mainframe. The TSC looks to ensure that projects targeting the mainframe have the support they need to be successful, and does not impose hard requirements on governance or licensing.
+Open Mainframe Project TSC is a resource for open source projects supporting or looking to support mainframe, as well as a home for open source projects specifically targetting the mainframe. The TSC ensures that projects targeting the mainframe have the support they need to be successful, with flexability on governance and licensing to ensure the community can operate and grow successfully.
 
 Below are some of the projects supported by the TSC, listed by [project stage](process/project_stages.md).
 
@@ -30,7 +30,7 @@ Below are some of the projects supported by the TSC, listed by [project stage](p
     * [SCRIPT](https://github.com/openmainframeproject/atompkg-language-zvm-gml)
     * [ASM](https://github.com/openmainframeproject/atompkg-language-zvm-asm)
     * [CMS NAMES](https://github.com/openmainframeproject/atompkg-language-zvm-names)
-  * TerseDecompress  
+  * TerseDecompress
 
 ## Active
 

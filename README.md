@@ -13,32 +13,38 @@ Any member of the Open Mainframe Project committee may participate in TSC meetin
   * Mark Post, SUSE
   * Bob Dahlberg, Virginia Commonwealth University ( TSC Project Maintainer - Internship Program )
   * James Caffrey, IBM ( TSC Project Maintainer - ADE )
-  * Michael MacIsaac ( TSC Project Maintainer - Cloudstack on z/VM )
   * Matt Hogstrom ( TSC Project Maintainer - Zowe )
   * Ingo Adlung, IBM ( CTO, non-voting member )
 
 # TSC Projects
 
-Open Mainframe Project TSC seeks a resource open source projects supporting or looking to support mainframe, as well as a home for open source projects specifically targetting the mainframe. The TSC looks to ensure that projects targeting the mainframe have the support they need to be successful, and does not impose hard requirements on governance or licensing.
+Open Mainframe Project TSC is a resource for open source projects supporting or looking to support mainframe, as well as a home for open source projects specifically targetting the mainframe. The TSC ensures that projects targeting the mainframe have the support they need to be successful, with flexability on governance and licensing to ensure the community can operate and grow successfully.
 
 Below are some of the projects supported by the TSC, listed by [project stage](process/project_stages.md).
 
 ## Incubation
 
   * [z/VM Cloud Connector](projects/proposals/z:VM%20Cloud%20connector.md)
+  * [Atom language syntax highlighting for z/VM](https://atom.io/users/openmainframeproject)
+    * [Rexx](https://github.com/openmainframeproject/atompkg-language-zvm-rexx)
+    * [SCRIPT](https://github.com/openmainframeproject/atompkg-language-zvm-gml)
+    * [ASM](https://github.com/openmainframeproject/atompkg-language-zvm-asm)
+    * [CMS NAMES](https://github.com/openmainframeproject/atompkg-language-zvm-names)
+  * TerseDecompress
 
 ## Active
 
-  * [Internship Program](projects/internship.md)
-  * [Cloudstack on z/VM](https://github.com/openmainframeproject/cloudstack-wg)
+  * [Internship Program](https://github.com/openmainframeproject-internship)
   * [ADE](https://github.com/openmainframeproject/ade)
   * [Zowe](https://github.com/zowe)
 
 ## Emeritus
 
-  * *None*
+  * [Cloudstack on z/VM](https://github.com/openmainframeproject/cloudstack-wg)
 
 The processes and policies for the TSC to manage incoming projects and project stages to be hosted by the TSC, as well as guidelines for projects, are in the [process section](process).
+
+There are many more mainframe-centric open source projects than what is hosted at Open Mainframe Project; check out the list and add any we are missing at [community_projects.md](projects/community_projects.md)
 
 If you are looking for ideas on projects that can use help in supporting mainframe, review our [proposed project ideas](proposed.md) list.
 

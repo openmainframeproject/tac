@@ -5,4 +5,4 @@ Below are a number of mainframe-centric projects in the open source community th
 * [vmlink](https://github.com/trothr/vmlink): VMLINK Automounter for Linux on z/VM
 * [cmstar](https://github.com/trothr/cmstar): CMS TAR, standard USTAR format for VM/CMS
 * [uft](https://github.com/trothr/uft): Unsolicited File Transfer (like TSO 'transmit' and CMS 'sendfile')
-* [cbttape](http://www.cbttape.org/): Hosts almost 1000 mods for z/OS, z/VM, zLinux and other IBM Z mods contrinuted by the community
+* [cbttape](http://www.cbttape.org/): Hosts almost 1000 mods for z/OS, z/VM, zLinux and other IBM Z mods contributed by the community

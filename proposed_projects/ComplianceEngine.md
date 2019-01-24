@@ -1,7 +1,7 @@
 # Compliance engine
 
 ## Description
-Provide a compliance engine where humans can input rules and the compliance engine will check whether blockchain records conform to those rules.
+Develop a compliance engine where humans can input rules and the compliance engine will check whether blockchain records conform to those rules.
 
 ## Additional Information
 Work to be done would be:
@@ -19,6 +19,7 @@ A pilot solution for blockchain compliance engine. Bonus for extending engine to
 Hard
 
 ## Mentors
+  * Petr Novotny <p.novotny@ibm.com>
   * Donna Dillenberger <engd@us.ibm.com>
   * Jin VanStee <jinxiong@us.ibm.com>
 

@@ -22,6 +22,7 @@ You can reach out to the mentor(s) mentioned, or the overall project owner, if y
   * [Port FreePascal compiler for s390x](/proposed_projects/FreePascal.md)
   * [Dynamic CPU support for s390x in OpenBLAS](/proposed_projects/OpenBLAS.md)
   * [Optimized graphics routines for s390x in pixman](/proposed_projects/pixman.md)
+  * [Cloud Foundry Operator for Kubernetes on Z](/proposed_projects/Cloud_Foundry_Operator_for_Kubernetes_on_Z.md)
 
 ### Projects completed by past interns
 

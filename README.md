@@ -24,18 +24,18 @@ Below are some of the projects supported by the TSC, listed by [project stage](p
 
 ## Incubation
 
-  * [z/VM Cloud Connector](projects/proposals/z:VM%20Cloud%20connector.md)
   * [Atom language syntax highlighting for z/VM](https://atom.io/users/openmainframeproject)
-    * [Rexx](https://github.com/openmainframeproject/atompkg-language-zvm-rexx)
-    * [SCRIPT](https://github.com/openmainframeproject/atompkg-language-zvm-gml)
     * [ASM](https://github.com/openmainframeproject/atompkg-language-zvm-asm)
     * [CMS NAMES](https://github.com/openmainframeproject/atompkg-language-zvm-names)
-  * TerseDecompress
+    * [Rexx](https://github.com/openmainframeproject/atompkg-language-zvm-rexx)
+    * [SCRIPT](https://github.com/openmainframeproject/atompkg-language-zvm-gml)
+  * [TerseDecompress](https://lists.openmainframeproject.org/g/omp-tsc/message/433)
+  * [z/VM Cloud Connector](projects/proposals/z:VM%20Cloud%20connector.md)
 
 ## Active
 
-  * [Internship Program](https://github.com/openmainframeproject-internship)
   * [ADE](https://github.com/openmainframeproject/ade)
+  * [Internship Program](https://github.com/openmainframeproject-internship)
   * [Zowe](https://github.com/zowe)
 
 ## Emeritus

@@ -16,7 +16,6 @@ You can reach out to the mentor(s) mentioned, or the overall project owner, if y
   * [Compliance engine (2019)](/proposed_projects/ComplianceEngine-2019.md) 
   * [Build dockerHub development stacks](/proposed_projects/DockerHub.md)
   * [Ensure popular Linux management tools can work on s390x](/proposed_projects/linux_monitoring_tools_for_s390x.md)
-  * [Alpine Linux on z/VM and LPAR](/proposed_projects/Alpine.md)
   * [Big-Endian Support for BoringSSL](/proposed_projects/BoringSSL.md)
   * [Boost Context module implementation for s390x](/proposed_projects/Boost%20Context.md)
   * [Port FreePascal compiler for s390x](/proposed_projects/FreePascal.md)
@@ -32,4 +31,5 @@ You can reach out to the mentor(s) mentioned, or the overall project owner, if y
   * [VMLINK Automounter](/proposed_projects/past/VMLINK.md)
   * [Blockchain ledger archiving](/proposed_projects/past/Blockchain%20ledger%20archiving.md)
   * [Compliance engine (2018)](/proposed_projects/past/Compliance%20engine.md) 
+  * [Alpine Linux on z/VM and LPAR](/proposed_projects/past/Alpine.md)
   

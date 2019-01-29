@@ -12,8 +12,8 @@ If you see where you can identify a project or task to be completed under a focu
 
 You can reach out to the mentor(s) mentioned, or the overall project owner, if you are interested in working on a particular project/task.
 
-  * [Hybrid Blockchain](/proposed_projects/HybridBlockchain.md.md)
-  * [Compliance engine (2019)](/proposed_projects/Compliance%20engine-2019.md) 
+  * [Hybrid Blockchain](/proposed_projects/HybridBlockchain.md)
+  * [Compliance engine (2019)](/proposed_projects/ComplianceEngine-2019.md) 
   * [Build dockerHub development stacks](/proposed_projects/DockerHub.md)
   * [Ensure popular Linux management tools can work on s390x](/proposed_projects/linux_monitoring_tools_for_s390x.md)
   * [Alpine Linux on z/VM and LPAR](/proposed_projects/Alpine.md)

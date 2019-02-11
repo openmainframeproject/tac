@@ -4,7 +4,7 @@
 
 This project will produce a suite of Docker images for OpenSUSE and ClefOS (a CentOS clone for Z).
 
-If you go to Dockerhub and look at https://cloud.docker.com/u/clefos/repository/list you’ll see all the existing builds for Z. These are all based on a CentOS clone called ClefOS. The source for most of these (excluding the OpenShift and Source-to-Image images) may be found at https://github.com/nealef/docker. 
+If you go to Dockerhub and look at  https://hub.docker.com/u/clefos you’ll see all the existing builds for Z. These are all based on a CentOS clone called ClefOS. The source for most of these (excluding the OpenShift and Source-to-Image images) may be found at https://github.com/nealef/docker. 
 
 What we want to do is:
 

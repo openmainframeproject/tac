@@ -10,7 +10,7 @@ OMP is for mainframe cooperation and it's helpful to fulfill our mission to coll
 
 * Sponsor from TSC (sponsor helps mentor projects)
 
-Matt Hogstrom
+Matt Hogstrom, Ingo Adlung
 
 * Preferred maturity level (see [project stages](../../process/project_stages.md))
 

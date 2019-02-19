@@ -10,7 +10,7 @@ OMP is for mainframe cooperation and it's helpful to fulfill our mission to coll
 
 * Sponsor from TSC (sponsor helps mentor projects)
 
-John Mertic
+Matt Hogstrom
 
 * Preferred maturity level (see [project stages](../../process/project_stages.md))
 
@@ -18,7 +18,7 @@ Not still in incubate state but workflow technology is very mature.
 
 * License and contribution guidelines (refer to the [OMP guidelines](contribution_guidelines.md))
 
-No License.
+Apache 2, CC-BY-40
 
 * Source control (GitHub by default)
 

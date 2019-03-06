@@ -29,7 +29,7 @@ Below are some of the projects supported by the TSC, listed by [project stage](p
     * [CMS NAMES](https://github.com/openmainframeproject/atompkg-language-zvm-names)
     * [Rexx](https://github.com/openmainframeproject/atompkg-language-zvm-rexx)
     * [SCRIPT](https://github.com/openmainframeproject/atompkg-language-zvm-gml)
-  * [TerseDecompress](https://lists.openmainframeproject.org/g/omp-tsc/message/433)
+  * [TerseDecompress](https://github.com/openmainframeproject/tersedecompress)
   * [z/VM Cloud Connector](projects/proposals/z:VM%20Cloud%20connector.md)
 
 ## Active

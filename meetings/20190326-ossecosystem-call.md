@@ -25,6 +25,9 @@ Issues are common across z/Linux and z/OS
 
 ### z/Linux
 
+- Fedora: https://lists.openmainframeproject.org/g/omp-tsc/message/483
+- ClefOS: https://lists.openmainframeproject.org/g/omp-tsc/message/484
+- SUSE: https://lists.openmainframeproject.org/g/omp-tsc/message/485
 
 ### z/OS
 

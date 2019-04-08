@@ -80,7 +80,7 @@ None
 * Initial committers (how long working on project)
 
 A team developers and testers from IBM and Rocket Software will form the initial
-core of committers and maintainers.  Mermbers of this extended team have been
+core of committers and maintainers.  Members of this extended team have been
 working with open source on IBM Z for 1-3 years.
 
 

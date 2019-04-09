@@ -40,6 +40,7 @@ Issues are common across z/Linux and z/OS
 
 ### 2019-03-26
 
+```
 13:01:14	 From John Mertic : https://www.ibm.com/developerworks/community/forums/html/topic?id=5dee144a-7c64-4bfe-884f-751d6308dbdf
 https://github.com/linux-on-ibm-z
 https://www.rocketsoftware.com/zos-open-source
@@ -65,3 +66,4 @@ If people don't have access to the hardware/hipervisor env't, they cannont contr
 13:58:33	 From Ingo Adlung : what about the Cloud Connector, Mike?
 13:59:33	 From Mike MacIsaac : Ingo, we can talk offline
 13:59:59	 From Mike MacIsaac : My phone is 862-308-5089 if you want to talk
+```

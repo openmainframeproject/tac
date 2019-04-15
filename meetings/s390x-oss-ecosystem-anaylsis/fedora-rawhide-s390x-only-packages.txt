@@ -1,0 +1,61 @@
+ATLAS optimizations for Z hardware
+http://math-atlas.sourceforge.net/ ( BSD-3-Clause )
+
+Added package  : atlas-z10-3.10.3-8.fc30
+Added package  : atlas-z10-devel-3.10.3-8.fc30
+Added package  : atlas-z10-static-3.10.3-8.fc30
+Added package  : atlas-z196-3.10.3-8.fc30
+Added package  : atlas-z196-devel-3.10.3-8.fc30
+Added package  : atlas-z196-static-3.10.3-8.fc30
+
+libblockdev is a C library supporting GObject introspection for manipulation of block devices. There is an s390 specific plugin at https://github.com/storaged-project/libblockdev/blob/master/src/plugins/s390.c.
+https://github.com/storaged-project/libblockdev ( LGPL-2.1 )
+
+Added package  : libblockdev-s390-2.21-2.fc31
+Added package  : libblockdev-s390-devel-2.21-2.fc31
+
+libica is a crypto library for s390x. Part of the openCryptoki project
+https://github.com/opencryptoki ( CPL-1.0 )
+
+Added package  : libica-3.4.0-2.fc30
+Added package  : libica-devel-3.4.0-2.fc30
+Added package  : opencryptoki-ccatok-3.11.0-4.fc31
+Added package  : opencryptoki-ep11tok-3.11.0-4.fc31
+Added package  : opencryptoki-icatok-3.11.0-4.fc31
+Added package  : openssl-ibmca-2.0.2-2.fc30
+
+The zfcp device driver is a FCP device driver for Linux on IBM Z
+https://www.ibm.com/developerworks/linux/linux390/zfcp-hbaapi-2.2.0.html ( CPL-1.0 )
+
+Added package  : libzfcphbaapi-2.2.0-2.fc31
+Added package  : libzfcphbaapi-docs-2.2.0-2.fc31
+
+Linux on z Systems qclib package ('qclib' for 'Query Capacity library')
+https://www.ibm.com/developerworks/linux/linux390/qclib.html ( BSD-3-Clause )
+
+Added package  : qclib-1.4.1-2.fc30
+Added package  : qclib-devel-1.4.1-2.fc30
+Added package  : qclib-static-1.4.1-2.fc30
+
+The s390-tools package contains the source tree of a set of user space utilities for use with the s390 Linux kernel and device drivers.
+https://github.com/ibm-s390-tools/s390-tools ( MIT )
+
+Added package  : s390utils-2:2.8.0-2.fc31
+Added package  : s390utils-base-2:2.8.0-2.fc31
+Added package  : s390utils-cmsfs-fuse-2:2.8.0-2.fc31
+Added package  : s390utils-cpacfstatsd-2:2.8.0-2.fc31
+Added package  : s390utils-cpuplugd-2:2.8.0-2.fc31
+Added package  : s390utils-devel-2:2.8.0-2.fc31
+Added package  : s390utils-hmcdrvfs-2:2.8.0-2.fc31
+Added package  : s390utils-iucvterm-2:2.8.0-2.fc31
+Added package  : s390utils-mon_statd-2:2.8.0-2.fc31
+Added package  : s390utils-osasnmpd-2:2.8.0-2.fc31
+Added package  : s390utils-zdsfs-2:2.8.0-2.fc31
+Added package  : s390utils-ziomon-2:2.8.0-2.fc31
+
+I came across a few others that Fedora Rawhide doesn't include - not sure if this is a licensing issue or something else:
+
+snIPL - https://www.ibm.com/developerworks/linux/linux390/snipl.html ( CPL-1.0 )
+smc-tools - https://www.ibm.com/developerworks/linux/linux390/smc-tools.html ( EPL-1.0 )
+sysload - https://www.ibm.com/developerworks/linux/linux390/sysload.html ( GPL-2.0-only )
+src-vipa - https://www.ibm.com/developerworks/linux/linux390/useful_add-ons_vipa.html ( CPL-1.0 )

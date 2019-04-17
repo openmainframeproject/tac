@@ -16,6 +16,7 @@ nothing provides kernel-zfcpdump-devel = 5.0.7-1 needed by kernel-syms
 luajit
 https://github.com/LuaJIT/LuaJIT/pull/395
 https://github.com/linux-on-ibm-z/docs/wiki/Building-LuaJIT
+https://github.com/LuaJIT/LuaJIT/pull/395#issuecomment-484036548
 
 memcached
 https://build.opensuse.org/package/live_build_log/openSUSE:Factory:zSystems/memcached/standard/s390x

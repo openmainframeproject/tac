@@ -36,3 +36,10 @@ https://github.com/nelhage/reptyr
 tensorflow
 https://github.com/linux-on-ibm-z/docs/wiki/Building-TensorFlow
 https://github.com/tensorflow/tensorflow/issues/25283
+
+PHP JIT
+HHVM
+https://github.com/linux-on-ibm-z/docs/wiki/Building-PHP
+https://bugs.php.net/bug.php?id=73121
+https://bugzilla.redhat.com/show_bug.cgi?id=1636032
+https://github.com/facebook/hhvm/issues/6262

@@ -2,40 +2,53 @@ Missing:
 
 haskell ( ghc, alex, cabal )
 https://build.opensuse.org/project/monitor/devel:languages:haskell?arch_s390x=1&blocked=1&broken=1&building=1&defaults=0&deleting=1&dispatching=1&failed=1&finished=1&locked=1&repo_openSUSE_Factory_zSystems_standard=1&scheduled=1&signing=1&succeeded=1&unresolvable=1
+* Now working ghc 8.x and later... ( Neale to confirm )
 
 rust ( cargo )
 https://build.opensuse.org/project/show/devel:languages:rust
+* Now working cargo 1.33
 
 nodejs 10
+* Seems to be ClefOS 7 only - newer nodejs build on gcc 4.9 which isn't included in stock RHEL/SLES ( not s390x specific ). 
 
 elk
 http://elk.sourceforge.net/
+* Low priority - scientific tool
 
 Julia
 https://github.com/JuliaLang/julia/issues/29637
+* Good choice - need to find mentor for work.
 
 clisp ( maxima )
 http://git.savannah.gnu.org/gitweb/?p=libffcall.git;a=blob_plain;f=porting-tools/emulation/qemu-s390x.txt
 https://sourceforge.net/p/clisp/mailman/message/36005105/
+* Might be one to review deeper - could be mismatch of clisp tool
 
 mono
+* Does exist - https://www.mono-project.com/docs/about-mono/supported-platforms/s390/
+* No current gaps
 
 papi
 https://bugzilla.redhat.com/show_bug.cgi?id=1136331
+* Might be a good choice
 
 pcc
 http://pcc.ludd.ltu.se/
+* Low priority - gcc covers most use cases, but good for someone into compliers
 
 pesign
 https://github.com/rhinstaller/pesign
+* Tied to secure boot for intel/ARM work - skip
 
 reptyr
 https://build.opensuse.org/package/live_build_log/openSUSE:Factory:zSystems/reptyr/standard/s390x
 https://github.com/nelhage/reptyr
+* Might be a good choice
 
 tensorflow
 https://github.com/linux-on-ibm-z/docs/wiki/Building-TensorFlow
 https://github.com/tensorflow/tensorflow/issues/25283
+* Good choice
 
 PHP JIT
 HHVM
@@ -43,3 +56,61 @@ https://github.com/linux-on-ibm-z/docs/wiki/Building-PHP
 https://bugs.php.net/bug.php?id=73121
 https://bugzilla.redhat.com/show_bug.cgi?id=1636032
 https://github.com/facebook/hhvm/issues/6262
+* Good choice
+
+
+Chat log:
+
+13:22:49	 From Neale Ferguson : > rpm -q -l devtoolset-8-gcc-c++ | grep libstdc
+/opt/rh/devtoolset-8/root/usr/lib/gcc/s390x-redhat-linux/8/32/libstdc++.a
+/opt/rh/devtoolset-8/root/usr/lib/gcc/s390x-redhat-linux/8/32/libstdc++.so
+/opt/rh/devtoolset-8/root/usr/lib/gcc/s390x-redhat-linux/8/32/libstdc++_nonshared.a
+/opt/rh/devtoolset-8/root/usr/lib/gcc/s390x-redhat-linux/8/32/libstdc++fs.a
+/opt/rh/devtoolset-8/root/usr/lib/gcc/s390x-redhat-linux/8/libstdc++.so
+
+> cat /opt/rh/devtoolset-8/root/usr/lib/gcc/s390x-redhat-linux/8/libstdc++.so
+/* GNU ld script
+   Use the shared library, but some functions are only in
+   the static library, so try that secondarily.  */
+OUTPUT_FORMAT(elf64-s390)
+INPUT ( /usr/lib64/libstdc++.so.6 -lstdc++_nonshared )
+13:23:16	 From Neale Ferguson : /usr/lib64/libstdc++.so.6 is what comes with 4.8.5
+13:23:45	 From Neale Ferguson : > rpm -q -f /usr/lib64/libstdc++.so.6 
+libstdc++-4.8.5-36.el7.s390x
+13:26:32	 From Neale Ferguson : The same goes for x86_64:
+13:26:34	 From Neale Ferguson : > rpm -q -l devtoolset-8-gcc-c++-8.2.1-3.el7.x86_64 | grep libstdc++
+/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/32/libstdc++.a
+/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/32/libstdc++.so
+/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/32/libstdc++_nonshared.a
+/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/32/libstdc++fs.a
+/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/libstdc++.so
+
+> cat /opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/libstdc++.so
+/* GNU ld script
+   Use the shared library, but some functions are only in
+   the static library, so try that secondarily.  */
+OUTPUT_FORMAT(elf64-x86-64)
+INPUT ( /usr/lib64/libstdc++.so.6 -lstdc++_nonshared )
+13:27:44	 From David : Yes, a special linker script
+13:31:12	 From Neale Ferguson : And the linker script points to the 4.8.5 level of libstdc++ that lives in /usr/lib64
+13:32:24	 From David : but it starts with stdc++_nonshared
+13:32:32	 From David : That contains the bits with the new, override features
+13:32:54	 From David : the new features are statically linked and the rest are in the standard shared library
+13:33:34	 From Neale Ferguson : Yes, if you want to statically link the package. Which I suppose is valid. Thanks for clarifying. The node that was coming out the other end using this toolset was still complaining though. So it gives me something to pursue
+13:34:13	 From David : It’s not statically linking the package — it’s a combination.
+13:34:22	 From David : That is the solution for Developer Toolset.
+13:34:52	 From David : The DT package provides new features as statically linked and falls back to the shared library for the bits that don’t change the ABI
+13:35:07	 From David : e.g., safe back ported bug fixes
+13:35:13	 From Neale Ferguson : The only confusing piece is that those _nonshared files are in the 32 bit directory
+13:35:21	 From David : *shrug*
+13:35:34	 From David : Is there a separate 64 bit package?
+13:35:43	 From David : S390x only is 64 bit
+13:35:53	 From David : maybe something wrong with DT packaging for s390x
+13:36:28	 From Neale Ferguson : No, the same on x86_64:
+13:36:29	 From Neale Ferguson : rpm -q -l devtoolset-8-gcc-c++-8.2.1-3.el7.x86_64 | grep libstdc++
+/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/32/libstdc++.a
+/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/32/libstdc++.so
+/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/32/libstdc++_nonshared.a
+/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/32/libstdc++fs.a
+/opt/rh/devtoolset-8/root/usr/lib/gcc/x86_64-redhat-linux/8/libstdc++.so
+13:37:51	 From Neale Ferguson : I wonder if Dan has some insight into why there’s only the 32 bit piece

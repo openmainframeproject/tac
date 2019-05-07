@@ -8,6 +8,9 @@ openSUSE - zeroinstall-injector
 Fedora Rawhide - not built
 
 dpdk - Broken all distros, but seems to have build instructions ( https://github.com/linux-on-ibm-z/docs/wiki/Building-DPDK )
+- https://mails.dpdk.org/archives/dev/2019-April/129880.html
+- Needs arch specific compiler code
+* Possible good one, needs input from Enyu/Cindy on the status
 
 sysdig - doesn't build on openSUSE, error:
 
@@ -18,9 +21,25 @@ https://github.com/LuaJIT/LuaJIT/pull/395
 https://github.com/linux-on-ibm-z/docs/wiki/Building-LuaJIT
 https://github.com/LuaJIT/LuaJIT/pull/395#issuecomment-484036548
 https://github.com/siddhesh/LuaJIT/tree/v2.1
+* Work being done in community, will provide CI infra once Marist infrastructure
 
 memcached
 https://build.opensuse.org/package/live_build_log/openSUSE:Factory:zSystems/memcached/standard/s390x
+* Maybe just a OpenSUSE issue?
 
 rakudo - appears to work on Ubuntu
 https://launchpad.net/ubuntu/+source/rakudo/2018.12-5/+build/16256421
+
+Chat
+
+13:17:00	 From Neale Ferguson : This is the type of platform specific functions that are provided:
+13:17:00	 From Neale Ferguson : rte_atomic.h     rte_cpuflags.h   rte_memcpy.h     rte_rwlock.h     rte_vect.h       
+rte_byteorder.h  rte_cycles.h     rte_prefetch.h   rte_spinlock.h
+13:23:31	 From Neale Ferguson : ClefOS builds multiple levels of memcached:
+13:25:35	 From Neale Ferguson : Rakudo is in EPEL
+13:26:57	 From Neale Ferguson : All tests successful.
+DEBUG: Files=88, Tests=1689, 69 wallclock secs ( 0.33 usr  0.09 sys + 124.01 cusr 10.59 csys = 135.02 CPU)
+13:34:38	 From Neale Ferguson : Rust on ClefOS - test result: FAILED. 2932 passed; 2 failed; 9 ignored; 0 measured; 0 filtered out
+13:35:16	 From Neale Ferguson : PowerPC simd support: altivec.rs  mod.rs      vsx.rs
+13:37:03	 From Enyu Wang : ulrich.weigand@de.ibm.com
+13:40:12	 From Enyu Wang : Sorry have to drop

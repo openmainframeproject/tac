@@ -36,8 +36,10 @@ Below are some of the projects supported by the TSC, listed by [project stage](p
 ## Active
 
   * [ADE](https://github.com/openmainframeproject/ade)
+    * [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/378/badge)](https://bestpractices.coreinfrastructure.org/projects/378)
   * [Internship Program](https://github.com/openmainframeproject-internship)
   * [Zowe](https://github.com/zowe)
+    * [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2226/badge)](https://bestpractices.coreinfrastructure.org/projects/2226)
 
 ## Emeritus
 

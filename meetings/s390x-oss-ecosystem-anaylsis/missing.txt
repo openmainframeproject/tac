@@ -7,6 +7,8 @@ https://build.opensuse.org/project/monitor/devel:languages:haskell?arch_s390x=1&
 rust ( cargo )
 https://build.opensuse.org/project/show/devel:languages:rust
 * Now working cargo 1.33
+* looks like it's not optimized for Z currently
+* also z/OS port non-existant - https://www.reddit.com/r/rust/comments/8w9xjq/rust_on_zos/
 
 nodejs 10
 * Seems to be ClefOS 7 only - newer nodejs build on gcc 4.9 which isn't included in stock RHEL/SLES ( not s390x specific ). 

@@ -51,7 +51,7 @@
 * Broken all distros, but seems to have build instructions ( https://github.com/linux-on-ibm-z/docs/wiki/Building-DPDK )
 * https://mails.dpdk.org/archives/dev/2019-April/129880.html
 * Needs arch specific compiler code
-* Needs input from Enyu/Cindy on the status
+* Current patches -> https://patches.dpdk.org/project/dpdk/list/?series=&submitter=1273&state=*&q=&archive=&delegate=,
 
 ## In progress
 

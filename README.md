@@ -55,7 +55,7 @@ If you are looking for ideas on projects that can use help in supporting mainfra
 
 Meetings are scheduled the second Thursday of each month at 1pm ET and are open to anyone interested in participating in the project.
 
-You can review [past meeting notes](/meetings) and the [calendar of meetings](https://lists.openmainframeproject.org/g/omp-tsc/calendar).
+You can review [past meeting notes](/meetings) and the [calendar of meetings](https://lists.openmainframeproject.org/calendar).
 
 For the next TSC meeting, you can propose agenda items either [via email to the TSC](mailto:omp-tsc@lists.openmainframeproject.org), or as a pull request against [those meeting notes](/meetings).
 

@@ -39,6 +39,15 @@ Here is an example Signed-off-by line, which indicates that the submitter accept
 
 You can include this automatically when you commit a change to your local git repository using <code>git commit -s</code>.
 
+### Useful tools to make doing DCO signoffs easier
+
+There are a number of great tools out there to manage DCO signoffs for developers to make it much easier to do signoffs.
+
+- DCO command line tool, which let's you do a single signoff for an entire repo ( https://github.com/coderanger/dco )
+- GitHub UI integrations for adding the signoff automatically ( https://github.com/scottrigby/dco-gh-ui )
+  - Chrome - https://chrome.google.com/webstore/detail/dco-github-ui/onhgmjhnaeipfgacbglaphlmllkpoijo
+  - Firefox - https://addons.mozilla.org/en-US/firefox/addon/scott-rigby/?src=search
+
 ### Signoff for commits where the DCO signoff was missed
 
 When bringing in a code repository for the first time, or commits done before the DCO checks are enabled, there would be a series of commits that don't include the sign-off statement. You can retroactively signoff commits you've made by make a commit with your DCO signoff that contains a new text file ( suggested name is past_commits.txt ) with the following contents:

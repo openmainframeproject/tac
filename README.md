@@ -29,15 +29,15 @@ Below are some of the projects supported by the TSC, listed by [project stage](p
     * [CMS NAMES](https://github.com/openmainframeproject/atompkg-language-zvm-names)
     * [Rexx](https://github.com/openmainframeproject/atompkg-language-zvm-rexx)
     * [SCRIPT](https://github.com/openmainframeproject/atompkg-language-zvm-gml)
+  * [Feilong](https://github.com/openmainframeproject/python-zvm-sdk)
   * [TerseDecompress](https://github.com/openmainframeproject/tersedecompress)
-  * [z/VM Cloud Connector](projects/proposals/z:VM%20Cloud%20connector.md)
   * [Zorow](https://github.com/openmainframeproject/zorow)
 
 ## Active
 
   * [ADE](https://github.com/openmainframeproject/ade)
     * [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/378/badge)](https://bestpractices.coreinfrastructure.org/projects/378)
-  * [Internship Program](https://github.com/openmainframeproject-internship)
+  * [Mentorship Program](https://github.com/openmainframeproject-internship)
   * [Zowe](https://github.com/zowe)
     * [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2226/badge)](https://bestpractices.coreinfrastructure.org/projects/2226)
 

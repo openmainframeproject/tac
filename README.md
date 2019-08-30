@@ -30,6 +30,7 @@ Below are some of the projects supported by the TSC, listed by [project stage](p
     * [Rexx](https://github.com/openmainframeproject/atompkg-language-zvm-rexx)
     * [SCRIPT](https://github.com/openmainframeproject/atompkg-language-zvm-gml)
   * [Feilong](https://github.com/openmainframeproject/python-zvm-sdk)
+  * [Open Z Systems Exchange](https://github.com/openzsx/openzsx)
   * [TerseDecompress](https://github.com/openmainframeproject/tersedecompress)
   * [Zorow](https://github.com/openmainframeproject/zorow)
 

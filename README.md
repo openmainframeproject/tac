@@ -9,7 +9,7 @@ Any member of the Open Mainframe Project committee may participate in TSC meetin
   * Phil Tully, ADP (Chairperson)
   * Gregory MacKinnon, CA Technologies
   * Enyu Wang, IBM
-  * Joe Devlin, Rocket Software
+  * *vacant*, Rocket Software
   * Mark Post, SUSE
   * Bob Dahlberg, Virginia Commonwealth University ( TSC Project Maintainer - Internship Program )
   * James Caffrey, IBM ( TSC Project Maintainer - ADE )
@@ -32,6 +32,7 @@ Below are some of the projects supported by the TSC, listed by [project stage](p
   * [Feilong](https://github.com/openmainframeproject/python-zvm-sdk)
   * [Open Z Systems Exchange](https://github.com/openzsx/openzsx) 
   * [TerseDecompress](https://github.com/openmainframeproject/tersedecompress)
+  * [zJenkins](https://github.com/edge05/zJenkins)
   * [Zorow](https://github.com/openmainframeproject/zorow)
 
 ## Active

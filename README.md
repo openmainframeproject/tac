@@ -9,7 +9,7 @@ Any member of the Open Mainframe Project committee may participate in TSC meetin
   * Phil Tully, ADP (Chairperson)
   * Gregory MacKinnon, CA Technologies
   * Enyu Wang, IBM
-  * *vacant*, Rocket Software
+  * Jean-Philippe Linardon, Rocket Software
   * Mark Post, SUSE
   * Bob Dahlberg, Virginia Commonwealth University ( TSC Project Maintainer - Internship Program )
   * James Caffrey, IBM ( TSC Project Maintainer - ADE )
@@ -49,9 +49,7 @@ Below are some of the projects supported by the TSC, listed by [project stage](p
 
 The processes and policies for the TSC to manage incoming projects and project stages to be hosted by the TSC, as well as guidelines for projects, are in the [process section](process).
 
-There are many more mainframe-centric open source projects than what is hosted at Open Mainframe Project; check out the list and add any we are missing at [community_projects.md](projects/community_projects.md)
-
-If you are looking for ideas on projects that can use help in supporting mainframe, review our [proposed project ideas](proposed.md) list.
+There are many more mainframe-centric open source projects than what is hosted at Open Mainframe Project; check out the list and add any we are missing at the [Open Mainframe Project Landscape](https://landscape.openmainframeproject.org)
 
 # Meetings
 

@@ -9,7 +9,7 @@ Any member of the Open Mainframe Project committee may participate in TSC meetin
   * Phil Tully, ADP (Chairperson)
   * Gregory MacKinnon, CA Technologies
   * Enyu Wang, IBM
-  * *vacant*, Rocket Software
+  * Jean-Philippe Linardon, Rocket Software
   * Mark Post, SUSE
   * Bob Dahlberg, Virginia Commonwealth University ( TSC Project Maintainer - Internship Program )
   * James Caffrey, IBM ( TSC Project Maintainer - ADE )

@@ -51,6 +51,8 @@ The processes and policies for the TSC to manage incoming projects and project s
 
 There are many more mainframe-centric open source projects than what is hosted at Open Mainframe Project; check out the list and add any we are missing at the [Open Mainframe Project Landscape](https://landscape.openmainframeproject.org)
 
+[![Open Mainframe Project Landscape](https://landscape.openmainframeproject.org/images/landscape.png)](https://landscape.openmainframeproject.org)
+
 # Meetings
 
 Meetings are scheduled the second Thursday of each month at 1pm ET and are open to anyone interested in participating in the project.

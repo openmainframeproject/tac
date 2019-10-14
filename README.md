@@ -1,26 +1,26 @@
 # Overview
 
-The role of the Techincal Steering Committee (TSC) is to direct and coordinate the activities of the technical community. It's voting members are comprised of the Platinum members of the Open Mainframe Project, along with the leaders of each project designated as a top-level project by the TSC.
+The role of the Techincal Advisory Council (TAC) is to direct and coordinate the activities of the technical community. It's voting members are comprised of the Platinum members of the Open Mainframe Project, along with the leaders of each project designated as a top-level project by the TAC.
 
-Any member of the Open Mainframe Project committee may participate in TSC meetings or activities. You can subscribe and view the archives of the technical discussions at https://lists.openmainframeproject.org/g/omp-tsc
+Any member of the Open Mainframe Project committee may participate in TAC meetings or activities. You can subscribe and view the archives of the technical discussions at https://lists.openmainframeproject.org/g/omp-tac
 
-## Voting TSC Members
+## Voting TAC Members
 
   * Phil Tully, ADP (Chairperson)
   * Gregory MacKinnon, CA Technologies
   * Enyu Wang, IBM
   * Jean-Philippe Linardon, Rocket Software
   * Mark Post, SUSE
-  * Bob Dahlberg, Virginia Commonwealth University ( TSC Project Maintainer - Internship Program )
-  * James Caffrey, IBM ( TSC Project Maintainer - ADE )
-  * Matt Hogstrom ( TSC Project Maintainer - Zowe )
+  * Bob Dahlberg, Virginia Commonwealth University ( Project Lead - Internship Program )
+  * James Caffrey, IBM ( Project Lead - ADE )
+  * Matt Hogstrom ( Project LEad - Zowe )
   * Ingo Adlung, IBM ( CTO, non-voting member )
 
-# TSC Projects
+# TAC Projects
 
-Open Mainframe Project TSC is a resource for open source projects supporting or looking to support mainframe, as well as a home for open source projects specifically targetting the mainframe. The TSC ensures that projects targeting the mainframe have the support they need to be successful, with flexability on governance and licensing to ensure the community can operate and grow successfully.
+Open Mainframe Project TAC is a resource for open source projects supporting or looking to support mainframe, as well as a home for open source projects specifically targetting the mainframe. The TAC ensures that projects targeting the mainframe have the support they need to be successful, with flexability on governance and licensing to ensure the community can operate and grow successfully.
 
-Below are some of the projects supported by the TSC, listed by [project stage](process/project_stages.md).
+Below are some of the projects supported by the TAC, listed by [project stage](process/project_stages.md).
 
 ## Incubation
 
@@ -47,7 +47,7 @@ Below are some of the projects supported by the TSC, listed by [project stage](p
 |--|--|--|
 | [Cloudstack on z/VM](https://github.com/openmainframeproject/cloudstack-wg) | [![License](https://img.shields.io/github/license/openmainframeproject/cloudstack-wg)](https://github.com/openmainframeproject/cloudstack-wg/blob/master/LICENSE) | [![GitHub Stars](https://img.shields.io/github/stars/openmainframeproject/cloudstack-wg)](https://github.com/openmainframeproject/cloudstack-wg) <!--[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/378/badge)](https://bestpractices.coreinfrastructure.org/projects/378)--> [![GitHub issues by-label](https://img.shields.io/github/issues/openmainframeproject/cloudstack-wg/good%20first%20issue)](https://github.com/openmainframeproject/cloudstack-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) |
 
-The processes and policies for the TSC to manage incoming projects and project stages to be hosted by the TSC, as well as guidelines for projects, are in the [process section](process).
+The processes and policies for the TAC to manage incoming projects and project stages to be hosted by the Open Mainframe Project, as well as guidelines for projects, are in the [process section](process).
 
 There are many more mainframe-centric open source projects than what is hosted at Open Mainframe Project; check out the list and add any we are missing at the [Open Mainframe Project Landscape](https://landscape.openmainframeproject.org)
 
@@ -59,7 +59,7 @@ Meetings are scheduled the second Thursday of each month at 1pm ET and are open 
 
 You can review [past meeting notes](/meetings) and the [calendar of meetings](https://lists.openmainframeproject.org/calendar).
 
-For the next TSC meeting, you can propose agenda items either [via email to the TSC](mailto:omp-tsc@lists.openmainframeproject.org), or as a pull request against [those meeting notes](/meetings).
+For the next TSC meeting, you can propose agenda items either [via email to the TAC](mailto:omp-tac@lists.openmainframeproject.org), or as a pull request against [those meeting notes](/meetings).
 
 ## Conference call details
 

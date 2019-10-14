@@ -2,7 +2,7 @@
 
 The role of the Techincal Advisory Council (TAC) is to direct and coordinate the activities of the technical community. It's voting members are comprised of the Platinum members of the Open Mainframe Project, along with the leaders of each project designated as a top-level project by the TAC.
 
-Any member of the Open Mainframe Project committee may participate in TAC meetings or activities. You can subscribe and view the archives of the technical discussions at https://lists.openmainframeproject.org/g/omp-tac
+Any member of the Open Mainframe Project committee may participate in TAC meetings or activities. You can subscribe and view the archives of the technical discussions at https://lists.openmainframeproject.org/g/omp-technical
 
 ## Voting TAC Members
 
@@ -59,7 +59,7 @@ Meetings are scheduled the second Thursday of each month at 1pm ET and are open 
 
 You can review [past meeting notes](/meetings) and the [calendar of meetings](https://lists.openmainframeproject.org/calendar).
 
-For the next TSC meeting, you can propose agenda items either [via email to the TAC](mailto:omp-tac@lists.openmainframeproject.org), or as a pull request against [those meeting notes](/meetings).
+For the next TSC meeting, you can propose agenda items either [via email to the TAC](mailto:omp-technical@lists.openmainframeproject.org), or as a pull request against [those meeting notes](/meetings).
 
 ## Conference call details
 

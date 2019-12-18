@@ -1,0 +1,2 @@
+00:10:17	John Mertic:	https://github.com/openmainframeproject/tac/blob/master/meetings/20191212.md
+00:32:30	John Mertic:	https://github.com/openmainframeproject/tac/blob/master/process/project_stages.md#emeritus-stage

@@ -11,9 +11,9 @@ Any member of the Open Mainframe Project committee may participate in TAC meetin
   * Enyu Wang, IBM
   * Jean-Philippe Linardon, Rocket Software
   * Mark Post, SUSE
-  * Bob Dahlberg, Virginia Commonwealth University ( Project Lead - Internship Program )
+  * Bob Dahlberg, Virginia Commonwealth University ( Project Lead - Mentorship Program )
   * James Caffrey, IBM ( Project Lead - ADE )
-  * Matt Hogstrom ( Project Lead - Zowe )
+  * _vacant_ ( Project Lead - Zowe )
   * Ingo Adlung, IBM ( CTO, non-voting member )
 
 # TAC Projects
@@ -59,7 +59,7 @@ Meetings are scheduled the second Thursday of each month at 1pm ET and are open 
 
 You can review [past meeting notes](/meetings) and the [calendar of meetings](https://lists.openmainframeproject.org/calendar).
 
-For the next TSC meeting, you can propose agenda items either [via email to the TAC](mailto:omp-technical@lists.openmainframeproject.org), or as a pull request against [those meeting notes](/meetings).
+For the next TAC meeting, you can propose agenda items either [via email to the TAC](mailto:omp-technical@lists.openmainframeproject.org), or as a pull request against [those meeting notes](/meetings).
 
 ## Conference call details
 

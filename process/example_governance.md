@@ -1,4 +1,4 @@
-*Approved by Open Mainframe Project TSC on 2018-09-05*
+*Approved by Open Mainframe Project TAC on 2018-09-05*
 
 *NOTE: This document is intended to provide an example governance structure for any Open Mainframe Project project to consider as a starting point. All projects hosted by Open Mainframe Project are not bound by these governance polices, but in absence of any prior governance structure should consider this as a recommended structure*
 
@@ -45,7 +45,7 @@ the committers per the voting process below.
 
 ## Lead
 
-The project committers will elect a lead ( and optionally a co-lead ) which will be the primary point of contact for the project and representative to the TSC upon becoming an Active stage project. The lead(s) will be responsible for the overall project health and direction, coordination of activities, and working with other projects and committees as needed for the continuted growth of the project.
+The project committers will elect a lead ( and optionally a co-lead ) which will be the primary point of contact for the project and representative to the TAC upon becoming an Active stage project. The lead(s) will be responsible for the overall project health and direction, coordination of activities, and working with other projects and committees as needed for the continuted growth of the project.
 
 # Release Process
 

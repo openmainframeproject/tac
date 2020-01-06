@@ -7,7 +7,7 @@
 * Statement on alignment with OMP charter mission
 
 
-* Sponsor from TSC (sponsor helps mentor projects)
+* Sponsor from TAC (sponsor helps mentor projects)
 
 
 * Preferred maturity level (see [project stages](../../process/project_stages.md))

@@ -1,4 +1,4 @@
-*Approved by Open Mainframe Project TSC on 2018-09-05*
+*Approved by Open Mainframe Project TAC on 2018-09-05*
 
 # Open Mainframe Project Top Level Project Proposal Process
 
@@ -16,7 +16,7 @@ Projects must be proposed via pull request to [GitHub](../projects/proposals) us
 * Project description (what it does, why it is valuable, origin and history)
 * Statement on alignment with Open Mainframe Project charter mission
 * Are there similar/releated projects in the out there? If so, what is different about this project?
-* Sponsor from TSC (sponsor helps mentor projects)
+* Sponsor from TAC (sponsor helps mentor projects)
 * Preferred maturity level (see [project stages](project_stages.md)))
 * License and contribution guidelines (refer to the [OMP guidelines](contribution_guidelines.md))
 * Source control (GitHub by default)
@@ -32,8 +32,8 @@ Projects must be proposed via pull request to [GitHub](../projects/proposals) us
 
 ## Project Acceptance Process
 
-* Projects are required to present their proposal at a TSC meeting
-* Projects get accepted via a 2/3 supermajority vote of the TSC
+* Projects are required to present their proposal at a TAC meeting
+* Projects get accepted via a 2/3 supermajority vote of the TAC
 * All projects must adopt the Open Mainframe Project [Code of Conduct](code_of_conduct.md).
 * All projects agree to transfer any relevant trademarks to the Open Mainframe Project and to assist in filing for any relevant unregistered ones. This assignment will be reversed if the project does not remain in the Open Mainframe Project, as described below. Note that no patent or copyright assignment is necessary because the [Apache 2](https://spdx.org/licenses/Apache-2.0.html) license provides sufficient protections for other developers and users.
-* All projects start at the Incubation stage by default unless the TSC approves otherwise.
+* All projects start at the Incubation stage by default unless the TAC approves otherwise.

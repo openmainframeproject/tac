@@ -58,7 +58,7 @@ Meetings are scheduled the second Thursday of each month at 1pm ET and are open 
 
 You can review [past meeting notes](/meetings) and the [calendar of meetings](https://lists.openmainframeproject.org/calendar).
 
-For the next TSC meeting, you can propose agenda items either [via email to the TAC](mailto:omp-technical@lists.openmainframeproject.org), or as a pull request against [those meeting notes](/meetings).
+For the next TAC meeting, you can propose agenda items either [via email to the TAC](mailto:omp-technical@lists.openmainframeproject.org), or as a pull request against [those meeting notes](/meetings).
 
 ## Conference call details
 

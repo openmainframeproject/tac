@@ -11,9 +11,10 @@ Any member of the Open Mainframe Project committee may participate in TAC meetin
   * Enyu Wang, IBM
   * Jean-Philippe Linardon, Rocket Software
   * Mark Post, SUSE
-  * Bob Dahlberg, Virginia Commonwealth University ( Project Lead - Internship Program )
+  * Bob Dahlberg, Virginia Commonwealth University ( Project Lead - Mentorship Program )
   * James Caffrey, IBM ( Project Lead - ADE )
   * _vacant_ ( Project Lead - Zowe )
+  * Ingo Adlung, IBM ( CTO, non-voting member )
 
 # TAC Projects
 

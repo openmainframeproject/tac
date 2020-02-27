@@ -1,0 +1,23 @@
+00:08:51	John Mertic:	* Project Updates
+  * Incubating
+    * Ambitus
+    * Atom plugins
+      * Discuss renewal of incubation status
+    * Feilong
+    * Polycephaly
+    * TerseDecompress
+      * Discuss renewal of incubation status
+    * Zorow
+  * Active
+    * ADE
+    * Mentorship
+    * Zowe
+* Projects potentially to be proposed
+  * Academic/learning materials
+  * Hyperledger Fabric for s390x
+  * Open Source project discovery for s390x
+00:37:51	John Mertic:	https://github.com/openmainframeproject-internship/resources/blob/master/collateral/OpenMainframeProject_Mentorship_Flyer_2020.pdf
+00:46:36	Neale Ferguson:	I’ll be in Fort Worth
+00:46:47	Mike Friesenegger:	I will be in Fort Worth
+00:46:49	James Vincent:	You BETTER be... :-)
+00:46:55	James Vincent:	I will be there too

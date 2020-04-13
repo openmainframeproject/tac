@@ -1,0 +1,36 @@
+00:16:54	John Mertic:	https://github.com/openmainframeproject/tac/blob/master/meetings/20200409.md
+00:17:43	John Mertic:	* Project Updates ( 20 minutes - 2 minutes per project )
+  * Incubating
+    * Ambitus
+    * Atom plugins
+      * Discuss renewal of incubation status
+    * Feilong
+    * Polycephaly
+    * TerseDecompress
+      * Discuss renewal of incubation status
+    * Zorow
+  * Active
+    * ADE
+    * Mentorship
+    * Zowe
+* [Zoom meeting guidelines](https://github.com/openmainframeproject/tac/pull/92) ( 5 minutes )
+* [COBOL Course Project Proposal](20200409-TAC%20Proposal%20-%20COBOL%20Course.pdf) ( 15 minutes )
+* [IBM Z Open Source Software Search project proposal](https://github.com/openmainframeproject/tac/pull/94) ( 15 minutes )
+* Projects potentially to be proposed ( 5 minutes )
+  * Academic/learning materials
+  * Hyperledger Fabric for s390x
+00:32:37	Sean Grady:	https://github.com/zowe/community/tree/master/Project%20Management/20PI2%20Planning
+00:38:45	Peter Fandel:	I second motion
+00:39:04	Peter Fandel:	Aye
+00:46:35	John Mertic:	https://github.com/IBM/zopeneditor-about
+00:49:31	John Mertic:	https://www.eclipse.org/che/docs/che-7/eclipse-che4z/
+00:53:43	Sean Grady:	https://raw.githubusercontent.com/IBM/zopeneditor-about/master/product-licenses/LICENSE.txt
+00:56:18	Usman Haider:	I would like to learn Cobol. It looks interesting.
+00:57:24	Peter Fandel:	Aye
+00:57:32	Wolfram Greis:	I
+01:03:54	Enyu Wang:	I second
+01:04:21	Peter Fandel:	Aye
+01:04:25	Enyu Wang:	https://ibm.biz/LoZPackageDistroSearch
+01:04:39	Enyu Wang:	Is the link to the prototype tool
+01:05:24	John Mertic:	https://community.openmainframeproject.org/c/calling-all-cobol-programmers/15
+01:05:42	John Mertic:	https://community.openmainframeproject.org/c/cobol-technical-questions/16

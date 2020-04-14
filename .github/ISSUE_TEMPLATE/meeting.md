@@ -1,4 +1,4 @@
-# Open Mainframe Project TAC Meeting - <%= date.toFormat("Month d, yyyy") %>
+# Open Mainframe Project TAC Meeting - <%= date.toFormat("MMMM d, yyyy") %>
 
 ## Date/Time
 

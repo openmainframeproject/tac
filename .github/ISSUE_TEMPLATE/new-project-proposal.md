@@ -1,3 +1,12 @@
+---
+name: New Project Proposal
+about: Template for proposing a new project to the TAC
+title: 'New Project Proposal - '
+labels: meeting-agenda
+assignees: ''
+
+---
+
 * Name of project (must be unique within OMP)
 
 

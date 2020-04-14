@@ -10,7 +10,7 @@ This governance policy sets forth the proposal process for projects to be accept
 
 ## Project Proposal Requirements
 
-Projects must be proposed via pull request to [GitHub](../projects/proposals) using the provided [template](../projects/proposals/TEMPLATE.md). Project proposals submitted to the Open Mainframe Project must provide the following information to the best of your ability:
+Projects must be proposed via a new [GitHub Issue](https://github.com/openmainframeproject/tac/issues/new?assignees=&labels=bug&template=new-project-proposal.md&title=). Project proposals submitted to the Open Mainframe Project must provide the following information to the best of your ability:
 
 * Name of project (must be unique within Open Mainframe Project)
 * Project description (what it does, why it is valuable, origin and history)

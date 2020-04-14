@@ -1,3 +1,5 @@
+# TODO: 'schedules' will need to be updated for months that have 5 Thursdays, or if next meeting date is different than normal.
+
 name: Schedule monthly TAC meetings
 on:
   schedule:
@@ -9,6 +11,6 @@ jobs:
     - uses: wesleytodd/meeting-maker@v0
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        schedules: 2020-04-02T17:00:00.0Z/P1D
-        createWithin: P7D
+        schedules: 2020-04-02T17:00:00.0Z/P4W
+        createWithin: P1D
         issueTitle: "TAC Meeting <%= date.toFormat('yyyy-MM-dd') %>"

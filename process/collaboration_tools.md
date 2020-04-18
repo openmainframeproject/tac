@@ -4,7 +4,51 @@ Open Mainframe Project maintains a number of tools to enable collaboration among
 
 ## Slack
 
-Open Mainframe Project hosts a Slack organization, which can be joined using the SlackIn joiner at https://slack.openmainframeproject.org. 
+Open Mainframe Project hosts a Slack organization, which can be joined using the SlackIn joiner at https://slack.openmainframeproject.org. Slack serves as the main communication platform for the Open Mainframe Project community outside of the mailing lists. It’s important that conversations stays on topic in each channel, and that everyone abides by the [Code of Conduct]. There are thousands of members who should all expect to have a positive experience.
+
+Chat is searchable and public. Do not make comments that you would not say on a video recording or in another public space. Please be courteous to others.
+
+### DM (Direct Message) Conversations
+
+Please do not engage in proprietary company specific conversations in the Open Mainframe Project Slack instance. This workspace is meant for conversations related to Open Mainframe Project topics and community. Proprietary conversations should
+occur in your company Slack and/or communication platforms.  As with all communication, please be mindful of appropriateness, professionalism, and applicability to the Open Mainframe Project community.
+
+### Specific Channel Rules
+
+Some channels have specific rules or guidelines. If they do, they will be listed
+in the purpose or pinned docs of that channel.
+
+### Escalating and/or Reporting a Problem
+
+If you encounter an issue using the Open Mainframe Project Slack, please contact the [Open Mainframe Project Program Director].
+
+### Requesting a Channel
+
+To add a channel, please contact the [Open Mainframe Project Program Director].
+
+Some general guidelines on new channels...
+
+  - Channels should be dedicated to sub-projects, community topics, or related Open Mainframe Project programs/projects.
+  - Linking to resources will speed in the validation and processing of the channel creation request.
+  - Channels are **NOT**:
+    - Company specific
+    - Private channels with the exception of: code of conduct matters, mentoring,
+      security/vulnerabilities, github management, or steering committee.
+  - Special accommodations will be made where necessary.
+
+### Delegating Channel Ownership
+
+Channel management can be delegated to other groups enabling  members to govern certain sets channels. This by-passes the need for a Slack Admins to sign-off on all requests and passes the responsibility to the most relevant group.
+
+To delegate channel ownership, please contact the [Open Mainframe Project Program Director].
+
+### Requesting a Bot, Token, or Webhook
+
+**READ BEFORE SUBMITTING A REQUEST**
+
+Bots, tokens, and webhooks are reviewed on a case-by-case basis with most requests being rejected due to security, privacy, and usability concerns. Bots and the like tend to make a lot of noise in channels. The Open Mainframe Project Slack instance has thousands of members and it is crucial to ensure everyone has a great experience.
+
+Typically approved requests include: GitHub, tool requests, or other tools/platforms used to aid in the management of Slack itself. All requests should be directed to the [Open Mainframe Project Program Director].
 
 ## Mailing lists
 
@@ -32,7 +76,7 @@ Moderators MUST:
 - Foster a safe and productive environment by being aware of potential multiple cultural differences between community members.
 - Understand that you might be contacted by moderators, community managers, and other users via private email or a direct message.
 - Keep up with software/platform changes on the property they are responsible for. This might include new UI changes, new features, or other software changes. Moderators are encouraged to meet regularly to train themselves how to be proficient with the platform.
-- Report violations of the Code of Conduct to pm@openmainframeproject.org.
+- Report violations of the [Code of Conduct] to pm@openmainframeproject.org.
 
 Moderators SHOULD:
 
@@ -49,7 +93,7 @@ Moderators SHOULD:
 - Keep your comments and conversation on topic
 - Recognize with a global community and other obligations, replies aren't instantaneous.
   - Refrain from cross-posting as a way to get a larger audience to your post.
-- Be sure to contact the list moderators if there are any Code of Conduct concerns.
+- Be sure to contact the list moderators if there are any [Code of Conduct] concerns.
 
 ## Calendars
 
@@ -74,3 +118,5 @@ Instructions for subscribing to an iCal calendar for popular calendaring tools:
   - Avoid cancelling meetings within 24 hours of the meeting
   - For changes/cancellations, email the invitees as well to inform them of the cancellation
   - When provisioning a new series of recurring meetings, instruct invites to remove old entries manually.
+
+[Code of Conduct]: code-of-conduct.md

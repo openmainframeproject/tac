@@ -8,6 +8,8 @@ Open Mainframe Project hosts a Slack organization, which can be joined using the
 
 Chat is searchable and public. Do not make comments that you would not say on a video recording or in another public space. Please be courteous to others.
 
+Slack also maintains some [best practice etiquette](https://slackhq.com/etiquette-tips-in-slack), which has some great basic usage tips and other recommendations to best collaborate and communicate with others.
+
 ### DM (Direct Message) Conversations
 
 Please do not engage in proprietary company specific conversations in the Open Mainframe Project Slack instance. This workspace is meant for conversations related to Open Mainframe Project topics and community. Proprietary conversations should

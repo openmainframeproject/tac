@@ -26,7 +26,7 @@ If you encounter an issue using the Open Mainframe Project Slack, please contact
 
 ### Requesting a Channel
 
-To add a channel, please contact the [Open Mainframe Project Program Director].
+To add a channel, please [submit a request].
 
 Some general guidelines on new channels...
 
@@ -38,19 +38,13 @@ Some general guidelines on new channels...
       security/vulnerabilities, github management, or steering committee.
   - Special accommodations will be made where necessary.
 
-### Delegating Channel Ownership
-
-Channel management can be delegated to other groups enabling  members to govern certain sets channels. This by-passes the need for a Slack Admins to sign-off on all requests and passes the responsibility to the most relevant group.
-
-To delegate channel ownership, please contact the [Open Mainframe Project Program Director].
-
 ### Requesting a Bot, Token, or Webhook
 
 **READ BEFORE SUBMITTING A REQUEST**
 
 Bots, tokens, and webhooks are reviewed on a case-by-case basis with most requests being rejected due to security, privacy, and usability concerns. Bots and the like tend to make a lot of noise in channels. The Open Mainframe Project Slack instance has thousands of members and it is crucial to ensure everyone has a great experience.
 
-Typically approved requests include: GitHub, tool requests, or other tools/platforms used to aid in the management of Slack itself. All requests should be directed to the [Open Mainframe Project Program Director].
+Typically approved requests include: GitHub, tool requests, or other tools/platforms used to aid in the management of Slack itself. Please [submit a request] to have this reviewed.
 
 ## Mailing lists
 
@@ -101,6 +95,23 @@ Moderators SHOULD:
 
 You can stay subscribed to the meetings of the projects and committees of the Open Mainframe Project by subscribing to the coordinating mailing list. Each mailing list has a calendar which you can subscribe to you with your calendar client of choice.
 
+By default, the following permissions apply to calendars:
+
+- Voting TAC members can manage the [omp-technical calendar].
+- TSC project chairpersons can manage thier respective project calendars.
+- LF Staff can manage any calendar event
+
+If you are running into an issue with calendar events, please [submit a request] and the LF Staff can help.
+
+### Calendar guidance
+
+To help indivudals not be inandated with calendar overload, try to follow these guidelines:
+
+- The [omp-technical calendar] should only be used for TAC meetings, meetings or events for the full OMP community, and kickoff meetings of new projects.
+- Specific project meetings should be on your project's calendar. All meeting should be on the primary discussion, dev, or user calendar unless it's a specific closed meeting to discuss a sensitive topic.
+- Avoid making any meeting invite changes ( including cancellations or reschedulings ) less that 24 hours in advance, as many calendaring clients do not update immediately. It's also best practice to email that calendar's respective mailing list to inform the group of the cancellation.
+- If you are rescheduling a meeting, cancel the previous one and issue a new meeting instead of doing a reschedule. Some calendaring clients don't do well with meeting invite changes.
+
 ### Subscribing to calendars
 
 Instructions for subscribing to an iCal calendar for popular calendaring tools:
@@ -122,3 +133,6 @@ Instructions for subscribing to an iCal calendar for popular calendaring tools:
   - When provisioning a new series of recurring meetings, instruct invites to remove old entries manually.
 
 [Code of Conduct]: code-of-conduct.md
+[submit a request]: https://github.com/openmainframeproject/foundation/issues/new/choose
+[omp-technical calendar]: https://lists.openmainframeproject.org/g/omp-technical/calendar
+[Open Mainframe Project Program Director]: mailto:pm@openmainframeproject.org

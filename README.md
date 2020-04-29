@@ -1,6 +1,6 @@
 # Overview
 
-The role of the Techincal Advisory Council (TAC) is to direct and coordinate the activities of the technical community. It's voting members are comprised of the Platinum members of the Open Mainframe Project, along with the leaders of each project designated as a top-level project by the TAC.
+The role of the Techincal Advisory Council (TAC) is to direct and coordinate the activities of the technical community. It's voting members are comprised of the Platinum members of the Open Mainframe Project, along with the leaders of each project designated as an [Active Stage](process/project_stages.md#active-stage) top-level project by the TAC.
 
 Any member of the Open Mainframe Project committee may participate in TAC meetings or activities. You can subscribe and view the archives of the technical discussions at https://lists.openmainframeproject.org/g/omp-technical
 
@@ -55,19 +55,16 @@ There are many more mainframe-centric open source projects than what is hosted a
 
 # Meetings
 
-Meetings are scheduled the second Thursday of each month at 1pm ET and are open to anyone interested in participating in the project.
+TAC Meetings are are open to anyone interested in participating in the project. Meetings are generally scheduled the second Thursday of each month at 1pm US Eastern Time; the current schedule is available on the [TAC calendar](https://lists.openmainframeproject.org/g/omp-technical/calendar)
 
-You can review [past meeting notes](/meetings) and the [calendar of meetings](https://lists.openmainframeproject.org/calendar).
+You can propose a topic for the TAC by either creating an open [issue tagged 'meeting-agenda'](https://github.com/openmainframeproject/tac/lissues/new?labels=meeting-agenda) or [pull request tagged 'meeting-agenda'](https://github.com/openmainframeproject/tac/lpulls?q=label%3Ameeting-agenda) up until the day before the meeting. The agenda for the meeting is available shortly after midnight US Eastern Time on the day of the meeting as an [issue for review and comment](https://github.com/openmainframeproject/tac/labels/meeting) and is sent via email to the TAC email list.
 
-For the next TAC meeting, you can propose agenda items either [via email to the TAC](mailto:omp-technical@lists.openmainframeproject.org), or as a pull request against [those meeting notes](/meetings).
+[Meeting notes](/meetings) are posted soon after each meeting, along with recordings.
 
 ## Conference call details
 
-Join from PC, Mac, Linux, iOS or Android: https://zoom.us/j/290221938
+Join the meeting at https://zoom.us/j/290221938 or dial in using a phone number below
 
-* iPhone one-tap: US: +16465588656,,290221938#  or +16699006833,,290221938#
-Or Telephone:
-    Dial(for higher quality, dial a number based on your current location):
-        US: +1 646 558 8656  or +1 669 900 6833  or +1 855 880 1246 (Toll Free) or +1 877 369 0926 (Toll Free)
-    Meeting ID: 290 221 938
-    International numbers available: https://zoom.us/zoomconference?m=4ywiZErrEEDIHL6VXNjfZ-PXcfjeWMjs
+* US: +16465588656,,290221938#
+* US: +16699006833,,290221938#
+* International numbers available: https://zoom.us/zoomconference?m=4ywiZErrEEDIHL6VXNjfZ-PXcfjeWMjs

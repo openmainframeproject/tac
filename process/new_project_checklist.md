@@ -2,13 +2,17 @@
 
 This is a checklist for TSC's to review as part of the intake process. The TSC should review this entire list during the kickoff meeting. For anything outstanding, create an [issue](../issues) to track and link to it in the list
 
+- TSC Record Keeping
+  - [ ] Location for TSC documents and meeting notes ( recommendation is ```tsc``` directory in main repo, and then ```meetings``` under the ```tsc``` directory )
+  - [ ] Copy this checklist to the above location for tracking
 - Existing Project Governance
+  - [ ] README.md file exists ( example at [example_readme.md](example_readme.md) )
   - [ ] Project License exists ( LICENSE.md ) and is OSI-approved
   - [ ] Any third-party components/dependencies included are listed along with thier licenses ( THIRD_PARTY.md )
   - [ ] Governamce defined, outlining community roles and how decsions are made ( GOVERNANCE.md - leverage [example_governance.md](example_governance.md) as a starting point if needed )
   - [ ] Contribution Policy defined ( CONTRIBUTING.md )
   - [ ] Code of Conduct defined ( existing or leverage [code of conduct](code_of_conduct.md) )
-  - [ ] Release methodology defined	( RELEASE.md )
+  - [ ] Release methodology defined ( RELEASE.md )
 - New Project Goverance
   - [ ] TSC members identified
   - [ ] First TSC meeting held

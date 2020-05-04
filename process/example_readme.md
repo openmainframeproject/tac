@@ -9,6 +9,7 @@ _Note: This document provides the recommended structure for a README.md file tha
 # Add badges that point to your LICENSE, CII status, and build environment (if it exists). Check out other badges to add at https://shields.io/
 ![GitHub](https://img.shields.io/github/license/openmainframeproject/PROJECT NAME)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/CII ID/badge)](https://bestpractices.coreinfrastructure.org/projects/CII ID)
+```
 
 # PROJECT NAME
 

@@ -2,8 +2,10 @@
 
 name: Schedule monthly TAC meetings
 on:
-  schedule:
-    - cron: '0 0 * * *'
+  #schedule:
+  #  - cron: '0 0 * * *'
+  issues:
+    types: [labeled]
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -14,3 +16,4 @@ jobs:
         schedules: 2020-05-14T17:00:00.0Z/P4W
         createWithin: P1D
         issueTitle: "TAC Meeting <%= date.toFormat('yyyy-MM-dd') %>"
+        agendaLabel: meeting-agenda

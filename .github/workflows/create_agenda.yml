@@ -2,10 +2,8 @@
 
 name: Schedule monthly TAC meetings
 on:
-  #schedule:
-  #  - cron: '0 0 * * *'
-  issues:
-    types: [labeled]
+  schedule:
+    - cron: '0 0 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest

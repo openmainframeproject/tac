@@ -10,7 +10,7 @@ This governance policy sets forth the proposal process for projects to be accept
 
 ## Project Proposal Requirements
 
-Projects must be proposed via pull request to [GitHub](../projects/proposals) using the provided [template](../projects/proposals/TEMPLATE.md). Project proposals submitted to the Open Mainframe Project must provide the following information to the best of your ability:
+Projects must be proposed via a new [GitHub Issue](https://github.com/openmainframeproject/tac/issues/new?assignees=&labels=bug&template=new-project-proposal.md&title=). Project proposals submitted to the Open Mainframe Project TAC must provide the following information to the best of your ability:
 
 * Name of project (must be unique within Open Mainframe Project)
 * Project description (what it does, why it is valuable, origin and history)
@@ -32,8 +32,10 @@ Projects must be proposed via pull request to [GitHub](../projects/proposals) us
 
 ## Project Acceptance Process
 
-* Projects are required to present their proposal at a TAC meeting
-* Projects get accepted via a 2/3 supermajority vote of the TAC
-* All projects must adopt the Open Mainframe Project [Code of Conduct](code_of_conduct.md).
-* All projects agree to transfer any relevant trademarks to the Open Mainframe Project and to assist in filing for any relevant unregistered ones. This assignment will be reversed if the project does not remain in the Open Mainframe Project, as described below. Note that no patent or copyright assignment is necessary because the [Apache 2](https://spdx.org/licenses/Apache-2.0.html) license provides sufficient protections for other developers and users.
-* All projects start at the Incubation stage by default unless the TAC approves otherwise.
+The project presentation will be added to the next TAC meeting where there is space available for a project proposal ( generally the TAC meetings have at the most 1-2 new project proposals ). The presentation slot is usually 15 minutes in length, and doesn't have to be of any particular form. The TAC generally will evaluate new project proposals on the submission content, along with the fit of the project into the Open Mainframe Project's mission and likelyhood of the project to graduate to Active stage.
+
+The TAC may choose to vote on the project approval during that TAC meeting if 2/3rd of TAC members are present at the meeting. If a vote isn't held, it may be done via electronic means or postponed till the next TAC meeting. Projects get accepted via a 2/3 supermajority vote of the voting TAC members. All projects start at the Incubation stage by default unless the TAC approves otherwise.
+
+## Next steps
+
+Once a project is approved, you can leverage the [new project checklist](new_project_checklist.md) to guide you through the process of coming into the OMP and helping the project graduate to Active stage.

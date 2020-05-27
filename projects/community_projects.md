@@ -1,1 +1,0 @@
-Below are a number of mainframe-centric projects in the open source community that are not currently hosted by the Open Mainframe Project. You can check them out in the [Open Mainframe Project Landscape](https://landscape.openmainframeproject.org/)

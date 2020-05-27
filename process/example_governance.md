@@ -25,9 +25,8 @@ The committer role enables the contributor to commit code directly to the reposi
 ### Process for becoming a committer
 
 * Show your experience with the codebase through contributions and engagement on the community channels.
-* Request to become a committer.
-* Have the majority of committers approve you becoming a committer.
-* Your name and email is added to the COMMITTERS.md file for the project.
+* Request to become a committer. To do this, create a new pull request that adds your name and details to the COMMITTERS file and request existing committers to approve.
+* After the majority of committers approve you, merge in the PR. Be sure to tag the whomever is managing the GitHub permissions to update the committers team in GitHub.
 
 ### Committer responsibilities
 

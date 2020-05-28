@@ -7,11 +7,11 @@ This is a checklist for TSC's to review as part of the intake process. The TSC s
   - [ ] Copy this checklist to the above location for tracking
 - Existing Project Governance
   - [ ] README.md file exists ( example at [example_readme.md](example_readme.md) )
-  - [ ] Project License exists ( LICENSE.md ) and is OSI-approved
+  - [ ] Project License exists ( LICENSE.md ) and aligned with the [Open Mainframe Project IP Policy](https://github.com/openmainframeproject/foundation/blob/master/CHARTER.md#12-intellectual-property-policy)
   - [ ] Any third-party components/dependencies included are listed along with thier licenses ( THIRD_PARTY.md )
   - [ ] Governamce defined, outlining community roles and how decsions are made ( GOVERNANCE.md - leverage [example_governance.md](example_governance.md) as a starting point if needed )
   - [ ] Contribution Policy defined ( CONTRIBUTING.md )
-  - [ ] Code of Conduct defined ( existing or leverage [code of conduct](code_of_conduct.md) )
+  - [ ] Code of Conduct defined ( CODE_OF_CONDUCT.md - use existing or leverage [code of conduct](code_of_conduct.md) )
   - [ ] Release methodology defined ( RELEASE.md )
 - New Project Goverance
   - [ ] TSC members identified
@@ -22,8 +22,8 @@ This is a checklist for TSC's to review as part of the intake process. The TSC s
 	- [ ] Issue/feature tracker (JIRA, GitHub issues)	
   - Collaboration tools 
     - [ ] Mailing lists
-      - [ ] Move to groups.io ( create [issue on foundation repo] to setup/transfer
-    - [ ] Slack or IRC ( create [issue on foundation repo] to setup project channel on [OMP Slack](https://slack.openmainframeproject.org)
+      - [ ] Move to groups.io ( create [issue on foundation repo] to setup/transfer )
+    - [ ] Slack or IRC ( create [issue on foundation repo] to setup project channel on [OMP Slack](https://slack.openmainframeproject.org) )
     - [ ] Forums
   - [ ] Website
   - [ ] CI/build environment	
@@ -36,8 +36,9 @@ This is a checklist for TSC's to review as part of the intake process. The TSC s
   - [ ] New project annoucement done ( create [issue on foundation repo] to trigger )
   - [ ] Project added to Open Mainframe Project website and Open Mainframe Project landscape
 - Graduation
-  - [ ] CII Badge	achieved
-  - [ ] Committer Diversity	established
+  - [ ] CII Badge achieved ( apply at https://bestpractices.coreinfrastructure.org/en )
+  - [ ] Committer Diversity established
+  	- [ ] Add project to [OMP Dev Anayltics](https://lfanalytics.io/projects/open-mainframe-project) ( create [issue on foundation repo] to trigger )
 	- [ ] Commit/Contribution growth during incubation
 	- [ ] Committers defined in the project	( [COMMITTERS.csv](COMMITTERS.csv) or [COMMITTERS.yml](COMMITTERS.yml) )
   - [ ] TAC representative appointed

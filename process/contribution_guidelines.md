@@ -67,5 +67,11 @@ The [Probot: DCO](https://github.com/probot/dco) app requires that the email add
 
 If you are using one of the recommended [GitHub UI integrations for adding the signoff automatically]( https://github.com/scottrigby/dco-gh-ui), you will want to ensure that the name and email listed there match that which is in your GitHub profile.
 
+Examples of the UI elements to match are below
 
+DCO GitHub UI Configuration
+![](assets/dco-github-ui.png)
+
+GitHub user profile (https://github.com/settings/profile)
+![](assets/github-settings-profile.png)
 

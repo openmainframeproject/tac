@@ -46,6 +46,20 @@ There are a number of great tools out there to manage DCO signoffs for developer
   - Chrome - https://chrome.google.com/webstore/detail/dco-github-ui/onhgmjhnaeipfgacbglaphlmllkpoijo
   - Firefox - https://addons.mozilla.org/en-US/firefox/addon/scott-rigby/?src=search
 
+Additionally, it is possible to use shell scripting to automatically apply signing. Here is an example for bash, to be put into a .bashrc file:
+
+```
+git() {
+    if [[ $1 == "commit" ]]; then
+        shift
+        echo "Executing git commit -s $@"
+        command git commit -s "$@"
+    else
+        command git "$@"
+    fi
+}
+```
+
 ### Signoff for commits where the DCO signoff was missed
 
 When bringing in a code repository for the first time, or commits done before the DCO checks are enabled, there would be a series of commits that don't include the sign-off statement. You can retroactively signoff commits you've made by make a commit with your DCO signoff that contains a new text file ( suggested name is past_commits.txt ) with the following contents:

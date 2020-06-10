@@ -58,3 +58,14 @@ The following commits were made pursuant to the Developer Certificate of Origin,
 ````
 
 Each user who has made the past commits should have thier own <code>Signed-off-by:</code> line in the commit message.
+
+This process can be automated using the [DCO Org Check script](https://github.com/jmertic/dco-org-check).
+
+### Handling DCO errors using GitHub website commits
+
+The [Probot: DCO](https://github.com/probot/dco) app requires that the email address and name specifyed in the DCO Signoff match that of the current infortmation from the user making the commit. Generally this is handled automatically when using a local git client, but when making contributions from the GitHub website directly this needs to be aligned manually. 
+
+If you are using one of the recommended [GitHub UI integrations for adding the signoff automatically]( https://github.com/scottrigby/dco-gh-ui), you will want to ensure that the name and email listed there match that which is in your GitHub profile.
+
+
+

@@ -21,5 +21,5 @@ Q: What if the goals or mission of the working group change?
 A: The TAC recognizes that in the lifecycle of a working group goals or mission may change. In those cases, the working group must present to the TAC an updated version of their [template] for approval.
 
 [TAC member]: https://github.com/openmainframeproject/tac#tac-members
-[template]: https://github.com/openmainframeproject/tac/blob/master/process/wg_readme_template.md
+[template]: wg_readme_template.md
 [request on the foundation repo]: https://github.com/openmainframeproject/foundation/issues/new/choose

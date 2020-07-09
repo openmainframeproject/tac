@@ -56,6 +56,14 @@ There are many more mainframe-centric open source projects than what is hosted a
 
 [![Open Mainframe Project Landscape](https://landscape.openmainframeproject.org/images/landscape.png)](https://landscape.openmainframeproject.org)
 
+# Working Groups
+
+Open Mainframe Project TAC has established a working groups program for the open source on mainframe community to collaborate on topical areas that are pertainent to the community. More details on the working group program and how to establish a working group can be found [here](https://github.com/openmainframeproject/tac/blob/master/process/working_groups.md)
+
+## Active Working Groups
+
+- [COBOL WG](https://github.com/openmainframeproject/wg-cobol)
+
 # Meetings
 
 TAC Meetings are are open to anyone interested in participating in the project. Meetings are generally scheduled the second Thursday of each month at 1pm US Eastern Time; the current schedule is available on the [TAC calendar](https://lists.openmainframeproject.org/g/omp-technical/calendar)

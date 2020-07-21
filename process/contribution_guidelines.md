@@ -4,6 +4,14 @@ This document captures the general guidelines for contributing to open source pr
 
 Note that each hosted project may adopt thier own guidelines, which would supercede these provisions in the case of conflict.
 
+## Two-factor authentication (2FA)
+
+To enable stronger security for hosted projects, Open Mainframe Project TAC requires all hosted projects to require Two-factor authentication (2FA) for accessing repos. Instructions for GitHub are below...
+
+- [Configuring 2FA for your GitHub account](https://docs.github.com/en/github/authenticating-to-github/configuring-two-factor-authentication)
+- [Accessing GitHub using 2FA](https://docs.github.com/en/github/authenticating-to-github/accessing-github-using-two-factor-authentication)
+- [Recovering your account if you lose your 2FA credentials](https://docs.github.com/en/github/authenticating-to-github/recovering-your-account-if-you-lose-your-2fa-credentials)
+
 ## License specification
 
 All source code must clearly identify the open source license used. The Open Mainframe Project charter dictates [Apache 2](https://spdx.org/licenses/Apache-2.0.html) by default except for Linux kernel code which must be [GPLv2](https://spdx.org/licenses/GPL-2.0). All	documentation	and non-code will	be received and	made available by the Project under the Creative Commons Attribution 4.0 International License (available at http://creativecommons.org/licenses/by/4.0/).

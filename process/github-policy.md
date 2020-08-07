@@ -10,11 +10,11 @@ When a new project or repository is to be added, please [submit a request to the
 
 ### Code license scan
 
-If adding the new project or repository will include a code dump, it's highly recommended to request a code license scan before bringing the code in. This scan will be a validation for...
+If adding the new project or repository will include a code dump, it's highly recommended to request a code license scan before bringing the code in. This scan will look for, and will provide recommendations (or in some case required prior remediation), for:
 
-- All files include correct license headers and copyright statements ( refer to the [License Specification in the Contribution Guidelines](https://github.com/openmainframeproject/tac/blob/master/process/contribution_guidelines.md#license-specification) for more information ).
-- There isn't any incompatible licensed code ( either with a non-OSI license or a license that is incompatible with the project's license ).
-- Any other best practices guidance.
+- Presence of third party licenses (OSI-approved or otherwise) which might be considered incompatible with the project's license
+- Presence of headers with the project's designated license(s) and preferred copyright notices in project files (refer to the [License Specification in the Contribution Guidelines](https://github.com/openmainframeproject/tac/blob/master/process/contribution_guidelines.md#license-specification) for more information)
+- Any other best practices guidance 
 
 Typically code license scans are a fairly quick turnaround, but that might take longer for bigger code bases.
 
@@ -32,7 +32,7 @@ There are two strategies for migrating the code to an Open Mainframe Project man
 - If preserving the commit history is important, then the repository can be transferred using the [GitHub transfer repository](https://docs.github.com/en/github/administering-a-repository/transferring-a-repository) process. If doing this, then before the transfer you must add a commit to the repository providing a DCO signoff for all previous commits. Easiest way is to check in a file called `past-dco-signoff.txt` with the contents below...
 
 ```
-I, <AUTHOR NAME> hereby sign-off-by all of the past commits to this repo subject to the Developer Certificate of Origin (DCO), Version 1.1. 
+I, <AUTHOR NAME> <<AUTHOR EMAIL>> hereby sign-off-by all of the commits prior to and including <COMMIT_HASH> to this repo subject to the Developer Certificate of Origin (DCO), Version 1.1. 
 ```
 
 ## Settings
@@ -41,7 +41,7 @@ Generally the following settings apply to all Open Mainframe Project managed rep
 
 ### DCO
 
-The [DCO Github app](https://probot.github.io/apps/dco/) is installed by default on all repositories and organizations, as the DCO is generally required for contributions into Open Mainframe Project hosted projects. This app will block a commit without a valid DCO signoff.
+The [DCO Github app](https://probot.github.io/apps/dco/) is installed by default on all repositories and organizations, as the DCO is generally required for contributions into Open Mainframe Project hosted projects. This app will block a commit without a valid DCO signoff. The DCO app should not be disabled or bypassed after it is enabled.
 
 ### Permissions
 

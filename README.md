@@ -9,7 +9,7 @@ Any member of the Open Mainframe Project committee may participate in TAC meetin
   * Phil Tully, ADP (Chairperson)
   * Gregory MacKinnon, CA Technologies
   * Enyu Wang, IBM
-  * Jean-Philippe Linardon, Rocket Software
+  * Peter Fandel, Rocket Software
   * Mark Post, SUSE
   * Bob Dahlberg, Virginia Commonwealth University ( Project Lead - Mentorship Program )
   * James Caffrey, IBM ( Project Lead - ADE )

@@ -1,7 +1,7 @@
 name: Send TAC meeting agenda to email list
 on:
   issues:
-    types: [opened,edited]
+    types: [opened]
 jobs:
   build:
     runs-on: ubuntu-latest

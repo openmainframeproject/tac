@@ -15,3 +15,11 @@ jobs:
         createWithin: P1D
         issueTitle: "TAC Meeting <%= date.toFormat('yyyy-MM-dd') %>"
         agendaLabel: meeting-agenda
+    - uses: timheuer/issue-notifier@v1
+      env:
+        SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
+      with:
+        fromMailAddress: 'tac@openmainframeproject.org'
+        toMailAddress: 'omp-technical@lists.openmainframeproject.org'
+        subject: 'TAC meeting agenda for today'
+        labelsToMonitor: 'meeting'

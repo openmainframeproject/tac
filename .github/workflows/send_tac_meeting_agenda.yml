@@ -13,4 +13,4 @@ jobs:
         fromMailAddress: 'tac@openmainframeproject.org'
         toMailAddress: 'omp-technical@lists.openmainframeproject.org'
         subject: 'TAC meeting agenda for today'
-        labelsToMonitor: 'meeting-agenda'
+        labelsToMonitor: 'meeting'

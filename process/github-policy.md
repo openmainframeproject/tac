@@ -1,5 +1,21 @@
 # GitHub policies
 
+- [New project or repository](#new-project-or-repository)
+  - [Code license scan](#code-license-scan)
+  - [Repository setup](#repository-setup)
+  - [Code migration](#code-migration)
+- [Settings](#settings)
+  - [DCO](#dco)
+  - [Permissions](#permissions)
+  - [Branch protection](#branch-protection)
+- [Issue management](#issue-management)
+  - [Issue and pull request templates](#issue-and-pull-request-templates)
+  - [CODEOWNERS](#codeowners)
+  - [Project boards](#project-boards)
+- [Best practices for hosting code on GitHub](#best-practices-for-hosting-code-on-github)
+- [FAQs](#faqs)
+  - [Why don't project members have `admin` permission on repositories or organizations?](#why-dont-project-members-have-admin-permission-on-repositories-or-organizations)
+
 Open Mainframe Project hosted projects generally use GitHub for code hosting and issue management. GitHub organizations for hosted projects are owned and admistered by the Linux Foundation staff, including the Linux Foundation release engineering team, to ensure the sustainability of the infrastructure. 
 
 This document outlines the policies and procedures for projects using GitHub for code hosting. In addition, the Linux Foundation release engineering team maintains [documentation](https://docs.releng.linuxfoundation.org/en/latest/) on it's services, policies, and procedures.
@@ -72,6 +88,24 @@ Defining a CODEOWNERS makes assigning new pull requests to the right committers 
 Issue triaging can be complicated and overwhelming, especially in the context of managing a project to a release point. For projects that utilize an organization, having a single view of open issues across repositories is also very helpful in release management.
 
 GitHub has the functionality for doing either a [single repository project board](https://docs.github.com/en/github/managing-your-work-on-github/creating-a-project-board#creating-a-repository-project-board) or a [multiple repository project board](https://docs.github.com/en/github/managing-your-work-on-github/creating-a-project-board#creating-an-organization-wide-project-board). There are also [automation capabilties](https://docs.github.com/en/github/managing-your-work-on-github/about-automation-for-project-boards) that can be leveraged to aid in using project boards.
+
+## Best practices for hosting code on GitHub
+
+These practices will help you improve your GitHub presence in an effort to help you attract more users and developers to your project, secure your account, be precise about licensing, and maintain good housekeeping. Please issue a PR to add new recommendations or update existing ones.
+
+* Use the [REPOLINTER](https://github.com/todogroup/repolinter) tool created by the TODO Group to identify common issues in GitHub repos. 
+* Ensure that every repo includes a LICENSE file. 
+* Add a README file to your repos welcoming new community members to the project and explaining why the project is useful and how to get started.
+* Add a CONTRIBUTING file to your repos explaining to other developers and your community of users how to contribute to the project. At a high level, the file would explain what types of contributions are needed and how the process works.
+* Add CODEOWNERS file to define individuals or teams that are responsible for code in a repository.
+* Add a CODE_OF_CONDUCT file that sets the ground rules for participants’ behavior associated and helps to facilitate a friendly, welcoming environment. While not every project has a CODE_OF_CONDUCT file, its presence signals that this is a welcoming project to contribute to, and defines standards for how to engage with the project’s community. You are welcome to use the Linux Foundation’s Code of Conduct if project specific CoC does not exist.
+* Provide documentation on the release methodology, cadence, criteria, etc.
+* Document your project governance and make it available on the project’s repo.
+* Add a SUPPORT file to let users and developers know about ways to get help with your project. You can either add in this file how and where security issues are handled, or put it at the top level readme for the project, or alternatively refer to security documentation.
+* Archive inactive repos to flag to your users and other developers that you’re not maintaining them.
+* Setup issue template and pull request templates that help you customize and standardize the information you'd like contributors to include when they open issues and pull requests in your repository.
+* Identify who on the project will be handling security issues (could be a team) and set up a separate email account.  Consider having the project become a CNA (CVE Numbering Authority).
+* Use English as the default universal language for anything you publish on GitHub. You can support a second language but English should be the primary language of communication towards a universal audience.
 
 ## FAQs
 

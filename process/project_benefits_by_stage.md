@@ -36,5 +36,6 @@ Open Mainframe Project is always open to feedback to feedback on the benefits pr
 |  Project Specific requests for upcoming year | Case-by-case | Project Specific budget line item consideration |
 |  Meetups | Up to $250/meetup | Up to $250/meetup |
 |  **Training and Ecosystem** |  |  |
+|  Access to Mentorship Program | Included | Included |
 |  EdX Introductory Course | Case-by-case | $10,000 for edX course |
 |  Conformance Program | N/A | Included |

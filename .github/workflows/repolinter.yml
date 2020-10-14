@@ -18,6 +18,6 @@ jobs:
         with:
           node-version: '12.x'
       - name: "Install repolinter"
-        run: npm install -g github:todogroup/repolinter.git#ae6688cddeed312d45a50d7439ae71383eb660e2
+        run: npm install -g repolinter
       - name: "Run repolinter"
         run: repolinter lint --dryRun -g $GITHUB_SERVER_URL/$GITHUB_REPOSITORY

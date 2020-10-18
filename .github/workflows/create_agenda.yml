@@ -4,6 +4,7 @@ name: Schedule monthly TAC meetings
 on:
   schedule:
     - cron: '0 0 * * *'
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -23,3 +24,4 @@ jobs:
         toMailAddress: 'omp-technical@lists.openmainframeproject.org'
         subject: 'TAC meeting agenda for today'
         labelsToMonitor: 'meeting'
+        verbose: true

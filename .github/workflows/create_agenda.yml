@@ -16,7 +16,7 @@ jobs:
         createWithin: P1D
         issueTitle: "TAC Meeting <%= date.toFormat('yyyy-MM-dd') %>"
         agendaLabel: meeting-agenda
-    - uses: timheuer/issue-notifier@v1
+    - uses: timheuer/issue-notifier@v1.0.2
       env:
         SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
       with:

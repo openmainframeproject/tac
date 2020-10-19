@@ -15,7 +15,7 @@ If you would like to submit a working group proposal, please submit the [templat
 A: Anyone can propose a new working group ( whether from an Open Mainframe Project member organization or not ), but it must be sponsored by a [TAC member].
 
 ### Q: Can working groups have infrastructure during formation to enable collaboration?
-A: Yes! Please submit a [request on the foundation repo] and we can provide a mailing list, Slack channel, and GitHub repo.
+A: Yes! Please submit a [request on the foundation repo] and we can provide a mailing list, Slack channel, Zoom meeting, and/or GitHub repo as needed. The TAC can also provide additional infrastucture upon request.
 
 ### Q: What if the goals or mission of the working group change?
 A: The TAC recognizes that in the lifecycle of a working group goals or mission may change. In those cases, the working group must present to the TAC an updated version of their [template] for approval.

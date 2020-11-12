@@ -33,7 +33,7 @@ With the goal of promoting Open Mainframe Project and its hosted projects around
 
 ## Are you interested in becoming an official Open Mainframe Ambassador?
 
-Apply now!
+[Apply now!](https://github.com/openmainframeproject/tac/issues/new/choose)
 
 ## Code of Conduct
 

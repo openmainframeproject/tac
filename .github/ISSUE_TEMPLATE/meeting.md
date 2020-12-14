@@ -71,10 +71,10 @@ Quorum Achieved.
 
 Extracted from **<%= agendaLabel %>** labelled issues and pull requests from **<%= owner %>/<%= repo %>** prior to the meeting.
 
-* Project updates ( list at https://github.com/openmainframeproject/tac#tac-projects )
 <%= agendaIssues.map((i) => {
   return `* ${i.title} [#${i.number}](${i.html_url})`
 }).join('\n') %>
+* Project updates ( list at https://github.com/openmainframeproject/tac#tac-projects )
 
 ## Action Items
 

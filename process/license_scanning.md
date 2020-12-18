@@ -1,8 +1,19 @@
-**The Linux Foundation**
+# The Linux Foundation License Scanning and Analysis Support Program for LF projects
 
-**License Scanning and Analysis Support Program for LF projects**
+- [Support plan summary for 2021: Open Mainframe Project](#support-plan-summary-for-2021-open-mainframe-project)
+    - [Notes](#notes)
+    - [Dependencies on other LF and project teams](#dependencies-on-other-lf-and-project-teams)
+  - [Covered projects and schedule of scans](#covered-projects-and-schedule-of-scans)
+    - [Every Month](#every-month)
+    - [Cycle 1](#cycle-1)
+    - [Cycle 2](#cycle-2)
+    - [Cycle 3](#cycle-3)
+  - [Exhibits](#exhibits)
+    - [Exhibit 1](#exhibit-1)
+    - [Exhibit 2](#exhibit-2)
+    - [Exhibit 3](#exhibit-3)
 
-**Support plan summary for 2021: Open Mainframe Project**
+## Support plan summary for 2021: Open Mainframe Project
 
 Support to be provided by: Steve Winslow
 &lt;<swinslow@linuxfoundation.org>&gt;
@@ -83,11 +94,11 @@ resources and time:
     4.  work towards providing vulnerability findings as part of
         results.
 
-> Note that WhiteSource has recently been incorporated into the license
-> scanning workflow, so some of this functionality will be subject to
-> continued development of the scanning workflow automation.
+Note that WhiteSource has recently been incorporated into the license
+scanning workflow, so some of this functionality will be subject to
+continued development of the scanning workflow automation.
 
-Notes:
+### Notes
 
 -   The Linux Foundation is not able to provide legal advice to project
     community members. The support program is focused on providing
@@ -103,7 +114,7 @@ Notes:
     scanning results, and does not guarantee that all possible license
     issues in a scanned codebase will be identified.
 
-Dependencies on other LF and project teams:
+### Dependencies on other LF and project teams
 
 -   Will periodically need assistance from project manager or similar
     project staff support, to coordinate on preferred methods for
@@ -115,13 +126,13 @@ Dependencies on other LF and project teams:
     scan types)
 
 
-Covered projects and schedule of scans:
+## Covered projects and schedule of scans
 
-> **<u>Every Month</u>**:
+### Every Month
 
 -   Zowe
 
-> **<u>Cycle 1</u>**: **January, April, July, October**:
+### Cycle 1
 
 -   Polycephaly
 
@@ -131,9 +142,9 @@ Covered projects and schedule of scans:
 
 -   Zorow
 
-> **<u>Cycle 2</u>**: **February, May, August, November**:
+### Cycle 2
 
--   Ambitus\*
+-   Ambitus ( see note below )
 
 -   ADE
 
@@ -141,9 +152,9 @@ Covered projects and schedule of scans:
 
 -   Tessia
 
-> **<u>Cycle 3</u>**: **March, June, September, December**:
+### Cycle 3
 
--   CBT Tape\*\*
+-   CBT Tape ( see note below )
 
 -   Cobol Programming Course
 
@@ -151,17 +162,17 @@ Covered projects and schedule of scans:
 
 -   GenevaERS
 
-> Anticipate up to approximately 12 new small-to-medium projects to come
-> in during 2021. Will perform pre-intake scans and allocate to cycles
-> based on project sizing.
->
-> \* **Ambitus**: to be discussed what to cover in scanning, in light of
-> Ambitus’s forks of several large pre-existing OSS projects.
->
-> \*\* **CBT Tape**: to be discussed what (if anything) to cover in
-> scanning, in light of CBT Tape’s historical context.
+Anticipate up to approximately 12 new small-to-medium projects to come
+in during 2021. Will perform pre-intake scans and allocate to cycles
+based on project sizing.
 
-Exhibits:
+- **Ambitus**: to be discussed what to cover in scanning, in light of
+Ambitus’s forks of several large pre-existing OSS projects.
+
+- **CBT Tape**: to be discussed what (if anything) to cover in
+scanning, in light of CBT Tape’s historical context.
+
+## Exhibits
 
 1.  Screenshots from example SPDX document
 
@@ -169,14 +180,14 @@ Exhibits:
 
 3.  Screenshots from example board decks
 
-**Exhibit 1**
+### Exhibit 1
 
 **Screenshots from example SPDX document**
 
 <img src="assets/license_scanning_image1.png" style="width:3.40084in;height:3.86239in" alt="Graphical user interface, text, application Description automatically generated" />
 <img src="assets/license_scanning_image2.png" style="width:3.4in;height:3.86in" alt="Text Description automatically generated" />
 
-**Exhibit 2**
+### Exhibit 2
 
 **Screenshots from example scan report for developers**
 
@@ -192,7 +203,7 @@ Spreadsheet with detailed findings:
 
 <img src="assets/license_scanning_image5.png" style="width:5.33061in;height:1.63303in" alt="Graphical user interface, table Description automatically generated" />
 
-**Exhibit 3**
+### Exhibit 3
 
 **Screenshots from example board decks**
 

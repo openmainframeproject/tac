@@ -53,14 +53,14 @@ International numbers available: https://zoom.us/zoomconference?m=4ywiZErrEEDIHL
 
 ### Voting member rollcall:
 
-- [ ] Phil Tully, ADP
-- [ ] Gregory MacKinnon, Broadcom
-- [ ] Enyu Wang, IBM
-- [ ] Peter Fandel, Rocket Software
-- [ ] Mark Post, SUSE
+- [ ] Phil Tully, ADP ( Platinum Member )
+- [ ] Gregory MacKinnon, Broadcom ( Platinum Member )
+- [ ] Enyu Wang, IBM ( Platinum Member )
+- [ ] Peter Fandel, Rocket Software ( Platinum Member )
+- [ ] Mark Post, SUSE ( Platinum Member )
 - [ ] James Caffrey, IBM ( ADE )
 - [ ] Bob Dahlberg, VCU ( Mentorship )
-- [ ] _vacant_ ( Zowe )
+- [ ] Sean Grady ( Zowe )
 
 Quorum Achieved.
 

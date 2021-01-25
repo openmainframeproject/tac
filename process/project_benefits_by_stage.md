@@ -38,4 +38,4 @@ Open Mainframe Project is always open to feedback to feedback on the benefits pr
 |  **Training and Ecosystem** |  |  |
 |  Access to Mentorship Program | Included | Included |
 |  EdX Introductory Course | Case-by-case | $10,000 for edX course |
-|  Conformance Program | N/A | Included |
+|  [Conformance Program](conformance_programs.md) | N/A | Included |

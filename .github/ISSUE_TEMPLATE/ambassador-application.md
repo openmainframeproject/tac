@@ -21,6 +21,10 @@ Thank you for your interest in becoming an Open Mainframe Ambassador. To be cons
 * Projects within OMP you would want to be an ambassador for
 
 
+* List any other topics you would be able to speak about
+
+
 * Why do you want to be an ambassador?
 
 
+* Attach a headshot

@@ -6,14 +6,14 @@ Any member of the Open Mainframe Project committee may participate in TAC meetin
 
 ## Voting TAC Members
 
-  * Phil Tully, ADP (Chairperson)
-  * Gregory MacKinnon, CA Technologies
-  * Enyu Wang, IBM
-  * Peter Fandel, Rocket Software
-  * Mark Post, SUSE
-  * Bob Dahlberg, Virginia Commonwealth University ( Project Lead - Mentorship Program )
-  * James Caffrey, IBM ( Project Lead - ADE )
-  * _vacant_ ( Project Lead - Zowe )
+  * Phil Tully, ADP ( Platinum Member - Chairperson)
+  * Gregory MacKinnon, CA Technologies ( Platinum Member )
+  * Enyu Wang, IBM ( Platinum Member )
+  * Peter Fandel, Rocket Software ( Platinum Member )
+  * Mark Post, SUSE ( Platinum Member )
+  * Bob Dahlberg, Virginia Commonwealth University ( Mentorship Program )
+  * James Caffrey, IBM ( ADE )
+  * Sean Grady, Rocket Software ( Zowe )
   * Ingo Adlung, IBM ( CTO, non-voting member )
 
 # TAC Projects

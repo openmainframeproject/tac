@@ -4,6 +4,14 @@ This document captures the general guidelines for contributing to open source pr
 
 Note that each hosted project may adopt thier own guidelines, which would supercede these provisions in the case of conflict.
 
+## Two-factor authentication (2FA)
+
+To enable stronger security for hosted projects, Open Mainframe Project TAC requires all hosted projects to require Two-factor authentication (2FA) for accessing repos. Instructions for GitHub are below...
+
+- [Configuring 2FA for your GitHub account](https://docs.github.com/en/github/authenticating-to-github/configuring-two-factor-authentication)
+- [Accessing GitHub using 2FA](https://docs.github.com/en/github/authenticating-to-github/accessing-github-using-two-factor-authentication)
+- [Recovering your account if you lose your 2FA credentials](https://docs.github.com/en/github/authenticating-to-github/recovering-your-account-if-you-lose-your-2fa-credentials)
+
 ## License specification
 
 All source code must clearly identify the open source license used. The Open Mainframe Project charter dictates [Apache 2](https://spdx.org/licenses/Apache-2.0.html) by default except for Linux kernel code which must be [GPLv2](https://spdx.org/licenses/GPL-2.0). All	documentation	and non-code will	be received and	made available by the Project under the Creative Commons Attribution 4.0 International License (available at http://creativecommons.org/licenses/by/4.0/).
@@ -46,6 +54,20 @@ There are a number of great tools out there to manage DCO signoffs for developer
   - Chrome - https://chrome.google.com/webstore/detail/dco-github-ui/onhgmjhnaeipfgacbglaphlmllkpoijo
   - Firefox - https://addons.mozilla.org/en-US/firefox/addon/scott-rigby/?src=search
 
+Additionally, it is possible to use shell scripting to automatically apply signing. Here is an example for bash, to be put into a .bashrc file:
+
+```
+git() {
+    if [[ $1 == "commit" ]]; then
+        shift
+        echo "Executing git commit -s $@"
+        command git commit -s "$@"
+    else
+        command git "$@"
+    fi
+}
+```
+
 ### Signoff for commits where the DCO signoff was missed
 
 When bringing in a code repository for the first time, or commits done before the DCO checks are enabled, there would be a series of commits that don't include the sign-off statement. You can retroactively signoff commits you've made by make a commit with your DCO signoff that contains a new text file ( suggested name is past_commits.txt ) with the following contents:
@@ -58,3 +80,20 @@ The following commits were made pursuant to the Developer Certificate of Origin,
 ````
 
 Each user who has made the past commits should have thier own <code>Signed-off-by:</code> line in the commit message.
+
+This process can be automated using the [DCO Org Check script](https://github.com/jmertic/dco-org-check).
+
+### Handling DCO errors using GitHub website commits
+
+The [Probot: DCO](https://github.com/probot/dco) app requires that the email address and name specifyed in the DCO Signoff match that of the current infortmation from the user making the commit. Generally this is handled automatically when using a local git client, but when making contributions from the GitHub website directly this needs to be aligned manually. 
+
+If you are using one of the recommended [GitHub UI integrations for adding the signoff automatically]( https://github.com/scottrigby/dco-gh-ui), you will want to ensure that the name and email listed there match that which is in your GitHub profile.
+
+Examples of the UI elements to match are below
+
+DCO GitHub UI Configuration
+![](assets/dco-github-ui.png)
+
+GitHub user profile (https://github.com/settings/profile)
+![](assets/github-settings-profile.png)
+

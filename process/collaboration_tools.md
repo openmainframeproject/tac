@@ -103,9 +103,57 @@ By default, the following permissions apply to calendars:
 
 If you are running into an issue with calendar events, please [submit a request] and the LF Staff can help.
 
+### Meeting management using Open Mainframe Project Calendar
+
+By default, any TSC or TAC chairperson has the ability to schedule community meetings on the [omp-technical calendar] or a project specific calendar, respectively. 
+
+#### Create a new meeting
+
+- Visit the [Open Mainframe Project Calendar]
+- Scroll to the bottom of the group calendar, select **Add Event**, and choose the applicable sub-group you are trying to create a new meeting for (such as tsc@lists... or process@lists..., etc.). The sub-groups you belong to will be displayed along with those you have privileges for. 
+- Fill in the fields for:
+  - Event Name, enter descriptive name for your meeting.
+  - Start and End Times, enter the details noting the Timezone, selecting All Day if applicable.
+  - Event Repeats, select if applicable, and enter the additional details.
+  - Location, this will be the LF Edge Zoom link (which you will need to have previously set up, see Alternate Meeting Host & Recording Privileges info below). 
+    - You must be very careful to not overlap LF Edge Zoom account meetings, you can view all the meetings within the LF Edge Group Calendar section of the Wiki under the ALL Mail Lists section.
+  - Organizer Email, this will be the sub-group mail list (such as tsc@lists... or process@lists..., etc.).
+  - Organizer Phone, is optional.
+  - Event Color, this will be the color noted for the LF Edge Zoom account you are using for the meeting (such as LF Edge Edge Stack 1 being purple in group calendar), color designations for each LF Edge Zoom account are available here. 
+  - Description, this will be the relevant meeting details. It is recommend to enter the following:
+    - Summary of the meeting purpose
+    - Meeting lead name
+    - Wiki page for reference
+    - Full Zoom details
+  - Request RSVP, select this item to ensure that guests can provide a response to your meeting (Will Attend, Will Not Attend, and Not Sure). This will also allow you to see the responses within the meeting invite. 
+    - Max Number of Attendees, can be left at 0, which means unlimited.
+    - Additional Information Requested From Attendees, is optional (such as in person attendance vs via Zoom), this will be asked on the RSVP page.
+    - Note To Send Attendees, is optional (such as a thank you for the RSVP and a pointer to a wiki page for more information).
+  - Reminders, set this up for automatic email reminders to be sent to the applicable mail list regarding the meetings.
+    - A 1 day before and 10 minutes before reminder is suggested as a standard, leave as Send As Normal Message.
+  - Notifications, you must select Send Invite To Group in order for the invite to be sent to the applicable sub-group. 
+    - Leave Send Notice To Group When Event Happens unchecked as it is not a necessary notification in most cases.
+  
+
+#### Update a meeting
+
+- Visit the [Open Mainframe Project Calendar]
+- Click on the event you are updating and select Edit Event and make the applicable changes. 
+    - Select Update Event to save the changes and ensure you choose the update to reflect on Only This Event or All Meetings as applicable.
+
+The meeting update will be reflected in the meeting subscription with the next automatic update.
+    
+#### Cancel/Delete a Meeting   
+
+- Visit the [Open Mainframe Project Calendar]
+- Click on the event you are updating and select Edit Event, scroll to the bottom of the Event and click on Delete Event.
+    - You'll need to select either Only This Event or All Meetings as applicable here as well.
+    
+The meeting update will be reflected in the meeting subscription with the next automatic update.
+
 ### Calendar guidance
 
-To help indivudals not be inandated with calendar overload, try to follow these guidelines:
+To help individuals to not be inandated with calendar overload, try to follow these guidelines:
 
 - The [omp-technical calendar] should only be used for TAC meetings, meetings or events for the full OMP community, and kickoff meetings of new projects.
 - Specific project meetings should be on your project's calendar. All meeting should be on the primary discussion, dev, or user calendar unless it's a specific closed meeting to discuss a sensitive topic.
@@ -131,8 +179,10 @@ Instructions for subscribing to an iCal calendar for popular calendaring tools:
   - Avoid cancelling meetings within 24 hours of the meeting
   - For changes/cancellations, email the invitees as well to inform them of the cancellation
   - When provisioning a new series of recurring meetings, instruct invites to remove old entries manually.
+- Courtesy Email, as a meeting lead it is a best practice to email the applicable sub-group with a note about any new meetings available, any meeting changes, or meeting cancellations. 
 
 [Code of Conduct]: code-of-conduct.md
 [submit a request]: https://github.com/openmainframeproject/foundation/issues/new/choose
 [omp-technical calendar]: https://lists.openmainframeproject.org/g/omp-technical/calendar
 [Open Mainframe Project Program Director]: mailto:pm@openmainframeproject.org
+[Open Mainframe Project Calendar]: https://lists.openmainframeproject.org/calendar

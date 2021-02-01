@@ -53,14 +53,14 @@ International numbers available: https://zoom.us/zoomconference?m=4ywiZErrEEDIHL
 
 ### Voting member rollcall:
 
-- [ ] Phil Tully, ADP
-- [ ] Gregory MacKinnon, Broadcom
-- [ ] Enyu Wang, IBM
-- [ ] Peter Fandel, Rocket Software
-- [ ] Mark Post, SUSE
+- [ ] Phil Tully, ADP ( Platinum Member )
+- [ ] Gregory MacKinnon, Broadcom ( Platinum Member )
+- [ ] Enyu Wang, IBM ( Platinum Member )
+- [ ] Peter Fandel, Rocket Software ( Platinum Member )
+- [ ] Mark Post, SUSE ( Platinum Member )
 - [ ] James Caffrey, IBM ( ADE )
 - [ ] Bob Dahlberg, VCU ( Mentorship )
-- [ ] _vacant_ ( Zowe )
+- [ ] Sean Grady ( Zowe )
 
 Quorum Achieved.
 
@@ -71,10 +71,10 @@ Quorum Achieved.
 
 Extracted from **<%= agendaLabel %>** labelled issues and pull requests from **<%= owner %>/<%= repo %>** prior to the meeting.
 
-* Project updates ( list at https://github.com/openmainframeproject/tac#tac-projects )
 <%= agendaIssues.map((i) => {
   return `* ${i.title} [#${i.number}](${i.html_url})`
 }).join('\n') %>
+* Project updates ( list at https://github.com/openmainframeproject/tac#tac-projects )
 
 ## Action Items
 

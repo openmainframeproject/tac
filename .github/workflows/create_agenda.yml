@@ -4,6 +4,7 @@ name: Schedule monthly TAC meetings
 on:
   schedule:
     - cron: '0 0 * * *'
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,15 +12,7 @@ jobs:
     - uses: wesleytodd/meeting-maker@v0
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        schedules: 2020-09-10T17:00:00.0Z/P4W
+        schedules: 2021-01-14T17:00:00.0Z/P4W
         createWithin: P1D
         issueTitle: "TAC Meeting <%= date.toFormat('yyyy-MM-dd') %>"
         agendaLabel: meeting-agenda
-    - uses: timheuer/issue-notifier@v1
-      env:
-        SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
-      with:
-        fromMailAddress: 'tac@openmainframeproject.org'
-        toMailAddress: 'omp-technical@lists.openmainframeproject.org'
-        subject: 'TAC meeting agenda for today'
-        labelsToMonitor: 'meeting'

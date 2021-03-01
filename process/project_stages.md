@@ -2,7 +2,26 @@ _Approved by Open Mainframe Project TAC on 2021-xx-xx_
 
 # Open Mainframe Project Hosted Project Lifecycle
 
-## Overview
+- [Overview](#overview)
+- [Proposal Process](#proposal-process)
+  - [TAC presentation](#tac-presentation)
+- [Stages](#stages)
+  - [Sandbox Stage](#sandbox-stage)
+    - [Requirements](#requirements)
+    - [Benefits](#benefits)
+    - [Expectations](#expectations)
+  - [Incubation Stage](#incubation-stage)
+    - [Requirements](#requirements-1)
+    - [Benefits](#benefits-1)
+    - [Expectations](#expectations-1)
+  - [Active Stage](#active-stage)
+    - [Requirements](#requirements-2)
+    - [Benefits](#benefits-2)
+    - [Expectations](#expectations-2)
+  - [Emeritus Stage](#emeritus-stage)
+- [TAC Review](#tac-review)
+
+# Overview
 
 This lifecycle document is maintained by the Open Mainframe Project, and its purpose is to:
 

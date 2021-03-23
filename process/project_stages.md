@@ -1,3 +1,7 @@
+---
+parent: Processes
+title: Project Lifecycle
+---
 *Approved by Open Mainframe Project TAC on 2018-09-05*
 
 # Open Mainframe Project Top Level Project Graduation Criteria

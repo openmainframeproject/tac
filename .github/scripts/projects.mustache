@@ -1,0 +1,35 @@
+<table>
+{{#.}}
+{{#items}}
+<tr>
+<td>
+
+{{#logo}}
+{{#details.project_org}}
+[![{{name}}]({{logo}})]({{details.project_org}})
+{{/details.project_org}}
+{{^details.project_org}}
+[![{{name}}]({{logo}})]({{details.repo_url}})
+{{/details.project_org}}
+{{/logo}} 
+
+![Lifecycle](https://img.shields.io/badge/Open%20Mainframe%20Project-{{details.project}}-green?logo=linux-foundation)
+{{#details.stars}}
+![GitHub Stars](https://img.shields.io/badge/stars-{{details.stars}}-white?logo=github)
+{{/details.stars}}
+{{#details.bestPracticeBadgeId}}
+[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/{{details.bestPracticeBadgeId}}/badge)](https://bestpractices.coreinfrastructure.org/projects/{{details.bestPracticeBadgeId}})
+{{/details.bestPracticeBadgeId}}
+{{#comms.mailingList}}
+[![Mailing List](https://img.shields.io/badge/mailing%20list-subscribe-blue?logo=linux-foundation)]({{comms.mailingList}})
+{{/comms.mailingList}}
+{{#comms.slackChannel}}
+[![Slack](https://img.shields.io/badge/Slack-{{comms.slackChannel}}-lightgrey?logo=slack)](https://slack.openmainframeproject.org)
+{{/comms.slackChannel}}
+
+</td>
+</tr>
+{{/items}}
+{{/.}}
+</table>
+

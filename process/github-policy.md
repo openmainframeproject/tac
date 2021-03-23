@@ -1,3 +1,6 @@
+---
+parent: Processes
+---
 # GitHub policies
 
 - [New project or repository](#new-project-or-repository)

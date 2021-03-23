@@ -1,4 +1,19 @@
+---
+parent: Processes
+---
 # Zoom guidelines
+
+- [Code of conduct](#code-of-conduct)
+- [Setting up your meeting and moderation](#setting-up-your-meeting-and-moderation)
+    - [Moderation](#moderation)
+      - [Related moderation documentation](#related-moderation-documentation)
+    - [Escalating and/Reporting a Problem](#escalating-andreporting-a-problem)
+- [Meeting recordings](#meeting-recordings)
+- [Screen sharing guidelines and recommendations](#screen-sharing-guidelines-and-recommendations)
+- [Audio/Video quality recommendations](#audiovideo-quality-recommendations)
+    - [Recommended hardware to have](#recommended-hardware-to-have)
+    - [Hardware we don't recommend](#hardware-we-dont-recommend)
+    - [Pro-tips](#pro-tips)
 
 Zoom is the main video communication platform for Open Mainframe Project. It is used for running the both techincal community and member meetings, along with many other Open Mainframe Project  online events. Since the Zoom meetings are open to the general public, a Zoom host or co-host
 has to moderate a meeting in all senses of the word from starting and stopping

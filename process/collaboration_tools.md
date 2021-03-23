@@ -1,4 +1,29 @@
+---
+parent: Processes
+title: Collaboration Tools
+---
+
 # Open Mainframe Project community collaboration tools
+
+- [Slack](#slack)
+    - [DM (Direct Message) Conversations](#dm-direct-message-conversations)
+    - [Specific Channel Rules](#specific-channel-rules)
+    - [Escalating and/or Reporting a Problem](#escalating-andor-reporting-a-problem)
+    - [Requesting a Channel](#requesting-a-channel)
+    - [Requesting a Bot, Token, or Webhook](#requesting-a-bot-token-or-webhook)
+- [Mailing lists](#mailing-lists)
+    - [Key mailing lists](#key-mailing-lists)
+    - [Moderation and Moderation Guidelines](#moderation-and-moderation-guidelines)
+    - [Mailing list best practices](#mailing-list-best-practices)
+- [Calendars](#calendars)
+    - [Meeting management using Open Mainframe Project Calendar](#meeting-management-using-open-mainframe-project-calendar)
+      - [Create a new meeting](#create-a-new-meeting)
+      - [Update a meeting](#update-a-meeting)
+      - [Cancel/Delete a Meeting](#canceldelete-a-meeting)
+    - [Calendar guidance](#calendar-guidance)
+    - [Subscribing to calendars](#subscribing-to-calendars)
+    - [Calendar management best practices](#calendar-management-best-practices)
+
 
 Open Mainframe Project maintains a number of tools to enable collaboration amongst community participants. To help navigate these tools, this document provides a brief outline of how to use them and best practices.
 
@@ -143,7 +168,7 @@ By default, any TSC or TAC chairperson has the ability to schedule community mee
 
 The meeting update will be reflected in the meeting subscription with the next automatic update.
     
-#### Cancel/Delete a Meeting   
+#### Cancel/Delete a Meeting
 
 - Visit the [Open Mainframe Project Calendar]
 - Click on the event you are updating and select Edit Event, scroll to the bottom of the Event and click on Delete Event.

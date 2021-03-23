@@ -1,3 +1,8 @@
+---
+parent: Processes
+title: License Scanning and Analysis Support Program
+---
+
 # The Linux Foundation License Scanning and Analysis Support Program for LF projects
 
 - [Support plan summary for 2021: Open Mainframe Project](#support-plan-summary-for-2021-open-mainframe-project)

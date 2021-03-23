@@ -1,3 +1,6 @@
+---
+parent: Processes
+---
 # Project Benefits by Stage
 
 Open Mainframe Project hosted projects are able to leverage the world class Linux Foundation staff to help drive further awareness and support of thier projects. Project needs tend to be different based upon the project's maturity, and the Open Mainframe Project aims to ensure that the benefits are tailored to those needs appropriate for it's maturity.

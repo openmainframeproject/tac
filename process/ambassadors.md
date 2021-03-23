@@ -1,4 +1,20 @@
+---
+title: Ambassador Program
+parent: Processes
+---
 # Open Mainframe Project Ambassador Program
+
+- [Requirements for becoming an official Open Mainframe Ambassador](#requirements-for-becoming-an-official-open-mainframe-ambassador)
+- [Expected Time Commitments](#expected-time-commitments)
+- [Ambassador Benefits](#ambassador-benefits)
+- [Are you interested in becoming an official Open Mainframe Ambassador?](#are-you-interested-in-becoming-an-official-open-mainframe-ambassador)
+- [Code of Conduct](#code-of-conduct)
+- [FAQ](#faq)
+	- [How often are ambassador applications reviewed?](#how-often-are-ambassador-applications-reviewed)
+	- [Do I need to re-apply?](#do-i-need-to-re-apply)
+	- [Will you email me with a status update of my application?](#will-you-email-me-with-a-status-update-of-my-application)
+	- [What if I want to step down or don't have the time to commit anymore?](#what-if-i-want-to-step-down-or-dont-have-the-time-to-commit-anymore)
+
 
 Open Mainframe Ambassadors (OMAs) are individuals who are passionate about open source and mainframe, our projects and modern technology.  The influencers and evangelists are already engaged with an [Open Mainframe Project](https://www.openmainframeproject.org/) host project in some way including contributing to forums, online groups, community events, etc.They are willing to share their expertise and help others learn about the hosted projects and community.
 
@@ -10,7 +26,7 @@ The Open Mainframe Ambassador Program exists to empower community members with t
 
 Ambassadors can serve indefinitely, with their ambassadorship renewed on a yearly basis
 
-## Requirements for becoming an official Open Mainframe Ambassador:
+## Requirements for becoming an official Open Mainframe Ambassador
 
 *   Affiliated with an Open Mainframe Project member OR is a contributor to an Open Mainframe Project hosted project.
 *   Willing to speak at community events, write technical content such as blog posts and be interviewed for articles, podcasts or other marketing and educational materials. 

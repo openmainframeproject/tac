@@ -11,7 +11,8 @@ exclude: [
   "Gemfile.lock", 
   "package.json", 
   "package-lock.json",
-  "CODE_OF_CONDUCT.md"
+  "CODE_OF_CONDUCT.md",
+  "LICENSE"
 ]
 
 back_to_top: true

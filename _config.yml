@@ -3,7 +3,7 @@ description: Materials and processes for the Open Mainframe Project TAC
 logo: "https://artwork.openmainframeproject.org/other/open-mainframe-project/horizontal/color/open-mainframe-project-horizontal-color.svg"
 theme: just-the-docs
 
-permalink: pretty
+  #permalink: pretty
 exclude: [
   "completed.md",
   "dco-signoffs/",

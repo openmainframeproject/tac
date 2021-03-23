@@ -98,7 +98,7 @@ GitHub has the functionality for doing either a [single repository project board
 
 GitHub can be daunting for the new user, but once you get the right tools in place contributing becomes much easier. Here's a guide for getting started.
 
-1. Create a GitHub account. Simply visit https://github.com, choose a user name that isn’t already taken, provide an email address and a password, and click the big green “Sign up for GitHub” button.
+1. Create a GitHub account. Simply visit [GitHub](https://github.com), choose a user name that isn’t already taken, provide an email address and a password, and click the big green “Sign up for GitHub” button.
 2. Go to the repository of choice you are looking to contribute to.
 3. Contributing to GitHub may be easier by using GitHub Desktop. You can find information about GitHub Desktop including how to install it [here](https://desktop.github.com/).
 
@@ -106,18 +106,19 @@ GitHub can be daunting for the new user, but once you get the right tools in pla
 Markdown files (.md) are commonly used on GitHub to explain things. They look similar to a document but have markings to allow for formatting. It can be easier to work with Markdown by using tools. You can find information on the types of elements used in GitHub Markdown here: https://guides.github.com/features/mastering-markdown/
 
 There are also various tools you can use to help you see how your Markdown file will look when uploaded to GitHub. The list below is not exhaustive but is meant to provide some examples.
-- Macdown: https://macdown.uranusjr.com/
-- Typora: https://typora.io/
-- StackEdit: https://stackedit.io/
-- Dillinger: https://dillinger.io/
-- Markdown Editor (for Visual Studio): https://marketplace.visualstudio.com/items?itemName=MadsKristensen.MarkdownEditor
-- Draft: https://draftin.com/
-- Ulysses: https://ulysses.app/
-- iA Writer: https://ia.net/writer
-- Dimer: https://dimerapp.com
-- Quiver: http://happenapps.com/
-- Mou: http://25.io/mou/
-- VSCode: https://code.visualstudio.com/docs/languages/markdown
+
+- [Macdown](https://macdown.uranusjr.com/)
+- [Typora](https://typora.io/)
+- [StackEdit](https://stackedit.io/)
+- [Dillinger](https://dillinger.io/)
+- [Markdown Editor (for Visual Studio)](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.MarkdownEditor)
+- [Draft](https://draftin.com/)
+- [Ulysses](https://ulysses.app/)
+- [iA Writer](https://ia.net/writer)
+- [Dimer](https://dimerapp.com)
+- [Quiver](http://happenapps.com/)
+- [Mou](http://25.io/mou/)
+- [VSCode](https://code.visualstudio.com/docs/languages/markdown)
 
 ## Best practices for hosting code on GitHub
 

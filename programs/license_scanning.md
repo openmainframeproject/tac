@@ -1,5 +1,5 @@
 ---
-parent: Processes
+parent: Programs
 title: License Scanning and Analysis Support Program
 ---
 

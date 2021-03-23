@@ -1,7 +1,7 @@
 ---
 parent: Processes
 ---
-# Zoom guidelines
+# Zoom
 
 - [Code of conduct](#code-of-conduct)
 - [Setting up your meeting and moderation](#setting-up-your-meeting-and-moderation)

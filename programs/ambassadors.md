@@ -1,6 +1,6 @@
 ---
 title: Ambassador Program
-parent: Processes
+parent: Programs
 ---
 # Open Mainframe Project Ambassador Program
 

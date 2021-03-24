@@ -3,8 +3,12 @@ description: Materials and processes for the Open Mainframe Project TAC
 logo: "https://artwork.openmainframeproject.org/other/open-mainframe-project/horizontal/color/open-mainframe-project-horizontal-color.svg"
 theme: just-the-docs
 
-  #permalink: pretty
+csv:
+  tscmembers:
+    source: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQy-os8zxtH10lReFECEXLVDhVZNJRDRaPXluCHwqAqZTWprfJ990yUj5gn4e4B1P7R59cbuqgyAMQG/pub?gid=2026616627&single=true&output=csv"
+
 exclude: [
+  "README.md",
   "completed.md",
   "dco-signoffs/",
   "Gemfile", 

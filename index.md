@@ -7,17 +7,15 @@ nav_order: 1
 The role of the Techincal Advisory Council (TAC) is to direct and coordinate the activities of the technical community. It's voting members are comprised of the Platinum members of the Open Mainframe Project, along with the leaders of each project designated as an [Active Stage](process/project_stages.md#active-stage) top-level project by the TAC.
 
 # Voting TAC Members
+{{ site.url }}
+Hi!
+{{ site.tscmembers | jsonify | escape }}
 
-| Representative | Appointed By | Role | Special Role | Organization |
-| --- | --- | --- | --- | --- |
-| James Caffrey | Vote of TSC Committee | Voting Rep | None | International Business Machines Corporation (IBM) |
-| Robert Dahlberg | Vote of TSC Committee | Voting Rep | None | Virginia Commonwealth University |
-| Sean Grady | Vote of TSC Committee | Voting Rep | None | Rocket Software, Inc. |
-| Gregory MacKinnon | Membership Entitlement | Voting Rep | None | Broadcom Corporation |
-| Enyu Wang | Membership Entitlement | Voting Rep | None | International Business Machines Corporation (IBM) |
-| Mark Post | Membership Entitlement | Voting Rep | None | SUSE LLC |
-| Phil Tully | Membership Entitlement | Voting Rep | Chair | Automatic Data Processing, Inc. |
-| Peter Fandel | Membership Entitlement | Voting Rep | None | Rocket Software, Inc. |
+{% for member in site.tscmembers %}
+Hi!
+| {% for item in member %}{{item}} | {% endfor %}
+{% if forloop.first %}| {% for item in member %}--- |{% endfor %}{% endif %}
+{% endfor %}
 
 # Projects and Working Groups
 

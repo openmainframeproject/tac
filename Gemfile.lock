@@ -115,6 +115,8 @@ GEM
       commonmarker (~> 0.17.6)
       jekyll-commonmark (~> 1.2)
       rouge (>= 2.0, < 4.0)
+    jekyll-csv (0.1.1)
+      jekyll (>= 3)
     jekyll-default-layout (0.1.4)
       jekyll (~> 3.0)
     jekyll-feed (0.15.1)
@@ -265,6 +267,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-csv
   just-the-docs
 
 BUNDLED WITH

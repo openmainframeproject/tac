@@ -7,15 +7,21 @@ nav_order: 1
 The role of the Techincal Advisory Council (TAC) is to direct and coordinate the activities of the technical community. It's voting members are comprised of the Platinum members of the Open Mainframe Project, along with the leaders of each project designated as an [Active Stage](process/project_stages.md#active-stage) top-level project by the TAC.
 
 # Voting TAC Members
-{{ site.url }}
-Hi!
-{{ site.tscmembers | jsonify | escape }}
 
-{% for member in site.tscmembers %}
-Hi!
-| {% for item in member %}{{item}} | {% endfor %}
-{% if forloop.first %}| {% for item in member %}--- |{% endfor %}{% endif %}
-{% endfor %}
+<table>
+    <tr>
+        <th>Representative</th>
+	<th>Appointed By</th>
+	<th>Role</th>
+	<th>Special Role</th>
+	<th>Organization</th>
+    </tr>
+{%- for member in site.data.tscmembers -%}
+    <tr>
+       {%- for item in member -%}<td>{{ item[1] }}</td>{%- endfor -%}
+    </tr>    
+{%- endfor -%}
+</table>
 
 # Projects and Working Groups
 

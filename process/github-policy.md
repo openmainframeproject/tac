@@ -67,6 +67,11 @@ Projects should define a COMMITTERS.* file for indicating committers that have t
 
 The best process for adding a new committer is to have that committer issue a pull request to add thier name to the COMMITTERS.* file, where the required number of TSC members or committers can +1 the request and it can be merged in by the TSC chairperson. The TSC chairperson should then tag @jmertic in the pull request and he can add the individual to the team.
 
+### Adding read-only members to an organization
+
+By default, Open Mainframe Project hosted project GitHub organizations and repos have enabled the [invite-contributors
+](https://probot.github.io/apps/invite-contributors/) GitHub app installed, which will automatically sent an invite to anyone with a successful merged pull request to join the organization as a member. The member permission by default is read-only, but this does enable members to have issues and pull requests assigned to them and be tagged inside of issues and pull requests.
+
 ### Branch protection
 
 The below branch protection settings on the `master` or `main` branch is enabled by default.

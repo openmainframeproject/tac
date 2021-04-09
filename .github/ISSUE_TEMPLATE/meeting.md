@@ -1,3 +1,8 @@
+---
+title: %= date.toFormat("yyyy-MM-dd") %>
+parent: Meetings
+---
+
 # Open Mainframe Project TAC Meeting - <%= date.toFormat("MMMM d, yyyy") %>
 
 ## Date/Time
@@ -42,12 +47,7 @@ Meeting ID: 290 221 938
 
 International numbers available: https://zoom.us/zoomconference?m=4ywiZErrEEDIHL6VXNjfZ-PXcfjeWMjs
 
-### Meeting recordings
-
-* [Video](<%= date.toFormat("yyyyMMdd") %>-video.mp4)
-* [Audio](<%= date.toFormat("yyyyMMdd") %>-audio.m4a)
-* [Transcript](<%= date.toFormat("yyyyMMdd") %>-transcript.vtt)
-* [Chat Log](<%= date.toFormat("yyyyMMdd") %>-chatlog.txt)
+[Meeting recordings](https://drive.google.com/drive/folders/13tFBM50RIUGw6ZB-kyb0vcDEA1NMvBTB?usp=sharing)
 
 ## Attendance
 
@@ -59,6 +59,7 @@ International numbers available: https://zoom.us/zoomconference?m=4ywiZErrEEDIHL
 - [ ] Peter Fandel, Rocket Software ( Platinum Member )
 - [ ] Mark Post, SUSE ( Platinum Member )
 - [ ] James Caffrey, IBM ( ADE )
+- [ ] Sudharsana Srinivasan, IBM ( COBOL Programming Course )
 - [ ] Bob Dahlberg, VCU ( Mentorship )
 - [ ] Sean Grady ( Zowe )
 

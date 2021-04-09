@@ -26,3 +26,8 @@ gh_edit_view_mode: "tree"
 
 readme_index:
   with_frontmatter: true
+  
+kramdown:
+  input: GFM
+  extensions:
+    - autolink

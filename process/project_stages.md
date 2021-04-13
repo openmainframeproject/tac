@@ -29,7 +29,7 @@ This lifecycle document is maintained by the Open Mainframe Project, and its pur
 *   Provide a clear process for the contribution of a project to Open Mainframe Project; and
 *   Set milestones and requirements for different stages of a project’s development once accepted into Open Mainframe Project.
 
-Open Mainframe Project may adopt or amend this document by majority affirmative votes of its Technical Advisory Council (“TAC”) and Governing Board.
+Open Mainframe Project may  adopt or amend this document by majority affirmative votes of its Technical Advisory Council (“TAC”) and Governing Board.
 
 # Proposal Process
 
@@ -44,7 +44,7 @@ TAC Projects must be proposed via a new [GitHub Issue](https://github.com/openma
 *   License and contribution guidelines (refer to the Open Mainframe Project guidelines)
 *   Source control (GitHub by default)
 *   External dependencies (including licenses)
-    *   Note that any proposed project should not be predicated on or make use of any commercial software.
+    *   Note that any proposed project should not bundle any closed-source software.
 *   Initial committers
     *   How long has each worked on the project? 
     *   The extent of contributions (how many commits)?  

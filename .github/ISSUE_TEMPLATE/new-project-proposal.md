@@ -35,7 +35,7 @@ Please refer to the guideance in the [project lifecycle](https://github.com/open
 
 
 *   External dependencies (including licenses)
-    *   Note that any proposed project should not be predicated on or make use of any commercial software.
+    *   Note that any proposed project should not bundle any closed-source software.
 
 
 *   Initial committers

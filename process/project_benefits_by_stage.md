@@ -98,17 +98,19 @@ Open Mainframe Project is always open to feedback on the benefits provided feel 
    </td>
    <td>N/A
    </td>
-   <td>Tweet on announcement day. No social card.
-<p>
-Blog or part of a larger Press Release
+   <td><p>Tweet on announcement day. No social card.
+</p>
+     <p>Blog or part of a larger Press Release</p>
    </td>
-   <td>Tweet on announcement day, including social card
+    <td><p>Tweet on announcement day, including social card</p>
 <p>
 Press Release announcement
+      </p>
 <p>
-Blog Post (project to include the content)
+  Blog Post (project to include the content)</p>
 <p>
 An embargoed pitch of the Press Release and top features to the media. Requests for interviews go to the project team.
+      </p>
    </td>
   </tr>
   <tr>
@@ -118,9 +120,10 @@ An embargoed pitch of the Press Release and top features to the media. Requests 
    </td>
    <td>Tweet on announcement day
    </td>
-   <td>Tweet on announcement day
+    <td><p>Tweet on announcement day</p>
 <p>
 Blog post announcement on openmainframeproject.org either written by OMP PR with assistance by the project, re-posting of project’s own blog post, or a blog post written exclusively for openmainframeproject.org by the project team
+      </p>
    </td>
   </tr>
   <tr>
@@ -131,16 +134,17 @@ Blog post announcement on openmainframeproject.org either written by OMP PR with
    <td>Tweet on announcement day
 <p>
 Press Release inclusion (combined with other news items e.g. new Members)
+     </p>
    </td>
-   <td>Tweet on announcement day
+   <td><p>Tweet on announcement day</p>
 <p>
-Press Release inclusion (combined with other news items e.g. new Members)
+Press Release inclusion (combined with other news items e.g. new Members)</p>
 <p>
-Blog post announcement on openmainframeproject.org either written by OMP PR with assistance by the project, re-posting of project’s own blog post, or a blog post written exclusively for openmainframeproject.org by the project team
+Blog post announcement on openmainframeproject.org either written by OMP PR with assistance by the project, re-posting of project’s own blog post, or a blog post written exclusively for openmainframeproject.org by the project team</p>
 <p>
-Embargoed or day-of pitch of the release and top features to the media as relevant. Requests for interviews go to the project team for interviews
+Embargoed or day-of pitch of the release and top features to the media as relevant. Requests for interviews go to the project team for interviews</p>
 <p>
-Project Webinar, up to a max of 2 per year (specific to the Technical Release)
+Project Webinar, up to a max of 2 per year (specific to the Technical Release)</p>
    </td>
   </tr>
   <tr>

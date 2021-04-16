@@ -33,7 +33,6 @@ Open Mainframe Project is always open to feedback on the benefits provided feel 
   </tr>
   <tr>
    <td>Inclusion in OMP Landscape
-<p>
 ( <a href="https://l.openmainframeproject.org/">https://l.openmainframeproject.org</a> )
    </td>
    <td>Included
@@ -55,7 +54,6 @@ Open Mainframe Project is always open to feedback on the benefits provided feel 
   </tr>
   <tr>
    <td>Project swag available in OMP Store
-<p>
 ( <a href="https://store.openaminframeproject.org/">https://store.openaminframeproject.org</a> )
    </td>
    <td>N/A

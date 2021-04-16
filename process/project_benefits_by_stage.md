@@ -318,7 +318,7 @@ Embargoed or day-of pitch of the release and top features to the media as releva
    </td>
   </tr>
   <tr>
-   <td>Training and Ecosystem
+   <td><strong>Training and Ecosystem</strong>
    </td>
    <td>
    </td>
@@ -328,7 +328,7 @@ Embargoed or day-of pitch of the release and top features to the media as releva
    </td>
   </tr>
   <tr>
-   <td>Access to Mentorship Program
+   <td>Access to <a href="https://www.openmainframeproject.org/projects/mentorship-program">Mentorship Program</a>
    </td>
    <td>Included
    </td>

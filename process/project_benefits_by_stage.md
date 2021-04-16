@@ -144,7 +144,7 @@ Blog post announcement on openmainframeproject.org either written by OMP PR with
 <p>
 Embargoed or day-of pitch of the release and top features to the media as relevant. Requests for interviews go to the project team for interviews</p>
 <p>
-Project Webinar, up to a max of 2 per year (specific to the Technical Release)</p>
+  <a href="https://github.com/openmainframeproject/foundation/blob/main/WEBINAR-GUIDELINES.md">Project Webinar</a>, up to a max of 2 per year (specific to the Technical Release)</p>
    </td>
   </tr>
   <tr>
@@ -348,7 +348,7 @@ Project Webinar, up to a max of 2 per year (specific to the Technical Release)</
    </td>
   </tr>
   <tr>
-   <td><a href="https://github.com/openmainframeproject/tac/blob/master/process/conformance_programs.md">Conformance Program</a>
+   <td><a href="conformance_programs">Conformance Program</a>
    </td>
    <td>N/A
    </td>

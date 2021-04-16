@@ -48,7 +48,7 @@ TAC Projects must be proposed via a new [GitHub Issue](https://github.com/openma
 *   License and contribution guidelines (refer to the Open Mainframe Project guidelines)
 *   Source control (GitHub by default)
 *   External dependencies (including licenses)
-    *   Note that any proposed project should not be predicated on or make use of any commercial software.
+    *   Note that any proposed project should not bundle any closed-source software.
 *   Initial committers
     *   How long has each worked on the project? 
     *   The extent of contributions (how many commits)?  

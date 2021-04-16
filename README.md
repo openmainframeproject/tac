@@ -2,4 +2,4 @@
 
 This repo contains materials, meeting materials, and process documents for the Open Mainframe Project TAC.
 
-You can view these materials at https://tac.openmainframeproject.org
+The best way you can view these materials at https://tac.openmainframeproject.org. If you have any feedback or changes, please file a pull request or create an issue.

@@ -16,7 +16,7 @@ The role of the Techincal Advisory Council (TAC) is to direct and coordinate the
 	<th>Special Role</th>
 	<th>Organization</th>
     </tr>
-{%- for member in site.data.tscmembers -%}
+{%- for member in site.data.tacmembers -%}
     <tr>
        {%- for item in member -%}<td>{{ item[1] }}</td>{%- endfor -%}
     </tr>    

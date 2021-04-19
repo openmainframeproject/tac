@@ -10,10 +10,10 @@ jobs:
     - name: Check out repo
       uses: actions/checkout@v2
     - name: Grab latest TAC member list
-      uses: gautemo/fetch-api-data-action@1.0.2
+      uses: carlosperate/download-file-action@v1.0.3
       with:
-         url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQy-os8zxtH10lReFECEXLVDhVZNJRDRaPXluCHwqAqZTWprfJ990yUj5gn4e4B1P7R59cbuqgyAMQG/pub?gid=2026616627&single=true&output=csv'
-         file: '_data/tacmembers.csv'
+         file-url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQy-os8zxtH10lReFECEXLVDhVZNJRDRaPXluCHwqAqZTWprfJ990yUj5gn4e4B1P7R59cbuqgyAMQG/pub?gid=2026616627&single=true&output=csv'
+         file-name: '_data/tacmembers.csv'
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v3
       with:

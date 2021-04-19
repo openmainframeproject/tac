@@ -6,50 +6,60 @@ labels: meeting-agenda
 assignees: ''
 
 ---
+Thank you for looking to bring your project to the Open Mainframe Project. Please answer the questions below to have this project be added to the agenda at a future TAC meeting for consideration as a new project.
 
-* Name of project (must be unique within OMP)
+Please refer to the guideance in the [project lifecycle](https://github.com/openmainframeproject/tac/blob/master/process/project_stages.md#proposal-process).
 
-
-* Project description (what it does, why it is valuable, origin and history)
-
-
-* Statement on alignment with OMP charter mission
+*   Name of the project (must be unique within Open Mainframe Project) - please also add to title
 
 
-* Sponsor from TAC (sponsor helps mentor projects)
+*   Project description (what it does, why it is valuable, origin and history)
 
 
-* Preferred maturity level (see [project stages](../../process/project_stages.md))
+*   Statement on alignment with [Open Mainframe Project Mission and Vision statements](https://www.openmainframeproject.org/about)
 
 
-* License and contribution guidelines (refer to the [OMP guidelines](contribution_guidelines.md))
+*   Are there similar/related projects out there? If so, what is different about this project?
 
 
-* Source control (GitHub by default)
+*   Sponsor from TAC (sponsor helps mentor projects - if the project doesn’t currently have a sponsor, the TAC will appoint one as part of the approval process)
 
 
-* External dependencies (including licenses)
+*   Proposed Project Stage
 
 
-* Initial committers (how long working on project)
+*   License and contribution guidelines (refer to the Open Mainframe Project guidelines)
 
 
-* Infrastructure requests (CI / OMP Cluster)
+*   Source control (GitHub by default)
 
 
-* Communication channels (slack, irc, mailing lists)
+*   External dependencies (including licenses)
+    *   Note that any proposed project should not be predicated on or make use of any commercial software.
 
 
-* Issue tracker (GitHub by default)
+*   Initial committers
+    *   How long has each worked on the project? 
+    *   The extent of contributions (how many commits)?  
+    *   Diversity of community (is the contributor base diverse in terms of being spread across different organizations/companies)?
 
 
-* Website
+*   Infrastructure requests (CI / build infrastructure)
 
 
-* Release methodology and mechanics
+*   Communication channels (such as Slack/IRC channels, mailing lists, forums, and/or other discussion tools)
 
 
-* Social media accounts
+*   Issue tracker (GitHub by default)
 
 
-* Community size and any existing sponsorship
+*   Website
+
+
+*   Release methodology and mechanics
+
+
+*   Social media accounts
+
+
+*   Community size and any existing sponsorship

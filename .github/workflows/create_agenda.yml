@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: wesleytodd/meeting-maker@v0
+    - uses: pkgjs/meet@v0
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         schedules: 2021-01-14T17:00:00.0Z/P4W

@@ -1,7 +1,16 @@
+---
+parent: Processes
+title: Working Groups
+---
+
 # Open Mainframe Project Working Groups
 _Modeled off of CNCF Working Group model ( https://github.com/cncf/toc/blob/master/workinggroups/README.md )_
 
-## Introduction
+- [Process](#process)
+- [FAQs](#faqs)
+    - [Q: Who can propose a new working group?](#q-who-can-propose-a-new-working-group)
+    - [Q: Can working groups have infrastructure during formation to enable collaboration?](#q-can-working-groups-have-infrastructure-during-formation-to-enable-collaboration)
+    - [Q: What if the goals or mission of the working group change?](#q-what-if-the-goals-or-mission-of-the-working-group-change)
 
 The purpose of working groups are to study and report on a particular question and make recommendations based on it's findings. The end result of a working group may be a new project proposal, landscape, whitepaper or even a report detailing it's findings. The intention of working groups is not to host a full project or specification. Working Groups can be formed at any time but must be sponsored by a [TAC member] and with an affirmative vote of the Open Mainframe Project TAC. The TAC can also shut down a working group with a majority vote.
 

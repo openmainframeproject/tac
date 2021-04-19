@@ -1,3 +1,7 @@
+---
+nav_exclude: true
+---
+
 # Completed Project by the Open Mainframe Project community
 
 ## Develop a JIT for OpenJDK

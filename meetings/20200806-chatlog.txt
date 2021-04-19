@@ -1,7 +1,0 @@
-00:20:27	John Mertic:	https://github.com/openmainframeproject/tac/issues/121
-00:20:37	John Mertic:	Atom plugins is up for graduation #104
-TerseDecompress incubation renewal #103
-Enabling GitHub Actions for OMP Hosted projects #99
-Project updates ( list at https://github.com/openmainframeproject/tac#tac-projects )
-00:48:00	John Mertic:	https://ibm.webex.com/meet/gcartier
-00:49:54	John Mertic:	https://events.linuxfoundation.org/open-mainframe-summit/

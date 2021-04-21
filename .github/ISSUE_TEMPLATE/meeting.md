@@ -1,8 +1,3 @@
-<%= return `---` %>
-title: <%= date.toFormat("yyyy-MM-dd") %>
-parent: Meetings
-<%= return `---` %>
-
 # Open Mainframe Project TAC Meeting - <%= date.toFormat("MMMM d, yyyy") %>
 
 ## Date/Time

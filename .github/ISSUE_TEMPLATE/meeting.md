@@ -1,5 +1,5 @@
 ---
-title: %= date.toFormat("yyyy-MM-dd") %>
+title: <%= date.toFormat("yyyy-MM-dd") %>
 parent: Meetings
 ---
 

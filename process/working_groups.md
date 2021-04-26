@@ -1,6 +1,7 @@
 ---
 parent: Processes
 title: Working Groups
+nav_order: 2
 ---
 
 # Open Mainframe Project Working Groups

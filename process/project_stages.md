@@ -1,6 +1,7 @@
 ---
 parent: Processes
 title: Project Lifecycle
+nav_order: 1
 ---
 _Approved by Open Mainframe Project TAC on 2021-xx-xx_
 

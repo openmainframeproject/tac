@@ -1,5 +1,6 @@
 ---
-parent: Processes
+parent: Tools
+title: GitHub
 ---
 # GitHub policies
 

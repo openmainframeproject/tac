@@ -2,9 +2,9 @@
 title: Home
 nav_order: 1
 ---
-# Open Mainframe Project Techincal Advisory Council (TAC)
+# Open Mainframe Project Technical Advisory Council (TAC)
 
-The role of the Techincal Advisory Council (TAC) is to direct and coordinate the activities of the technical community. It's voting members are comprised of the Platinum members of the Open Mainframe Project, along with the leaders of each project designated as an [Active Stage](process/project_stages.md#active-stage) top-level project by the TAC.
+The role of the Technical Advisory Council (TAC) is to direct and coordinate the activities of the technical community. It's voting members are comprised of the Platinum members of the Open Mainframe Project, along with the leaders of each project designated as an [Active Stage](process/project_stages.md#active-stage) top-level project by the TAC.
 
 # Voting TAC Members
 

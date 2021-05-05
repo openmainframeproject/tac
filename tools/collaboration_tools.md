@@ -126,7 +126,7 @@ By default, the following permissions apply to calendars:
 - TSC project chairpersons can manage thier respective project calendars.
 - LF Staff can manage any calendar event
 
-If you are running into an issue with calendar events, please [submit a request] and the LF Staff can help.
+If you are running into an issue with calendar events, please [submit a request] and the LF Staff can help. It's also recommended to review the [groups.io instructions for using the calendar](https://groups.io/helpcenter/membersmanual/1/working-with-calendars) for additional assistance.
 
 ### Meeting management using Open Mainframe Project Calendar
 

@@ -1,0 +1,30 @@
+---
+parent: Processes
+---
+
+# Project Review Cycle
+
+<table class="sortable">
+<thead>
+    <tr>
+        <th>Project</th>
+        <th>Current Level</th>
+        <th>Initially Accepted</th>
+        <th>Last Review Date</th>
+        <th>Next Review Date</th>
+    </tr>
+</thead>
+<tbody>
+{%- for project in site.data.projects -%}
+    <tr>
+        <td>{{ project["Name"] }}</td>
+        <td>{{ project["Level"] }}</td>
+        <td>{{ project["Accepted Date"] }}</td>
+        <td>{{ project["Last Review Date"] }}</td>
+        <td>{{ project["Next Review Date"] }}</td>
+    </tr>
+{%- endfor -%}
+</tbody>
+</table>
+<link rel="stylesheet" href="css/sorTable.css">
+<script src="js/sorTable.js"></script>

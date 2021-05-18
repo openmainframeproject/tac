@@ -22,6 +22,8 @@ The role of the Technical Advisory Council (TAC) is to direct and coordinate the
     </tr>    
 {%- endfor -%}
 </table>
+<link rel="stylesheet" href="css/sorTable.css">
+<script src="js/sorTable.js"></script>
 
 # Projects and Working Groups
 

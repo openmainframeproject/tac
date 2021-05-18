@@ -1,8 +1,0 @@
-00:03:08	John Mertic:	Agenda at https://github.com/openmainframeproject/tac/issues/112
-00:07:04	John Mertic:	https://github.com/openmainframeproject/tac/issues/112
-00:10:10	John Mertic:	https://github.com/openmainframeproject/tac/issues/112
-00:13:33	John Mertic:	https://github.com/openmainframeproject/tac/issues/104
-00:56:53	Matt Hogstrom:	System Preferences -> Security and Privacy -> Privacy
-00:57:03	Matt Hogstrom:	Select Screen Recording and add Zoom
-00:57:19	Matt Hogstrom:	it requires a bounce of zoom so you should be good for next time
-01:05:20	Mike Friesenegger:	This is a great conversation.  I need to drop.  Thank you!

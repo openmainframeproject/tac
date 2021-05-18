@@ -5,7 +5,7 @@ has_children: true
 
 # TAC Meetings
 
-TAC Meetings are are open to anyone interested in participating in the project. Meetings are generally scheduled the second Thursday of each month at 1:00 pm US Eastern Time; the current schedule and meeting invitiation is available on the [TAC calendar](https://lists.openmainframeproject.org/g/omp-technical/calendar)
+TAC Meetings are are open to anyone interested in participating in the project. Meetings are generally scheduled the second and fourth Thursday of each month at 1:00 pm US Eastern Time; the current schedule and meeting invitiation is available on the [TAC calendar](https://lists.openmainframeproject.org/g/omp-technical/calendar)
 
 Meeting notes are posted soon after each meeting, along with recordings, in this directory.
 

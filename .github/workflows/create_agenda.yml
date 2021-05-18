@@ -12,7 +12,7 @@ jobs:
     - uses: wesleytodd/meeting-maker@v0
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        schedules: 2021-01-14T17:00:00.0Z/P4W
+        schedules: 2021-05-13T17:00:00.0Z/P4W
         createWithin: P1D
         issueTitle: "TAC Meeting <%= date.toFormat('yyyy-MM-dd') %>"
         agendaLabel: meeting-agenda

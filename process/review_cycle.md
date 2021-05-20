@@ -4,6 +4,8 @@ parent: Processes
 
 # Project Review Cycle
 
+Per the [Annual Review process](project_stages#tac-review), all hosted projects will have an annual review at the TAC. Below is the schedule for those reviews and updates on when projects are due for thier next review.
+
 <table class="sortable">
 <thead>
     <tr>
@@ -26,5 +28,5 @@ parent: Processes
 {%- endfor -%}
 </tbody>
 </table>
-<link rel="stylesheet" href="css/sorTable.css">
-<script src="js/sorTable.js"></script>
+<link rel="stylesheet" href="../css/sorTable.css">
+<script src="../js/sorTable.min.js"></script>

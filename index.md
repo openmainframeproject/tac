@@ -8,7 +8,8 @@ The role of the Technical Advisory Council (TAC) is to direct and coordinate the
 
 # Voting TAC Members
 
-<table>
+<table class="sortable">
+<thead>
     <tr>
         <th>Representative</th>
 	<th>Appointed By</th>
@@ -16,12 +17,17 @@ The role of the Technical Advisory Council (TAC) is to direct and coordinate the
 	<th>Special Role</th>
 	<th>Organization</th>
     </tr>
+</thead>
+<tbody>
 {%- for member in site.data.tacmembers -%}
     <tr>
        {%- for item in member -%}<td>{{ item[1] }}</td>{%- endfor -%}
     </tr>    
 {%- endfor -%}
+</tbody>
 </table>
+<link rel="stylesheet" href="css/sorTable.css">
+<script src="js/sorTable.min.js"></script>
 
 # Projects and Working Groups
 

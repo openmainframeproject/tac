@@ -28,5 +28,5 @@ Per the [Annual Review process](project_stages#tac-review), all hosted projects 
 {%- endfor -%}
 </tbody>
 </table>
-<link rel="stylesheet" href="css/sorTable.css">
-<script src="js/sorTable.js"></script>
+<link rel="stylesheet" href="../css/sorTable.css">
+<script src="../js/sorTable.js"></script>

@@ -19,7 +19,7 @@ All Slack channels referenced below are part of the [Open Mainframe Project Slac
     </tr>
 </thead>
 <tbody>
-{%- for member in site.data.projects -%}
+{%- for project in site.data.projects -%}
     <tr>
         <td>{{ project["Name"] }}</td>
         <td><a href="{{ project["Website"] }}">{{ project["Website"] }}</a></td>

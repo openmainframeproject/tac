@@ -1,6 +1,6 @@
 ---
 title: Mailing Lists and Slack channels
-parent: Get Involved
+parent: Getting Involved
 ---
 
 # Mailing Lists and Slack channels for hosted projects

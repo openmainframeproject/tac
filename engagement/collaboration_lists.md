@@ -29,5 +29,5 @@ All Slack channels referenced below are part of the [Open Mainframe Project Slac
 {%- endfor -%}
 </tbody>
 </table>
-<link rel="stylesheet" href="css/sorTable.css">
-<script src="js/sorTable.min.js"></script>
+<link rel="stylesheet" href="../css/sorTable.css">
+<script src="../js/sorTable.min.js"></script>

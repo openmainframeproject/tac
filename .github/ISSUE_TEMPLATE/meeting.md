@@ -42,7 +42,7 @@ Meeting ID: 290 221 938
 
 International numbers available: [https://zoom.us/zoomconference?m=4ywiZErrEEDIHL6VXNjfZ-PXcfjeWMjs](https://zoom.us/zoomconference?m=4ywiZErrEEDIHL6VXNjfZ-PXcfjeWMjs)
 
-[Meeting recordings](https://drive.google.com/drive/folders/13tFBM50RIUGw6ZB-kyb0vcDEA1NMvBTB?usp=sharing)
+[Meeting recording](https://drive.google.com/drive/folders/13tFBM50RIUGw6ZB-kyb0vcDEA1NMvBTB?usp=sharing)
 
 ## Attendance
 
@@ -50,7 +50,7 @@ International numbers available: [https://zoom.us/zoomconference?m=4ywiZErrEEDIH
 
 - [ ] Phil Tully, ADP ( Platinum Member )
 - [ ] Gregory MacKinnon, Broadcom ( Platinum Member )
-- [ ] Enyu Wang, IBM ( Platinum Member )
+- [ ] Javier Perez, IBM ( Platinum Member )
 - [ ] Peter Fandel, Rocket Software ( Platinum Member )
 - [ ] Mark Post, SUSE ( Platinum Member )
 - [ ] James Caffrey, IBM ( ADE )

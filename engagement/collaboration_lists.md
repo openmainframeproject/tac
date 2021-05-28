@@ -9,25 +9,17 @@ Each project hosted at the Open Mainframe Project collaborates on open channels 
 
 All Slack channels referenced below are part of the [Open Mainframe Project Slack organization](https://slack.openmainframeproject.org)
 
-<table class="sortable">
-<thead>
-    <tr>
-        <th>Project</th>
-        <th>Website</th>
-        <th>Mailing Lists</th>
-        <th>Slack Channel(s)</th>
-    </tr>
-</thead>
+<table>
 <tbody>
 {%- for project in site.data.projects -%}
     <tr>
         <td>{{ project["Name"] }}</td>
-        <td><a href="{{ project["Website"] }}">{{ project["Website"] }}</a></td>
-        <td><a href="{{ project["Mailing List"] }}">{{ project["Mailing List"] }}</a></td>
-        <td><a href="https://slack.openmainframeproject.org">{{ project["Slack"] }}</a></td>
+        <td>
+            Website: <a href="{{ project["Website"] }}">{{ project["Website"] }}</a><br />
+            Mailing List: <a href="{{ project["Mailing List"] }}">{{ project["Mailing List"] }}</a><br />
+            Slack: <a href="https://slack.openmainframeproject.org">{{ project["Slack"] }}</a><br />
+        </td>
     </tr>    
 {%- endfor -%}
 </tbody>
 </table>
-<link rel="stylesheet" href="../css/sorTable.css">
-<script src="../js/sorTable.min.js"></script>

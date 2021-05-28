@@ -15,9 +15,15 @@ All Slack channels referenced below are part of the [Open Mainframe Project Slac
     <tr>
         <td>{{ project["Name"] }}</td>
         <td>
+            {%- if project["Website"] -%}
             Website: <a href="{{ project["Website"] }}">{{ project["Website"] }}</a><br />
+            {%- endif -%}
+            {%- if project["Mailing List"] -%}
             Mailing List: <a href="{{ project["Mailing List"] }}">{{ project["Mailing List"] }}</a><br />
+            {%- endif -%}
+            {%- if project["Slack"] -%}
             Slack: <a href="https://slack.openmainframeproject.org">{{ project["Slack"] }}</a><br />
+            {%- endif -%}
         </td>
     </tr>    
 {%- endfor -%}

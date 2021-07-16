@@ -17,7 +17,18 @@ The purpose of working groups are to study and report on a particular question a
 
 ## Process
 
-If you would like to submit a working group proposal, please submit the [template] to the TAC. Working groups can begin formation to complete the [template] before TAC approval, but will not have official designation as an Open Mainframe Project Working Group until TAC approval. You will also have to present to the Open Mainframe Project TAC and wider community before your WG proposal will be voted upon by the TAC. 
+Working Groups must be proposed via a new [GitHub Issue]. Working Group proposals submitted to the Open Mainframe Project TAC must provide the following information to the best of your ability:
+
+- Working group name
+- Describe the purpose of the group in no more that 4-5 sentences.
+- Goals of the working group
+    - _Goals are the distinct outcomes that is to be anticipated from the working group, serving as a method for validating activities._
+- Non-goals of the working group
+    - _Non-goals are things that the working group are intentionally choosing not to do, the things not expected to change due to the working groups efforts, or the subject matter areas that the working groups doesn’t want to address at this time. _
+- Deliverables
+    - _provide a list of planned deliverables, or links to the deliverables. A best practice is to have a directory named deliverables in the repo for hosting and managing deliverables._
+
+Working groups can begin formation to complete the proposal before TAC approval, but will not have official designation as an Open Mainframe Project Working Group until TAC approval. You will also have to present to the Open Mainframe Project TAC and wider community before your WG proposal will be voted upon by the TAC. 
 
 ## FAQs
 
@@ -31,5 +42,5 @@ A: Yes! Please submit a [request on the foundation repo] and we can provide a ma
 A: The TAC recognizes that in the lifecycle of a working group goals or mission may change. In those cases, the working group must present to the TAC an updated version of their [template] for approval.
 
 [TAC member]: https://github.com/openmainframeproject/tac#tac-members
-[template]: wg_readme_template.md
-[request on the foundation repo]: https://github.com/openmainframeproject/foundation/issues/new/choose
+[request on the foundation repo]: https://servicedesk.openmainframeproject.org
+[GitHub Issue]: https://github.com/openmainframeproject/tac/issues/new?assignees=&labels=bug&template=new-working-group-proposal.md&title=

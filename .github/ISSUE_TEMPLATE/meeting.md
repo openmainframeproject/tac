@@ -51,7 +51,7 @@ International numbers available: [https://zoom.us/zoomconference?m=4ywiZErrEEDIH
 - [ ] Phil Tully, ADP ( Platinum Member )
 - [ ] Gregory MacKinnon, Broadcom ( Platinum Member )
 - [ ] Javier Perez, IBM ( Platinum Member )
-- [ ] Peter Fandel, Rocket Software ( Platinum Member )
+- [ ] Tatiana Balaburkina, Rocket Software ( Platinum Member )
 - [ ] Mark Post, SUSE ( Platinum Member )
 - [ ] James Caffrey, IBM ( ADE )
 - [ ] Sudharsana Srinivasan, IBM ( COBOL Programming Course )

@@ -8,7 +8,7 @@ assignees: ''
 ---
 Thank you for looking to bring your project to the Open Mainframe Project. Please answer the questions below to have this project be added to the agenda at a future TAC meeting for consideration as a new project.
 
-Please refer to the guideance in the [project lifecycle](https://github.com/openmainframeproject/tac/blob/master/process/project_stages.md#proposal-process).
+Please refer to the guideance in the [project lifecycle](https://tac.openmainframeproject.org/process/project_stages#proposal-process).
 
 *   Name of the project (must be unique within Open Mainframe Project) - please also add to title
 

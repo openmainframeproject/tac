@@ -21,9 +21,9 @@ Per the [Annual Review process](project_stages#tac-review), all hosted projects 
     <tr>
         <td>{{ project["Name"] }}</td>
         <td>{{ project["Level"] }}</td>
-        <td>{{ project["Accepted Date"] }}</td>
-        <td>{{ project["Last Review Date"] }}</td>
-        <td>{{ project["Next Review Date"] }}</td>
+        <td>{{ project["Accepted Date"] | date: "%F" }}</td>
+        <td>{{ project["Last Review Date"] | date: "%F" }}</td>
+        <td>{{ project["Next Review Date"] | date: "%F" }}</td>
     </tr>
 {%- endfor -%}
 </tbody>

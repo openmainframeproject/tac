@@ -2,7 +2,7 @@
 
 ## Date/Time
 
-Meeting held monthly on the second Thursday of the month unless otherwise stated. Agenda to be posted at [https://github.com/openmainframeproject/tac/issues?q=is%3Aopen+is%3Aissue+label%3A%22meeting%22](https://github.com/openmainframeproject/tac/issues?q=is%3Aopen+is%3Aissue+label%3A%22meeting%22)
+Meeting held monthly on the second and fourth Thursdays of the month unless otherwise stated. Agenda to be posted at [https://github.com/openmainframeproject/tac/issues?q=is%3Aopen+is%3Aissue+label%3A%22meeting%22](https://github.com/openmainframeproject/tac/issues?q=is%3Aopen+is%3Aissue+label%3A%22meeting%22)
 
 | Timezone | Date/Time |
 |----------|-----------|
@@ -50,7 +50,7 @@ International numbers available: [https://zoom.us/zoomconference?m=4ywiZErrEEDIH
 
 - [ ] Phil Tully, ADP ( Platinum Member )
 - [ ] Gregory MacKinnon, Broadcom ( Platinum Member )
-- [ ] Javier Perez, IBM ( Platinum Member )
+- [ ] _vacant_, IBM ( Platinum Member )
 - [ ] Tatiana Balaburkina, Rocket Software ( Platinum Member )
 - [ ] Mark Post, SUSE ( Platinum Member )
 - [ ] James Caffrey, IBM ( ADE )

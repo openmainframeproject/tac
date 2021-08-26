@@ -1,3 +1,8 @@
+---
+parent: Meetings
+title: yyyy-MM-dd
+---
+
 # Open Mainframe Project TAC Meeting - <%= date.toFormat("MMMM d, yyyy") %>
 
 ## Date/Time
@@ -50,13 +55,14 @@ International numbers available: [https://zoom.us/zoomconference?m=4ywiZErrEEDIH
 
 - [ ] Phil Tully, ADP ( Platinum Member )
 - [ ] Gregory MacKinnon, Broadcom ( Platinum Member )
-- [ ] _vacant_, IBM ( Platinum Member )
+- [ ] Joe Bostian, IBM ( Platinum Member )
 - [ ] Tatiana Balaburkina, Rocket Software ( Platinum Member )
 - [ ] Mark Post, SUSE ( Platinum Member )
 - [ ] James Caffrey, IBM ( ADE )
 - [ ] Sudharsana Srinivasan, IBM ( COBOL Programming Course )
+- [ ] Kip Twitchell ( GenevaERS )
 - [ ] Bob Dahlberg, VCU ( Mentorship )
-- [ ] Sean Grady ( Zowe )
+- [ ] Sean Grady, Rocket Software ( Zowe )
 
 Quorum Achieved.
 

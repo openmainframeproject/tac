@@ -94,7 +94,7 @@ Projects being submitted to the Open Mainframe Project at the sandbox level are 
 *   New projects that are designed to extend one or more TAC projects with functionality or interoperability libraries. In the case of Zowe, the Sandbox is intended as a home for projects that might in the future be considered for inclusion as a future squad.
 *   Independent projects that fit the Open Mainframe Project mission/vision and provide the potential for a novel approach to existing functional areas (or are an attempt to meet an unfulfilled need).
 *   Projects commissioned or sanctioned by the Open Mainframe Project, including initial code for Open Mainframe Project Working Group collaborations, and "experimental" projects.
-*   Any project that realistically intends to join Open Mainframe Project Incubation in the future and wishes to lay the foundations for that.
+*   Any project that really intends to join Open Mainframe Project Incubation in the future and wishes to lay the foundations for that.
 
 ### Requirements
 
@@ -137,7 +137,7 @@ To be accepted to the Incubation Stage, in addition to the proposal process a pr
 *   Have achieved and maintained a Core Infrastructure Initiative [Best Practices Badge](https://bestpractices.coreinfrastructure.org/). 
 *   Have had a successful license scan with any critical issues remedied.
 *   An overview of the project’s architecture and features defined.
-*   A project roadmap defined, which should address the following questions.
+*   A project roadmap is defined, which should address the following questions.
     *   What use cases are possible now?
     *   What does the next year look like in terms of additional features and use cases covered?
 *   Community and contributor growth assessment
@@ -209,7 +209,7 @@ The TAC will review on an annual basis all projects within this lifecycle. Addit
 
 The purpose of the TAC Review is to gauge whether the project is still at the correct maturity stage based on the criteria for the current stage.
 
-Projects will schedule their annual review as part of the next TAC meeting following their anniversary of the project’s acceptance. Projects should prepare a short presentation that covers the following points, which the TAC will use in its review of the project:
+Projects will schedule their annual review as part of the next TAC meeting following the anniversary of the project’s acceptance. Projects should prepare a short presentation that covers the following points, which the TAC will use in its review of the project:
 
 *   The current activity of the project, including releases, adoption, and committer/contribution growth and diversity.
 *   Assessment of whether the project is fulfilling the requirements for the project to remain at its current stage, or be considered for a different stage

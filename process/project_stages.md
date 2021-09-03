@@ -143,9 +143,9 @@ To be accepted to the Incubation Stage, in addition to the proposal process a pr
 *   Community and contributor growth assessment
     *   The current number of contributors and committers, and the number of different organizations contributing to the project. 
         *   Generally, the TAC will look for 2 to 3 committers, but for a high-quality project, 1 committer may be acceptable.
-    *   Demonstrate a sustained flow of commits / merged contributions
+    *   Demonstrate a sustained flow of commits / merged contributions.
     *   A credible plan for developing a thriving user community, in particular expanding the number of committers and contributors?
-    *   Outline of the plan for the project to complete the requirements for Active Stage
+    *   Outline of the plan for the project to complete the requirements for Active Stage.
 
 Sandbox Projects may propose to be reviewed to move to the Incubation Stage at any time by creating a GitHub Issue to add to a future TAC meeting agenda ( minimum two weeks notice required ) or may be moved to the Incubation Stage during its annual review. Projects should prepare a presentation outlining how it has completed the Incubation Stage requirements.
 
@@ -171,10 +171,10 @@ To be accepted at the Active Stage, a project must have completed the Incubation
 
 *   Have committers from at least two organizations.
 *   Have achieved and maintained a Core Infrastructure Initiative [Best Practices Gold Level Badge](https://bestpractices.coreinfrastructure.org/).
-*   Demonstrable roadmap progress
-*   The sustained flow of commits / merged contributions
-*   A healthy number of public adopters, identified within the project ( using an ADOPTERS.md page or having showcased on the project’s website )
-*   Elect or appoint a project lead to represent the project on the TAC
+*   Demonstrable roadmap progress.
+*   The sustained flow of commits / merged contributions.
+*   A healthy number of public adopters, identified within the project ( using an ADOPTERS.md page or having showcased on the project’s website ).
+*   Elect or appoint a project lead to represent the project on the TAC.
 
 Incubation Projects may propose to be reviewed to graduate to the Active Stage at any time by creating a GitHub Issue to add to a future TAC meeting agenda ( minimum two weeks notice required ) or may graduate to the Active Stage during its annual review. Projects should prepare a presentation outlining how it has completed the Active Stage requirements.
 

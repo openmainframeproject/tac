@@ -94,7 +94,7 @@ Projects being submitted to the Open Mainframe Project at the sandbox level are 
 *   New projects that are designed to extend one or more TAC projects with functionality or interoperability libraries. In the case of Zowe, the Sandbox is intended as a home for projects that might in the future be considered for inclusion as a future squad.
 *   Independent projects that fit the Open Mainframe Project mission/vision and provide the potential for a novel approach to existing functional areas (or are an attempt to meet an unfulfilled need).
 *   Projects commissioned or sanctioned by the Open Mainframe Project, including initial code for Open Mainframe Project Working Group collaborations, and "experimental" projects.
-*   Any project that realistically intends to join Open Mainframe Project Incubation in the future and wishes to lay the foundations for that.
+*   Any project that really intends to join Open Mainframe Project Incubation in the future and wishes to lay the foundations for that.
 
 ### Requirements
 
@@ -137,7 +137,7 @@ To be accepted to the Incubation Stage, in addition to the proposal process a pr
 *   Have achieved and maintained a Core Infrastructure Initiative [Best Practices Badge](https://bestpractices.coreinfrastructure.org/). 
 *   Have had a successful license scan with any critical issues remedied.
 *   An overview of the project’s architecture and features defined.
-*   A project roadmap defined, which should address the following questions.
+*   A project roadmap is defined, which should address the following questions.
     *   What use cases are possible now?
     *   What does the next year look like in terms of additional features and use cases covered?
 *   Community and contributor growth assessment
@@ -171,10 +171,10 @@ To be accepted at the Active Stage, a project must have completed the Incubation
 
 *   Have committers from at least two organizations.
 *   Have achieved and maintained a Core Infrastructure Initiative [Best Practices Gold Level Badge](https://bestpractices.coreinfrastructure.org/).
-*   Demonstrable roadmap progress
-*   The sustained flow of commits / merged contributions
-*   A healthy number of public adopters, identified within the project ( using an ADOPTERS.md page or having showcased on the project’s website )
-*   Elect or appoint a project lead to represent the project on the TAC
+*   Demonstrable roadmap progress.
+*   The sustained flow of commits / merged contributions.
+*   A healthy number of public adopters, identified within the project ( using an ADOPTERS.md page or having showcased on the project’s website ).
+*   Elect or appoint a project lead to represent the project on the TAC.
 
 Incubation Projects may propose to be reviewed to graduate to the Active Stage at any time by creating a GitHub Issue to add to a future TAC meeting agenda ( minimum two weeks notice required ) or may graduate to the Active Stage during its annual review. Projects should prepare a presentation outlining how it has completed the Active Stage requirements.
 
@@ -197,7 +197,7 @@ Projects like products have lifecycles, and often in open source, the relevance 
 Projects only can enter the Emeritus Stage by either:
 
 *   On request from the project itself, requiring a ⅔ supermajority vote of all active project committers.
-*   By a ⅔ supermajority vote of the TAC if there has been insufficient activity in the project over the course of 6 months or if the project fails to move to the next stage within the expected time indicated in this document.
+*   By a ⅔ supermajority vote of the TAC if there has been insufficient activity in the project for 6 months or if the project fails to move to the next stage within the expected time indicated in this document.
 
 When in the Emeritus Stage, the project’s code repository administration is transferred to a designated individual by the TAC. No new features or bug fixes will be addressed unless it is deemed a security issue. Open Mainframe Project will hold all assets in perpetuity.
 
@@ -209,10 +209,10 @@ The TAC will review on an annual basis all projects within this lifecycle. Addit
 
 The purpose of the TAC Review is to gauge whether the project is still at the correct maturity stage based on the criteria for the current stage.
 
-Projects will schedule their annual review as part of the next TAC meeting following their anniversary of the project’s acceptance. Projects should prepare a short presentation that covers the following points, which the TAC will use in its review of the project:
+Projects will schedule their annual review as part of the next TAC meeting following the anniversary of the project’s acceptance. Projects should prepare a short presentation that covers the following points, which the TAC will use in its review of the project:
 
 *   The current activity of the project, including releases, adoption, and committer/contribution growth and diversity.
-*   Assessment of whether the project is fulfilling the requirements for the project to remain at its current stage, or be considered for a different stage
+*   Assessment of whether the project is fulfilling the requirements for the project to remain at its current stage, or be considered for a different stage.
 *   Feedback on its experience as an Open Mainframe Project project, including benefits from being an Open Mainframe Project project and areas that the TAC and Open Mainframe Project staff can better support the project.
 
 Annual reviews require a majority affirmative vote of the TAC for the project to continue at the current stage or the appropriate number of votes as outlined for each stage in this document to move to the next stage. If the TAC deems the project to not be currently meeting the requirements of the current stage, it may vote to move the project to the appropriate stage or Emeritus stage. The project may choose to move outside of the LFE at any time.

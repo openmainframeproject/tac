@@ -4,7 +4,7 @@ parent: Processes
 
 # Project Review Cycle
 
-Per the [Annual Review process](project_stages#tac-review), all hosted projects will have an annual review at the TAC. Below is the schedule for those reviews and updates on when projects are due for thier next review.
+Per the [Annual Review process](project_stages#tac-review), all hosted projects will have an annual review at the TAC. Below is the schedule for those reviews and updates on when projects are due for their next review.
 
 <table class="sortable">
 <thead>

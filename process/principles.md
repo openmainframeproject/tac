@@ -34,35 +34,35 @@ When the term “we” is used in this document, it refers to the collective voi
 ## We believe that...
 
 
-### We are the premier home for all things open source on the mainframe.
+### We are the premier home for all things open-source on the mainframe.
 
-We provide the vendor-neutral home for collaboration in an open and transparent manner for open source efforts on the mainframe. Our projects collectively represent over 60 person-years of development with an economic value of over $8M USD ( using the COCOMO method ), supported by the over 45 organizations and customers in the mainframe space, including the four largest vendors in mainframe ( IBM, Rocket Software, BMC, Broadcom ). Users looking for open source on the mainframe will look here first.
+We provide the vendor-neutral home for collaboration openly and transparently for open-source efforts on the mainframe. Our projects collectively represent over 60 person-years of development with an economic value of over $8M ( using the COCOMO method ), supported by the over 45 organizations and customers in the mainframe space, including the four largest vendors in mainframe ( IBM, Rocket Software, BMC, Broadcom ). Users looking for open-source on the mainframe will look here first.
 
 Each project is transparent and open, welcome to contributions from any person or organization, owned entirely by the community as a commons for the mainframe ecosystem. We support each project with the needed infrastructure for its success, including collaboration, hardware, ecosystem development, and awareness.
 
 
 ### Mainframe is integral to a hybrid, connected IT landscape
 
-We regard the mainframe as a key component in an integrated, connected IT ecosystem. The projects and work we do focus on the mainframe, and how it connects and adds continued and further value, to the enterprise. We will help articulate and champion what the mainframe can do, now and into the future. We will champion mainframes and use open source as a means to demonstrate their further value. 
+We regard the mainframe as a key component in an integrated, connected IT ecosystem. The projects and work we do focus on the mainframe, and how it connects and adds continued and further value, to the enterprise. We will help articulate and champion what the mainframe can do, now and into the future. We will champion mainframes and use open-source as a means to demonstrate their further value. 
 
 We will defer to other vendors to sell mainframe hardware, software, or services, however. 
 
 
 ### Focus on high-quality projects that further our mission and vision to which we can add value.
 
-We focus on high-quality projects that have relevance and importance to the mainframe platform and community, that further our mission, and that help us realize our vision. In short, this is not a dumping ground for old products or code.  Projects will have sound design and be securable in line with mainframe standards. We aim to help such projects succeed, gain adoption, and grow a diverse committer and user base. Further, we strive to encourage participation from all to build a thriving project ecosystem and foster the open source mindset across the mainframe community.
+We focus on high-quality projects that have relevance and importance to the mainframe platform and community, that further our mission, and that help us realize our vision. In short, this is not a dumping ground for old products or code.  Projects will have sound design and be securable in line with mainframe standards. We aim to help such projects succeed, gain adoption, and grow a diverse committer and user base. Further, we strive to encourage participation from all to build a thriving project ecosystem and foster the open-source mindset across the mainframe community.
 
 
 ### Customers and vendors ( the market ) will decide which projects are viable and which aren’t.   
 
-We focus on supporting projects within the scope of the Open Mainframe Project, which deliver value to customers and vendors. We rely on project relevance and importance among customers and vendors to determine whether it should be included in Open Mainframe Project or not. 
+We focus on supporting projects within the scope of the Open Mainframe Project, which delivers value to customers and vendors. We rely on project relevance and importance among customers and vendors to determine whether it should be included in Open Mainframe Project or not. 
 
-Technology and stack ( such as programming language, framework, tooling ) are not a determining factor as to the relevance and/or importance of a given project; open source is a “scratch your itch” model and we believe the market will handle that for us.
+Technology and stack ( such as programming language, framework, tooling ) are not a determining factor as to the relevance and/or importance of a given project; open-source is a “scratch your itch” model and we believe the market will handle that for us.
 
 
-### We seek to be a catalyst of new revenue streams through our projects and efforts, showcasing open source as an economic and ecosystem growth enabler.
+### We seek to be a catalyst of new revenue streams through our projects and efforts, showcasing open-source as an economic and ecosystem growth enabler.
 
-A common pattern in open source communities, where successful vendor-neutral projects create downstream commercial ecosystems for vendors to create differentiating services and offerings, bringing those to market faster and creates deeper loyalty between customers and vendors. For example, the Eclipse open source project has enabled numerous commercial tools and offerings which has created new revenue opportunities. Our expectation is for that same pattern to happen in the projects and efforts that Open Mainframe Project supports.
+A common pattern in open-source communities, where successful vendor-neutral projects create downstream commercial ecosystems for vendors to create differentiating services and offerings, bringing those to market faster and creates deeper loyalty between customers and vendors. For example, the Eclipse open-source project has enabled numerous commercial tools and offerings which has created new revenue opportunities. Our expectation is for that same pattern to happen in the projects and efforts that Open Mainframe Project supports.
 
 
 ### We always look to collaborate with other groups and bodies inside and outside the mainframe ecosystem.

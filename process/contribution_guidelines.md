@@ -14,7 +14,7 @@ title: Contribution Guidelines
 
 This document captures the general guidelines for contributing to open source projects hosted by Open Mainframe Project. These guidelines express the provisions in the Intellectual	Property Policy within [Open Mainframe Project charter](https://openmainframeproject.org/charter).
 
-Note that each hosted project may adopt thier own guidelines, which would supercede these provisions in the case of conflict.
+Note that each hosted project may adopt its guidelines, which would supersede these provisions in the case of conflict.
 
 ## Two-factor authentication (2FA)
 
@@ -26,11 +26,11 @@ To enable stronger security for hosted projects, Open Mainframe Project TAC requ
 
 ## License specification
 
-All source code must clearly identify the open source license used. The Open Mainframe Project charter dictates [Apache 2](https://spdx.org/licenses/Apache-2.0.html) by default except for Linux kernel code which must be [GPLv2](https://spdx.org/licenses/GPL-2.0). All	documentation	and non-code will	be received and	made available by the Project under the Creative Commons Attribution 4.0 International License (available at http://creativecommons.org/licenses/by/4.0/).
+All source code must clearly identify the open-source license used. The Open Mainframe Project charter dictates [Apache 2](https://spdx.org/licenses/Apache-2.0.html) by default except for Linux kernel code which must be [GPLv2](https://spdx.org/licenses/GPL-2.0). All	documentation	and non-code will	be received and	made available by the Project under the Creative Commons Attribution 4.0 International License (available at http://creativecommons.org/licenses/by/4.0/).
 
 Requirements to ensure license compliance
 
-- Each repository must contain a license file. Include the plain-text version of the license as a LICENSE file in the top-level directory of the repostiory.
+- Each repository must contain a license file. Include the plain-text version of the license as a LICENSE file in the top-level directory of the repository.
 - All source files need to include a header to clearly show the license. Open Mainframe Project has standardized on including [SPDX short-form license identifiers](https://spdx.org/ids) and a general copyright statement as shown below ( this example is for Apache 2.0 licensed code ):
 
 ````
@@ -49,7 +49,7 @@ Finally, please note that pre-existing third-party license notices and copyright
 
 ## Developer Certificate of Origin
 
-Open Mainframe Project requires the use of the [Developer’s Certificate of Origin 1.1 (DCO)](https://developercertificate.org/), which is the same mechanism that the [Linux® Kernel](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/process/submitting-patches.rst#n416) and many other communities use to manage code contributions. The DCO is considered one of the simplest tools for sign offs from contributors as the representations are meant to be easy to read and indicating signoff is done as a part of the commit message.
+Open Mainframe Project requires the use of the [Developer’s Certificate of Origin 1.1 (DCO)](https://developercertificate.org/), which is the same mechanism that the [Linux® Kernel](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/process/submitting-patches.rst#n416) and many other communities use to manage code contributions. The DCO is considered one of the simplest tools for sign-offs from contributors as the representations are meant to be easy to read and indicating signoff is done as a part of the commit message.
 
 Here is an example Signed-off-by line, which indicates that the submitter accepts the DCO:
 
@@ -61,7 +61,7 @@ You can include this automatically when you commit a change to your local git re
 
 There are a number of great tools out there to manage DCO signoffs for developers to make it much easier to do signoffs.
 
-- DCO command line tool, which let's you do a single signoff for an entire repo ( https://github.com/coderanger/dco )
+- DCO command-line tool, which lets you do a single signoff for an entire repo ( https://github.com/coderanger/dco )
 - GitHub UI integrations for adding the signoff automatically ( https://github.com/scottrigby/dco-gh-ui )
   - Chrome - https://chrome.google.com/webstore/detail/dco-github-ui/onhgmjhnaeipfgacbglaphlmllkpoijo
   - Firefox - https://addons.mozilla.org/en-US/firefox/addon/scott-rigby/?src=search
@@ -82,7 +82,7 @@ git() {
 
 ### Signoff for commits where the DCO signoff was missed
 
-When bringing in a code repository for the first time, or commits done before the DCO checks are enabled, there would be a series of commits that don't include the sign-off statement. You can retroactively signoff commits you've made by make a commit with your DCO signoff that contains a new text file ( suggested name is past_commits.txt ) with the following contents:
+When bringing in a code repository for the first time, or commits done before the DCO checks are enabled, there would be a series of commits that don't include the sign-off statement. You can retroactively signoff commits you've made by making a commit with your DCO signoff that contains a new text file ( suggested name is past_commits.txt ) with the following contents:
 
 ````
 The following commits were made pursuant to the Developer Certificate of Origin, even though a Signed-off-by: was not included in the commit message.
@@ -91,13 +91,13 @@ The following commits were made pursuant to the Developer Certificate of Origin,
 ...
 ````
 
-Each user who has made the past commits should have thier own <code>Signed-off-by:</code> line in the commit message.
+Each user who has made the past commits should have their own <code>Signed-off-by:</code> line in the commit message.
 
 This process can be automated using the [DCO Org Check script](https://github.com/jmertic/dco-org-check).
 
 ### Handling DCO errors using GitHub website commits
 
-The [Probot: DCO](https://github.com/probot/dco) app requires that the email address and name specifyed in the DCO Signoff match that of the current infortmation from the user making the commit. Generally this is handled automatically when using a local git client, but when making contributions from the GitHub website directly this needs to be aligned manually. 
+The [Probot: DCO](https://github.com/probot/dco) app requires that the email address and name specified in the DCO Signoff match that of the current information from the user making the commit. Generally, this is handled automatically when using a local git client, but when making contributions from the GitHub website directly this needs to be aligned manually. 
 
 If you are using one of the recommended [GitHub UI integrations for adding the signoff automatically]( https://github.com/scottrigby/dco-gh-ui), you will want to ensure that the name and email listed there match that which is in your GitHub profile.
 

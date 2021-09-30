@@ -30,13 +30,26 @@ Working Groups must be proposed via a new [GitHub Issue]. Working Group proposal
 
 Working groups can begin formation to complete the proposal before TAC approval, but will not have the official designation as an Open Mainframe Project Working Group until TAC approval. You will also have to present to the Open Mainframe Project TAC and the wider community before your WG proposal will be voted upon by the TAC. 
 
+## Benefits
+
+Working groups are able to leverage the shared infrastructure of the Open Mainframe Project for collaboration, including wiki space, mailing lists, Slack channel, Zoom meetings, and/or GitHub repo as needed. Please submit a [request on the foundation repo] to enable these services. The TAC can also provide the additional infrastructure upon request. More details on other benefits [here](project_benefits_by_stage).
+
+## Working Group review
+
+The TAC will review on an annual basis all working groups. The purpose of the TAC Review is to gauge the status of the working group achieving the items outlined in it's charter. 
+
+Working groups will schedule their annual review as part of the next TAC meeting following the anniversary of the project’s acceptance. Working groups should prepare a short presentation that covers the following points, which the TAC will use in its review of the working group:
+
+- The current activity of the working group.
+- Assessment of whether the working group has achieved it's goals and/or needs to redefine it's charter.
+- Feedback on its experience as an Open Mainframe Project working group, including benefits from being an Open Mainframe Project working group and areas that the TAC and Open Mainframe Project staff can better support the working group.
+
+Annual reviews require a majority affirmative vote of the TAC for the working group to continue. If the TAC deems the working group to not be on track for completing the goals outlined in it's charter, it may request to have the working group disbanded. The working group may choose to move outside of the Open Mainframe Project at any time.
+
 ## FAQs
 
 ### Q: Who can propose a new working group?
 A: Anyone can propose a new working group ( whether from an Open Mainframe Project member organization or not ), but it must be sponsored by a [TAC member].
-
-### Q: Can working groups have infrastructure during formation to enable collaboration?
-A: Yes! Please submit a [request on the foundation repo] and we can provide a mailing list, Slack channel, Zoom meeting, and/or GitHub repo as needed. The TAC can also provide the additional infrastructure upon request.
 
 ### Q: What if the goals or mission of the working group change?
 A: The TAC recognizes that in the lifecycle of a working group goals or mission may change. In those cases, the working group must present to the TAC an updated version of their [template] for approval.

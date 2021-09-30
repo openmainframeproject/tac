@@ -21,9 +21,13 @@ Open Mainframe Project is always open to feedback on the benefits provided feel 
    </td>
    <td><strong>Active</strong>
    </td>
+   <td><strong>Working Group</strong>
+   </td>
   </tr>
   <tr>
     <td><strong>Marketing and Communications</strong>
+   </td>
+   <td>
    </td>
    <td>
    </td>
@@ -42,11 +46,15 @@ Open Mainframe Project is always open to feedback on the benefits provided feel 
    </td>
    <td>Included
    </td>
+   <td>Included
+   </td>
   </tr>
   <tr>
    <td>Logo Design
    </td>
    <td>N/A
+   </td>
+   <td>Included
    </td>
    <td>Included
    </td>
@@ -63,6 +71,8 @@ Open Mainframe Project is always open to feedback on the benefits provided feel 
    </td>
    <td>Stickers, T-shirt, other items by request
    </td>
+   <td>N/A
+   </td>
   </tr>
   <tr>
    <td>Public Messaging
@@ -73,11 +83,15 @@ Open Mainframe Project is always open to feedback on the benefits provided feel 
    </td>
    <td>First listing / Top billing
    </td>
+   <td>Listed with other working groups
+   </td>
   </tr>
   <tr>
    <td>Landing Page on OMP Website
    </td>
    <td>N/A
+   </td>
+   <td>Included
    </td>
    <td>Included
    </td>
@@ -92,6 +106,8 @@ Open Mainframe Project is always open to feedback on the benefits provided feel 
    <td>Booth demo space as available
    </td>
    <td>Highest priority booth demo space.
+   </td>
+   <td>Booth demo space as available
    </td>
   </tr>
   <tr>
@@ -113,6 +129,10 @@ Press Release announcement
 An embargoed pitch of the Press Release and top features to the media. Requests for interviews go to the project team.
       </p>
    </td>
+   <td><p>Tweet on announcement day. No social card.
+</p>
+     <p>Blog or part of a larger Press Release</p>
+   </td>
   </tr>
   <tr>
    <td>Technical Release Amplification - Minor Release
@@ -125,6 +145,8 @@ An embargoed pitch of the Press Release and top features to the media. Requests 
 <p>
 Blog post announcement on openmainframeproject.org either written by OMP PR with assistance by the project, re-posting of project’s own blog post, or a blog post written exclusively for openmainframeproject.org by the project team
       </p>
+   </td>
+   <td>Tweet on announcement day
    </td>
   </tr>
   <tr>
@@ -147,6 +169,11 @@ Embargoed or day-of pitch of the release and top features to the media as releva
 <p>
   <a href="https://github.com/openmainframeproject/foundation/blob/main/WEBINAR-GUIDELINES.md">Project Webinar</a>, up to a max of 2 per year (specific to the Technical Release)</p>
    </td>
+   <td>Tweet on announcement day
+<p>
+Press Release inclusion (combined with other news items e.g. new Members)
+     </p>
+   </td>
   </tr>
   <tr>
    <td>Project Overview Webinars
@@ -156,6 +183,8 @@ Embargoed or day-of pitch of the release and top features to the media as releva
    <td>Second
    </td>
    <td>First
+   </td>
+   <td>Second
    </td>
   </tr>
   <tr>
@@ -167,9 +196,13 @@ Embargoed or day-of pitch of the release and top features to the media as releva
    </td>
    <td>Monthly
    </td>
+   <td>Quarterly
+   </td>
   </tr>
   <tr>
     <td><strong>IT and CI/CD</strong>
+   </td>
+   <td>
    </td>
    <td>
    </td>
@@ -187,6 +220,8 @@ Embargoed or day-of pitch of the release and top features to the media as releva
    </td>
    <td>Included
    </td>
+   <td>Included
+   </td>
   </tr>
   <tr>
    <td>CI Environment
@@ -196,6 +231,8 @@ Embargoed or day-of pitch of the release and top features to the media as releva
    <td>Included
    </td>
    <td>Included
+   </td>
+   <td>N/A
    </td>
   </tr>
   <tr>
@@ -207,6 +244,8 @@ Embargoed or day-of pitch of the release and top features to the media as releva
    </td>
    <td>Included
    </td>
+   <td>N/A
+   </td>
   </tr>
   <tr>
    <td>LF Release Engineering
@@ -217,9 +256,13 @@ Embargoed or day-of pitch of the release and top features to the media as releva
    </td>
    <td>Full support
    </td>
+   <td>N/A
+   </td>
   </tr>
   <tr>
     <td><strong>Governance/Practices/Strategy</strong>
+   </td>
+   <td>
    </td>
    <td>
    </td>
@@ -237,11 +280,15 @@ Embargoed or day-of pitch of the release and top features to the media as releva
    </td>
    <td>If accepted at Active Stage
    </td>
+   <td>Included
+   </td>
   </tr>
   <tr>
    <td>Best Practices Tools and Guidance
    </td>
    <td>Self-service
+   </td>
+   <td>Included
    </td>
    <td>Included
    </td>
@@ -257,6 +304,8 @@ Embargoed or day-of pitch of the release and top features to the media as releva
    </td>
    <td>Scans for significant code contributions and quarterly scans
    </td>
+   <td>N/A
+   </td>
   </tr>
   <tr>
    <td>Ongoing project support
@@ -266,6 +315,8 @@ Embargoed or day-of pitch of the release and top features to the media as releva
    <td>N/A
    </td>
    <td>Active TSC support
+   </td>
+   <td>N/A
    </td>
   </tr>
   <tr>
@@ -277,6 +328,8 @@ Embargoed or day-of pitch of the release and top features to the media as releva
    </td>
    <td>At least twice yearly
    </td>
+   <td>Yearly
+   </td>
   </tr>
   <tr>
    <td>Ability to meet and present to Governing Board and Marketing Committee
@@ -287,9 +340,13 @@ Embargoed or day-of pitch of the release and top features to the media as releva
    </td>
    <td>At least yearly to Governing Board and as needed to the Marketing Committee
    </td>
+   <td>To Governing Board, after acceptance into incubation
+   </td>
   </tr>
   <tr>
     <td><strong>Budget</strong>
+   </td>
+   <td>
    </td>
    <td>
    </td>
@@ -307,6 +364,8 @@ Embargoed or day-of pitch of the release and top features to the media as releva
    </td>
    <td>Project Specific budget line item consideration
    </td>
+   <td>Case-by-case
+   </td>
   </tr>
   <tr>
    <td>Meetups
@@ -317,9 +376,13 @@ Embargoed or day-of pitch of the release and top features to the media as releva
    </td>
    <td>Up to $250/meetup
    </td>
+   <td>Up to $250/meetup
+   </td>
   </tr>
   <tr>
    <td><strong>Training and Ecosystem</strong>
+   </td>
+   <td>
    </td>
    <td>
    </td>
@@ -337,6 +400,8 @@ Embargoed or day-of pitch of the release and top features to the media as releva
    </td>
    <td>Included
    </td>
+   <td>Included
+   </td>
   </tr>
   <tr>
    <td>EdX Introductory Course
@@ -347,6 +412,8 @@ Embargoed or day-of pitch of the release and top features to the media as releva
    </td>
    <td>$10,000 for edX course
    </td>
+   <td>Case-by-case
+   </td>
   </tr>
   <tr>
    <td><a href="conformance_programs">Conformance Program</a>
@@ -356,6 +423,8 @@ Embargoed or day-of pitch of the release and top features to the media as releva
    <td>N/A
    </td>
    <td>Included
+   </td>
+   <td>N/A
    </td>
   </tr>
 </table>

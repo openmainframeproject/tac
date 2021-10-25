@@ -180,11 +180,11 @@ Press Release inclusion (combined with other news items e.g. new Members)
    </td>
    <td>N/A
    </td>
-   <td>Second
+   <td>N/A
    </td>
-   <td>First
+   <td>Quarterly
    </td>
-   <td>Second
+   <td>Case-by-case
    </td>
   </tr>
   <tr>

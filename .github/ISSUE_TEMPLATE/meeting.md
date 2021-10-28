@@ -1,6 +1,6 @@
 ---
 parent: Meetings
-title: yyyy-MM-dd
+title: <%= date.toFormat("yyyy-MM-dd") %>
 ---
 
 # Open Mainframe Project TAC Meeting - <%= date.toFormat("MMMM d, yyyy") %>
@@ -56,7 +56,7 @@ International numbers available: [https://zoom.us/zoomconference?m=4ywiZErrEEDIH
 - [ ] Phil Tully, ADP ( Platinum Member )
 - [ ] Gregory MacKinnon, Broadcom ( Platinum Member )
 - [ ] Joe Bostian, IBM ( Platinum Member )
-- [ ] Tatiana Balaburkina, Rocket Software ( Platinum Member )
+- [ ] Giancarlo Frix, Rocket Software ( Platinum Member )
 - [ ] Mark Post, SUSE ( Platinum Member )
 - [ ] James Caffrey, IBM ( ADE )
 - [ ] Sudharsana Srinivasan, IBM ( COBOL Programming Course )

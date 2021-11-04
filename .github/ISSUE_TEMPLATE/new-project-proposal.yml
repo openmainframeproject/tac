@@ -1,0 +1,139 @@
+---
+name: New Project Proposal
+description: Template for proposing a new project to the TAC
+title: 'New Project Proposal - PROJECT NAME'
+labels: ["meeting-agenda"]
+assignees:
+  - openmainframeproject/tac-voting-members
+  - openmainframeproject/omp-staff
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for looking to bring your project to the Open Mainframe Project. Please put the name of the project in the title above replacing PROJECT NAME, and then answer the questions below to have this project be added to the agenda at a future TAC meeting for consideration as a new project. Please refer to the guideance in the [project lifecycle](https://tac.openmainframeproject.org/process/project_stages#proposal-process).
+  - type: textarea
+    id: project-description
+    attributes:
+      label: Project description
+      description: (what it does, why it is valuable, origin and history)
+    validations:
+      required: true
+  - type: textarea
+    id: project-alignment
+    attributes:
+      label: Statement on alignment with Open Mainframe Project Mission and Vision statements
+      description: https://www.openmainframeproject.org/about
+    validations:
+      required: true
+  - type: textarea
+    id: similar-projects
+    attributes:
+      label: Are there similar/related projects out there?
+      description: If so, what is different about this project?
+    validations:
+      required: true 
+  - type: dropdown
+    id: tac-sponsor
+    attributes:
+      label: Sponsor from TAC
+      description: Sponsor helps mentor projects - if the project doesn’t currently have a sponsor, the TAC will appoint one as part of the approval process
+      options:
+        - None
+        - Giancarlo Frix
+        - Gregory MacKinnon
+        - James Caffrey
+        - Joe Bostian	
+        - Kip Twitchell	
+        - Mark Post	
+        - Phil Tully
+        - Robert Dahlberg	
+        - Sean Grady	
+        - Sudharsana Srinivasan
+    validations:
+      required: true
+  - type: dropdown
+    id: project-stage
+    attributes:
+      label: Proposed Project Stage
+      options:
+        - Sandbox
+        - Incubation
+        - Active
+    validations:
+      required: true
+  - type: textarea
+    id: license-and-contribution-guidelines
+    attributes:
+      label: License and contribution guidelines
+      description: Refer to the Open Mainframe Project guidelines
+    validations:
+      required: true 
+  - type: textarea
+    id: source-control
+    attributes:
+      label: Current or desired source control repository 
+      description: GitHub by default
+    validations:
+      required: true 
+  - type: textarea
+    id: external-dependencies
+    attributes:
+      label: External dependencies (including licenses)
+      description: Note that any proposed project should not be predicated on or make use of any commercial software
+    validations:
+      required: true
+  - type: textarea
+    id: initial-committers
+    attributes:
+      label: Initial committers
+      description: |
+        *   How long has each worked on the project? 
+        *   The extent of contributions (how many commits)?  
+        *   Diversity of community (is the contributor base diverse in terms of being spread across different organizations/companies)?
+    validations:
+      required: true
+  - type: textarea
+    id: infrastructure-requests
+    attributes:
+      label: Infrastructure requests
+      description: Detail any requested CI / build infrastructure
+    validations:
+      required: true  
+  - type: textarea
+    id: communication-channels
+    attributes:
+      label: Communication channels
+      description: Detail any requested communication channels in use, such as Slack/IRC channels, mailing lists, forums, and/or other discussion tools. 
+    validations:
+      required: true
+  - type: textarea
+    id: issue-tracker
+    attributes:
+      label: Communication channels
+      description: Detail current issue tracker being used 
+    validations:
+      required: true
+  - type: input
+    id: website
+    attributes:
+      label: Website
+    validations:
+      required: true
+  - type: textarea
+    id: release-methodology-and-mechanics
+    attributes:
+      label: Release methodology and mechanics
+    validations:
+      required: true
+  - type: textarea
+    id: social-media-accounts
+    attributes:
+      label: Social media accounts
+    validations:
+      required: true
+  - type: textarea
+    id: community-size-sponsorship
+    attributes:
+      label: Community size and any existing sponsorship
+    validations:
+      required: true

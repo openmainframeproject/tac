@@ -38,7 +38,7 @@ body:
       label: Sponsor from TAC
       description: Sponsor helps mentor projects - if the project doesn’t currently have a sponsor, the TAC will appoint one as part of the approval process
       options:
-        - None
+        - To be appointed
         - Giancarlo Frix
         - Gregory MacKinnon
         - James Caffrey

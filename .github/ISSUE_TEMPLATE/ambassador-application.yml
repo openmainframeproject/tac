@@ -1,0 +1,49 @@
+name: Open Mainframe Ambassador application
+description: Apply to be an Open Mainframe Ambassador
+title: 'Ambassador application - NAME'
+labels: ["ambassador-application"]
+assignees:
+  - openmainframeproject/tac-voting-members
+  - openmainframeproject/omp-staff
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your interest in becoming an Open Mainframe Ambassador. To be considered, please put your name in the title in place of NAME, and then answer the following questions. Please also reference the [Ambassador Program overview](https://github.com/openmainframeproject/tac/blob/master/process/ambassadors.md) for any questions.
+  - type: input
+    id: email
+    attributes:
+      label: Email
+      placeholder: ex. email@example.com
+    validations:
+      required: true
+  - type: textarea
+    id: bio
+    attributes:
+      label: Bio
+    validations:
+      required: true
+  - type: textarea
+    id: projects
+    attributes:
+      label: Projects within OMP you would want to be an ambassador for
+    validations:
+      required: true
+  - type: textarea
+    id: other-topics
+    attributes:
+      label: List any other topics you would be able to speak about
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why do you want to be an ambassador?
+    validations:
+      required: true
+  - type: textarea
+    id: headshot
+    attributes:
+      label: Attach a headshot
+    validations:
+      required: true

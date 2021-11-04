@@ -41,7 +41,7 @@ body:
       label: Why do you want to be an ambassador?
     validations:
       required: true
-  - type: headshot
+  - type: textarea
     id: headshot
     attributes:
       label: Attach a headshot

@@ -3,6 +3,7 @@ description: Propose an agenda item to discuss at an upcoming TAC meeting
 title: "AGENDA TOPIC"
 labels: ["meeting-agenda"]
 assignees: 
+  - openmainframeproject/tac-voting-members
   - openmainframeproject/omp-staff
 body:
   - type: markdown

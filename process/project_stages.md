@@ -38,7 +38,7 @@ Open Mainframe Project may adopt or amend this document by majority affirmative 
 
 # Proposal Process
 
-TAC Projects must be proposed via a new [GitHub Issue](https://github.com/openmainframeproject/tac/issues/new?assignees=&labels=bug&template=new-project-proposal.md&title=). Project proposals submitted to the Open Mainframe Project TAC must provide the following information to the best of your ability:
+TAC Projects must be proposed via a new [GitHub Issue](https://github.com/openmainframeproject/tac/issues/new?assignees=openmainframeproject%2Ftac-voting-members%2Copenmainframeproject%2Fomp-staff&labels=meeting-agenda&template=new-project-proposal.yml&title=New+Project+Proposal+-+PROJECT+NAME). Project proposals submitted to the Open Mainframe Project TAC must provide the following information to the best of your ability:
 
 *   Name of the project (must be unique within Open Mainframe Project)
 *   Project description (what it does, why it is valuable, origin and history)

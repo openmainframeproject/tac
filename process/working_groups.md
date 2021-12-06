@@ -56,4 +56,4 @@ A: The TAC recognizes that in the lifecycle of a working group goals or mission 
 
 [TAC member]: https://github.com/openmainframeproject/tac#tac-members
 [request on the foundation repo]: https://servicedesk.openmainframeproject.org
-[GitHub Issue]: https://github.com/openmainframeproject/tac/issues/new?assignees=&labels=bug&template=new-working-group-proposal.md&title=
+[GitHub Issue]: https://github.com/openmainframeproject/tac/issues/new?assignees=openmainframeproject%2Ftac-voting-members%2Copenmainframeproject%2Fomp-staff&labels=meeting-agenda&template=new-working-group-proposal.yml&title=New+Working+Group+Proposal+-+NAME

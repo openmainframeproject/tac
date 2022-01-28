@@ -3,7 +3,7 @@ parent: Processes
 title: Project Lifecycle
 nav_order: 1
 ---
-_Approved by Open Mainframe Project TAC on 2021-xx-xx_
+_Approved by Open Mainframe Project TAC on 2021-04-08_
 
 # Open Mainframe Project Hosted Project Lifecycle
 
@@ -134,7 +134,7 @@ To be accepted to the Incubation Stage, in addition to the proposal process a pr
     *   A RELEASE file that provides documentation on the release methodology, cadence, criteria, etc.
     *   A GOVERNANCE file that documents the project’s technical governance.
     *   A SUPPORT file to let users and developers know about ways to get help with your project.
-*   Have achieved and maintained a Core Infrastructure Initiative [Best Practices Badge](https://bestpractices.coreinfrastructure.org/). 
+*   Have achieved and maintained a [OpenSSF Best Practices Badge](https://bestpractices.coreinfrastructure.org/) at the ['passing' level](https://bestpractices.coreinfrastructure.org/en/criteria/0). 
 *   Have had a successful license scan with any critical issues remedied.
 *   An overview of the project’s architecture and features defined.
 *   A project roadmap is defined, which should address the following questions.
@@ -170,7 +170,7 @@ Active Stage projects are considered mature projects that generally are ready fo
 To be accepted at the Active Stage, a project must have completed the Incubation Stage requirements plus the following requirements:
 
 *   Have committers from at least two organizations.
-*   Have achieved and maintained a Core Infrastructure Initiative [Best Practices Gold Level Badge](https://bestpractices.coreinfrastructure.org/).
+*   Have achieved and maintained a [OpenSSF Best Practices Badge](https://bestpractices.coreinfrastructure.org/) at the ['Gold' level](https://bestpractices.coreinfrastructure.org/en/criteria/2).
 *   Demonstrable roadmap progress.
 *   The sustained flow of commits / merged contributions.
 *   A healthy number of public adopters, identified within the project ( using an ADOPTERS.md page or having showcased on the project’s website ).

@@ -1,0 +1,68 @@
+**Open Mainframe Project TAC Meeting - January 27, 2022**
+
+
+Meeting held monthly on the second and fourth Thursdays of the month unless otherwise stated.
+
+Agenda to be posted at: [https://github.com/openmainframeproject/tac/issues?q=is%3Aopen+is%3Aissue+label%3A%22meeting%22](url)
+
+All meetings are listed on the Open Mainframe Project calendar at[ https://lists.openmainframeproject.org/calendar](url), subject to the mailing lists you are subscribed to.
+
+**Meeting recording:** [https://drive.google.com/drive/folders/13tFBM50RIUGw6ZB-kyb0vcDEA1NMvBTB?usp=sharing
+](url)
+
+**Attendance**
+
+**Voting member rollcall:**
+
+- [x]  Gregory MacKinnon, Broadcom ( Platinum Member )
+- [x]  Joe Bostian, IBM ( Platinum Member )
+- [x]  Giancarlo Frix, Rocket Software ( Platinum Member )
+- [x]  James Caffrey, IBM ( ADE )
+- [x]  Sudharsana Srinivasan, IBM ( COBOL Programming Course )
+- [x]  Kip Twitchell ( GenevaERS )
+- [x]  Bob Dahlberg, VCU ( Mentorship )
+- [x]  Sean Grady, Rocket Software ( Zowe )
+- [x]  Ingo Adlung
+
+Quorum Achieved 
+
+
+**Other Attendees**
+
+
+- John Mertic
+- Yarille Kilborn
+- Elizabeth Joseph
+- Len Santalucia
+- Dan Horak
+- Yvette LaMar
+- Hiren Shah
+- Mike Friesenegger
+- Alexander Efremkin
+- David Edelsohn
+- Dave Nicolette
+
+**Agenda**
+
+Extracted from meeting-agenda labelled issues and pull requests from [openmainframeproject/tac](url) prior to the meeting.
+
+- Quarterly Review - z/VM Community Tools #321
+- COBOL Check annual review #313
+- ADE Annual Review #312
+- Discuss 2022 Goals and Objectives #300
+- Discuss Ambassador Program #290
+- Discuss badging for projects #265
+- TerseDecompress incubation renewal #103
+- Project updates ( list at [https://tac.openmainframeproject.org/#projects-and-working-groups](url) )
+
+**Notes**
+
+Mr. Mertic reviewed the current list of Ambassador applications with the group, allowing the group to weigh in on the candidates. We will follow up with a list of the those who applied so the TAC members are able to rank the applicants. Mr. Dahlberg suggested possibly using some of the lower ranked applicants as mentors.
+
+Mr. Nicolette provided an annual review of the COBOL Check. All of the incubation requirements are being met and it is starting to move into the active stage. A motion was made to renew the COBOL Check project for another year in the incubation stage Mr. Twitchell and seconded by Mr. MacKinnon, all were in favor.
+
+Mr. Caffrey reviewed the ADE project. Mr. Mertic went over a list of pending items. Mr. Dahlberg made a motion to renew the ADE project for another year. It was seconded by Mr. Caffrey and all were in favor.
+
+The meeting adjourned.
+ 
+ 

@@ -82,6 +82,7 @@ Extracted from **<%= agendaLabel %>** labelled issues and pull requests from **<
 <%= agendaIssues.map((i) => {
   return `* ${i.title} [#${i.number}](${i.html_url})`
 }).join('\n') %>
+* Review upcoming annual reviews ( list at https://tac.openmainframeproject.org/process/review_cycle.html)
 * Project updates ( list at https://tac.openmainframeproject.org/#projects-and-working-groups )
 
 ## Action Items

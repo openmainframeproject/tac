@@ -12,6 +12,7 @@ All Slack channels referenced below are part of the [Open Mainframe Project Slac
 <table>
 <tbody>
 {%- for project in site.data.projects -%}
+    {%- if project["Level"] != 'emeritus' -%}
     <tr>
         <td><img src="{{ project["Logo URL"] }}" /></td>
         <td>
@@ -37,7 +38,8 @@ All Slack channels referenced below are part of the [Open Mainframe Project Slac
             Meeting Cadence: {{ project["Meeting Cadence"] }}<br />
             {%- endif -%}
         </td>
-    </tr>    
+    </tr>
+    {%- endif -%}
 {%- endfor -%}
 </tbody>
 </table>

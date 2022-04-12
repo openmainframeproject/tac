@@ -5,7 +5,10 @@ has_children: true
 
 # TAC Meetings
 
-TAC Meetings are are open to anyone interested in participating in the project. Meetings are generally scheduled the second and fourth Thursday of each month at 1:00 pm US Eastern Time; the current schedule and meeting invitiation is available on the [TAC calendar](https://lists.openmainframeproject.org/g/omp-technical/calendar)
+TAC Meetings are are open to anyone interested in participating in the project. Meetings are generally scheduled the second and fourth Thursday of each month at 1:00 pm US Eastern Time. To join, you will need to register for the meeting as listed below:
+
+- Register [here](https://zoom-lfx.platform.linuxfoundation.org/meeting/91496599232) for the 2nd Thursday of the Month meeting
+- Register [here](https://zoom-lfx.platform.linuxfoundation.org/meeting/98970553782) for the 4th Thursday of the Month meeting
 
 Meeting notes are posted soon after each meeting, along with recordings, in this directory.
 

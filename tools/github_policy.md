@@ -150,4 +150,4 @@ These practices will help you improve your GitHub presence in an effort to help 
 
 As project communities and members look for the Open Mainframe Project to provide a vendor-neutral space for collaboration, the staff are here to ensure that the fair and transparent governance that the project has put in place is adhered to. This can from time to time can add a bit of overhead, but the tradeoff of showcasing transparent and consistent processes generally is considered a benefit to projects, and this also lowers the burden for a project to manage this on thier own.
 
-If there are concerns about this, feel free to reach out to the [Open Mainframe Project staff][mailto:staff@openmainframeproject.org].
+If there are concerns about this, feel free to reach out to the [Open Mainframe Project staff](https://jira.linuxfoundation.org/plugins/servlet/theme/portal/2/create/238).

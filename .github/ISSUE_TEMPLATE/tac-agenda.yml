@@ -1,0 +1,24 @@
+name: TAC Meeting agenda item
+description: Propose an agenda item to discuss at an upcoming TAC meeting
+title: "AGENDA TOPIC"
+labels: ["meeting-agenda"]
+assignees: 
+  - openmainframeproject/tac-voting-members
+  - openmainframeproject/omp-staff
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The TAC is always looking for topics of interest to the community. Please set the issue title above to the agenda topic, and fill out the following details to have this added to a future TAC meeting agenda. Please also note you must be available to lead this discussion on a TAC meeting. Calendar of TAC meetings is at https://lists.openmainframeproject.org/g/omp-technical/calendar.
+  - type: textarea
+    id: details
+    attributes:
+      label: Please share any additional details on this topic
+    validations:
+      required: true
+  - type: textarea
+    id: tac-action
+    attributes:
+      label: Detail what actions or feedback you would like from the TAC
+    validations:
+      required: true

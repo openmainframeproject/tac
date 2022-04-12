@@ -62,6 +62,17 @@ Open Mainframe Project is always open to feedback on the benefits provided feel 
    </td>
   </tr>
   <tr>
+   <td>Credly badges to recognize committers and other key individuals
+   </td>
+   <td>N/A
+   </td>
+   <td>Included
+   </td>
+   <td>Included
+   </td>
+   <td>Included
+   </td>
+  </tr><tr>
    <td>Project swag available in OMP Store
 ( <a href="https://store.openaminframeproject.org/">https://store.openaminframeproject.org</a> )
    </td>

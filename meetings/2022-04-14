@@ -1,0 +1,104 @@
+# Open Mainframe Project TAC Meeting - April 14, 2022
+
+## **Date/Time**
+
+Meeting held monthly on the second and fourth Thursdays of the month unless otherwise stated. 
+
+Agenda to be posted at: [https://github.com/openmainframeproject/tac/issues?q=is%3Aopen+is%3Aissue+label%3A%22meeting%22](url)
+ 
+Meeting recording
+
+**Antitrust Policy Notice**
+
+Linux Foundation meetings involve participation by industry competitors, and it is the intention of the Linux Foundation to conduct all of its activities in accordance with applicable antitrust and competition laws. It is therefore extremely important that attendees adhere to meeting agendas, and be aware of, and not participate in, any activities that are prohibited under applicable US state, federal or foreign antitrust and competition laws.
+Examples of types of actions that are prohibited at Linux Foundation meetings and in connection with Linux Foundation activities are described in the Linux Foundation Antitrust Policy available at [http://www.linuxfoundation.org/antitrust-policy](url). If you have questions about these matters, please contact your company counsel, or if you are a member of the Linux Foundation, feel free to contact Andrew Updegrove of the firm of Gesmer Updegrove LLP, which provides legal counsel to the Linux Foundation.
+ 
+### **Attendance**
+Voting member rollcall:
+
+
+**Present**
+
+- Phil Tully, ADP ( Platinum Member )
+- Gregory MacKinnon, Broadcom ( Platinum Member )
+- Joe Bostian, IBM ( Platinum Member )
+- Sudharsana Srinivasan, IBM ( COBOL Programming Course )
+- Mark Post, ( Platinum Member, SUSE )
+- Giancarlo Frix ( Platinum Member, Rocket Software )
+ 
+**Not Present**
+- Kip Twitchell ( GenevaERS )
+- James Caffrey ( ADE )
+- Bob Dahlberg, VCU ( Mentorship )
+- Sean Grady, Rocket Software ( Zowe )
+ 
+**Quorum Achieved.**
+
+Other Attendees
+
+- John Mertic
+- Yarille Kilborn
+- Mike Friesenegger
+- Len Santalucia
+- Elizabeth Joseph
+- David Edelsohn
+- Dan Horák
+- Pranab Bajpai
+- Maemalynn Meanor
+- Hiren Shah
+- Yongkook Kim
+- Cameron Seay
+- Matt Hogstrom
+- Ingo Adlung
+- Hong Min
+- Mark Ackert
+- CAF
+
+### Agenda
+Extracted from meeting-agenda labelled issues and pull requests from [openmainframeproject/tac ](url)prior to the meeting.
+
+- Open Mainframe Project Service Desk [#343](url)
+- License Scanning Schedule for 2022 [#340](url)
+- Reminders on Open Mainframe Summit [#338](url)
+- TerseDecompress incubation renewal [#103](url)
+- COBOL Programming Course annual review [#349](url)
+- Presentation on LFX Security [#337](url)
+Review upcoming annual reviews ( list at [https://tac.openmainframeproject.org/process/review_cycle.html)](url)
+Project updates ( list at [https://tac.openmainframeproject.org/#projects-and-working-groups](url) )
+
+
+#### Notes
+**Open Mainframe Project Service Desk**:
+Mr. Metric announced the service desk feature and requested ay request are routed through this so they are kept track of properly.
+
+**COBOL Programming Course annual review**:
+Ms. Srinivasan presented the COBOL Programming Course annual review. She shared they had committers from IBM, Broadcom, and Singapore Mgmt University. COBOL Programming Course has achieved and maintained a Core Infrastructure Initiative and has a Best Practices Gold Badge. Mr. Seay spoke a few words as a testament to the positive work that the project is doing.
+
+> Mr. Post motioned to renew the COBOL Programming Course for another year. Mr. Bostian seconded the motion and all members were in favor.
+
+**License Scanning Schedule for 2022**: A brief summary of the license scan schedule was provided.
+
+**Reminders on Open Mainframe Summit**: Planning is in forward progress for the summit and more information will be available in the weeks to follow.
+ 
+**TerseDecompress incubation renewal**: No updates
+
+
+ 
+**Presentation on LFX Security**: Mr. Bajapai provided members with a presentation of the LFX Security tool and its features. You can find the projects listed here: [https://security.lfx.linuxfoundation.org/#/a0941000002wBymAAE/foundation-details](url) 
+ and if you have to report any issues, you may open a ticket here: [https://jira.linuxfoundation.org/plugins/servlet/theme/portal/4/create/139](url)
+
+**Review upcoming annual reviews** ( list at [https://tac.openmainframeproject.org/process/review_cycle.html](url)): A reminder to check the calendar for dates of upcoming reviews.
+
+**Project updates**:( list at [https://tac.openmainframeproject.org/#projects-and-working-groups](url) )
+
+
+Mr. Seay mentioned working on the phone interviews, following up on the surveys.
+
+**Linux Distributions Working Group**- At risk of losing the Alpine but it worked out and everything is okay now.
+Zorow- There are some licensing issues they are working through.
+
+Ms. Joseph shared that **Open Mainframe Project Education** is getting ready for their mentorship programs this summer.
+Open Mainframe Project Mentorships- There are currently 11 programs up for applications. All mentorships have applicants despite the press release not having been sent publicly. 
+ 
+Mr. Mertic announced that the Open Mainframe TAC meetings are moving over to the meeting management platform and everyone should have received new invitations with personal links. If you have not received a new invitation, you should reach out as soon as possible so we may troubleshoot this.
+ 

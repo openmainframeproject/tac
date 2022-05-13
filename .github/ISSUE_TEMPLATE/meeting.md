@@ -47,7 +47,11 @@ Meeting ID: 290 221 938
 
 International numbers available: [https://zoom.us/zoomconference?m=4ywiZErrEEDIHL6VXNjfZ-PXcfjeWMjs](https://zoom.us/zoomconference?m=4ywiZErrEEDIHL6VXNjfZ-PXcfjeWMjs)
 
-[Meeting recording](https://drive.google.com/drive/folders/13tFBM50RIUGw6ZB-kyb0vcDEA1NMvBTB?usp=sharing)
+## Meeting Recording
+
+A recording of the meeting and the transcript are both available at the link below.
+
+<ADD LINK HERE>
 
 ## Antitrust Policy Notice
 

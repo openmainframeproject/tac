@@ -27,11 +27,11 @@ Meeting held monthly on the second and fourth Thursdays of the month unless othe
 Or in your local time:
 * [https://www.timeanddate.com/worldclock/?iso=<%= date.toFormat("yyyy-MM-dd'T'HH:mm:ss")%>](https://www.timeanddate.com/worldclock/?iso=<%= date.toFormat("yyyy-MM-dd'T'HH:mm:ss")%>) 
 
-All meetings are listed on the Open Mainframe Project calendar at (https://lists.openmainframeproject.org/calendar)[https://lists.openmainframeproject.org/calendar], subject to the mailing lists you are subscribed to.
+All meetings are listed on the Open Mainframe Project calendar at [https://lists.openmainframeproject.org/calendar](https://lists.openmainframeproject.org/calendar), subject to the mailing lists you are subscribed to.
 
 ### Conference call details
 
-Meetings are hosted on the LFX Meeting Management platform. More details on how to register are at (https://tac.openmainframeproject.org/meetings/)[https://tac.openmainframeproject.org/meetings/]
+Meetings are hosted on the LFX Meeting Management platform. More details on how to register are at [https://tac.openmainframeproject.org/meetings](https://tac.openmainframeproject.org/meetings).
 
 ## Meeting Recording
 

@@ -27,25 +27,11 @@ Meeting held monthly on the second and fourth Thursdays of the month unless othe
 Or in your local time:
 * [https://www.timeanddate.com/worldclock/?iso=<%= date.toFormat("yyyy-MM-dd'T'HH:mm:ss")%>](https://www.timeanddate.com/worldclock/?iso=<%= date.toFormat("yyyy-MM-dd'T'HH:mm:ss")%>) 
 
-All meetings are listed on the Open Mainframe Project calendar at https://lists.openmainframeproject.org/calendar, subject to the mailing lists you are subscribed to.
+All meetings are listed on the Open Mainframe Project calendar at (https://lists.openmainframeproject.org/calendar)[https://lists.openmainframeproject.org/calendar], subject to the mailing lists you are subscribed to.
 
 ### Conference call details
 
-Join from PC, Mac, Linux, iOS or Android: [https://zoom.us/j/290221938](https://zoom.us/j/290221938)
-
-Or iPhone one-tap :
-
-US: +16465588656,,290221938#  or +16699006833,,290221938#
-
-Or Telephone:
-
-Dial(for higher quality, dial a number based on your current location):
-
-    US: +1 646 558 8656  or +1 669 900 6833  or +1 855 880 1246 (Toll Free) or +1 877 369 0926 (Toll Free)
-
-Meeting ID: 290 221 938
-
-International numbers available: [https://zoom.us/zoomconference?m=4ywiZErrEEDIHL6VXNjfZ-PXcfjeWMjs](https://zoom.us/zoomconference?m=4ywiZErrEEDIHL6VXNjfZ-PXcfjeWMjs)
+Meetings are hosted on the LFX Meeting Management platform. More details on how to register are at (https://tac.openmainframeproject.org/meetings/)[https://tac.openmainframeproject.org/meetings/]
 
 ## Meeting Recording
 
@@ -86,8 +72,8 @@ Extracted from **<%= agendaLabel %>** labelled issues and pull requests from **<
 <%= agendaIssues.map((i) => {
   return `* ${i.title} [#${i.number}](${i.html_url})`
 }).join('\n') %>
-* Review upcoming annual reviews ( list at https://tac.openmainframeproject.org/process/review_cycle.html)
-* Project updates ( list at https://tac.openmainframeproject.org/#projects-and-working-groups )
+* Review upcoming annual reviews ( list at [https://tac.openmainframeproject.org/process/review_cycle.html](https://tac.openmainframeproject.org/process/review_cycle.html) )
+* Project updates ( list at [https://tac.openmainframeproject.org/#projects-and-working-groups](https://tac.openmainframeproject.org/#projects-and-working-groups) )
 
 ## Action Items
 

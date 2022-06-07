@@ -18,7 +18,7 @@ Per the [Annual Review process](project_stages#tac-review), all hosted projects 
 </thead>
 <tbody>
 {%- for project in site.data.projects -%}
-    {%- if project["Level"] != 'Emeritus' -%}
+    {%- if project["Level"] != 'emeritus' -%}
     <tr>
         <td>{{ project["Name"] }}</td>
         <td>{{ project["Level"] }}</td>

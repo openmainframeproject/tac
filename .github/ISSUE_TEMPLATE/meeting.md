@@ -49,8 +49,9 @@ Examples of types of actions that are prohibited at Linux Foundation meetings an
 
 ### Voting member rollcall:
 
-- [ ] Phil Tully, ADP ( Platinum Member )
+- [ ] _vacant_, ADP ( Platinum Member )
 - [ ] Gregory MacKinnon, Broadcom ( Platinum Member )
+- [ ] Phil Tully, Citi ( Platinum Member )
 - [ ] Joe Bostian, IBM ( Platinum Member )
 - [ ] Giancarlo Frix, Rocket Software ( Platinum Member )
 - [ ] Mark Post, SUSE ( Platinum Member )

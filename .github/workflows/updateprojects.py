@@ -45,8 +45,8 @@ with urllib.request.urlopen(landscapeHostedProjects) as hostedProjectsResponse:
                         'Mailing List': projectData['extra']['mailing_list_url'] if 'extra' in projectData and 'mailing_list_url' in projectData['extra'] else None,
                         'User Mailing List': projectData['extra']['user_mailing_list_url'] if 'extra' in projectData and 'user_mailing_list_url' in projectData['extra'] else None,
                         'Dev Mailing List': projectData['extra']['dev_mailing_list_url'] if 'extra' in projectData and 'dev_mailing_list_url' in projectData['extra'] else None,
-                        'Primary Github Repo': projectData['project_org'] if 'extra' in projectData and 'project_org' in projectData else None,
-                        'Github Org': projectData['repo_url'] if 'extra' in projectData and 'repo_url' in projectData else None
+                        'Github Org': projectData['project_org'] if 'extra' in projectData and 'project_org' in projectData else None,
+                        'Primary Github Repo': projectData['repo_url'] if 'extra' in projectData and 'repo_url' in projectData else None
                         })
 
 with open(projectsCsvFile, 'w') as projectsCsvFileObject:

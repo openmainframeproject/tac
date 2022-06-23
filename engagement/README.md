@@ -24,25 +24,30 @@ All Slack channels referenced below are part of the [Open Mainframe Project Slac
     <tr>
         <td><img src="{{ project["Logo URL"] }}" /></td>
         <td>
-            {%- if project["Website"] -%}
+            {%- if project["Github Org"] -%}
+            Repo: <a href="{{ project["Github Org"] }}">{{ project["Github Org"] }}</a><br />
+            {%- elsif project["Primary Github Repo"] -%}
+            Repo: <a href="{{ project["Primary Github Repo"] }}">{{ project["Primary Github Repo"] }}</a><br />
+            {%- endif -%}
+            {%- if project["Website"] and project["Website"] != 'none' -%}
             Website: <a href="{{ project["Website"] }}">{{ project["Website"] }}</a><br />
             {%- endif -%}
-            {%- if project["Dev Mailing List"] -%}
+            {%- if project["Dev Mailing List"] and project["Dev Mailing List"] != 'none' -%}
             Dev Mailing List: <a href="{{ project["Dev Mailing List"] }}">{{ project["Dev Mailing List"] }}</a><br />
             {%- endif -%}
-            {%- if project["User Mailing List"] -%}
+            {%- if project["User Mailing List"] and project["User Mailing List"] != 'none' -%}
             User Mailing List: <a href="{{ project["User Mailing List"] }}">{{ project["User Mailing List"] }}</a><br />
             {%- endif -%}
-            {%- if project["Mailing List"] -%}
+            {%- if project["Mailing List"] and project["Mailing List"] != 'none' -%}
             Mailing List: <a href="{{ project["Mailing List"] }}">{{ project["Mailing List"] }}</a><br />
             {%- endif -%}
-            {%- if project["Slack"] -%}
+            {%- if project["Slack"] and project["Slack"] != 'none' -%}
             Slack: <a href="https://slack.openmainframeproject.org">{{ project["Slack"] }}</a><br />
             {%- endif -%}
             {%- if project["Leads"] -%}
             Leads: {{ project["Leads"] }}<br />
             {%- endif -%}
-            {%- if project["Meeting Cadence"] -%}
+            {%- if project["Meeting Cadence"] and project["Meeting Cadence"] != 'none' -%}
             Meeting Cadence: {{ project["Meeting Cadence"] }}<br />
             {%- endif -%}
         </td>

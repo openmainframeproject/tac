@@ -38,7 +38,7 @@ In addition, the Open Mainframe Project TAC has established a working groups pro
 Below are the project and working groups supported by the TAC, listed by [project stage](process/project_stages.md).
 
 <!-- Embed list of all Open Mainframe Project members -->  
-<iframe src="https://landscape.openmainframeproject.org/pages/hosted-projects" frameborder="0" id="landscape" scrolling="no" style="width: 1px; min-width: 100%; opacity: 1; visibility: visible; overflow: hidden; height: 1717px;"></iframe>
+<iframe src="https://landscape.openmainframeproject.org/pages/hosted-projects?style=body{background-color:white;}%23embedded-footer{display:none;}" frameborder="0" id="landscape" scrolling="no" style="width: 1px; min-width: 100%; opacity: 1; visibility: visible; overflow: hidden; height: 1717px;"></iframe>
 <script src="https://landscape.openmainframeproject.org/iframeResizer.js"></script>
 
 There are many more mainframe-centric open source projects than what is hosted at Open Mainframe Project; check out the list and add any we are missing at the [Open Mainframe Project Landscape](https://landscape.openmainframeproject.org)

@@ -1,5 +1,6 @@
 ---
-parent: Processes
+grand_parent: Processes
+parent: Project Lifecycle
 ---
 
 # Project Review Cycle

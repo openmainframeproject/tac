@@ -1,6 +1,7 @@
 ---
 title: Getting Involved
 has_children: false
+nav_order: 2
 ---
 
 # Getting Involved in Projects

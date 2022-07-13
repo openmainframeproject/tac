@@ -1,7 +1,7 @@
 ---
 parent: Processes
 title: Principles
-nav_order: 2
+nav_order: 3
 ---
 
 # Open Mainframe Project - Vision, Mission, and Principles

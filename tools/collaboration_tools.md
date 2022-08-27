@@ -144,7 +144,6 @@ By default, any TSC or TAC chairperson has the ability to schedule community mee
     - You must be very careful to not overlap LF Edge Zoom account meetings, you can view all the meetings within the LF Edge Group Calendar section of the Wiki under the ALL Mail Lists section.
   - Organizer Email, this will be the sub-group mail list (such as tsc@lists... or process@lists..., etc.).
   - Organizer Phone, is optional.
-  - Event Color, this will be the color noted for the LF Edge Zoom account you are using for the meeting (such as LF Edge Edge Stack 1 being purple in group calendar), color designations for each LF Edge Zoom account are available here. 
   - Description, this will be the relevant meeting details. It is recommend to enter the following:
     - Summary of the meeting purpose
     - Meeting lead name
@@ -158,7 +157,6 @@ By default, any TSC or TAC chairperson has the ability to schedule community mee
     - A 1 day before and 10 minutes before reminder is suggested as a standard, leave as Send As Normal Message.
   - Notifications, you must select Send Invite To Group in order for the invite to be sent to the applicable sub-group. 
     - Leave Send Notice To Group When Event Happens unchecked as it is not a necessary notification in most cases.
-  
 
 #### Update a meeting
 

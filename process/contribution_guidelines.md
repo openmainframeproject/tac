@@ -1,5 +1,6 @@
 ---
 parent: Processes
+nav_order: 1
 title: Contribution Guidelines
 ---
 # Contribution Guidelines for Open Mainframe Project hosted projects

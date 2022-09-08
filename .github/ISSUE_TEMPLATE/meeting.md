@@ -57,7 +57,7 @@ Examples of types of actions that are prohibited at Linux Foundation meetings an
 - [ ] Mark Post, SUSE ( Platinum Member )
 - [ ] James Caffrey, IBM ( ADE )
 - [ ] Sudharsana Srinivasan, IBM ( COBOL Programming Course )
-- [ ] Kip Twitchell ( GenevaERS )
+- [ ] Andrea Orth ( GenevaERS )
 - [ ] Bob Dahlberg, VCU ( Mentorship )
 - [ ] Sean Grady, Rocket Software ( Zowe )
 

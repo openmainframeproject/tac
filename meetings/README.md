@@ -7,10 +7,14 @@ has_children: true
 
 TAC Meetings are are open to anyone interested in participating in the project. Meetings are generally scheduled the second and fourth Thursday of each month at 1:00 pm US Eastern Time. To join, you will need to register for the meetings as listed below:
 
-- Register [here](https://zoom-lfx.platform.linuxfoundation.org/meeting/91496599232) for the 2nd Thursday of the Month meeting
-- Register [here](https://zoom-lfx.platform.linuxfoundation.org/meeting/93630303264) for the 4th Thursday of the Month meeting
+- For the TAC meeting on December 8, 2022, register [here](https://zoom-lfx.platform.linuxfoundation.org/meeting/91496599232)
+- For TAC meetings in 2023
+  - Register [here](https://zoom-lfx.platform.linuxfoundation.org/meeting/94569165021) for the 2nd Thursday of the Month meeting
+  - Register [here](https://zoom-lfx.platform.linuxfoundation.org/meeting/99009625866) for the 4th Thursday of the Month meeting
 
-_For 2022, no TAC meeting will be held on September 22, 2022 (Open Mainframe Summit), November 24th, 2022 (US Thanksgiving), or December 22nd, 2022 (Winter Holidays). Meeting link for October 27th, 2022 meeting [here](https://zoom-lfx.platform.linuxfoundation.org/meeting/95116979391)_
+_For 2022 no TAC meeting will be held on November 24th, 2022 (US Thanksgiving), or December 22nd, 2022 (Winter Holidays)._
+
+_For 2023 no TAC meeting will be held on November 23rd, 2022 (US Thanksgiving), or December 28th, 2022 (Winter Holidays)._
 
 Meeting notes are posted soon after each meeting, along with recordings, in this directory.
 

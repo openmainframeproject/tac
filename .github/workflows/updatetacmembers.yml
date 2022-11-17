@@ -9,19 +9,20 @@ jobs:
     steps:
     - name: Check out repo
       uses: actions/checkout@v2
-    - name: Grab latest TAC member list
-      uses: carlosperate/download-file-action@v1.0.3
+    - name: Set up Python 3.x
+      uses: actions/setup-python@v2
       with:
-         file-url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQy-os8zxtH10lReFECEXLVDhVZNJRDRaPXluCHwqAqZTWprfJ990yUj5gn4e4B1P7R59cbuqgyAMQG/pub?gid=2026616627&single=true&output=csv'
-         file-name: '_data/tacmembers.csv'
+        python-version: '3.x'
+    - name: Run build
+      run: |
+        python .github/workflows/updatetacmembers.py
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v3
       with:
-         token: ${{ secrets.PAT }}
-         branch-suffix: timestamp
-         path: .
-         title: Update TAC members
-         labels: automerge
-         commit-message: Update TAC members
-         signoff: true
-
+        token: ${{ secrets.PAT }}
+        branch-suffix: timestamp
+        path: .
+        title: Update TAC members
+        labels: automerge
+        commit-message: Update TAC members
+        signoff: true

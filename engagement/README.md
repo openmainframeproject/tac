@@ -46,10 +46,13 @@ All Slack channels referenced below are part of the [Open Mainframe Project Slac
             Slack: <a href="https://slack.openmainframeproject.org">{{ project["Slack"] }}</a><br />
             {%- endif -%}
             {%- if project["Leads"] -%}
-            Leads: {{ project["Leads"] }}<br />
+            Lead(s): {{ project["Leads"] }}<br />
             {%- endif -%}
-            {%- if project["Meeting Cadence"] and project["Meeting Cadence"] != 'none' -%}
-            Meeting Cadence: {{ project["Meeting Cadence"] }}<br />
+            {%- if project["Calendar"] and project["Calendar"] != 'none' -%}
+            Calendar: {{ project["Calendar"] }}<br />
+            {%- endif -%}
+            {%- if project["Best Practices Badge ID"] and project["Best Practices Badge ID"] != 'none' and project["Best Practices Badge ID"] != 'False' -%}
+            <a href="https://bestpractices.coreinfrastructure.org/projects/{{ project["Best Practices Badge ID"] }}"><img src="https://bestpractices.coreinfrastructure.org/projects/{{ project["Best Practices Badge ID"] }}/badge"></a>
             {%- endif -%}
         </td>
     </tr>

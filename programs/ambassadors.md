@@ -31,10 +31,18 @@ Ambassadors can serve indefinitely, with their ambassadorship renewed on a yearl
 *   Affiliated with an Open Mainframe Project member OR is a contributor to an Open Mainframe Project hosted project.
 *   Willing to speak at community events, write technical content such as blog posts and be interviewed for articles, podcasts or other marketing and educational materials. 
 
-## Expected Time Commitments
+## Required Time Commitments
 
-*   Give a talk, host a meetup or perform an activity that spreads the awareness of open source on mainframe twice a year
-*   Report back on your activities for our end-of-year survey and report
+*  Participate in at least one Open Mainframe Project asset per quarter. Examples include:
+	- Submitting a blog post for the Open Mainframe website
+	- Participating in an interview (TechStrong TV, TFIR or other)
+	- Submitting a speaking abstract on behalf of the project
+	- Speaking at a conference or tradeshow
+	- Leading a meetup
+	- Speaking at a webinar
+*  Report back on your activities for our end-of-year survey and report.
+
+Failure to do so may result in removal from the Ambassador Program.
 
 ## Ambassador Benefits
 

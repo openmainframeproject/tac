@@ -7,12 +7,9 @@ has_children: true
 
 TAC Meetings are are open to anyone interested in participating in the project. Meetings are generally scheduled the second and fourth Thursday of each month at 1:00 pm US Eastern Time. To join, you will need to register for the meetings as listed below:
 
-- For the TAC meeting on December 8, 2022, register [here](https://zoom-lfx.platform.linuxfoundation.org/meeting/91496599232)
 - For TAC meetings in 2023
   - Register [here](https://zoom-lfx.platform.linuxfoundation.org/meeting/94569165021) for the 2nd Thursday of the Month meeting
   - Register [here](https://zoom-lfx.platform.linuxfoundation.org/meeting/99009625866) for the 4th Thursday of the Month meeting
-
-_For 2022 no TAC meeting will be held on November 24th, 2022 (US Thanksgiving), or December 22nd, 2022 (Winter Holidays)._
 
 _For 2023 no TAC meeting will be held on November 23rd, 2022 (US Thanksgiving), or December 28th, 2022 (Winter Holidays)._
 
@@ -26,9 +23,9 @@ TAC meetings will have a defined agenda circulated via the omp-technical@ mailin
 
 Generally topics for a TAC meeting include:
 
-*   A project or working group proposal.
-*   Annual review of a project or working group, or consideration for a project to move to a different stage.
-*   An invited presentation on a topic of interest to the TAC or the Open Mainframe Project technical community. This might be tooling and infrastructure updates, presentations from related organizations/projects, or other program updates.
+* A project or working group proposal.
+* Annual review of a project or working group, or consideration for a project to move to a different stage.
+* An invited presentation on a topic of interest to the TAC or the Open Mainframe Project technical community. This might be tooling and infrastructure updates, presentations from related organizations/projects, or other program updates.
 
 # TAC meeting structure and agenda
 
@@ -38,8 +35,8 @@ You can propose a topic for the TAC by either creating an open [issue tagged 'me
 
 Agenda items will be considered based on the following criteria.
 
-*   Any project proposal or review requires the agenda items submitted with the presentation at least 2 weeks prior to the TAC meeting.
-*   No more than 1 project proposal or 1 review will be part of a TAC meeting ( each expected to take between 30-45 minutes ). Generally in a month the TAC will have at least 1 project proposal and 1 review, but in the case that there are openings an additional project proposal or review may be added at the discretion of the TAC Chairperson.
+* Any project proposal or review requires the agenda items submitted with the presentation at least 2 weeks prior to the TAC meeting.
+* No more than 1 project proposal or 1 review will be part of a TAC meeting ( each expected to take between 30-45 minutes ). Generally in a month the TAC will have at least 1 project proposal and 1 review, but in the case that there are openings an additional project proposal or review may be added at the discretion of the TAC Chairperson.
 
 ## Project and working group updates for TAC meetings
 

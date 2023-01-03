@@ -8,26 +8,7 @@ The role of the Technical Advisory Council (TAC) is to direct and coordinate the
 
 # Voting TAC Members
 
-<table class="sortable">
-<thead>
-    <tr>
-        <th>Representative</th>
-	<th>Appointed By</th>
-	<th>Role</th>
-	<th>Special Role</th>
-	<th>Organization</th>
-    </tr>
-</thead>
-<tbody>
-{%- for member in site.data.tacmembers -%}
-    <tr>
-       {%- for item in member -%}<td>{{ item[1] }}</td>{%- endfor -%}
-    </tr>    
-{%- endfor -%}
-</tbody>
-</table>
-<link rel="stylesheet" href="css/sorTable.css">
-<script src="js/sorTable.min.js"></script>
+{% include tacmembers.html %}
 
 # Projects and Working Groups
 
@@ -37,9 +18,7 @@ In addition, the Open Mainframe Project TAC has established a working groups pro
 
 Below are the project and working groups supported by the TAC, listed by [project stage](process/project_stages.md).
 
-<!-- Embed list of all Open Mainframe Project members -->  
-<iframe src="https://landscape.openmainframeproject.org/pages/hosted-projects?style=body{background-color:white;}%23embedded-footer{display:none;}" frameborder="0" id="landscape" scrolling="no" style="width: 1px; min-width: 100%; opacity: 1; visibility: visible; overflow: hidden; height: 1717px;"></iframe>
-<script src="https://landscape.openmainframeproject.org/iframeResizer.js"></script>
+{% include projectlist.html %}
 
 There are many more mainframe-centric open source projects than what is hosted at Open Mainframe Project; check out the list and add any we are missing at the [Open Mainframe Project Landscape](https://landscape.openmainframeproject.org)
 

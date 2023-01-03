@@ -6,7 +6,7 @@ has_children: true
 ---
 _Approved by Open Mainframe Project TAC on 2021-04-08_
 
-# Open Mainframe Project Hosted Project Lifecycle
+# Open Mainframe Project - Project Lifecycle
 
 - [Overview](#overview)
 - [Proposal Process](#proposal-process)
@@ -25,7 +25,6 @@ _Approved by Open Mainframe Project TAC on 2021-04-08_
     - [Benefits](#benefits-2)
     - [Expectations](#expectations-2)
   - [Emeritus Stage](#emeritus-stage)
-- [TAC Review](#tac-review)
 
 # Overview
 
@@ -123,32 +122,32 @@ A project at the Incubation Stage has begun to form a community and develop its 
 
 ### Requirements
 
-To be accepted to the Incubation Stage, in addition to the proposal process a project must achieve the following requirements:
+To be accepted to the Incubation Stage, in addition to the proposal process, a project must achieve the following requirements:
 
 *   Have completed and approved the Technical Charter and agree to transfer any relevant trademarks to The Linux Foundation or its affiliate, LF Projects, LLC, and to assist in filing for any relevant unregistered ones.
 *   Have defined its technical governance, including:
-    *   A LICENSE file in every code repository, with the license chosen an OSI-approved license.
+    *   A LICENSE file in every code repository, with the license chosen being an OSI-approved license.
     *   A README file welcoming new community members to the project and explaining why the project is useful and how to get started.
-    *   A CONTRIBUTING file explaining to other developers and your community of users how to contribute to the project. The file should explain what types of contributions are needed and how the process works.
+    *   A CONTRIBUTING file explaining to other developers and your community of users how to contribute to the project. The file should explain the types of contributions needed and how the process works.
     *   A CODEOWNERS or COMMITTERS file to define individuals or teams that are responsible for code in a repository; document current project owners and current and emeritus committers. 
     *   A CODE_OF_CONDUCT file that sets the ground rules for participants’ behavior associated and helps to facilitate a friendly, welcoming environment. By default, projects should leverage the Linux Foundation Code of Conduct unless an alternate Code of Conduct is approved prior.
     *   A RELEASE file that provides documentation on the release methodology, cadence, criteria, etc.
     *   A GOVERNANCE file that documents the project’s technical governance.
     *   A SUPPORT file to let users and developers know about ways to get help with your project.
-*   Have achieved and maintained a [OpenSSF Best Practices Badge](https://bestpractices.coreinfrastructure.org/) at the ['passing' level](https://bestpractices.coreinfrastructure.org/en/criteria/0). 
+*   Have achieved and maintained an [OpenSSF Best Practices Badge](https://bestpractices.coreinfrastructure.org/) at the ['passing' level](https://bestpractices.coreinfrastructure.org/en/criteria/0). 
 *   Have had a successful license scan with any critical issues remedied.
 *   An overview of the project’s architecture and features defined.
 *   A project roadmap is defined, which should address the following questions.
     *   What use cases are possible now?
-    *   What does the next year look like in terms of additional features and use cases covered?
+    *   What does the next year look like regarding additional features and use cases covered?
 *   Community and contributor growth assessment
     *   The current number of contributors and committers, and the number of different organizations contributing to the project. 
-        *   Generally, the TAC will look for 2 to 3 committers, but for a high-quality project, 1 committer may be acceptable.
+        *   Generally, the TAC will look for 2 to 3 committers, but one committer may be acceptable for a high-quality project.
     *   Demonstrate a sustained flow of commits / merged contributions
-    *   A credible plan for developing a thriving user community, in particular expanding the number of committers and contributors?
+    *   A credible plan for developing a thriving user community, particularly expanding the number of committers and contributors?
     *   Outline of the plan for the project to complete the requirements for Active Stage
 
-Sandbox Projects may propose to be reviewed to move to the Incubation Stage at any time by creating a GitHub Issue to add to a future TAC meeting agenda ( minimum two weeks notice required ) or may be moved to the Incubation Stage during its annual review. Projects should prepare a presentation outlining how it has completed the Incubation Stage requirements.
+Sandbox Projects may propose to be reviewed to move to the Incubation Stage at any time by creating a GitHub Issue to add to a future TAC meeting agenda ( minimum two weeks' notice required ) or may be moved to the Incubation Stage during its annual review. Projects should prepare a presentation outlining how they completed the Incubation Stage requirements.
 
 ### Benefits
 
@@ -171,10 +170,10 @@ Active Stage projects are considered mature projects that generally are ready fo
 To be accepted at the Active Stage, a project must have completed the Incubation Stage requirements plus the following requirements:
 
 *   Have committers from at least two organizations.
-*   Have achieved and maintained a [OpenSSF Best Practices Badge](https://bestpractices.coreinfrastructure.org/) at the ['Gold' level](https://bestpractices.coreinfrastructure.org/en/criteria/2).
+*   Have achieved and maintained an [OpenSSF Best Practices Badge](https://bestpractices.coreinfrastructure.org/) at the ['Gold' level](https://bestpractices.coreinfrastructure.org/en/criteria/2).
 *   Demonstrable roadmap progress.
 *   The sustained flow of commits / merged contributions.
-*   A healthy number of public adopters, identified within the project ( using an ADOPTERS.md page or having showcased on the project’s website ).
+*   A healthy number of public adopters identified within the project ( using an ADOPTERS.md page or having showcased on the project’s website ).
 *   Elect or appoint a project lead to represent the project on the TAC.
 
 Incubation Projects may propose to be reviewed to graduate to the Active Stage at any time by creating a GitHub Issue to add to a future TAC meeting agenda ( minimum two weeks notice required ) or may graduate to the Active Stage during its annual review. Projects should prepare a presentation outlining how it has completed the Active Stage requirements.
@@ -203,17 +202,3 @@ Projects only can enter the Emeritus Stage by either:
 When in the Emeritus Stage, the project’s code repository administration is transferred to a designated individual by the TAC. No new features or bug fixes will be addressed unless it is deemed a security issue. Open Mainframe Project will hold all assets in perpetuity.
 
 A project can move back to Active Stage following the guidelines for a project being accepted at the Active Stage above.
-
-# TAC Review
-
-The TAC will review on an annual basis all projects within this lifecycle. Additionally, Sandbox Stage projects will be required to submit quarterly reports of progress towards the Incubation Stage.
-
-The purpose of the TAC Review is to gauge whether the project is still at the correct maturity stage based on the criteria for the current stage.
-
-Projects will schedule their annual review as part of the next TAC meeting following the anniversary of the project’s acceptance. Projects should prepare a short presentation that covers the following points, which the TAC will use in its review of the project:
-
-*   The current activity of the project, including releases, adoption, and committer/contribution growth and diversity.
-*   Assessment of whether the project is fulfilling the requirements for the project to remain at its current stage, or be considered for a different stage.
-*   Feedback on its experience as an Open Mainframe Project project, including benefits from being an Open Mainframe Project project and areas that the TAC and Open Mainframe Project staff can better support the project.
-
-Annual reviews require a majority affirmative vote of the TAC for the project to continue at the current stage or the appropriate number of votes as outlined for each stage in this document to move to the next stage. If the TAC deems the project to not be currently meeting the requirements of the current stage, it may vote to move the project to the appropriate stage or Emeritus stage. The project may choose to move outside of the LFE at any time.

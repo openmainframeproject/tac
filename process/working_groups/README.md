@@ -1,10 +1,10 @@
 ---
 parent: Processes
-title: Working Groups
 nav_order: 2
+has_children: true
 ---
 
-# Open Mainframe Project Working Groups
+# Working Groups
 _Modeled off of CNCF Working Group model ( https://github.com/cncf/toc/blob/master/workinggroups/README.md )_
 
 - [Process](#process)
@@ -13,7 +13,7 @@ _Modeled off of CNCF Working Group model ( https://github.com/cncf/toc/blob/mast
     - [Q: Can working groups have infrastructure during formation to enable collaboration?](#q-can-working-groups-have-infrastructure-during-formation-to-enable-collaboration)
     - [Q: What if the goals or mission of the working group change?](#q-what-if-the-goals-or-mission-of-the-working-group-change)
 
-The purpose of working groups is to study and report on a particular question and make recommendations based on its findings. The end result of a working group may be a new project proposal, landscape, whitepaper ,or even a report detailing its findings. The intention of working groups is not to host a full project or specification. Working Groups can be formed at any time but must be sponsored by a [TAC member] and with an affirmative vote of the Open Mainframe Project TAC. The TAC can also shut down a working group with a majority vote.
+The purpose of working groups is to study and report on a particular question and make recommendations based on its findings. The result of a working group may be a new project proposal, landscape, whitepaper, or even a report detailing its findings. Working groups do not intend to host a complete project or specification. Working Groups can be formed at any time but must be sponsored by a [TAC member][] and with an affirmative vote of the Open Mainframe Project TAC. The TAC can also shut down a working group with a majority vote.
 
 ## Process
 
@@ -36,24 +36,24 @@ Working groups are able to leverage the shared infrastructure of the Open Mainfr
 
 ## Working Group review
 
-The TAC will review on an annual basis all working groups. The purpose of the TAC Review is to gauge the status of the working group achieving the items outlined in it's charter. 
+The TAC will review on an annual basis all working groups. The purpose of the TAC Review is to gauge the status of the working group achieving the items outlined in its charter. 
 
 Working groups will schedule their annual review as part of the next TAC meeting following the anniversary of the project’s acceptance. Working groups should prepare a short presentation that covers the following points, which the TAC will use in its review of the working group:
 
 - The current activity of the working group.
-- Assessment of whether the working group has achieved it's goals and/or needs to redefine it's charter.
+- Assessment of whether the working group has achieved its goals and/or needs to redefine its charter.
 - Feedback on its experience as an Open Mainframe Project working group, including benefits from being an Open Mainframe Project working group and areas that the TAC and Open Mainframe Project staff can better support the working group.
 
-Annual reviews require a majority affirmative vote of the TAC for the working group to continue. If the TAC deems the working group to not be on track for completing the goals outlined in it's charter, it may request to have the working group disbanded. The working group may choose to move outside of the Open Mainframe Project at any time.
+Annual reviews require an affirmative majority vote of the TAC for the working group to continue. If the TAC deems the working group to not be on track for completing the goals outlined in its charter, it may request disbanding the working group. The working group may choose to move outside the Open Mainframe Project at any time.
 
 ## FAQs
 
 ### Q: Who can propose a new working group?
-A: Anyone can propose a new working group ( whether from an Open Mainframe Project member organization or not ), but it must be sponsored by a [TAC member].
+A: Anyone can propose a new working group ( whether from an Open Mainframe Project member organization or not ), but a [TAC member][] must sponsor it.
 
 ### Q: What if the goals or mission of the working group change?
-A: The TAC recognizes that in the lifecycle of a working group goals or mission may change. In those cases, the working group must present to the TAC an updated version of their [template] for approval.
+A: The TAC recognizes that in the lifecycle of a working group, goals or missions may change. In those cases, the working group must present an updated version of their charter for approval to the TAC.
 
-[TAC member]: https://github.com/openmainframeproject/tac#tac-members
+[TAC member]: /#tac-members
 [request on the foundation repo]: https://servicedesk.openmainframeproject.org
-[GitHub Issue]: https://github.com/openmainframeproject/tac/issues/new?assignees=openmainframeproject%2Ftac-voting-members%2Copenmainframeproject%2Fomp-staff&labels=meeting-agenda&template=new-working-group-proposal.yml&title=New+Working+Group+Proposal+-+NAME
+[GitHub Issue]: https://github.com/openmainframeproject/tac/issues/new/choose

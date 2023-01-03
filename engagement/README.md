@@ -12,6 +12,12 @@ All of the projects hosted at the Open Mainframe Project are open and transparen
 
 Learn more about joining the public meetings of the Technical Advisory Council (TAC) on [the Meetings page](https://tac.openmainframeproject.org/meetings)
 
+## Community Calendar
+
+You can find all upcoming community meetings listed on the community calendar below.
+
+{%- include calendar.html -%}
+
 ## Mailing Lists and Slack channels for hosted projects
 
 Each project hosted at the Open Mainframe Project collaborates on open channels that are welcome for anyone in the community to participate in. See the below list of channels for each project.

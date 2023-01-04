@@ -126,8 +126,8 @@ To be accepted to the Incubation Stage, in addition to the proposal process, a p
 
 *   Have completed and approved the Technical Charter and agree to transfer any relevant trademarks to The Linux Foundation or its affiliate, LF Projects, LLC, and to assist in filing for any relevant unregistered ones.
 *   Have defined its technical governance, including:
-    *   A LICENSE file in every code repository, with the license chosen being an OSI-approved license.
-    *   A README file welcoming new community members to the project and explaining why the project is useful and how to get started.
+    *   A LICENSE file in every code repository, with the license chosen an OSI-approved license.
+    *   A README file welcoming new community members to the project and explaining why the project is useful and how to get started ( follow the guidelines at the [README checklist](https://github.com/ddbeck/readme-checklist) to create an excellent README file ).
     *   A CONTRIBUTING file explaining to other developers and your community of users how to contribute to the project. The file should explain the types of contributions needed and how the process works.
     *   A CODEOWNERS or COMMITTERS file to define individuals or teams that are responsible for code in a repository; document current project owners and current and emeritus committers. 
     *   A CODE_OF_CONDUCT file that sets the ground rules for participants’ behavior associated and helps to facilitate a friendly, welcoming environment. By default, projects should leverage the Linux Foundation Code of Conduct unless an alternate Code of Conduct is approved prior.

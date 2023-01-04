@@ -1,14 +1,11 @@
 ---
 parent: Tools
-
 ---
 
 # GitHub
 
 * TOC
 {:toc}
-
-
 
 Open Mainframe Project projects generally use GitHub for code hosting and issue management. GitHub organizations for hosted projects are owned and administered by the Linux Foundation staff, including the Linux Foundation release engineering team, to ensure the sustainability of the infrastructure. 
 

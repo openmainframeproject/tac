@@ -3,8 +3,10 @@ parent: Tools
 ---
 
 # Calendaring
+
 * TOC
 {:toc}
+
 You can stay subscribed to the meetings of the projects and committees of the Open Mainframe Project by subscribing to the coordinating mailing list. Each mailing list has a calendar you can subscribe to with your calendar client of choice.
 
 By default, the following permissions apply to calendars:
@@ -15,11 +17,11 @@ By default, the following permissions apply to calendars:
 
 If you are having an issue with calendar events, please [submit a request][], and the Open Mainframe Project Staff can help.
 
-### Meeting management
+## Meeting management
 
 By default, any TSC or TAC chairperson can schedule community meetings on the [tac calendar][] or a project-specific calendar, respectively. 
 
-#### Create a new meeting
+### Create a new meeting
 
 - Create a new meeting using [LFX Meeting Management](https://docs.linuxfoundation.org/lfx/project-control-center/it-services-for-a-project/meetings#scheduling-a-meeting). 
 
@@ -71,7 +73,7 @@ By default, any TSC or TAC chairperson can schedule community meetings on the [t
     - Do not select *Request RSVP*, *Reminders*, or *Notifications*.
 
 
-#### Update a meeting
+### Update a meeting
 
 - Edit the meeting using [LFX Meeting Management](https://docs.linuxfoundation.org/lfx/project-control-center/it-services-for-a-project/meetings#flexible-scheduling-of-a-meeting).
 - Update the meeting on the [Community Calendar][].
@@ -81,7 +83,7 @@ By default, any TSC or TAC chairperson can schedule community meetings on the [t
 
 The meeting update will be reflected in the meeting subscription with the next automatic update.
 
-#### Cancel/Delete a Meeting   
+### Cancel/Delete a Meeting   
 
 - Delete the meeting using [LFX Meeting Management](https://docs.linuxfoundation.org/lfx/project-control-center/it-services-for-a-project/meetings#delete-meetings).
 - Remove the meeting from the [Community Calendar][].
@@ -92,7 +94,7 @@ The meeting update will be reflected in the meeting subscription with the next a
 
 The meeting update will be reflected in the meeting subscription with the next automatic update.
 
-### Calendar management best practices
+## Calendar management best practices
 
 To help individuals not be inundated with calendar overload, try to follow these guidelines:
 

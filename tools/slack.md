@@ -6,6 +6,7 @@ parent: Tools
 
 * TOC
 {:toc}
+
 Open Mainframe Project hosts a Slack organization, which can be joined by going to [slack.openmainframeproject.org][Slack]. Slack serves as the primary communication platform for the Open Mainframe Project community outside of the mailing lists. There are thousands of members who should all expect to have a positive experience. It’s important that conversations stay on topic in each channel and that everyone abides by the [Code of Conduct][].
 
 Chat is searchable and public. Do not make comments you would not say on a video recording or in another public space. Please be courteous to others.

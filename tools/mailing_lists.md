@@ -6,6 +6,7 @@ parent: Tools
 
 * TOC
 {:toc}
+
 Open Mainframe Project maintains several mailing lists for the foundation itself, its members, and the community. The Open Mainframe Project staff and community leadership manages these mailing lists.
 
 ## Key mailing lists

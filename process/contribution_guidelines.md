@@ -5,13 +5,8 @@ title: Contribution Guidelines
 ---
 # Contribution Guidelines for hosted projects
 
-- [Two-factor authentication (2FA)](#two-factor-authentication-2fa)
-- [License specification](#license-specification)
-- [Developer Certificate of Origin](#developer-certificate-of-origin)
-    - [Useful tools to make doing DCO signoffs easier](#useful-tools-to-make-doing-dco-signoffs-easier)
-    - [Signoff for commits where the DCO signoff was missed](#signoff-for-commits-where-the-dco-signoff-was-missed)
-    - [Handling DCO errors using GitHub website commits](#handling-dco-errors-using-github-website-commits)
-
+* TOC
+{:toc}
 
 This document captures the general guidelines for contributing to open-source projects hosted by Open Mainframe Project. These guidelines express the provisions in the Intellectual Property Policy within [Open Mainframe Project charter](https://openmainframeproject.org/charter).
 

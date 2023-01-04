@@ -6,6 +6,8 @@ nav_order: 3
 
 # Open Mainframe Project - Vision, Mission, and Principles
 
+* TOC
+{:toc}
 
 # Vision
 

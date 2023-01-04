@@ -10,8 +10,6 @@ nav_order: 1
 * TOC
 {:toc}
 
-
-
 The Open Mainframe Project is a host of open-source projects and open-collaboration working groups to benefit the mainframe ecosystem. Anyone can bring a new project or working group or start a new project or working group at the Open Mainframe Project.
 
 ## Why host your project at the Open Mainframe Project?

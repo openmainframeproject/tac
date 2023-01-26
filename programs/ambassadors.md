@@ -33,7 +33,7 @@ Ambassadors can serve indefinitely, with their ambassadorship renewed on a yearl
 
 ## Required Time Commitments
 
-*  Participate in at least one Open Mainframe Project asset per quarter. Examples include:
+*  Participate in at least one Open Mainframe Project asset per half of year ( Jan-June, July-Dec ). Examples include:
 	- Submitting a blog post for the Open Mainframe website
 	- Participating in an interview (TechStrong TV, TFIR or other)
 	- Submitting a speaking abstract on behalf of the project

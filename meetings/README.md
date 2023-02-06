@@ -1,6 +1,7 @@
 ---
-title: Meetings
+title: "Meetings"
 has_children: true
+child_nav_order: reversed
 ---
 
 # TAC Meetings

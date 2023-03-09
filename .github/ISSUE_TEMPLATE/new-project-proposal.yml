@@ -11,6 +11,7 @@ body:
     attributes:
       value: |
         Thank you for looking to bring your project to the Open Mainframe Project. Please put the name of the project in the title above replacing PROJECT NAME, and then answer the questions below to have this project be added to the agenda at a future TAC meeting for consideration as a new project. Please refer to the guideance in the [project lifecycle](https://tac.openmainframeproject.org/process/project_stages#proposal-process).
+        Please also note you must be available to lead this discussion on a TAC meeting. You can get information on TAC meetings and how to join the meetings at https://tac.openmainframeproject.org/meetings.
   - type: textarea
     id: project-description
     attributes:

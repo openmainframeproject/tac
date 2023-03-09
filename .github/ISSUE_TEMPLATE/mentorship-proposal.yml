@@ -1,0 +1,65 @@
+name: Mentorship Program mentor application
+description: Submit to become a mentor for the Open Mainframe Project mentorship program
+title: 'Mentor application - NAME'
+labels: ["mentor-application"]
+assignees:
+  - openmainframeproject/tac-voting-members
+  - openmainframeproject/omp-staff
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your interest in becoming an Open Mainframe Program Mentorship Program Mentor. To be considered, create an [LF ID](https://openprofile.dev), put your mentorship project name in the title in place of NAME, and then answer the following questions. Reference the [Mentorship Program overview](https://github.com/openmainframeproject/tac/blob/master/process/mentorships.md) for any questions. 
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      placeholder: ex. John Doe
+    validations:
+      required: true
+  - type: input
+    id: email
+    attributes:
+      label: Email
+      description: Please use the email that matches your [LF ID](https://openprofile.dev)
+      placeholder: ex. email@example.com
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Mentorship Description
+      description: Please detail what the mentorship is, which project(s) would this be for, and the expected goals and outcomes.
+    validations:
+      required: true
+  - type: input
+    id: repo_url
+    attributes:
+      label: URL to the code repository for the project
+      description: If there currently is no code repository, please put in 'N/A'
+  - type: textarea
+    id: technologies_used
+    attributes:
+      label: What technologies would be used by this mentorship?
+    validations:
+      required: true
+  - type: textarea
+    id: skills-required
+    attributes:
+      label: What skills will mentees need to be successful in this mentorship?
+      description: Also indicate any training/pre-reads required for the mentee
+    validations:
+      required: true
+  - type: textarea
+    id: key_learnings
+    attributes:
+      label: What are 2-3 key learnings for mentees?
+    validations:
+      required: true
+  - type: textarea
+    id: fun_facts
+    attributes:
+      label: 2-3 fun facts about you as a mentor
+      description: This will be used for the mentorship announcement blog post
+    validations:
+      required: true

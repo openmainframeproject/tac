@@ -10,6 +10,7 @@ body:
     attributes:
       value: |
         Thank you for proposing a Working Group to the Open Mainframe Project. Please provide the name of the working group in the title above in place of NAME, and then answer the questions below to have this working group be added to the agenda at a future TAC meeting for consideration as a new project. Please refer to the guideance in the [working group overview](https://tac.openmainframeproject.org/process/working_groups).
+        Please also note you must be available to lead this discussion on a TAC meeting. You can get information on TAC meetings and how to join the meetings at https://tac.openmainframeproject.org/meetings.
   - type: textarea
     id: purpose
     attributes:

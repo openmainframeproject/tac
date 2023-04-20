@@ -1,8 +1,8 @@
 ---
-title: Mentorship Program
-parent: Programs
+parent: Processes
+has_children: true
 ---
-# Open Mainframe Project Mentorship Program
+# Mentorship Program
 
 Helping connect the next generation with mainframe and open source, the mentorship program has helped students over the past several years become contributors to open source on mainframe, as well as develop the skills for a long career in technology.
 

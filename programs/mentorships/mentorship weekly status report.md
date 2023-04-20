@@ -1,4 +1,4 @@
-# ProjectName Weekly Status Report
+# Project Weekly Status Report
 
 **Date:**
 

@@ -1,4 +1,6 @@
-## This form may be used as a sample template for a Mentorship Project Plan
+# Project Plan
+
+*(This is a sample template for a Mentorship Project Plan)*
 
 
 **Student's Name:**
@@ -18,4 +20,7 @@
 | Week | Tasks | Goals |
 |------|-------|-------|
 | _Week 1_ | _Task 1_ | _Goal 1_ |
+| ... | ... | ... |
+| ... | ... | ... |
+| ... | ... | ... |
 | ... | ... | ... |

@@ -1,8 +1,6 @@
-##  This form below may be used as a template to evaluate Mentees at the end of the Mentorship Term
+# Mentee Final Evaluation
 
-
-
-**Student's Name:**
+**Mentee:**
 
 **Mentor:**
 
@@ -10,13 +8,25 @@
 
 **Project Description:**
 
-**Problem Definition:**
 
-**Deliverables:**
 
-**Coding Plan:**
+____
+**Rate Mentee (1-10, 10 being the highest):**
 
-| Week | Tasks | Goals |
-|------|-------|-------|
-| _Week 1_ | _Task 1_ | _Goal 1_ |
-| ... | ... | ... |
+
+**Rate Project - the project itself (was it defined properly? Too ambitious, too easy?**
+
+**Did the project have clearly defined goals and milestones for/by the mentee?)**
+
+
+**Evaluation of Mentee's accomplishments - technical and project management:**
+
+
+**Evaluation of Mentee's skills and ability - areas of mastery and of improvement:**
+
+**Final Mentorship Assessment? Pass/Fail:**
+
+**Anything else to share about the Mentee:**
+
+
+**How could the Open Mainframe Project Mentorship Program and/or processes be improved?:**

@@ -7,7 +7,7 @@ nav_order: 2
 
 # Project Weekly Status Report
 
-**Date:**
+### Date:
 
 ____
 

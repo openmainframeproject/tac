@@ -1,7 +1,7 @@
 ---
 title: Project Plan
 grand_parent: Programs
-parent: Mentorships
+parent: Mentorship Programs
 nav_order: 1
 ---
 

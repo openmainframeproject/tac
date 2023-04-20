@@ -1,5 +1,5 @@
 ---
-parent: Processes
+parent: Programs
 has_children: true
 ---
 # Mentorship Program

@@ -1,7 +1,7 @@
 ---
 grand_parent: Programs
 parent: Mentorships
-nav_order: 01
+nav_order: 1
 ---
 
 # Project Plan

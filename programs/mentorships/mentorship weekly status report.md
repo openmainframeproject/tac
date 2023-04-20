@@ -1,7 +1,7 @@
 ---
-title: Mentorship Program
+grand_parent: Programs
+parent: Mentorships
 nav_order: 02
-parent: Programs
 ---
 
 # Project Weekly Status Report

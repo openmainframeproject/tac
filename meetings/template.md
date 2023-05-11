@@ -27,15 +27,12 @@ title: "{{ "now" | date: "%Y-%m-%d" }}"
 {%- endfor -%}
 {% endif %}
 {% endfor %}
-
 ## Other attendees
 
 # Agenda
-
-{{ site.data.meeting-agenda-items }}
 {% for agendaitem in site.data.meeting-agenda-items %}
-- {{ agendaitem.title }}
-{% endfor %}
+- {{ agendaitem.title }} [#{{ agendaitem.number }}]({{ agendaitem.html_url }})
+{%- endfor -%}
 
 # Notes
 

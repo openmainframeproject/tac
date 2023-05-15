@@ -1,6 +1,6 @@
 on:
   project_card:
-    types: [moved]
+    types: [created,moved]
 name: Project Card Event
 jobs:
   triage:
@@ -8,3 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: technote-space/auto-card-labeler@v2
+        env:
+            GITHUB_TOKEN: "${{ secrets.PAT }}"

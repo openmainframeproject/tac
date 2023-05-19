@@ -595,32 +595,21 @@ To join the program, open-source projects must complete an application to be con
 * Will the infrastructure be needed for only a fixed period of time, or ongoing?
 * Any other comments or questions
 
-#### Ongoing requirements
+### Support
 
-Projects will have a few requirements ongoing to maintain the infrastructure.
-
-
-#### Service provider needs
-
-* Ticketing system for user issue management - will use https://github.com/openmainframeproject/tac/issues
-* Path for resources being returned - TBD by service provider
-
-# Support
-
-Expectations of the service provider:
+The Service Provider will oversee the infrastructure, managing the overall resources and providing limited support to the Projects leveraging the infrastructure. Expectations of the service provider are:
 
 * Provision/de-provision guests
 * Overall systems resource management
 * Infrastructure maintenance
 * Documentation of infrastructure ( will be hosted in this site )
 
-Expectations of the individual project:
+Projects will generally have lateraility to use the provided guest instances as it makes sense for thier community. Expectations of the individual project:
 
 * Define who specifically will have access to the mainframe. Credentials are to be shared via a secure vault.
 * Management of thier own guest instances. The only support than can be provided by the Open Mainframe Project is to re-provision, but there may be community members that can assist with guest instance issues on a case-by-case basis.
 * Annual report of how the infrastructure is being used and any feedback.
-
-## How to submit support requests
+* Ensure the infrastructure is only being used for open-source development ( no commericial software development can occur on the instance.
 
 Projects using the infrastructure can submit support requests to https://github.com/openmainframeproject/tac/issues. Service Provider will respond to issues within 1 business day.
 

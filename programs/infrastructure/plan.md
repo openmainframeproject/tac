@@ -12,8 +12,6 @@ title: Plan
 
 A common request from open-source projects wanting to support the mainframe is getting access to mainframe infrastructure. While in many architecture ecosystems, such infrastructure is readily available, for mainframe, it rarely is. Reasons include:
 
-
-
 * Cost of infrastructure/software to acquire and host
 * Infrastructure owned by vendors is limited to access for those vendor’s employees.
 * Infrastructure owned by end users is in production usage and often disconnected from direct Internet access.
@@ -452,47 +450,14 @@ VTS 3957 VEB.Details at [https://www.ibm.com/common/ssi/ShowDoc.wss?docURL=/comm
 
 To accommodate the current Open Mainframe Project budget constraints, as well as able to accept the hardware donation before Broadcom needs to get the hardware out of its current data center by the end of the calendar year, the plan is to split the plan into two parts:
 
-
-
 1. Move current hardware from Broadcom to Marist College.
 2. Announce hardware donation and intention to activate
 3. Install and activate the hardware
 4. Plan for opening infrastructure for community use.
 
-
 ## Phase 1: Move current hardware from Broadcom to Marist College - COMPLETE
 
-Moving the hardware is done as a service through IBM. Vicom Infinity, on behalf of IBM, has provided an SOW for this service at a total cost of $37,775.00. This was completed in 2022 Q2
-
-Final costs are as follows:
-
-
-<table>
-  <tr>
-   <td>
-   </td>
-   <td><strong>Cost</strong>
-   </td>
-   <td><strong>Vendor</strong>
-   </td>
-   <td><strong>Status</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Move infrastructure from Broadcom to Marist College</strong>
-   </td>
-   <td><p style="text-align: right">
-<strong>$41,000</strong></p>
-
-   </td>
-   <td><strong>IBM</strong>
-   </td>
-   <td><strong>DONE</strong>
-   </td>
-  </tr>
-</table>
-
-
+Moving the hardware is done as a service through IBM. Vicom Infinity, on behalf of IBM. This was completed in 2022 Q2.
 
 ## Phase 2: Announce hardware donation and intention to activate - COMPLETE
 
@@ -500,104 +465,11 @@ This was done at Open Mainframe Summit 2023, with the intent of driving more int
 
 [The Open Mainframe Project Announces A New Mainframe Resource to Advance Mainframe Talent and Innovative Technologies - Open Mainframe Project](https://www.openmainframeproject.org/press/2022/09/21/open-mainframe-announces-new-mainframe) 
 
-
 ## Phase 3: Activate hardware.
 
 Upon the Open Mainframe Project’s request, IBM will provide activation services, including unpacking and installing the hardware. Once complete, Vicom Infinity will then configure the infrastructure for use by the Open Mainframe Project community.
 
-Planned costs are as follows:
-
-
-<table>
-  <tr>
-   <td><strong>Initial activation</strong>
-   </td>
-   <td><strong>Cost</strong>
-   </td>
-   <td><strong>Vendor</strong>
-   </td>
-   <td><strong>Status</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>CE hourly services to install and power up Z15-T02 and DS8910f
-   </td>
-   <td><p style="text-align: right">
-$8,000</p>
-
-   </td>
-   <td>IBM
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>Cost for any missing inventory needed to qualify for IBM maintenance - TBD
-   </td>
-   <td><p style="text-align: right">
-$0</p>
-
-   </td>
-   <td>IBM
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><del>Costs for MES ( hardware upgrades recommended by Vicom Infinity - detailed at right)</del>
-   </td>
-   <td><p style="text-align: right">
-<del>$0</del></p>
-
-   </td>
-   <td><del>IBM</del>
-   </td>
-   <td><strong><del>Deferred</del></strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Microcode upgrades to enable full capacity of hardware
-   </td>
-   <td><p style="text-align: right">
-$0</p>
-
-   </td>
-   <td>IBM
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>Vicom Infinity services to configure/customize z15 and DS8910f for OMP ( $170.00/hour @ 670 hours )
-   </td>
-   <td><p style="text-align: right">
-$113,900</p>
-
-   </td>
-   <td>Vicom Infinity
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>TOTAL</strong>
-   </td>
-   <td><p style="text-align: right">
-<strong>$121,900</strong></p>
-
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-</table>
-
-
-
 ### Hardware Configuration
-
-
 
 * z/VM LPAR
     * z/OS Guest(s) - for individual projects
@@ -633,19 +505,13 @@ $113,900</p>
 * KVM LPAR - FUTURE
     * Linux Guest(s) - for individual projects as requested
 
-
 #### Capacity
-
-
 
 * 30 combined z/OS or Linux Guests altogether
     * Based on A02 configuration with 2 IFLs and 4 processors
     * Proposed Z02 configuration 
 
-
 #### Other considerations
-
-
 
 * zIIPs (specialty engines) - FUTURE
     * Is there a project that requires or could exploit zIIPs?  I would wait for the demand
@@ -656,10 +522,7 @@ $113,900</p>
 * Carving up storage array across LPARs/Guests
     * Aim for a consistent solution across everything
 
-
 ### Software Availability
-
-
 
 * z/OS 
     * z/OS 2.5.0 ( to be replaced by 3.1 once released )
@@ -676,17 +539,13 @@ $113,900</p>
 
 When new versions of software come out, we will stop provisioning the previous version after six months, unless approved by the TAC on a case-by-case basis. Existing instances with previous versions will be required to update to the latest version after 18 months unless approved by the TAC on a case-by-case basis. 
 
-
 ## Phase 4: Plan for opening infrastructure for community use.
 
 This hardware is intended to be used for the development and testing of open-source projects for the mainframe. At launch, the infrastructure will support z/OS and s390x Linux but could include other mainframe operating systems over time.
 
-
 ### Onboarding
 
 Open Source project will be onboarding in 3 phases:
-
-
 
 1. Current Open Mainframe Project hosted projects ( i.e., Zowe, Feilong, COBOL Programming Course ) that either have no current infrastructure or use other third-party infrastructure. 
 2. Select broad open source projects ( suggested no more than 10 ) to ensure the hardware properly supports those needs.
@@ -694,17 +553,13 @@ Open Source project will be onboarding in 3 phases:
 
 The TAC can determine the specific timeline for each phase of onboarding.
 
-
 ### Requirements for projects to leverage the hardware
 
 Because of the nature of the hardware and licensing requirements for the software being used, the TAC will establish a program for open-source projects to leverage the hardware. 
 
-
 #### Standard Resources
 
 Projects will be allotted a standard configuration as follows (exceptions CBT Tape, COBOL Programming Course, Zowe - those are highlighted above):
-
-
 
 * Guest under z/VM or KVM LPAR ( z/OS, z/VM, Linux )
     * Linux distros: SUSE/openSUSE, Red Hat/Alma Linux, Ubuntu - latest versions
@@ -725,12 +580,9 @@ Note: Requiring VPN will require the administration to distribute the VPN client
 
 Projects may be able to have additional resources upon request and approval by the TAC.
 
+#### Application requirements for open source projects
 
-#### Suggested application
-
-To join the program, open-source projects must complete an application to be considered.
-
-
+To join the program, open-source projects must complete an application to be considered. Application will be submitted at https://github.com/openmainframeproject/tac/issues
 
 * Name of project
 * URL to code repository
@@ -743,129 +595,34 @@ To join the program, open-source projects must complete an application to be con
 * Will the infrastructure be needed for only a fixed period of time, or ongoing?
 * Any other comments or questions
 
-
 #### Ongoing requirements
 
 Projects will have a few requirements ongoing to maintain the infrastructure.
 
 
+#### Service provider needs
 
-* The project will need to define who specifically will have access to the mainframe. Credentials are to be shared via a secure vault.
-* Annual report of how the infrastructure is being used and any feedback.
-
-
-#### The service provider needs
-
-
-
-* Overall systems resource management
-* Ticketing system for user issue management.
-* Path for resources being returned.
-* Incorporate feedback surveys into semi-annual surveys
-
+* Ticketing system for user issue management - will use https://github.com/openmainframeproject/tac/issues
+* Path for resources being returned - TBD by service provider
 
 # Support
 
 Expectations of the service provider:
 
-
-
 * Provision/de-provision guests
 * Overall systems resource management
 * Infrastructure maintenance
+* Documentation of infrastructure ( will be hosted in this site )
 
 Expectations of the individual project:
 
+* Define who specifically will have access to the mainframe. Credentials are to be shared via a secure vault.
+* Management of thier own guest instances. The only support than can be provided by the Open Mainframe Project is to re-provision, but there may be community members that can assist with guest instance issues on a case-by-case basis.
+* Annual report of how the infrastructure is being used and any feedback.
 
+## How to submit support requests
 
-* Manage own guest
-
-How to submit issues
-
-
-
-* New project
-* User facing issues
-
-Where system information is documented
-
-
-# Ongoing costs
-
-Open Mainframe Project will fund the following ongoing services:
-
-
-
-* IBM warranty on the hardware
-* Vicom Infinity services retainer for management of the hardware, support, and to provide regular maintenance.
-
-Planned costs are as follows:
-
-
-<table>
-  <tr>
-   <td><strong>Annual Costs</strong>
-   </td>
-   <td><strong>Annual Cost</strong>
-   </td>
-   <td><strong>Vendor</strong>
-   </td>
-   <td><strong>Status</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Z15-T02 model A02 hw maint 12 month coverage
-   </td>
-   <td><p style="text-align: right">
-$30,500</p>
-
-   </td>
-   <td>IBM
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>IBM DS8910f storage hw maint 12 month coverage
-   </td>
-   <td><p style="text-align: right">
-$32,000</p>
-
-   </td>
-   <td>IBM
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td>Vicom Infinity monthly retainer to handle service requests ( $3,500/month, up to 20 hours per month )
-   </td>
-   <td><p style="text-align: right">
-$42,000</p>
-
-   </td>
-   <td>Vicom Infinity
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>TOTAL</strong>
-   </td>
-   <td><p style="text-align: right">
-<strong>$104,500</strong></p>
-
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-</table>
-
-
-
-
+Projects using the infrastructure can submit support requests to https://github.com/openmainframeproject/tac/issues. Service Provider will respond to issues within 1 business day.
 
 # APPENDIX: Future Expansion Possibilities ( not part of the current plan )
 

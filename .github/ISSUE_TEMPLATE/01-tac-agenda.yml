@@ -1,7 +1,7 @@
 name: TAC Meeting agenda item
 description: Propose an agenda item to discuss at an upcoming TAC meeting
 title: "AGENDA TOPIC"
-labels: ["meeting-agenda"]
+labels: ["meeting-agenda-future"]
 assignees: 
   - openmainframeproject/tac-voting-members
   - openmainframeproject/omp-staff
@@ -23,3 +23,12 @@ body:
       label: Detail what actions or feedback you would like from the TAC
     validations:
       required: true
+  - type: dropdown
+    id: topic-length
+    attributes:
+      label: How much time do you need for this topic?
+      description: Pick the option that is closest to the time you need for the topic.
+      multiple: false
+      options:
+        - 10 minutes or less
+        - At least 30 minutes

@@ -1,4 +1,4 @@
-name: Update TAC members
+name: Update Data Sources
 on:
   schedule:
     - cron: '0 0 * * *'
@@ -15,14 +15,18 @@ jobs:
         python-version: '3.x'
     - name: Run build
       run: |
+        python .github/workflows/updateprojects.py
         python .github/workflows/updatetacmembers.py
+        python .github/workflows/updatetacagendaitems.py
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v3
       with:
-        token: ${{ secrets.PAT }}
-        branch-suffix: timestamp
-        path: .
-        title: Update TAC members
-        labels: automerge
-        commit-message: Update TAC members
-        signoff: true
+         token: ${{ secrets.PAT }}
+         branch-suffix: timestamp
+         path: .
+         title: Update Data Sources
+         labels: automerge
+         commit-message: Update Data Sources
+         signoff: true
+
+

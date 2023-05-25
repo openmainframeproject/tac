@@ -6,11 +6,10 @@ child_nav_order: reversed
 
 # TAC Meetings
 
-TAC Meetings are open to anyone interested in participating in the project. Meetings are generally scheduled for the second and fourth Thursday of each month at 1:00 pm US Eastern Time. To join, you will need to register for the meetings as listed below:
+TAC Meetings are open to anyone interested in participating in the project. Meetings are generally scheduled for the second and fourth Thursday of each month at 1:00 pm US Eastern Time. Meeting links are below.
 
-- For TAC meetings in 2023
-  - [2nd Thursday of the Month meeting](https://zoom-lfx.platform.linuxfoundation.org/meeting/94569165021?password=f8182978-3369-4d0d-a527-1b4a219bba33)
-  - [4th Thursday of the Month meeting](https://zoom-lfx.platform.linuxfoundation.org/meeting/99009625866?password=a49cd723-50f0-4a81-893a-c51dc0e9b532) 
+- [2nd Thursday of the Month meeting](https://zoom-lfx.platform.linuxfoundation.org/meeting/94569165021?password=f8182978-3369-4d0d-a527-1b4a219bba33)
+- [4th Thursday of the Month meeting](https://zoom-lfx.platform.linuxfoundation.org/meeting/99009625866?password=a49cd723-50f0-4a81-893a-c51dc0e9b532) 
 
 _For 2023 no TAC meeting will be held on November 23rd, 2022 (US Thanksgiving), or December 28th, 2022 (Winter Holidays)._
 

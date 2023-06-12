@@ -604,6 +604,14 @@ The Service Provider will oversee the infrastructure, managing the overall resou
 * Infrastructure maintenance
 * Documentation of infrastructure ( will be hosted in this site )
 
+Develop a service level agreement with expectations for each of the above. Specifically:
+
+* Time frame from request to completion
+* Levels of communications, including when and how often, to whom
+* Overall availability of services
+* Return to service expectations
+* Currency of software maintenance and releases
+
 Projects will generally have lateraility to use the provided guest instances as it makes sense for thier community. Expectations of the individual project:
 
 * Define who specifically will have access to the mainframe. Credentials are to be shared via a secure vault.

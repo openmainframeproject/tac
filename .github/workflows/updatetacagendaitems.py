@@ -6,23 +6,25 @@
 # encoding=utf8
 
 import csv
+import requests
 import urllib.request
 import json
 import os
+import subprocess
 
 csvFile = os.path.dirname(os.path.realpath(__file__))+'/../../_data/meeting-agenda-items.csv'
-endpointURL = 'https://api.github.com/repos/openmainframeproject/tac/issues?labels=meeting-agenda'
+jsonProjectData = subprocess.run("gh project item-list 21 --owner openmainframeproject --format json", shell=True, capture_output=True).stdout
 
 csvRows = []
-
-with urllib.request.urlopen(endpointURL) as endpointResponse:
-    for agendaitem in json.load(endpointResponse):
-        print("Processing {}...".format(agendaitem['title']))
-        csvRows.append({
-            'title': agendaitem['title'],
-            'html_url': agendaitem['html_url'],
-            'number': agendaitem['number'],
-            })
+projectData = json.loads(jsonProjectData)
+for item in projectData['items']:
+    print("Processing {}...".format(item['content']['title']))
+    csvRows.append({
+        'title': item['content']['title'],
+        'url': item['content']['url'],
+        'number': item['content']['number'],
+        'status': item['status']
+        })
 
 with open(csvFile, 'w') as csvFileObject:
     writer = csv.DictWriter(csvFileObject, fieldnames = csvRows[0].keys())

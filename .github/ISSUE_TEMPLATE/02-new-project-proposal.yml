@@ -2,7 +2,7 @@
 name: New Project Proposal
 description: Template for proposing a new project to the TAC
 title: 'New Project Proposal - PROJECT NAME'
-labels: ["meeting-agenda-future", "new-project-wg"]
+labels: ["meeting-agenda", "new-project-wg"]
 assignees:
   - openmainframeproject/tac-voting-members
   - openmainframeproject/omp-staff

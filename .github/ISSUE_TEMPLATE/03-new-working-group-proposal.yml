@@ -1,7 +1,7 @@
 name: New Working Group Proposal
 description: Template for proposing a new Working Group to the TAC
 title: 'New Working Group Proposal - NAME'
-labels: ["meeting-agenda-future", "new-project-wg"]
+labels: ["meeting-agenda", "new-project-wg"]
 assignees: 
   - openmainframeproject/tac-voting-members
   - openmainframeproject/omp-staff

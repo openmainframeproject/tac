@@ -61,19 +61,5 @@ Meeting recording and transcript is [here]()
 {{ agenda }}
 </pre>
 
-
 <a href="https://github.com/openmainframeproject/tac/new/main/meetings?filename={{ "now" | date: "%Y-%m-%d" }}.md&value={{ agenda | url_encode }}">Create Pull Request</a> | 
-<a id="openinhackmd">Open in HackMD</a>
-
-<script type="text/javascript">
-document.getElementById('openinhackmd').onclick = function(){
-    var xhr = new XMLHttpRequest();
-    xhr.open("POST", "https://hackmd.io/new", true);
-    xhr.setRequestHeader("Access-Control-Allow-Origin","*");
-    xhr.setRequestHeader("Access-Control-Allow-Headers", "X-Requested-With, Content-Type");
-    xhr.setRequestHeader("Access-Control-Allow-Methods","POST");    
-    xhr.setRequestHeader('Content-Type', 'text/markdown');
-    xhr.send("{{ agenda | url_encode }}");
-}
-</script>
 

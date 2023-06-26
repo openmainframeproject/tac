@@ -6,7 +6,7 @@ nav_exclude: true
 ---
 
 <pre>
-{% capture agenda %}
+{%- capture agenda -%}
 ---
 parent: Meetings
 title: "{{ "now" | date: "%Y-%m-%d" }}"
@@ -57,9 +57,23 @@ Meeting recording and transcript is [here]()
 {%- for agendaitem in agendaitems -%}
 - {{ agendaitem.title }} [#{{ agendaitem.number }}]({{ agendaitem.url }})
 {% endfor %}
-{% endcapture %}
+{%- endcapture -%}
 {{ agenda }}
 </pre>
 
-<a href="https://github.com/openmainframeproject/tac/new/main/meetings?filename={{ "now" | date: "%Y-%m-%d" }}.md&value={{ agenda | url_encode }}">Create Pull Request</a>
+
+<a href="https://github.com/openmainframeproject/tac/new/main/meetings?filename={{ "now" | date: "%Y-%m-%d" }}.md&value={{ agenda | url_encode }}">Create Pull Request</a> | 
+<a id="openinhackmd">Open in HackMD</a>
+
+<script type="text/javascript">
+document.getElementById('openinhackmd').onclick = function(){
+    var xhr = new XMLHttpRequest();
+    xhr.open("POST", "https://hackmd.io/new", true);
+    xhr.setRequestHeader("Access-Control-Allow-Origin","*");
+    xhr.setRequestHeader("Access-Control-Allow-Headers", "X-Requested-With, Content-Type");
+    xhr.setRequestHeader("Access-Control-Allow-Methods","POST");    
+    xhr.setRequestHeader('Content-Type', 'text/markdown');
+    xhr.send("{{ agenda | url_encode }}");
+}
+</script>
 

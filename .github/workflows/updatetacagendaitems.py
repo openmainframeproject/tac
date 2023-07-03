@@ -6,8 +6,6 @@
 # encoding=utf8
 
 import csv
-import requests
-import urllib.request
 import json
 import os
 import subprocess

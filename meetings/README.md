@@ -11,7 +11,7 @@ TAC Meetings are open to anyone interested in participating in the project. Meet
 - [2nd Thursday of the Month meeting](https://zoom-lfx.platform.linuxfoundation.org/meeting/94569165021?password=f8182978-3369-4d0d-a527-1b4a219bba33)
 - [4th Thursday of the Month meeting](https://zoom-lfx.platform.linuxfoundation.org/meeting/99009625866?password=a49cd723-50f0-4a81-893a-c51dc0e9b532) 
 
-_For 2023 no TAC meeting will be held on November 23rd, 2022 (US Thanksgiving), or December 28th, 2022 (Winter Holidays)._
+_For 2023 no TAC meeting will be held on November 23rd, 2023 (US Thanksgiving), or December 28th, 2023 (Winter Holidays)._
 
 Meeting notes are posted soon after each meeting, along with recordings, in this directory.
 
@@ -29,9 +29,14 @@ Generally, topics for a TAC meeting include:
 
 # TAC meeting structure and agenda
 
-TAC meetings are held twice a month, typically on the 2nd and 4th Thursday of the month at 1:00 pm US Eastern Time, and scheduled for 60 minutes. 
+TAC meetings are held twice a month, typically on the 2nd and 4th Thursday of the month at 1:00 pm US Eastern Time, and scheduled for 60 minutes.
 
-You can propose a topic for the TAC by either creating an open [issue tagged 'meeting-agenda'](https://github.com/openmainframeproject/tac/issues/new?labels=meeting-agenda) or a [pull request tagged 'meeting-agenda'](https://github.com/openmainframeproject/tac/pulls?q=label%3Ameeting-agenda) up until the day before the meeting. The agenda for the meeting is available shortly after midnight US Eastern Time on the day of the meeting as an [issue for review and comment](https://github.com/openmainframeproject/tac/labels/meeting) and is sent via email to the TAC email list.
+You can propose a topic for the TAC by either:
+
+- Create a [new issue](https://github.com/openmainframeproject/tac/issues/new/choose) under 'TAC Meeting agenda item'.
+- Update an existing issue or pull request on the TAC repo with the tag 'meeting-agenda'
+
+Planned topics for the upcoming and next TAC meetings, along with future topics are listed [here](https://github.com/orgs/openmainframeproject/projects/21).
 
 Agenda items will be considered based on the following criteria.
 

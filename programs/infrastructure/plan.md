@@ -15,6 +15,7 @@ A common request from open-source projects wanting to support the mainframe is g
 * Cost of infrastructure/software to acquire and host
 * Infrastructure owned by vendors is limited to access for those vendor’s employees.
 * Infrastructure owned by end users is in production usage and often disconnected from direct Internet access.
+* Some companies do not allow their employees to use their mainframe for open-source projects
 
 There have been efforts in the past, such as the [LinuxONE Community Cloud](https://linuxone.cloud.marist.edu/), but that effort was limited to just s390x Linux and not inclusive of z/OS.
 
@@ -61,16 +62,6 @@ Product	Description	Qty
 7952	30A/250V 3Ph w/Hubbell	2
 Serial: 0200472F8
 ```
-
-
-
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image1.png "image_tooltip")
-
-
 
 ## DS8K Storage System
 
@@ -427,24 +418,12 @@ Proof of entitlement
   </tr>
 </table>
 
-
-
-
-18TB usable storage and can go to 62TB without expansion frame.
+18TB usable storage; can go to 62TB without an expansion frame.
 
 
 ## Virtual Tape System 
 
 VTS 3957 VEB.Details at [https://www.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_sm/4/872/ENUS3957-_h04/index.html](https://www.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_sm/4/872/ENUS3957-_h04/index.html)
-
-
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image2.png "image_tooltip")
-
-
 
 # Activation Plan
 
@@ -497,9 +476,10 @@ Upon the Open Mainframe Project’s request, IBM will provide activation service
         * Current Configuration ( mirror here )
             * Model T02 with 2 general purpose processors (no zIIPs)
             * High Real Storage 8GB
-            * Approx 500GB of DASD (2 EAV, 2 3390-3, 28 3390-9)
+            * Approx 1TB of DASD (2 EAV, 2 3390-3, 28 3390-9)
                 * This does not include any SMP/E volumes used by Vicom
             * Current access is via TN3270 TLS on port 992 or SSH on port 2022
+            * Enable access for zOSMF and support for ZOWE and zExplorer
         * Add Virtual Tape
     * z/OS Guest - Zowe (ON HOLD)
 * KVM LPAR - FUTURE

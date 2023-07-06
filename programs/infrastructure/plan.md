@@ -1,5 +1,5 @@
 ---
-parent: infrastructure
+parent: Mainframe Access
 title: Plan
 ---
 

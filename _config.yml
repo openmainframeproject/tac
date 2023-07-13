@@ -24,6 +24,11 @@ gh_edit_repository: "https://github.com/openmainframeproject/tac" # the github U
 gh_edit_branch: "main" # the branch that your docs is served from
 gh_edit_view_mode: "tree"
 
+landscape_url: 'https://landscape.openmainframeproject.org'
+calendar_url: 'https://calendar.openmainframeproject.org'
+slack_url: 'https://slack.openmainframeproject.org'
+membership_top_tier: 'Platinum'
+
 aux_links:
   "Need help or have a question? Contact us here":
     - "//servicedesk.openmainframeproject.org"

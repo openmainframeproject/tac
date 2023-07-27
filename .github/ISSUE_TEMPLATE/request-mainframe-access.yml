@@ -1,0 +1,84 @@
+name: Request Mainframe Infrastructure
+description: Request Mainframe Infrastructure for your open source project
+title: "Infra Request - PROJECT"
+labels: ["mainframe-infra-request"]
+assignees: 
+  - openmainframeproject/tac-voting-members
+  - openmainframeproject/omp-staff
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The Open Mainframe Project provides mainframe resources to both hosted projects at the Open Mainframe Project and to broad open-source projects looking to support the mainframe. More details on the program are at https://tac.openmainframeproject.org/programs/infrastructure.
+
+        Please complete this form to request access to a mainframe resource.
+  - type: input
+    id: projectname
+    attributes:
+      label: Project Name
+      description: Please also add to the issue title above in place of PROJECT
+    validations:
+      required: true
+  - type: input
+    id: repourl
+    attributes:
+      label: Code Repository URL
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: Project License
+    validations:
+      required: true
+  - type: textarea
+    id: maintainers
+    attributes:
+      label: Names of primary maintainers/project leads
+      description: Please also add to the issue title above in place of PROJECT
+    validations:
+      required: true
+  - type: textarea
+    id: supported-archs
+    attributes:
+      label: Architectures/operating systems currently supported
+    validations:
+      required: true
+  - type: textarea
+    id: why-support
+    attributes:
+      label: Why are you interested in supporting the mainframe?
+    validations:
+      required: true
+  - type: dropdown
+    id: os-needed
+    attributes:
+      label: Which operating system(s) will you need access to?
+      multiple: true
+      options:
+        - z/OS
+        - Linux on s390x
+    validations:
+      required: true
+  - type: textarea
+    id: other-resources
+    attributes:
+      label: Resources requested outside of the standard resources provided.
+    validations:
+      required: true
+  - type: dropdown
+    id: timeneeded
+    attributes:
+      label: How long will the infrastructure be needed?
+      multiple: false
+      options:
+        - 1 year or less
+        - Ongoing
+    validations:
+      required: true
+  - type: textarea
+    id: other-questions
+    attributes:
+      label: Any other comments or questions  
+    validations:
+      required: true

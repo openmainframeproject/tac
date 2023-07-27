@@ -4,7 +4,7 @@
 {%- for project in site.data.projects -%}
     {%- if project["Level"] != 'emeritus' -%}
     <tr>
-        <td><img src="{{ project["Logo URL"] }}" /></td>
+        <td><img id="{{ project["Name"] }}" src="{{ project["Logo URL"] }}" /></td>
         <td>
             {%- if project["Github Org"] -%}
             Repo: <a href="{{ project["Github Org"] }}">{{ project["Github Org"] }}</a><br />
@@ -24,9 +24,23 @@
             Mailing List: <a href="{{ project["Mailing List"] }}">{{ project["Mailing List"] }}</a><br />
             {%- endif -%}
             {%- if project["Slack"] and project["Slack"] != 'none' -%}
-            Slack: <a href="https://slack.openmainframeproject.org">{{ project["Slack"] }}</a><br />
+            {{ assign slackstart = project["Slack"] | slice: 0 }}
+            {%- if slackstart == "#" %}
+            Slack: <a href="{{ site.slack_url }}">{{ project["Slack"] }}</a><br />
+            {%- elsif project["Slack"] -%}
+            Slack: <a href="{{ project["Slack"] }}">{{ project["Slack"] }}</a><br />
             {%- endif -%}
-            {%- if project["Leads"] -%}
+            {%- endif -%}
+            {%- if project["LFX Insights URL"] and project["LFX Insights URL"] != 'none' -%}
+            LFX Insights: <a href="{{ project["LFX Insights URL"] }}">{{ project["LFX Insights URL"] }}</a><br />
+            {%- endif -%}
+            {%- if project["LFX Security URL"] and project["LFX Security URL"] != 'none' -%}
+            LFX Security: <a href="{{ project["LFX Security URL"] }}">{{ project["LFX Security URL"] }}</a><br />
+            {%- endif -%}
+            {%- if project["Documentation"] and project["Documentation"] != 'none' -%}
+            Documentation: <a href="{{ project["Documentation"] }}">{{ project["Documentation"] }}</a><br />
+            {%- endif -%}
+            {%- if project["Leads"] and project["Leads"] != 'none' -%}
             Lead(s): {{ project["Leads"] }}<br />
             {%- endif -%}
             {%- if project["Calendar"] and project["Calendar"] != 'none' -%}
@@ -41,4 +55,3 @@
 {%- endfor -%}
 </tbody>
 </table>
-

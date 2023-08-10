@@ -1,0 +1,25 @@
+name: Support for Mainframe Infrastructure
+description: Request Support for the Mainframe Infrastructure for your open source project
+title: "Infra Request - PROJECT"
+labels: ["mainframe-infra-support"]
+assignees: 
+  - openmainframeproject/tac-voting-members
+  - openmainframeproject/omp-staff
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please complete this form to request support for your mainframe infrastucture provided by the Open Mainframe Project. Support requests are responded to in 1-2 business days.
+  - type: input
+    id: projectname
+    attributes:
+      label: Project Name
+      description: Please also add to the issue title above in place of PROJECT
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Describe the problem you are having
+    validations:
+      required: true

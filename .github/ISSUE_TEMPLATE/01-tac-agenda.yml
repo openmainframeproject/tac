@@ -30,5 +30,5 @@ body:
       description: Pick the option that is closest to the time you need for the topic.
       multiple: false
       options:
-        - 10 minutes or less
-        - At least 30 minutes
+        - 5 minutes or less
+        - 20 minutes

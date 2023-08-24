@@ -3,6 +3,9 @@ parent: Mainframe Access
 title: Plan
 ---
 
+* TOC
+{:toc}
+
 # Mainframe Infrastructure Plan for Open Mainframe Project
 
 # Why we are doing this project

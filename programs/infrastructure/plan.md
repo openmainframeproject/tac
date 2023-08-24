@@ -5,9 +5,6 @@ title: Plan
 
 # Mainframe Infrastructure Plan for Open Mainframe Project
 
-* TOC
-{:toc}
-
 # Why we are doing this project
 
 A common request from open-source projects wanting to support the mainframe is getting access to mainframe infrastructure. While in many architecture ecosystems, such infrastructure is readily available, for mainframe, it rarely is. Reasons include:
@@ -432,7 +429,8 @@ To accommodate the current Open Mainframe Project budget constraints, as well as
 1. Move current hardware from Broadcom to Marist College.
 2. Announce hardware donation and intention to activate
 3. Install and activate the hardware
-4. Plan for opening infrastructure for community use.
+4. Plan for the migration of the CBT, and any other, environments to the new box
+5. Plan for opening infrastructure for community use
 
 ## Phase 1: Move current hardware from Broadcom to Marist College - COMPLETE
 

@@ -502,6 +502,9 @@ Upon the Open Mainframe Project’s request, IBM will provide activation service
 * Root passwords stored in a secure vault
 * Carving up storage array across LPARs/Guests
     * Aim for a consistent solution across everything
+* Each LPAR/guest will have it's own dedicated I.P. address
+    * For some a DNS address may be worthwhile - is that a possibility?
+      * i.e cbttape.something.org and if there are two cbt guests at some point then the 2nd can be cbttape2.something.org 
 
 ### Software Availability
 

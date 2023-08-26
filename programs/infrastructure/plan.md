@@ -430,10 +430,11 @@ VTS 3957 VEB.Details at [https://www.ibm.com/common/ssi/ShowDoc.wss?docURL=/comm
 To accommodate the current Open Mainframe Project budget constraints, as well as able to accept the hardware donation before Broadcom needs to get the hardware out of its current data center by the end of the calendar year, the plan is to split the plan into two parts:
 
 1. Move current hardware from Broadcom to Marist College.
-2. Announce hardware donation and intention to activate
-3. Install and activate the hardware
-4. Plan for the migration of the CBT, and any other, environments to the new box
-5. Plan for opening infrastructure for community use
+2. Announce hardware donation and intention to activate.
+3. Install and activate the hardware.
+4. Define security requirements and implementation.
+5. Plan for the migration of the CBT, and any other, environments to the new box.
+6. Plan for opening infrastructure for community use.
 
 ## Phase 1: Move current hardware from Broadcom to Marist College - COMPLETE
 
@@ -504,7 +505,10 @@ Upon the Open Mainframe Project’s request, IBM will provide activation service
     * Aim for a consistent solution across everything
 * Each LPAR/guest will have it's own dedicated I.P. address
     * For some a DNS address may be worthwhile - is that a possibility?
-      * i.e cbttape.something.org and if there are two cbt guests at some point then the 2nd can be cbttape2.something.org 
+      * i.e cbttape.something.org and if there are two cbt guests at some point then the 2nd can be cbttape2.something.org
+* Security needs to be factored into the environments.
+    * local security
+    * network security
 
 ### Software Availability
 

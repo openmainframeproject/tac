@@ -448,7 +448,7 @@ This was done at Open Mainframe Summit 2023, with the intent of driving more int
 
 ## Phase 3: Activate hardware.
 
-Upon the Open Mainframe Project’s request, IBM will provide activation services, including unpacking and installing the hardware. Once complete, Vicom Infinity will then configure the infrastructure for use by the Open Mainframe Project community.
+Upon the Open Mainframe Project’s request, IBM will provide activation services and Shop Z customer number, including unpacking and installing the hardware. Once complete, Vicom Infinity will then configure the infrastructure for use by the Open Mainframe Project community.
 
 ### Hardware Configuration
 

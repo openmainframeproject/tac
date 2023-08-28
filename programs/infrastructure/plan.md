@@ -480,7 +480,8 @@ Upon the Open Mainframe Project’s request, IBM will provide activation service
             * High Real Storage 8GB
             * Approx 1TB of DASD (2 EAV, 2 3390-3, 28 3390-9)
                 * This does not include any SMP/E volumes used by Vicom
-            * Current access is via TN3270 TLS on port 992 or SSH on port 2022 and TN3270 without TLS on port 2023
+            * Current access is via TN3270 TLS (port 992) and non-TLS (port 2023) with SSH on port 2022
+              * These ports can be changed for this implementation
             * Enable access for zOSMF and support for ZOWE and zExplorer
         * Add Virtual Tape
     * z/OS Guest - Zowe (ON HOLD)

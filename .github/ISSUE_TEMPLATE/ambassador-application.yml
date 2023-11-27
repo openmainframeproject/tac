@@ -10,6 +10,8 @@ body:
     attributes:
       value: |
         Thank you for your interest in becoming an Open Mainframe Ambassador. To be considered, please put your name in the title in place of NAME, and then answer the following questions. Please also reference the [Ambassador Program overview](https://github.com/openmainframeproject/tac/blob/master/process/ambassadors.md) for any questions.
+
+        Please note, if you are an existing Ambassador, you do not need to re-apply to continue being an Ambassador for the upcoming year.
   - type: input
     id: email
     attributes:

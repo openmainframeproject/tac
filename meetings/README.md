@@ -11,8 +11,6 @@ TAC Meetings are open to anyone interested in participating in the project. Meet
 - [2nd Thursday of the Month meeting](https://zoom-lfx.platform.linuxfoundation.org/meeting/94569165021?password=f8182978-3369-4d0d-a527-1b4a219bba33)
 - [4th Thursday of the Month meeting](https://zoom-lfx.platform.linuxfoundation.org/meeting/99009625866?password=a49cd723-50f0-4a81-893a-c51dc0e9b532) 
 
-_For 2023 no TAC meeting will be held on November 23rd, 2023 (US Thanksgiving), or December 28th, 2023 (Winter Holidays)._
-
 Meeting notes are posted soon after each meeting, along with recordings, in this directory.
 
 # Purpose of TAC meetings

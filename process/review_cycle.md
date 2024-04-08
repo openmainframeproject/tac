@@ -16,7 +16,7 @@ Projects will schedule their annual review as part of the next TAC meeting follo
 *   Assessment of whether the project is fulfilling the requirements to remain at its current stage or be considered for a different stage.
 *   Feedback on its experience as an {{ site.foundation_name }} project, including benefits from being an {{ site.foundation_name }} project and areas that the TAC and {{ site.foundation_name }} staff can better support the project.
 
-Projects should use the [annual review template](annual_review_template.pptx) to structure thier presentation.
+Projects should use the [annual review template](annual_review_template.pptx) to structure their presentation.
 
 Annual reviews require an affirmative majority vote of the TAC for the project to continue at the current stage or the appropriate number of votes outlined for each stage in this document to move to the next stage. If the TAC deems the project not meeting the current stage's requirements, it may vote to move the project to the appropriate or Emeritus stage. The project may choose to move outside of {{ site.foundation_name }} at any time.
 

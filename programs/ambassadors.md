@@ -42,7 +42,7 @@ Ambassadors can serve indefinitely, with their ambassadorship renewed yearly
 	- Speaking at a webinar
 *  Report back on your activities for our end-of-year survey and report.
 
-Failure to do so may result in removal from the Ambassador Program.
+Failure to do so may result in removal from the Ambassador Program. If an ambassador is removed from the program due to inactivity, they can be reinstated after participating in an asset in both of the periods following their removal. If the ambassador does not complete the reinstatement process, they can become an ambassador again by re-applying.
 
 ## Ambassador Benefits
 

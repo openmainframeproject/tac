@@ -430,9 +430,11 @@ VTS 3957 VEB.Details at [https://www.ibm.com/common/ssi/ShowDoc.wss?docURL=/comm
 To accommodate the current Open Mainframe Project budget constraints, as well as able to accept the hardware donation before Broadcom needs to get the hardware out of its current data center by the end of the calendar year, the plan is to split the plan into two parts:
 
 1. Move current hardware from Broadcom to Marist College.
-2. Announce hardware donation and intention to activate
-3. Install and activate the hardware
-4. Plan for opening infrastructure for community use.
+2. Announce hardware donation and intention to activate.
+3. Install and activate the hardware.
+4. Define security requirements and implementation.
+5. Plan for the migration of the CBT, and any other, environments to the new box.
+6. Plan for opening infrastructure for community use.
 
 ## Phase 1: Move current hardware from Broadcom to Marist College - COMPLETE
 
@@ -446,7 +448,7 @@ This was done at Open Mainframe Summit 2023, with the intent of driving more int
 
 ## Phase 3: Activate hardware.
 
-Upon the Open Mainframe Project’s request, IBM will provide activation services, including unpacking and installing the hardware. Once complete, Vicom Infinity will then configure the infrastructure for use by the Open Mainframe Project community.
+Upon the Open Mainframe Project’s request, IBM will provide activation services and Shop Z customer number, including unpacking and installing the hardware. Once complete, Vicom Infinity will then configure the infrastructure for use by the Open Mainframe Project community.
 
 ### Hardware Configuration
 
@@ -478,7 +480,8 @@ Upon the Open Mainframe Project’s request, IBM will provide activation service
             * High Real Storage 8GB
             * Approx 1TB of DASD (2 EAV, 2 3390-3, 28 3390-9)
                 * This does not include any SMP/E volumes used by Vicom
-            * Current access is via TN3270 TLS on port 992 or SSH on port 2022
+            * Current access is via TN3270 TLS (port 992) and non-TLS (port 2023) with SSH on port 2022
+              * These ports can be changed for this implementation
             * Enable access for zOSMF and support for ZOWE and zExplorer
         * Add Virtual Tape
     * z/OS Guest - Zowe (ON HOLD)
@@ -501,6 +504,12 @@ Upon the Open Mainframe Project’s request, IBM will provide activation service
 * Root passwords stored in a secure vault
 * Carving up storage array across LPARs/Guests
     * Aim for a consistent solution across everything
+* Each LPAR/guest will have it's own dedicated I.P. address
+    * For some a DNS address may be worthwhile - is that a possibility?
+      * i.e cbttape.something.org and if there are two cbt guests at some point then the 2nd can be cbttape2.something.org
+* Security needs to be factored into the environments.
+    * local security
+    * network security
 
 ### Software Availability
 

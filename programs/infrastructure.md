@@ -7,6 +7,8 @@ title: Mainframe Access
 
 Open Mainframe Project hosts a mainframe environment for open-source projects that wish to support the mainframe architecture. The current hardware is an IBM z15, and projects can get a guest instance for either running Linux or z/OS.
 
+*NOTE: The current status of the Mainframe being activated is being tracked [here](https://github.com/openmainframeproject/tac/issues/596)*
+
 ## How to request mainframe resources
 
 Please [create a request](https://github.com/openmainframeproject/tac/issues/new/choose) to request mainframe resources. Applications are reviewed regularly and subject to TAC approval. 

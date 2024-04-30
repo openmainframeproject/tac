@@ -11,8 +11,6 @@ _Approved by Open Mainframe Project TAC on 2021-04-08_
 * TOC
 {:toc}
 
-# Overview
-
 This lifecycle document is maintained by the Open Mainframe Project, and its purpose is to:
 
 *   Describe the requirements for contributing a project to Open Mainframe Project;

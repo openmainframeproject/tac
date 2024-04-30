@@ -53,6 +53,17 @@ with urllib.request.urlopen(landscapeHostedProjects) as hostedProjectsResponse:
                         'Github Org': projectData['repo_url'] if 'repo_url' in projectData else None
                         })
 
+## Add OTel on Mainframes group
+csvRows.append({
+    'Name': 'OpenTelemetry on Mainframes',
+    'Level': 'third-party-sig',
+    'Logo URL': 'https://opentelemetry.io/img/logos/opentelemetry-horizontal-color.svg',
+    'Slack': 'https://cloud-native.slack.com/archives/C05PXDFTCPJ',
+    'Website': 'https://github.com/open-telemetry/community/blob/86aeb7e63cc4dd21337cdb2b45c6bbf0ab6693db/projects/mainframe.md',
+    'Leads': 'Ruediger Schulze and Aaron Young',
+    'Calendar': 'https://calendar.google.com/calendar/u/0/r/eventedit/copy/MzBub3V1dnVodWVxbW5rMDdtdGZuMXMzdTJfMjAyNDAxMTZUMTgwMDAwWiBnb29nbGUuY29tX2I3OWUzZTkwajdiYnNhMm4ycDVhbjVsZjYwQGc'
+})
+
 with open(projectsCsvFile, 'w') as projectsCsvFileObject:
     writer = csv.DictWriter(projectsCsvFileObject, fieldnames = csvRows[0].keys())
     writer.writeheader() 

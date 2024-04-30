@@ -28,6 +28,7 @@ landscape_url: 'https://landscape.openmainframeproject.org'
 calendar_url: 'https://calendar.openmainframeproject.org'
 slack_url: 'https://slack.openmainframeproject.org'
 membership_top_tier: 'Platinum'
+foundation name: "Open Mainframe Project"
 
 aux_links:
   "Need help or have a question? Contact us here":
@@ -37,6 +38,8 @@ footer_content: Copyright &copy; The Linux Foundation&reg;. All rights reserved.
 readme_index:
   with_frontmatter: true
   
+ga_tracking: 359859504
+ga_tracking_anonymize_ip: true
 
 kramdown:
   input: GFM

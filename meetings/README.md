@@ -8,8 +8,8 @@ child_nav_order: reversed
 
 TAC Meetings are open to anyone interested in participating in the project. Meetings are generally scheduled for the second and fourth Thursday of each month at 1:00 pm US Eastern Time. Meeting links are below.
 
-- [2nd Thursday of the Month meeting](https://zoom-lfx.platform.linuxfoundation.org/meeting/94569165021?password=f8182978-3369-4d0d-a527-1b4a219bba33)
-- [4th Thursday of the Month meeting](https://zoom-lfx.platform.linuxfoundation.org/meeting/99009625866?password=a49cd723-50f0-4a81-893a-c51dc0e9b532) 
+- [2nd Thursday of the Month meeting](https://zoom-lfx.platform.linuxfoundation.org/meeting/96768093075?password=1b7c020a-bad8-4ba6-91f2-8156091e05fa)
+- [4th Thursday of the Month meeting](https://zoom-lfx.platform.linuxfoundation.org/meeting/97287182990?password=033f3235-8042-4d14-9a1a-f88992db8437) 
 
 Meeting notes are posted soon after each meeting, along with recordings, in this directory.
 

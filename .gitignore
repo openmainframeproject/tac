@@ -33,3 +33,5 @@ Temporary Items
 
 *.swp
 Gemfile.lock
+
+_data/openmainframeproject.yaml

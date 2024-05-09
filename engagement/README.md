@@ -1,10 +1,39 @@
 ---
 title: Getting Involved
-has_children: true
+has_children: false
+nav_order: 2
 ---
 
 # Getting Involved in Projects
 
-All of the projects hosted at the Open Mainframe Project are open and transparent, and welcome participation from anyone interested in the technology areas. Each project publishes thier governance processes within thier project repo ( typically in the README.md file or in a GOVERNANCE.md file within the primary project repo or TSC repo ) on roles within the community and how decision making is made.
+All of the projects hosted at the {{ site.foundation-name }} are open and
+transparent, and welcome participation from anyone interested in the technology
+areas. Each project publishes its governance processes within its project repo (
+typically in the README.md file or in a GOVERNANCE.md file within the primary
+project repo or TSC repo ) on roles within the community and how decision-making
+is made.
 
-Below are resources to helping you get more involved in projects.
+## TAC Meetings
+
+Learn more about joining the public meetings of the Technical Advisory Council
+(TAC) on [the Meetings page](/meetings)
+
+## Community Calendar
+
+You can find all upcoming community meetings listed on the community calendar
+below.
+
+{%- include calendar.html -%}
+
+## Mailing Lists and Slack channels for hosted projects
+
+Each project hosted at the {{ site.foundation-name }} collaborates on open channels
+that are welcome for anyone in the community to participate in. See the below
+list of channels for each project.
+
+All Slack channels referenced below are part of the [{{ site.foundation-name }}
+Slack organization][slack] unless otherwise noted.
+
+{%- include projectdetails.html -%}
+
+[slack]: {{ site.slack_url }}

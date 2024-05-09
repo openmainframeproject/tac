@@ -1,11 +1,11 @@
 ---
 parent: Programs
-title: License Scanning and Analysis Support Program
+title: License Scanning
 ---
 
 # The Linux Foundation License Scanning and Analysis Support Program for LF projects
 
-- [Support plan summary for 2021: Open Mainframe Project](#support-plan-summary-for-2021-open-mainframe-project)
+- [Support plan summary for 2022: Open Mainframe Project](#support-plan-summary-for-2022-open-mainframe-project)
     - [Notes](#notes)
     - [Dependencies on other LF and project teams](#dependencies-on-other-lf-and-project-teams)
   - [Covered projects and schedule of scans](#covered-projects-and-schedule-of-scans)
@@ -18,10 +18,9 @@ title: License Scanning and Analysis Support Program
     - [Exhibit 2](#exhibit-2)
     - [Exhibit 3](#exhibit-3)
 
-## Support plan summary for 2021: Open Mainframe Project
+## Support plan summary for 2022: Open Mainframe Project
 
-Support to be provided by: Steve Winslow
-&lt;<swinslow@linuxfoundation.org>&gt;
+Support to be provided by: Jeff Shapiro &lt;<jshapiro@linuxfoundation.org>&gt;
 
 For the projects described below, the following actions will be
 performed:
@@ -33,7 +32,7 @@ performed:
     contained in the project codebases
 
 3.  Publish SPDX documents with the license conclusions and copyright
-    statements at <https://github.com/lfscanning> (or a similar public
+    statements at <https://github.com/lfscanning/spdx-omp> (or a similar public
     location), for broader community use in their own compliance
     processes
 
@@ -137,38 +136,18 @@ continued development of the scanning workflow automation.
 
 -   Zowe
 
-### Cycle 1
-
--   Polycephaly
-
--   Software Discovery Tool
-
--   TerseDecompress
-
--   Zorow
-
-### Cycle 2
+### TBD
 
 -   Ambitus ( see note below )
 
--   ADE
-
--   Atom
-
--   Tessia
-
-### Cycle 3
-
 -   CBT Tape ( see note below )
 
--   Cobol Programming Course
+### March/June/Sept/Dec
 
--   Feilong
-
--   GenevaERS
+-   All other projects
 
 Anticipate up to approximately 12 new small-to-medium projects to come
-in during 2021. Will perform pre-intake scans and allocate to cycles
+in during 2022. Will perform pre-intake scans and allocate to cycles
 based on project sizing.
 
 - **Ambitus**: to be discussed what to cover in scanning, in light of

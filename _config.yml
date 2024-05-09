@@ -24,9 +24,23 @@ gh_edit_repository: "https://github.com/openmainframeproject/tac" # the github U
 gh_edit_branch: "main" # the branch that your docs is served from
 gh_edit_view_mode: "tree"
 
+landscape_url: 'https://landscape.openmainframeproject.org'
+calendar_url: 'https://calendar.openmainframeproject.org'
+slack_url: 'https://slack.openmainframeproject.org'
+membership_top_tier: 'Platinum'
+foundation name: "Open Mainframe Project"
+
+aux_links:
+  "Need help or have a question? Contact us here":
+    - "//servicedesk.openmainframeproject.org"
+footer_content: Copyright &copy; The Linux Foundation&reg;. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our <a href="https://www.linuxfoundation.org/trademark-usage">Trademark Usage</a> page. Linux is a registered trademark of Linus Torvalds. <a href="http://www.linuxfoundation.org/privacy">Privacy Policy</a> and <a href="http://www.linuxfoundation.org/terms">Terms of Use</a>.
+
 readme_index:
   with_frontmatter: true
   
+ga_tracking: 359859504
+ga_tracking_anonymize_ip: true
+
 kramdown:
   input: GFM
   extensions:

@@ -16,34 +16,42 @@ parent: Programs
 	- [What if I want to step down or don't have the time to commit anymore?](#what-if-i-want-to-step-down-or-dont-have-the-time-to-commit-anymore)
 
 
-Open Mainframe Ambassadors (OMAs) are individuals who are passionate about open source and mainframe, our projects and modern technology.  The influencers and evangelists are already engaged with an [Open Mainframe Project](https://www.openmainframeproject.org/) host project in some way including contributing to forums, online groups, community events, etc.They are willing to share their expertise and help others learn about the hosted projects and community.
+Open Mainframe Ambassadors (OMAs) are individuals who are passionate about open source and mainframe, our projects, and modern technology.  The influencers and evangelists are already engaged with an [Open Mainframe Project](https://www.openmainframeproject.org/) host project in some way, including contributing to forums, online groups, community events, etc. They are willing to share their expertise and help others learn about the hosted projects and community.
 
-The Open Mainframe Ambassador Program exists to empower community members with tools and resources needed to:
+The Open Mainframe Ambassador Program exists to empower community members with the tools and resources needed to:
 
-*   Promote open source on mainframe
+*   Promote open source on the mainframe
 *   Educate a local community on the Open Mainframe Project mission
 *   Contribute to Open Mainframe Project hosted projects
 
-Ambassadors can serve indefinitely, with their ambassadorship renewed on a yearly basis
+Ambassadors can serve indefinitely, with their ambassadorship renewed yearly
 
 ## Requirements for becoming an official Open Mainframe Ambassador
 
 *   Affiliated with an Open Mainframe Project member OR is a contributor to an Open Mainframe Project hosted project.
 *   Willing to speak at community events, write technical content such as blog posts and be interviewed for articles, podcasts or other marketing and educational materials. 
 
-## Expected Time Commitments
+## Required Time Commitments
 
-*   Give a talk, host a meetup or perform an activity that spreads the awareness of open source on mainframe twice a year
-*   Report back on your activities for our end-of-year survey and report
+*  Participate in at least one Open Mainframe Project asset per half of year ( Jan-June, July-Dec ). Examples include:
+	- Submitting a blog post for the Open Mainframe website
+	- Participating in an interview (TechStrong TV, TFIR, or other)
+	- Submitting a speaking abstract on behalf of the project
+	- Speaking at a conference or tradeshow
+	- Leading a meetup
+	- Speaking at a webinar
+*  Report back on your activities for our end-of-year survey and report.
+
+Failure to do so may result in removal from the Ambassador Program. If an ambassador is removed from the program due to inactivity, they can be reinstated after participating in an asset in both of the periods following their removal. If the ambassador does not complete the reinstatement process, they can become an ambassador again by re-applying.
 
 ## Ambassador Benefits
 
-With the goal of promoting Open Mainframe Project and its hosted projects around the globe, we are offering the following benefits for our Ambassadors:
+With the goal of promoting the Open Mainframe Project and its hosted projects around the globe, we are offering the following benefits for our Ambassadors:
 
 *   Recognition as an Open Mainframe Ambassador with an exclusive badge and listing on the Open Mainframe Project website.
 *   Annual gift certificate to purchase swag from [OMP Store](https://store.openmainframeproject.org/) for any speaking opportunities
-*   Participate in a quarterly ambassador call, where you can network with other ambassadors and learn more about what is coming up in the Open Mainframe Project.
-*   Discount to attend Open Mainframe Summit, and invites to speak at other events globally on behalf of Open Mainframe Project.
+*   Participate in a quarterly ambassador call to network with other ambassadors and learn more about what is coming up in the Open Mainframe Project.
+*   Discount to attend Open Mainframe Project hosted events and invites to speak at other events globally on behalf of Open Mainframe Project.
 *   Blogging opportunities (including [Open Mainframe Project blog](https://www.cncf.io/blog/), [Zowe Medium blog](https://medium.com/zowe), and other industry-leading editions).
 *   Social media promotion support.
 
@@ -63,11 +71,13 @@ The Open Mainframe Project TAC reviews applications annually and invites a selec
 
 ### Do I need to re-apply?
 
-Yes, please apply before the announced deadline to be considered.
+If you are a current Open Mainframe Ambassador, you do not need to re-apply to continue being an Open Mainframe Ambassador for the following year.
 
-### Will you email me with a status update of my application?
+If you applied to be an Open Mainframe Ambassador in the past and were not accepted, you do need to re-apply before the announced deadline to be considered for being an Open Mainframe Ambassador for the following year.
 
-No. We will only follow up if your application is accepted.
+### Will you email me with a status update on my application?
+
+No. We will only follow up if you accept your application.
 
 ### What if I want to step down or don't have the time to commit anymore?
 

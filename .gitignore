@@ -32,3 +32,6 @@ Temporary Items
 .apdisk
 
 *.swp
+Gemfile.lock
+
+_data/openmainframeproject.yaml

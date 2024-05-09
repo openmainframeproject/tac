@@ -1,8 +1,8 @@
-#!/usr/bin/env python3                                                                                                  
-#                                                                                                                       
-# Copyright this project and it's contributors                                                                          
-# SPDX-License-Identifier: Apache-2.0                                                                                   
-#                                                                                                                       
+#!/usr/bin/env python3
+#
+# Copyright this project and its contributors
+# SPDX-License-Identifier: Apache-2.0
+#
 # encoding=utf8
 
 import csv
@@ -15,11 +15,6 @@ projectsCsvFile = os.path.dirname(os.path.realpath(__file__))+'/../../_data/proj
 landscapeBaseURL = 'https://landscape.openmainframeproject.org'
 landscapeHostedProjects = landscapeBaseURL+'/data/exports/projects-hosted.json'
 landscapeSingleItem = landscapeBaseURL+'/data/items/{}.json'
-
-# map landscape ID to slug
-keyMapping = {
-    'open-mainframe-education': 'mainframe-open-education' 
-}
 
 csvRows = []
 
@@ -35,19 +30,39 @@ with urllib.request.urlopen(landscapeHostedProjects) as hostedProjectsResponse:
                         'Logo URL': project['logo'],
                         'Slug': projectData['id'],
                         'Website': projectData['homepage_url'],
-                        'Leads': projectData['extra']['leads'],
-                        'Meeting Cadence': projectData['extra']['meeting_cadence'],
-                        'LFX Insights URL': projectData['extra']['lfx_insights_url'] if 'lfx_insights_url' in projectData['extra'] else None,
-                        'Accepted Date': projectData['extra']['date_accepted'],
-                        'Last Review Date': projectData['extra']['last_review_date'],
-                        'Next Review Date': projectData['extra']['next_review_date'],
-                        'Slack': projectData['extra']['slack_channel'],
-                        'Mailing List': projectData['extra']['mailing_list_url'] if 'mailing_list_url' in projectData['extra'] else None,
-                        'User Mailing List': projectData['extra']['user_mailing_list_url'] if 'user_mailing_list_url' in projectData['extra'] else None,
-                        'Dev Mailing List': projectData['extra']['dev_mailing_list_url'] if 'dev_mailing_list_url' in projectData['extra'] else None,
+                        'Leads': projectData['extra']['leads'] if 'extra' in projectData and 'leads' in projectData['extra'] else None,
+                        'TAC Representative': projectData['extra']['TAC_representative'] if 'extra' in projectData and 'TAC_representative' in projectData['extra'] else None,
+                        'Documentation': projectData['extra']['documentation'] if 'extra' in projectData and 'documentation' in projectData['extra'] else None,
+                        'SBOM': projectData['extra']['SBOM'] if 'extra' in projectData and 'SBOM' in projectData['extra'] else None,
+                        'Calendar': projectData['extra']['calendar'] if 'extra' in projectData and 'calendar' in projectData['extra'] else None,
+                        'Contribution Guidelines': projectData['extra']['contribution_guidelines'] if 'extra' in projectData and 'contribution_guidelines' in projectData['extra'] else None,
+                        'Wiki Page': projectData['extra']['wiki_page'] if 'extra' in projectData and 'wiki_page' in projectData['extra'] else None,
+                        'Meeting Cadence': projectData['extra']['meeting_cadence'] if 'extra' in projectData and 'meeting_cadence' in projectData['extra'] else None,
+                        'LFX Insights URL': projectData['extra']['LFX_insights'] if 'extra' in projectData and 'LFX_insights' in projectData['extra'] else None,
+                        'LFX Security URL': projectData['extra']['LFX_security'] if 'extra' in projectData and 'LFX_security' in projectData['extra'] else None,
+                        'TSC Meeting Notes': projectData['extra']['TSC_meeting_notes'] if 'extra' in projectData and 'TSC_meeting_notes' in projectData['extra'] else None,
+                        'Accepted Date': projectData['extra']['date_accepted'] if 'extra' in projectData and 'date_accepted' in projectData['extra'] else None,
+                        'Last Review Date': projectData['extra']['last_review_date'] if 'extra' in projectData and 'last_review_date' in projectData['extra'] else None,
+                        'Next Review Date': projectData['extra']['next_review_date'] if 'extra' in projectData and 'next_review_date' in projectData['extra'] else None,
+                        'Slack': projectData['extra']['slack_channel'] if 'extra' in projectData and 'slack_channel' in projectData['extra'] else None,
+                        'Mailing List': projectData['extra']['mailing_list_url'] if 'extra' in projectData and 'mailing_list_url' in projectData['extra'] else None,
+                        'User Mailing List': projectData['extra']['user_mailing_list_url'] if 'extra' in projectData and 'user_mailing_list_url' in projectData['extra'] else None,
+                        'Dev Mailing List': projectData['extra']['dev_mailing_list_url'] if 'extra' in projectData and 'dev_mailing_list_url' in projectData['extra'] else None,
                         'Primary Github Repo': projectData['project_org'] if 'project_org' in projectData else None,
-                        'Github Org': projectData['repo_url']
+                        'Best Practices Badge ID': projectData['bestPracticeBadgeId'] if 'bestPracticeBadgeId' in projectData else None,
+                        'Github Org': projectData['repo_url'] if 'repo_url' in projectData else None
                         })
+
+## Add OTel on Mainframes group
+csvRows.append({
+    'Name': 'OpenTelemetry on Mainframes',
+    'Level': 'third-party-sig',
+    'Logo URL': 'https://opentelemetry.io/img/logos/opentelemetry-horizontal-color.svg',
+    'Slack': 'https://cloud-native.slack.com/archives/C05PXDFTCPJ',
+    'Website': 'https://github.com/open-telemetry/community/blob/86aeb7e63cc4dd21337cdb2b45c6bbf0ab6693db/projects/mainframe.md',
+    'Leads': 'Ruediger Schulze and Aaron Young',
+    'Calendar': 'https://calendar.google.com/calendar/u/0/r/eventedit/copy/MzBub3V1dnVodWVxbW5rMDdtdGZuMXMzdTJfMjAyNDAxMTZUMTgwMDAwWiBnb29nbGUuY29tX2I3OWUzZTkwajdiYnNhMm4ycDVhbjVsZjYwQGc'
+})
 
 with open(projectsCsvFile, 'w') as projectsCsvFileObject:
     writer = csv.DictWriter(projectsCsvFileObject, fieldnames = csvRows[0].keys())

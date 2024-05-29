@@ -23,13 +23,15 @@ Hosted projects and working groups will have a primary committee set up in PCC. 
 
 The LF staff will set up the primary committee; subcommittees can be set up by the hosted project and/or working group themselves or the LF Staff if desired. The primary committee will be associated with any mailing lists of the hosted project or working group, meaning that they will be automatically added to those mailing lists.
 
+**Projects must maintain their committee members in LFX PCC and are expected to review for accuracy at least every three months**
+
 ### Adding people to a committee
 
-The committee members are those named individuals who have been appointed to the committee. Each hosted project and working group should detail the requirements for membership and distinguish voting from non-voting roles.
+Committee members are named individuals who have been appointed or elected to the committee per the hosted project's Technical Charter and any relevant hosted project or working group policies. Each hosted project and working group should detail the requirements for membership and distinguish voting from non-voting roles.
 
 Instructions for adding individuals to a committee in PCC can be found [here][add individuals to committee instructions]. The specific settings for adding individuals are as follows.
 
-| | |
+|Field|Value|
 |---|---|
 |Appointed By|For TSCs, this would be `Vote of TSC Committee`. For Working Groups and sub-committees, pick `Community`|
 |Voting Status|Generally, this should be `Voting Rep`, though if you have non-voting roles on the committee, select `Other`|
@@ -55,7 +57,7 @@ Meeting attendance is taken automatically and attached to the meeting itself. At
 
 Instructions for creating a meeting in PCC can be found [here][create meeting instructions]. Specific guidelines for hosted projects and working groups should be as follows.
 
-- Generally, all hosted projects and working group meetings should have `Make Meeting Public` checked and `Restricted` and unchecked, as those meetings are public by default. Occasionally, meetings related to security vulnerability review or other sensitive topics may be held; in those cases, `Make Meeting Public` should be unchecked and `Restricted` and checked.
+- Generally, all hosted projects and working group meetings should have `Make Meeting Public` checked and `Restricted` unchecked, as those meetings are public by default. Occasionally, meetings related to security vulnerability review or other sensitive topics may be held; in those cases, `Make Meeting Public` should be unchecked and `Restricted` checked.
 - Associate a `Committee` with the meeting to ensure that those committee members are automatically added. Other non-committee members can join using the meeting link and request that a meeting invite be sent to them.
 
 ### Cancelling meetings
@@ -64,7 +66,9 @@ Instructions for canceling meetings can be found [here][cancel meeting instructi
 
 ## Calendar
 
-Each hosted project and working group has a Public Calendar that can be directly pointed to or embedded in an existing web page. Instructions for getting the link for the hosted project or working group Public Calendar can be found [here][access to public calendar link instructions]. All public meetings for hosted projects and working groups are posted on the [Community Calendar]. 
+Each hosted project and working group has a Public Calendar that can be directly pointed to or embedded in an existing web page. Instructions for getting the link for the hosted project or working group Public Calendar can be found [here][access to public calendar link instructions]. Note that the LF Staff sets up a subdomain forward if the project has a primary domain setup using the format `https://calendar.DOMAINNAME`.
+
+All public meetings for hosted projects and working groups are posted on the [Community Calendar]. 
 
 Meetings that an individual is directly invited to can be found in the 'Meetings' section of that individual's LFX Individual Dashboard; instructions can be found [here][individual dashboard meetings instructions]
 
@@ -72,11 +76,11 @@ Meetings that an individual is directly invited to can be found in the 'Meetings
 
 To help individuals not be inundated with calendar overload, try to follow these guidelines:
 
-- Make sure to make meeting invite changes ( including cancellations or reschedulings ) more than 24 hours in advance, as many calendaring clients wait to update. Emailing that calendar's mailing list is also best practice to inform the group of the cancellation.
+- Make sure to make meeting invite changes ( including cancellations or reschedulings ) more than 24 hours in advance, as many calendaring clients wait to update. The best practice is to email the respective committee's mailing list or [email the list of meeting attendees in PCC][email meeting participants PCC] to inform the group of the cancellation.
 - Instruct invitees to manually remove old entries when provisioning a new series of recurring meetings. Occasionally, we will see some calendaring clients not removing these automatically.
-- Make sure the meeting description includes an agenda or a link to the agenda.
+- Ensure the meeting description includes an agenda or a link to the agenda.
 
-[Community Calendar]: https://calendar.openmainframeproject.org
+[Community Calendar]: {{ site.calendar_url }}
 [cancel meeting instructions]: https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/collaborations/meetings#delete-meetings
 [access to public calendar link instructions]: https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/collaborations/meetings
 [individual dashboard meetings instructions]: https://docs.linuxfoundation.org/lfx/my-profile/meetings
@@ -84,3 +88,4 @@ To help individuals not be inundated with calendar overload, try to follow these
 [pcc access request instructions]: https://jira.linuxfoundation.org/plugins/servlet/desk/portal/4/create/358
 [add individuals to committee instructions]: https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/collaborations/committees#adding-members-to-a-committee
 [remove individuals from committee instructions]: https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/collaborations/committees#deleting-a-member-from-a-committee
+[email meeting participants PCC]: https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/collaborations/meetings

@@ -6,7 +6,7 @@ nav_order: 2
 
 # Getting Involved in Projects
 
-All of the projects hosted at the {{ site.foundation-name }} are open and
+All of the projects hosted at the {{ site.foundation_name }} are open and
 transparent, and welcome participation from anyone interested in the technology
 areas. Each project publishes its governance processes within its project repo (
 typically in the README.md file or in a GOVERNANCE.md file within the primary

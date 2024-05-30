@@ -27,8 +27,17 @@ gh_edit_view_mode: "tree"
 landscape_url: 'https://landscape.openmainframeproject.org'
 calendar_url: 'https://calendar.openmainframeproject.org'
 slack_url: 'https://slack.openmainframeproject.org'
+directed_fund_charter_url: 'https://charter.openmainframeproject.org'
+tac_issues_url: 'https://github.com/openmainframeproject/tac/issues/new'
+helpdesk_url: "https://servicedesk.openmainframeproject.org"
+tac_mailing_list_url: "https://lists.openmainframeproject.org/g/omp-technical"
+website_url: "https://openmainframeproject.org"
+blog_url: "https://openmainframeproject.org/blog"
+
+# Founation Settings
 membership_top_tier: 'Platinum'
 foundation_name: "Open Mainframe Project"
+clotributor_name: openmainframeproject
 
 aux_links:
   "Need help or have a question? Contact us here":

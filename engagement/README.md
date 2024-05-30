@@ -25,13 +25,13 @@ below.
 
 {%- include calendar.html -%}
 
-## Mailing Lists and Slack channels for hosted projects
+## Connecting with hosted projects
 
-Each project hosted at the {{ site.foundation-name }} collaborates on open channels
+Each project hosted at the {{ site.foundation_name }} collaborates on open channels
 that are welcome for anyone in the community to participate in. See the below
 list of channels for each project.
 
-All Slack channels referenced below are part of the [{{ site.foundation-name }}
+All Slack channels referenced below are part of the [{{ site.foundation_name }}
 Slack organization][slack] unless otherwise noted.
 
 {%- include projectdetails.html -%}

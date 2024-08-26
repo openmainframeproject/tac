@@ -2,6 +2,7 @@ title: Open Mainframe Project TAC
 description: Materials and processes for the Open Mainframe Project TAC
 logo: "https://artwork.openmainframeproject.org/other/open-mainframe-project/horizontal/color/open-mainframe-project-horizontal-color.svg"
 theme: just-the-docs
+repository: openmainframeproject/tac
 
 exclude: [
   "README.md",

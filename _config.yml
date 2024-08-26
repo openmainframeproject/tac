@@ -12,7 +12,8 @@ exclude: [
   "package.json", 
   "package-lock.json",
   "CODE_OF_CONDUCT.md",
-  "LICENSE"
+  "LICENSE",
+  "vendor"
 ]
 
 back_to_top: true

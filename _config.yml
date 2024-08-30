@@ -26,6 +26,7 @@ gh_edit_repository: "https://github.com/openmainframeproject/tac" # the github U
 gh_edit_branch: "main" # the branch that your docs is served from
 gh_edit_view_mode: "tree"
 
+# Various URLs used across the site
 landscape_url: 'https://landscape.openmainframeproject.org'
 calendar_url: 'https://calendar.openmainframeproject.org'
 slack_url: 'https://slack.openmainframeproject.org'
@@ -35,11 +36,12 @@ helpdesk_url: "https://servicedesk.openmainframeproject.org"
 tac_mailing_list_url: "https://lists.openmainframeproject.org/g/omp-technical"
 website_url: "https://openmainframeproject.org"
 blog_url: "https://openmainframeproject.org/blog"
+lfscanning_repo_url: https://github.com/lfscanning/spdx-omp
 
 # Founation Settings
-membership_top_tier: 'Platinum'
 foundation_name: "Open Mainframe Project"
 clotributor_name: openmainframeproject
+membership_top_tier: 'Platinum'
 
 aux_links:
   "Need help or have a question? Contact us here":
@@ -56,3 +58,13 @@ kramdown:
   input: GFM
   extensions:
     - autolink
+  parse_block_html: true
+  toc_levels: 2..6
+
+plugins:
+  - jekyll-redirect-from
+
+mermaid:
+  # Version of mermaid library
+  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+  version: "10.9.0"

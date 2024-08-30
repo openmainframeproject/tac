@@ -1,26 +1,13 @@
 ---
-parent: Programs
 title: License Scanning
+parent: Programs
 ---
 
-# The Linux Foundation License Scanning and Analysis Support Program for LF projects
+# License Scanning and Analysis Support Program
 
-- [Support plan summary for 2022: Open Mainframe Project](#support-plan-summary-for-2022-open-mainframe-project)
-    - [Notes](#notes)
-    - [Dependencies on other LF and project teams](#dependencies-on-other-lf-and-project-teams)
-  - [Covered projects and schedule of scans](#covered-projects-and-schedule-of-scans)
-    - [Every Month](#every-month)
-    - [Cycle 1](#cycle-1)
-    - [Cycle 2](#cycle-2)
-    - [Cycle 3](#cycle-3)
-  - [Exhibits](#exhibits)
-    - [Exhibit 1](#exhibit-1)
-    - [Exhibit 2](#exhibit-2)
-    - [Exhibit 3](#exhibit-3)
-
-## Support plan summary for 2022: Open Mainframe Project
-
-Support to be provided by: Jeff Shapiro &lt;<jshapiro@linuxfoundation.org>&gt;
+* TOC
+{:toc}
+## Support plan summary
 
 For the projects described below, the following actions will be
 performed:
@@ -32,8 +19,7 @@ performed:
     contained in the project codebases
 
 3.  Publish SPDX documents with the license conclusions and copyright
-    statements at <https://github.com/lfscanning/spdx-omp> (or a similar public
-    location), for broader community use in their own compliance
+    statements at <{{ site.lfscanning_repo_url }}>, for broader community use in their own compliance
     processes
 
 4.  Produce summary reports for project leads / maintainers, with
@@ -69,8 +55,9 @@ performed:
         describe the requested exceptions and facilitate approvals under
         the charter
 
-Stretch goals: will perform where feasible, subject to available
-resources and time:
+### Stretch goals
+
+Will perform where feasible, subject to available resources and time:
 
 1.  Run “red flag” pre-intake scans, for net new projects:
 
@@ -129,33 +116,6 @@ continued development of the scanning workflow automation.
     managed by LF IT (none presently anticipated for current projects /
     scan types)
 
-
-## Covered projects and schedule of scans
-
-### Every Month
-
--   Zowe
-
-### TBD
-
--   Ambitus ( see note below )
-
--   CBT Tape ( see note below )
-
-### March/June/Sept/Dec
-
--   All other projects
-
-Anticipate up to approximately 12 new small-to-medium projects to come
-in during 2022. Will perform pre-intake scans and allocate to cycles
-based on project sizing.
-
-- **Ambitus**: to be discussed what to cover in scanning, in light of
-Ambitus’s forks of several large pre-existing OSS projects.
-
-- **CBT Tape**: to be discussed what (if anything) to cover in
-scanning, in light of CBT Tape’s historical context.
-
 ## Exhibits
 
 1.  Screenshots from example SPDX document
@@ -168,8 +128,8 @@ scanning, in light of CBT Tape’s historical context.
 
 **Screenshots from example SPDX document**
 
-<img src="assets/license_scanning_image1.png" style="width:3.40084in;height:3.86239in" alt="Graphical user interface, text, application Description automatically generated" />
-<img src="assets/license_scanning_image2.png" style="width:3.4in;height:3.86in" alt="Text Description automatically generated" />
+<img src="media/license_scanning_image1.png" style="width:3.40084in;height:3.86239in" alt="Graphical user interface, text, application Description automatically generated" />
+<img src="media/license_scanning_image2.png" style="width:3.4in;height:3.86in" alt="Text Description automatically generated" />
 
 ### Exhibit 2
 
@@ -177,18 +137,18 @@ scanning, in light of CBT Tape’s historical context.
 
 Key findings and recommended actions:
 
-<img src="assets/license_scanning_image3.png" style="width:5.01835in;height:3.62088in" alt="Graphical user interface, text, application, email Description automatically generated" />
+<img src="media/license_scanning_image3.png" style="width:5.01835in;height:3.62088in" alt="Graphical user interface, text, application, email Description automatically generated" />
 
 Summary of findings:
 
-<img src="assets/license_scanning_image4.png" style="width:2.34972in;height:3.53211in" alt="A picture containing graphical user interface Description automatically generated" />
+<img src="media/license_scanning_image4.png" style="width:2.34972in;height:3.53211in" alt="A picture containing graphical user interface Description automatically generated" />
 
 Spreadsheet with detailed findings:
 
-<img src="assets/license_scanning_image5.png" style="width:5.33061in;height:1.63303in" alt="Graphical user interface, table Description automatically generated" />
+<img src="media/license_scanning_image5.png" style="width:5.33061in;height:1.63303in" alt="Graphical user interface, table Description automatically generated" />
 
 ### Exhibit 3
 
 **Screenshots from example board decks**
 
-<img src="assets/license_scanning_image6.png" style="width:7in;height:4.04444in" alt="Graphical user interface, application Description automatically generated" />
+<img src="media/license_scanning_image6.png" style="width:7in;height:4.04444in" alt="Graphical user interface, application Description automatically generated" />

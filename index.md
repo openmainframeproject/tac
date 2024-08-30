@@ -32,7 +32,7 @@ Each of the {{ site.foundation_name }} projects are open to participation by any
 
 Working groups may be formed by the TAC to focus on specific areas of technical interest or need within {{ site.foundation_name }}.  They report to the TAC which remains responsible for any formal decisions or voting matters.
 
-Below are the project and working groups supported by the TAC, listed by [project stage](process/lifecycle)
+Below are the projects and working groups supported by the TAC, listed by [project stage](process/lifecycle)
 
 {%- include projectlist.html -%}
 

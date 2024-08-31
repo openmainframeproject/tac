@@ -1,0 +1,23 @@
+name: Update Data From LFX
+on:
+  issues:
+    types:
+      - "labeled"
+      - "unlabeled"
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: jmertic/lfx-tac-actions@main
+        with:
+          landscape_url: https://landscape.openmainframeproject.org
+          artwork_url: https://artwork.openmainframeproject.org
+          lfx_tac_commmittee_url: https://projectadmin.lfx.linuxfoundation.org/project/a0941000002wBymAAE/collaboration/committees/163b26f7-a49b-40a3-89bb-e0592296c003
+          tac_agenda_gh_project_url: https://github.com/orgs/openmainframeproject/projects/21
+        env:
+          token: ${{ secrets.PAT }} 
+          repository: ${{ github.repository }}
+          ref: ${{ github.ref }}

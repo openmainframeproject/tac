@@ -37,11 +37,15 @@ tac_mailing_list_url: "https://lists.openmainframeproject.org/g/omp-technical"
 website_url: "https://openmainframeproject.org"
 blog_url: "https://openmainframeproject.org/blog"
 lfscanning_repo_url: https://github.com/lfscanning/spdx-omp
+tac_member_list_url: https://openmainframeproject.org/about/technical-advisory-council
+lf_staff_list_url: https://openmainframeproject.org/about/leadership
+mission_statement_url: https://openmainframeproject.org/about/ 
 
 # Founation Settings
 foundation_name: "Open Mainframe Project"
 clotributor_name: openmainframeproject
 membership_top_tier: 'Platinum'
+archived_lifecycle_stage: "Emeritus"
 
 aux_links:
   "Need help or have a question? Contact us here":

@@ -1,6 +1,6 @@
 ---
 parent: Processes
-nav_order: 1
+nav_order: 10
 title: Contribution Guidelines
 ---
 # Contribution Guidelines for hosted projects

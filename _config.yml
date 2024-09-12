@@ -33,6 +33,9 @@ slack_url: 'https://slack.openmainframeproject.org'
 directed_fund_charter_url: 'https://charter.openmainframeproject.org'
 tac_issues_url: 'https://github.com/openmainframeproject/tac/issues/new'
 helpdesk_url: "https://servicedesk.openmainframeproject.org"
+mailing_list_url: "https://lists.openmainframeproject.org"
+wiki_url: "https://wiki.openmainframeproject.org"
+lfx_insights_url: "https://insights.lfx.linuxfoundation.org/foundation/open-mainframe-project"
 tac_mailing_list_url: "https://lists.openmainframeproject.org/g/omp-technical"
 website_url: "https://openmainframeproject.org"
 blog_url: "https://openmainframeproject.org/blog"

@@ -2,6 +2,7 @@ title: Open Mainframe Project TAC
 description: Materials and processes for the Open Mainframe Project TAC
 logo: "https://artwork.openmainframeproject.org/other/open-mainframe-project/horizontal/color/open-mainframe-project-horizontal-color.svg"
 theme: just-the-docs
+repository: openmainframeproject/tac
 
 exclude: [
   "README.md",
@@ -12,7 +13,8 @@ exclude: [
   "package.json", 
   "package-lock.json",
   "CODE_OF_CONDUCT.md",
-  "LICENSE"
+  "LICENSE",
+  "vendor"
 ]
 
 back_to_top: true
@@ -24,20 +26,29 @@ gh_edit_repository: "https://github.com/openmainframeproject/tac" # the github U
 gh_edit_branch: "main" # the branch that your docs is served from
 gh_edit_view_mode: "tree"
 
+# Various URLs used across the site
 landscape_url: 'https://landscape.openmainframeproject.org'
 calendar_url: 'https://calendar.openmainframeproject.org'
 slack_url: 'https://slack.openmainframeproject.org'
 directed_fund_charter_url: 'https://charter.openmainframeproject.org'
 tac_issues_url: 'https://github.com/openmainframeproject/tac/issues/new'
 helpdesk_url: "https://servicedesk.openmainframeproject.org"
+mailing_list_url: "https://lists.openmainframeproject.org"
+wiki_url: "https://wiki.openmainframeproject.org"
+lfx_insights_url: "https://insights.lfx.linuxfoundation.org/foundation/open-mainframe-project"
 tac_mailing_list_url: "https://lists.openmainframeproject.org/g/omp-technical"
 website_url: "https://openmainframeproject.org"
 blog_url: "https://openmainframeproject.org/blog"
+lfscanning_repo_url: https://github.com/lfscanning/spdx-omp
+tac_member_list_url: https://openmainframeproject.org/about/technical-advisory-council
+lf_staff_list_url: https://openmainframeproject.org/about/leadership
+mission_statement_url: https://openmainframeproject.org/about/ 
 
 # Founation Settings
-membership_top_tier: 'Platinum'
 foundation_name: "Open Mainframe Project"
 clotributor_name: openmainframeproject
+membership_top_tier: 'Platinum'
+archived_lifecycle_stage: "Emeritus"
 
 aux_links:
   "Need help or have a question? Contact us here":
@@ -54,3 +65,13 @@ kramdown:
   input: GFM
   extensions:
     - autolink
+  parse_block_html: true
+  toc_levels: 2..6
+
+plugins:
+  - jekyll-redirect-from
+
+mermaid:
+  # Version of mermaid library
+  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+  version: "10.9.0"

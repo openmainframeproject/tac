@@ -1,0 +1,250 @@
+- name: ambitus
+  display_name: Ambitus
+  description: Ambitus fosters a community that will help educate developers about
+    all open source technologies on z/OS
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.openmainframeproject.org/projects/ambitusNone
+  logo_url_dark: https://artwork.openmainframeproject.org/projects/ambitusNone
+  devstats_url: null
+  maturity: incubating
+  repositories:
+  - name: ambitus
+    url: https://github.com/ambitus/ambitus
+    exclude:
+    - clomonitor
+- name: cbt-tape
+  display_name: CBT Tape
+  description: CBT Tape is an open library of free software distribution for the IBM
+    mainframe Multiple Virtual Storage (MVS) and OS/390 and z/OS operating system
+    environments
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.openmainframeproject.org/projects/cbt-tapeNone
+  logo_url_dark: https://artwork.openmainframeproject.org/projects/cbt-tapeNone
+  devstats_url: null
+  maturity: incubating
+  repositories:
+  - name: Dicussions
+    url: https://github.com/CBTTape/Dicussions
+    exclude:
+    - clomonitor
+- name: cobol-check
+  display_name: COBOL Check
+  description: The mission of the COBOL Check project is to provide a fine-grained
+    unit testing/checking for COBOL.
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.openmainframeproject.org/projects/cobol-checkNone
+  logo_url_dark: https://artwork.openmainframeproject.org/projects/cobol-checkNone
+  devstats_url: null
+  maturity: incubating
+  repositories:
+  - name: cobol-check
+    url: https://github.com/openmainframeproject/cobol-check
+    exclude:
+    - clomonitor
+- name: cobol-programming-course
+  display_name: COBOL Programming Course
+  description: The COBOL Programming Course is an open source initiative under the
+    Open Mainframe Project that offers introductory-level educational COBOL materials
+    with modern tooling.
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.openmainframeproject.org/projects/cobol-programming-courseNone
+  logo_url_dark: https://artwork.openmainframeproject.org/projects/cobol-programming-courseNone
+  devstats_url: null
+  maturity: graduated
+  repositories:
+  - name: cobol-programming-course
+    url: https://github.com/openmainframeproject/cobol-programming-course
+    exclude:
+    - clomonitor
+- name: cobol-working-group
+  display_name: COBOL Working Group
+  description: The COBOL Working Group aims to promote the language by changing its
+    perception and making materials more accessible to help more developers and students
+    learn it on their mainframe journey.
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.openmainframeproject.org/projects/cobol-working-groupNone
+  logo_url_dark: https://artwork.openmainframeproject.org/projects/cobol-working-groupNone
+  devstats_url: null
+  maturity: working-group
+  repositories:
+  - name: wg-cobol
+    url: https://github.com/openmainframeproject/wg-cobol
+    exclude:
+    - clomonitor
+- name: feilong
+  display_name: Feilong
+  description: Feilong is an open source z/VM cloud connector project under the Open
+    Mainframe Project umbrella that will accelerate the z/VM adoption, extending its
+    ecosystem and its user experience.
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.openmainframeproject.org/projects/feilongNone
+  logo_url_dark: https://artwork.openmainframeproject.org/projects/feilongNone
+  devstats_url: null
+  maturity: incubating
+  repositories:
+  - name: feilong
+    url: https://github.com/openmainframeproject/feilong
+    exclude:
+    - clomonitor
+- name: galasa
+  display_name: Galasa
+  description: The mission of the Project is to provide an integration test framework
+    for mainframe and hybrid applications.
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.openmainframeproject.org/projects/galasaNone
+  logo_url_dark: https://artwork.openmainframeproject.org/projects/galasaNone
+  devstats_url: null
+  maturity: incubating
+  repositories:
+  - name: galasa.dev
+    url: https://github.com/galasa-dev/galasa.dev
+    exclude:
+    - clomonitor
+- name: genevaers
+  display_name: GenevaERS
+  description: GenevaERS is the single-pass optimization engine for data extraction
+    and reporting on z/OS. Originally developed by PricewaterhouseCoopers as the Geneva
+    Enterprise Reporting System and acquired by IBM, GenevaERS offers businesses a
+    high-level reporting solution uniquely tuned for big data scanning and improved
+    financial transparency for better decision-making. This project combines the processing
+    power of GenevaERS, the reliability of the mainframe and the dynamic open source
+    community.
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.openmainframeproject.org/projects/genevaersNone
+  logo_url_dark: https://artwork.openmainframeproject.org/projects/genevaersNone
+  devstats_url: null
+  maturity: graduated
+  repositories:
+  - name: Community
+    url: https://github.com/genevaers/Community
+    exclude:
+    - clomonitor
+- name: omp-linux-distributions-wg
+  display_name: Linux Distributions Working Group
+  description: The purpose of this working group is to oversee the health and maintenance
+    of the s390x port of various Linux distributions to ensure that the s390x port
+    remains a supported architecture for them all. To this end, the group will collaborate
+    on shared challenges and successes, work together to nurture new contributors,
+    and make sure they also have the infrastructure they need.
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.openmainframeproject.org/projects/omp-linux-distributions-wgNone
+  logo_url_dark: https://artwork.openmainframeproject.org/projects/omp-linux-distributions-wgNone
+  devstats_url: null
+  maturity: working-group
+  repositories: []
+- name: mainframe-modernization-wg
+  display_name: Mainframe Modernization WG
+  description: The purpose of this working group is to oversee the health and maintenance
+    of the s390x port of various Linux distributions to ensure that the s390x port
+    remains a supported architecture for them all.
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.openmainframeproject.org/projects/mainframe-modernization-wgNone
+  logo_url_dark: https://artwork.openmainframeproject.org/projects/mainframe-modernization-wgNone
+  devstats_url: null
+  maturity: working-group
+  repositories: []
+- name: mainframe-open-education
+  display_name: Mainframe Open Education
+  description: 'The Project''s mission is to provide an open-source platform for mainframe
+    users to develop essential skills for future hires and to encourage knowledge
+    sharing
+
+    and community contribution. We aim to align a foundational curriculum with cultivating
+    new mainframe skills for enterprise computing in today''s hybrid data center.'
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.openmainframeproject.org/projects/mainframe-open-educationNone
+  logo_url_dark: https://artwork.openmainframeproject.org/projects/mainframe-open-educationNone
+  devstats_url: null
+  maturity: graduated
+  repositories:
+  - name: omp-education
+    url: https://github.com/openmainframeproject/omp-education
+    exclude:
+    - clomonitor
+- name: software-discovery-tool
+  display_name: Software Discovery Tool
+  description: The mission of the Project is to develop a library and associated software
+    to enable developers to discover existing open source software tools.
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.openmainframeproject.org/projects/software-discovery-toolNone
+  logo_url_dark: https://artwork.openmainframeproject.org/projects/software-discovery-toolNone
+  devstats_url: null
+  maturity: incubating
+  repositories:
+  - name: software-discovery-tool
+    url: https://github.com/openmainframeproject/software-discovery-tool
+    exclude:
+    - clomonitor
+- name: tersedecompress
+  display_name: TerseDecompress
+  description: TerseDecompress is a java program that can be used to decompress files
+    which have been previously compressed on an IBM Mainframe using the TERSE / AMATERSE
+    program (on IBM z/OS or IBM z/VM).
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.openmainframeproject.org/projects/tersedecompressNone
+  logo_url_dark: https://artwork.openmainframeproject.org/projects/tersedecompressNone
+  devstats_url: null
+  maturity: sandbox
+  repositories:
+  - name: tersedecompress
+    url: https://github.com/openmainframeproject/tersedecompress
+    exclude:
+    - clomonitor
+- name: tessia
+  display_name: Tessia
+  description: A tool to automate and simplify the installation/configuration/testing
+    of Linux systems running on the IBM Z platform.
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.openmainframeproject.org/projects/tessiaNone
+  logo_url_dark: https://artwork.openmainframeproject.org/projects/tessiaNone
+  devstats_url: null
+  maturity: incubating
+  repositories:
+  - name: tessia
+    url: https://github.com/tessia-project/tessia
+    exclude:
+    - clomonitor
+- name: null
+  display_name: TSTerm
+  description: A terminal written in TypeScript
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.openmainframeproject.org/projects/tsterm/horizontal/color/tsterm-horizontal-color.svg
+  logo_url_dark: https://artwork.openmainframeproject.org/projects/tsterm/horizontal/color/tsterm-horizontal-color.svg
+  devstats_url: null
+  maturity: sandbox
+  repositories:
+  - name: TSTerm
+    url: https://github.com/TSTerminal/TSTerm
+    exclude:
+    - clomonitor
+- name: zvm-community-tools
+  display_name: z/VM Community Tools
+  description: The Open Mainframe Project intends to increase collaboration across
+    the mainframe community and to developed shared tool sets and resources.
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.openmainframeproject.org/projects/zvm-community-tools/horizontal/color/zvm-community-tools-horizontal-color.svg
+  logo_url_dark: https://artwork.openmainframeproject.org/projects/zvm-community-tools/horizontal/color/zvm-community-tools-horizontal-color.svg
+  devstats_url: null
+  maturity: sandbox
+  repositories:
+  - name: zvm-community-tools
+    url: https://github.com/openmainframeproject/zvm-community-tools
+    exclude:
+    - clomonitor
+- name: zowe
+  display_name: Zowe
+  description: Zowe is an open source project created to host technologies that benefit
+    the Z platform from all members of the Z community (Integrated Software Vendors,
+    System Integrators and z/OS consumers). Zowe, like Mac OS or Windows, comes with
+    a set of APIs and OS capabilities that applications build on and also includes
+    some applications out of the box.
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.openmainframeproject.org/projects/zoweNone
+  logo_url_dark: https://artwork.openmainframeproject.org/projects/zoweNone
+  devstats_url: null
+  maturity: graduated
+  repositories:
+  - name: zac
+    url: https://github.com/zowe/zac
+    exclude:
+    - clomonitor

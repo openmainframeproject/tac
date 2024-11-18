@@ -231,6 +231,31 @@
     url: https://github.com/openmainframeproject/zvm-community-tools
     exclude:
     - clomonitor
+- name: zopen
+  display_name: Zopen
+  description: 'The z/OS Open Tools github organization serves as a collaborative
+    github organization for z/OS UNIX developers, users, and organizations who contribute
+    to and utilize open-source tools on z/OS.
+
+    z/OS Open Tools started in 2022 with a handful of projects and now currently hosts
+    over 180+ projects, with the aim of providing the build recipes as well as the
+    patches to enable popular open source packages to build and run on z/OS. z/OS
+    Open Tools includes ports for popular open source projects like Git, Bash, Curl,
+    CMake, Make, GPG, LLama.cpp, Vim, Nano and many more.
+
+    z/OS Open Tools also distributes binaries for each of the tools as Github releases.
+    It also provides a z/OS UNIX package manager (zopen) that makes it easy to consume
+    the 180+ tools directly on z/OS.'
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.openmainframeproject.org/projects/zopenNone
+  logo_url_dark: https://artwork.openmainframeproject.org/projects/zopenNone
+  devstats_url: null
+  maturity: sandbox
+  repositories:
+  - name: .github
+    url: https://github.com/ZOSOpenTools/.github
+    exclude:
+    - clomonitor
 - name: zowe
   display_name: Zowe
   description: Zowe is an open source project created to host technologies that benefit

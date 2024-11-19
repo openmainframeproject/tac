@@ -51,6 +51,6 @@ The {{ site.foundation_name }} Marketing team partners with each new project to 
 - Adding the project to the [{{ site.foundation_name }} landscape]({{ site.landscape_url }}).
 - Including a slide on the project in the {{ site.foundation_name }} overview deck.
 
-All marketing requests can be made [here]({{ site.discord_url }}).
+All marketing requests can be made [here]({{ site.helpdesk_url }}).
 
 {{ site.foundation_name }} is committed to supporting hosted projects and other initiatives to ensure their success. If a project needs any assistance, don't hesitate to reach out via our [support site]({{ site.helpdesk_url }}).

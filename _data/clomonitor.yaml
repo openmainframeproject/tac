@@ -252,8 +252,8 @@
   devstats_url: null
   maturity: sandbox
   repositories:
-  - name: .github
-    url: https://github.com/ZOSOpenTools/.github
+  - name: m4port
+    url: https://github.com/zopencommunity/m4port
     exclude:
     - clomonitor
 - name: zowe

@@ -256,6 +256,23 @@
     url: https://github.com/zopencommunity/m4port
     exclude:
     - clomonitor
+- name: null
+  display_name: Zorse
+  description: 'The mission of the Project is to curate a dataset of production COBOL
+    and associated mainframe languages (JCL, REXX, PL/I) on which Large Language
+
+    Models (LLMs) can be fine-tuned and develop an evaluation suite to measure LLMs''
+    ability to comprehend, explain, and write code in the associated language.'
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.openmainframeproject.org/projects/zorseNone
+  logo_url_dark: https://artwork.openmainframeproject.org/projects/zorseNone
+  devstats_url: null
+  maturity: sandbox
+  repositories:
+  - name: COBOLEval
+    url: https://github.com/zorse-project/COBOLEval
+    exclude:
+    - clomonitor
 - name: zowe
   display_name: Zowe
   description: Zowe is an open source project created to host technologies that benefit

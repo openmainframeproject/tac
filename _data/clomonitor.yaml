@@ -27,6 +27,4050 @@
     url: https://github.com/CBTTape/Dicussions
     exclude:
     - clomonitor
+  - name: .github
+    url: https://github.com/CBTTape/.github
+    exclude:
+    - clomonitor
+  - name: CBT006
+    url: https://github.com/CBTTape/CBT006
+    exclude:
+    - clomonitor
+  - name: CBT008
+    url: https://github.com/CBTTape/CBT008
+    exclude:
+    - clomonitor
+  - name: CBT009
+    url: https://github.com/CBTTape/CBT009
+    exclude:
+    - clomonitor
+  - name: CBT010
+    url: https://github.com/CBTTape/CBT010
+    exclude:
+    - clomonitor
+  - name: CBT011
+    url: https://github.com/CBTTape/CBT011
+    exclude:
+    - clomonitor
+  - name: CBT012
+    url: https://github.com/CBTTape/CBT012
+    exclude:
+    - clomonitor
+  - name: CBT013
+    url: https://github.com/CBTTape/CBT013
+    exclude:
+    - clomonitor
+  - name: CBT014
+    url: https://github.com/CBTTape/CBT014
+    exclude:
+    - clomonitor
+  - name: CBT015
+    url: https://github.com/CBTTape/CBT015
+    exclude:
+    - clomonitor
+  - name: CBT016
+    url: https://github.com/CBTTape/CBT016
+    exclude:
+    - clomonitor
+  - name: CBT017
+    url: https://github.com/CBTTape/CBT017
+    exclude:
+    - clomonitor
+  - name: CBT019
+    url: https://github.com/CBTTape/CBT019
+    exclude:
+    - clomonitor
+  - name: CBT020
+    url: https://github.com/CBTTape/CBT020
+    exclude:
+    - clomonitor
+  - name: CBT021
+    url: https://github.com/CBTTape/CBT021
+    exclude:
+    - clomonitor
+  - name: CBT022
+    url: https://github.com/CBTTape/CBT022
+    exclude:
+    - clomonitor
+  - name: CBT023
+    url: https://github.com/CBTTape/CBT023
+    exclude:
+    - clomonitor
+  - name: CBT024
+    url: https://github.com/CBTTape/CBT024
+    exclude:
+    - clomonitor
+  - name: CBT025
+    url: https://github.com/CBTTape/CBT025
+    exclude:
+    - clomonitor
+  - name: CBT026
+    url: https://github.com/CBTTape/CBT026
+    exclude:
+    - clomonitor
+  - name: CBT027
+    url: https://github.com/CBTTape/CBT027
+    exclude:
+    - clomonitor
+  - name: CBT028
+    url: https://github.com/CBTTape/CBT028
+    exclude:
+    - clomonitor
+  - name: CBT029
+    url: https://github.com/CBTTape/CBT029
+    exclude:
+    - clomonitor
+  - name: CBT030
+    url: https://github.com/CBTTape/CBT030
+    exclude:
+    - clomonitor
+  - name: CBT031
+    url: https://github.com/CBTTape/CBT031
+    exclude:
+    - clomonitor
+  - name: CBT032
+    url: https://github.com/CBTTape/CBT032
+    exclude:
+    - clomonitor
+  - name: CBT033
+    url: https://github.com/CBTTape/CBT033
+    exclude:
+    - clomonitor
+  - name: CBT034
+    url: https://github.com/CBTTape/CBT034
+    exclude:
+    - clomonitor
+  - name: CBT035
+    url: https://github.com/CBTTape/CBT035
+    exclude:
+    - clomonitor
+  - name: CBT036
+    url: https://github.com/CBTTape/CBT036
+    exclude:
+    - clomonitor
+  - name: CBT037
+    url: https://github.com/CBTTape/CBT037
+    exclude:
+    - clomonitor
+  - name: CBT038
+    url: https://github.com/CBTTape/CBT038
+    exclude:
+    - clomonitor
+  - name: CBT039
+    url: https://github.com/CBTTape/CBT039
+    exclude:
+    - clomonitor
+  - name: CBT040
+    url: https://github.com/CBTTape/CBT040
+    exclude:
+    - clomonitor
+  - name: CBT041
+    url: https://github.com/CBTTape/CBT041
+    exclude:
+    - clomonitor
+  - name: CBT042
+    url: https://github.com/CBTTape/CBT042
+    exclude:
+    - clomonitor
+  - name: CBT043
+    url: https://github.com/CBTTape/CBT043
+    exclude:
+    - clomonitor
+  - name: CBT044
+    url: https://github.com/CBTTape/CBT044
+    exclude:
+    - clomonitor
+  - name: CBT045
+    url: https://github.com/CBTTape/CBT045
+    exclude:
+    - clomonitor
+  - name: CBT046
+    url: https://github.com/CBTTape/CBT046
+    exclude:
+    - clomonitor
+  - name: CBT047
+    url: https://github.com/CBTTape/CBT047
+    exclude:
+    - clomonitor
+  - name: CBT048
+    url: https://github.com/CBTTape/CBT048
+    exclude:
+    - clomonitor
+  - name: CBT049
+    url: https://github.com/CBTTape/CBT049
+    exclude:
+    - clomonitor
+  - name: CBT050
+    url: https://github.com/CBTTape/CBT050
+    exclude:
+    - clomonitor
+  - name: CBT051
+    url: https://github.com/CBTTape/CBT051
+    exclude:
+    - clomonitor
+  - name: CBT052
+    url: https://github.com/CBTTape/CBT052
+    exclude:
+    - clomonitor
+  - name: CBT053
+    url: https://github.com/CBTTape/CBT053
+    exclude:
+    - clomonitor
+  - name: CBT054
+    url: https://github.com/CBTTape/CBT054
+    exclude:
+    - clomonitor
+  - name: CBT055
+    url: https://github.com/CBTTape/CBT055
+    exclude:
+    - clomonitor
+  - name: CBT056
+    url: https://github.com/CBTTape/CBT056
+    exclude:
+    - clomonitor
+  - name: CBT057
+    url: https://github.com/CBTTape/CBT057
+    exclude:
+    - clomonitor
+  - name: CBT058
+    url: https://github.com/CBTTape/CBT058
+    exclude:
+    - clomonitor
+  - name: CBT059
+    url: https://github.com/CBTTape/CBT059
+    exclude:
+    - clomonitor
+  - name: CBT060
+    url: https://github.com/CBTTape/CBT060
+    exclude:
+    - clomonitor
+  - name: CBT061
+    url: https://github.com/CBTTape/CBT061
+    exclude:
+    - clomonitor
+  - name: CBT065
+    url: https://github.com/CBTTape/CBT065
+    exclude:
+    - clomonitor
+  - name: CBT066
+    url: https://github.com/CBTTape/CBT066
+    exclude:
+    - clomonitor
+  - name: CBT067
+    url: https://github.com/CBTTape/CBT067
+    exclude:
+    - clomonitor
+  - name: CBT068
+    url: https://github.com/CBTTape/CBT068
+    exclude:
+    - clomonitor
+  - name: CBT069
+    url: https://github.com/CBTTape/CBT069
+    exclude:
+    - clomonitor
+  - name: CBT070
+    url: https://github.com/CBTTape/CBT070
+    exclude:
+    - clomonitor
+  - name: CBT071
+    url: https://github.com/CBTTape/CBT071
+    exclude:
+    - clomonitor
+  - name: CBT072
+    url: https://github.com/CBTTape/CBT072
+    exclude:
+    - clomonitor
+  - name: CBT073
+    url: https://github.com/CBTTape/CBT073
+    exclude:
+    - clomonitor
+  - name: CBT074
+    url: https://github.com/CBTTape/CBT074
+    exclude:
+    - clomonitor
+  - name: CBT075
+    url: https://github.com/CBTTape/CBT075
+    exclude:
+    - clomonitor
+  - name: CBT076
+    url: https://github.com/CBTTape/CBT076
+    exclude:
+    - clomonitor
+  - name: CBT077
+    url: https://github.com/CBTTape/CBT077
+    exclude:
+    - clomonitor
+  - name: CBT078
+    url: https://github.com/CBTTape/CBT078
+    exclude:
+    - clomonitor
+  - name: CBT079
+    url: https://github.com/CBTTape/CBT079
+    exclude:
+    - clomonitor
+  - name: CBT080
+    url: https://github.com/CBTTape/CBT080
+    exclude:
+    - clomonitor
+  - name: CBT081
+    url: https://github.com/CBTTape/CBT081
+    exclude:
+    - clomonitor
+  - name: CBT082
+    url: https://github.com/CBTTape/CBT082
+    exclude:
+    - clomonitor
+  - name: CBT083
+    url: https://github.com/CBTTape/CBT083
+    exclude:
+    - clomonitor
+  - name: CBT084
+    url: https://github.com/CBTTape/CBT084
+    exclude:
+    - clomonitor
+  - name: CBT085
+    url: https://github.com/CBTTape/CBT085
+    exclude:
+    - clomonitor
+  - name: CBT086
+    url: https://github.com/CBTTape/CBT086
+    exclude:
+    - clomonitor
+  - name: CBT087
+    url: https://github.com/CBTTape/CBT087
+    exclude:
+    - clomonitor
+  - name: CBT088
+    url: https://github.com/CBTTape/CBT088
+    exclude:
+    - clomonitor
+  - name: CBT089
+    url: https://github.com/CBTTape/CBT089
+    exclude:
+    - clomonitor
+  - name: CBT090
+    url: https://github.com/CBTTape/CBT090
+    exclude:
+    - clomonitor
+  - name: CBT091
+    url: https://github.com/CBTTape/CBT091
+    exclude:
+    - clomonitor
+  - name: CBT092
+    url: https://github.com/CBTTape/CBT092
+    exclude:
+    - clomonitor
+  - name: CBT093
+    url: https://github.com/CBTTape/CBT093
+    exclude:
+    - clomonitor
+  - name: CBT094
+    url: https://github.com/CBTTape/CBT094
+    exclude:
+    - clomonitor
+  - name: CBT095
+    url: https://github.com/CBTTape/CBT095
+    exclude:
+    - clomonitor
+  - name: CBT096
+    url: https://github.com/CBTTape/CBT096
+    exclude:
+    - clomonitor
+  - name: CBT097
+    url: https://github.com/CBTTape/CBT097
+    exclude:
+    - clomonitor
+  - name: CBT098
+    url: https://github.com/CBTTape/CBT098
+    exclude:
+    - clomonitor
+  - name: CBT099
+    url: https://github.com/CBTTape/CBT099
+    exclude:
+    - clomonitor
+  - name: CBT100
+    url: https://github.com/CBTTape/CBT100
+    exclude:
+    - clomonitor
+  - name: CBT1000
+    url: https://github.com/CBTTape/CBT1000
+    exclude:
+    - clomonitor
+  - name: CBT1001
+    url: https://github.com/CBTTape/CBT1001
+    exclude:
+    - clomonitor
+  - name: CBT1002
+    url: https://github.com/CBTTape/CBT1002
+    exclude:
+    - clomonitor
+  - name: CBT1003
+    url: https://github.com/CBTTape/CBT1003
+    exclude:
+    - clomonitor
+  - name: CBT1004
+    url: https://github.com/CBTTape/CBT1004
+    exclude:
+    - clomonitor
+  - name: CBT1005
+    url: https://github.com/CBTTape/CBT1005
+    exclude:
+    - clomonitor
+  - name: CBT1006
+    url: https://github.com/CBTTape/CBT1006
+    exclude:
+    - clomonitor
+  - name: CBT1007
+    url: https://github.com/CBTTape/CBT1007
+    exclude:
+    - clomonitor
+  - name: CBT1008
+    url: https://github.com/CBTTape/CBT1008
+    exclude:
+    - clomonitor
+  - name: CBT1009
+    url: https://github.com/CBTTape/CBT1009
+    exclude:
+    - clomonitor
+  - name: CBT101
+    url: https://github.com/CBTTape/CBT101
+    exclude:
+    - clomonitor
+  - name: CBT1010
+    url: https://github.com/CBTTape/CBT1010
+    exclude:
+    - clomonitor
+  - name: CBT1011
+    url: https://github.com/CBTTape/CBT1011
+    exclude:
+    - clomonitor
+  - name: CBT1012
+    url: https://github.com/CBTTape/CBT1012
+    exclude:
+    - clomonitor
+  - name: CBT1013
+    url: https://github.com/CBTTape/CBT1013
+    exclude:
+    - clomonitor
+  - name: CBT1014
+    url: https://github.com/CBTTape/CBT1014
+    exclude:
+    - clomonitor
+  - name: CBT1015
+    url: https://github.com/CBTTape/CBT1015
+    exclude:
+    - clomonitor
+  - name: CBT1016
+    url: https://github.com/CBTTape/CBT1016
+    exclude:
+    - clomonitor
+  - name: CBT1017
+    url: https://github.com/CBTTape/CBT1017
+    exclude:
+    - clomonitor
+  - name: CBT1018
+    url: https://github.com/CBTTape/CBT1018
+    exclude:
+    - clomonitor
+  - name: CBT1019
+    url: https://github.com/CBTTape/CBT1019
+    exclude:
+    - clomonitor
+  - name: CBT102
+    url: https://github.com/CBTTape/CBT102
+    exclude:
+    - clomonitor
+  - name: CBT1020
+    url: https://github.com/CBTTape/CBT1020
+    exclude:
+    - clomonitor
+  - name: CBT1021
+    url: https://github.com/CBTTape/CBT1021
+    exclude:
+    - clomonitor
+  - name: CBT1022
+    url: https://github.com/CBTTape/CBT1022
+    exclude:
+    - clomonitor
+  - name: CBT1023
+    url: https://github.com/CBTTape/CBT1023
+    exclude:
+    - clomonitor
+  - name: CBT1024
+    url: https://github.com/CBTTape/CBT1024
+    exclude:
+    - clomonitor
+  - name: CBT1025
+    url: https://github.com/CBTTape/CBT1025
+    exclude:
+    - clomonitor
+  - name: CBT1026
+    url: https://github.com/CBTTape/CBT1026
+    exclude:
+    - clomonitor
+  - name: CBT1027
+    url: https://github.com/CBTTape/CBT1027
+    exclude:
+    - clomonitor
+  - name: CBT1028
+    url: https://github.com/CBTTape/CBT1028
+    exclude:
+    - clomonitor
+  - name: CBT1029
+    url: https://github.com/CBTTape/CBT1029
+    exclude:
+    - clomonitor
+  - name: CBT103
+    url: https://github.com/CBTTape/CBT103
+    exclude:
+    - clomonitor
+  - name: CBT1030
+    url: https://github.com/CBTTape/CBT1030
+    exclude:
+    - clomonitor
+  - name: CBT1031
+    url: https://github.com/CBTTape/CBT1031
+    exclude:
+    - clomonitor
+  - name: CBT1032
+    url: https://github.com/CBTTape/CBT1032
+    exclude:
+    - clomonitor
+  - name: CBT1033
+    url: https://github.com/CBTTape/CBT1033
+    exclude:
+    - clomonitor
+  - name: CBT1034
+    url: https://github.com/CBTTape/CBT1034
+    exclude:
+    - clomonitor
+  - name: CBT1035
+    url: https://github.com/CBTTape/CBT1035
+    exclude:
+    - clomonitor
+  - name: CBT1036
+    url: https://github.com/CBTTape/CBT1036
+    exclude:
+    - clomonitor
+  - name: CBT1037
+    url: https://github.com/CBTTape/CBT1037
+    exclude:
+    - clomonitor
+  - name: CBT1038
+    url: https://github.com/CBTTape/CBT1038
+    exclude:
+    - clomonitor
+  - name: CBT1039
+    url: https://github.com/CBTTape/CBT1039
+    exclude:
+    - clomonitor
+  - name: CBT104
+    url: https://github.com/CBTTape/CBT104
+    exclude:
+    - clomonitor
+  - name: CBT1040
+    url: https://github.com/CBTTape/CBT1040
+    exclude:
+    - clomonitor
+  - name: CBT1041
+    url: https://github.com/CBTTape/CBT1041
+    exclude:
+    - clomonitor
+  - name: CBT1042
+    url: https://github.com/CBTTape/CBT1042
+    exclude:
+    - clomonitor
+  - name: CBT1043
+    url: https://github.com/CBTTape/CBT1043
+    exclude:
+    - clomonitor
+  - name: CBT1044
+    url: https://github.com/CBTTape/CBT1044
+    exclude:
+    - clomonitor
+  - name: CBT105
+    url: https://github.com/CBTTape/CBT105
+    exclude:
+    - clomonitor
+  - name: CBT106
+    url: https://github.com/CBTTape/CBT106
+    exclude:
+    - clomonitor
+  - name: CBT107
+    url: https://github.com/CBTTape/CBT107
+    exclude:
+    - clomonitor
+  - name: CBT108
+    url: https://github.com/CBTTape/CBT108
+    exclude:
+    - clomonitor
+  - name: CBT109
+    url: https://github.com/CBTTape/CBT109
+    exclude:
+    - clomonitor
+  - name: CBT111
+    url: https://github.com/CBTTape/CBT111
+    exclude:
+    - clomonitor
+  - name: CBT112
+    url: https://github.com/CBTTape/CBT112
+    exclude:
+    - clomonitor
+  - name: CBT113
+    url: https://github.com/CBTTape/CBT113
+    exclude:
+    - clomonitor
+  - name: CBT114
+    url: https://github.com/CBTTape/CBT114
+    exclude:
+    - clomonitor
+  - name: CBT115
+    url: https://github.com/CBTTape/CBT115
+    exclude:
+    - clomonitor
+  - name: CBT116
+    url: https://github.com/CBTTape/CBT116
+    exclude:
+    - clomonitor
+  - name: CBT117
+    url: https://github.com/CBTTape/CBT117
+    exclude:
+    - clomonitor
+  - name: CBT118
+    url: https://github.com/CBTTape/CBT118
+    exclude:
+    - clomonitor
+  - name: CBT119
+    url: https://github.com/CBTTape/CBT119
+    exclude:
+    - clomonitor
+  - name: CBT120
+    url: https://github.com/CBTTape/CBT120
+    exclude:
+    - clomonitor
+  - name: CBT121
+    url: https://github.com/CBTTape/CBT121
+    exclude:
+    - clomonitor
+  - name: CBT122
+    url: https://github.com/CBTTape/CBT122
+    exclude:
+    - clomonitor
+  - name: CBT123
+    url: https://github.com/CBTTape/CBT123
+    exclude:
+    - clomonitor
+  - name: CBT124
+    url: https://github.com/CBTTape/CBT124
+    exclude:
+    - clomonitor
+  - name: CBT125
+    url: https://github.com/CBTTape/CBT125
+    exclude:
+    - clomonitor
+  - name: CBT126
+    url: https://github.com/CBTTape/CBT126
+    exclude:
+    - clomonitor
+  - name: CBT127
+    url: https://github.com/CBTTape/CBT127
+    exclude:
+    - clomonitor
+  - name: CBT128
+    url: https://github.com/CBTTape/CBT128
+    exclude:
+    - clomonitor
+  - name: CBT129
+    url: https://github.com/CBTTape/CBT129
+    exclude:
+    - clomonitor
+  - name: CBT130
+    url: https://github.com/CBTTape/CBT130
+    exclude:
+    - clomonitor
+  - name: CBT131
+    url: https://github.com/CBTTape/CBT131
+    exclude:
+    - clomonitor
+  - name: CBT132
+    url: https://github.com/CBTTape/CBT132
+    exclude:
+    - clomonitor
+  - name: CBT133
+    url: https://github.com/CBTTape/CBT133
+    exclude:
+    - clomonitor
+  - name: CBT134
+    url: https://github.com/CBTTape/CBT134
+    exclude:
+    - clomonitor
+  - name: CBT135
+    url: https://github.com/CBTTape/CBT135
+    exclude:
+    - clomonitor
+  - name: CBT136
+    url: https://github.com/CBTTape/CBT136
+    exclude:
+    - clomonitor
+  - name: CBT137
+    url: https://github.com/CBTTape/CBT137
+    exclude:
+    - clomonitor
+  - name: CBT138
+    url: https://github.com/CBTTape/CBT138
+    exclude:
+    - clomonitor
+  - name: CBT139
+    url: https://github.com/CBTTape/CBT139
+    exclude:
+    - clomonitor
+  - name: CBT140
+    url: https://github.com/CBTTape/CBT140
+    exclude:
+    - clomonitor
+  - name: CBT141
+    url: https://github.com/CBTTape/CBT141
+    exclude:
+    - clomonitor
+  - name: CBT142
+    url: https://github.com/CBTTape/CBT142
+    exclude:
+    - clomonitor
+  - name: CBT143
+    url: https://github.com/CBTTape/CBT143
+    exclude:
+    - clomonitor
+  - name: CBT144
+    url: https://github.com/CBTTape/CBT144
+    exclude:
+    - clomonitor
+  - name: CBT145
+    url: https://github.com/CBTTape/CBT145
+    exclude:
+    - clomonitor
+  - name: CBT146
+    url: https://github.com/CBTTape/CBT146
+    exclude:
+    - clomonitor
+  - name: CBT147
+    url: https://github.com/CBTTape/CBT147
+    exclude:
+    - clomonitor
+  - name: CBT148
+    url: https://github.com/CBTTape/CBT148
+    exclude:
+    - clomonitor
+  - name: CBT149
+    url: https://github.com/CBTTape/CBT149
+    exclude:
+    - clomonitor
+  - name: CBT150
+    url: https://github.com/CBTTape/CBT150
+    exclude:
+    - clomonitor
+  - name: CBT151
+    url: https://github.com/CBTTape/CBT151
+    exclude:
+    - clomonitor
+  - name: CBT152
+    url: https://github.com/CBTTape/CBT152
+    exclude:
+    - clomonitor
+  - name: CBT153
+    url: https://github.com/CBTTape/CBT153
+    exclude:
+    - clomonitor
+  - name: CBT154
+    url: https://github.com/CBTTape/CBT154
+    exclude:
+    - clomonitor
+  - name: CBT155
+    url: https://github.com/CBTTape/CBT155
+    exclude:
+    - clomonitor
+  - name: CBT156
+    url: https://github.com/CBTTape/CBT156
+    exclude:
+    - clomonitor
+  - name: CBT158
+    url: https://github.com/CBTTape/CBT158
+    exclude:
+    - clomonitor
+  - name: CBT159
+    url: https://github.com/CBTTape/CBT159
+    exclude:
+    - clomonitor
+  - name: CBT160
+    url: https://github.com/CBTTape/CBT160
+    exclude:
+    - clomonitor
+  - name: CBT161
+    url: https://github.com/CBTTape/CBT161
+    exclude:
+    - clomonitor
+  - name: CBT162
+    url: https://github.com/CBTTape/CBT162
+    exclude:
+    - clomonitor
+  - name: CBT163
+    url: https://github.com/CBTTape/CBT163
+    exclude:
+    - clomonitor
+  - name: CBT164
+    url: https://github.com/CBTTape/CBT164
+    exclude:
+    - clomonitor
+  - name: CBT165
+    url: https://github.com/CBTTape/CBT165
+    exclude:
+    - clomonitor
+  - name: CBT166
+    url: https://github.com/CBTTape/CBT166
+    exclude:
+    - clomonitor
+  - name: CBT170
+    url: https://github.com/CBTTape/CBT170
+    exclude:
+    - clomonitor
+  - name: CBT171
+    url: https://github.com/CBTTape/CBT171
+    exclude:
+    - clomonitor
+  - name: CBT172
+    url: https://github.com/CBTTape/CBT172
+    exclude:
+    - clomonitor
+  - name: CBT173
+    url: https://github.com/CBTTape/CBT173
+    exclude:
+    - clomonitor
+  - name: CBT174
+    url: https://github.com/CBTTape/CBT174
+    exclude:
+    - clomonitor
+  - name: CBT175
+    url: https://github.com/CBTTape/CBT175
+    exclude:
+    - clomonitor
+  - name: CBT176
+    url: https://github.com/CBTTape/CBT176
+    exclude:
+    - clomonitor
+  - name: CBT177
+    url: https://github.com/CBTTape/CBT177
+    exclude:
+    - clomonitor
+  - name: CBT178
+    url: https://github.com/CBTTape/CBT178
+    exclude:
+    - clomonitor
+  - name: CBT179
+    url: https://github.com/CBTTape/CBT179
+    exclude:
+    - clomonitor
+  - name: CBT180
+    url: https://github.com/CBTTape/CBT180
+    exclude:
+    - clomonitor
+  - name: CBT181
+    url: https://github.com/CBTTape/CBT181
+    exclude:
+    - clomonitor
+  - name: CBT182
+    url: https://github.com/CBTTape/CBT182
+    exclude:
+    - clomonitor
+  - name: CBT183
+    url: https://github.com/CBTTape/CBT183
+    exclude:
+    - clomonitor
+  - name: CBT184
+    url: https://github.com/CBTTape/CBT184
+    exclude:
+    - clomonitor
+  - name: CBT185
+    url: https://github.com/CBTTape/CBT185
+    exclude:
+    - clomonitor
+  - name: CBT187
+    url: https://github.com/CBTTape/CBT187
+    exclude:
+    - clomonitor
+  - name: CBT188
+    url: https://github.com/CBTTape/CBT188
+    exclude:
+    - clomonitor
+  - name: CBT189
+    url: https://github.com/CBTTape/CBT189
+    exclude:
+    - clomonitor
+  - name: CBT190
+    url: https://github.com/CBTTape/CBT190
+    exclude:
+    - clomonitor
+  - name: CBT191
+    url: https://github.com/CBTTape/CBT191
+    exclude:
+    - clomonitor
+  - name: CBT192
+    url: https://github.com/CBTTape/CBT192
+    exclude:
+    - clomonitor
+  - name: CBT193
+    url: https://github.com/CBTTape/CBT193
+    exclude:
+    - clomonitor
+  - name: CBT194
+    url: https://github.com/CBTTape/CBT194
+    exclude:
+    - clomonitor
+  - name: CBT195
+    url: https://github.com/CBTTape/CBT195
+    exclude:
+    - clomonitor
+  - name: CBT196
+    url: https://github.com/CBTTape/CBT196
+    exclude:
+    - clomonitor
+  - name: CBT197
+    url: https://github.com/CBTTape/CBT197
+    exclude:
+    - clomonitor
+  - name: CBT198
+    url: https://github.com/CBTTape/CBT198
+    exclude:
+    - clomonitor
+  - name: CBT199
+    url: https://github.com/CBTTape/CBT199
+    exclude:
+    - clomonitor
+  - name: CBT200
+    url: https://github.com/CBTTape/CBT200
+    exclude:
+    - clomonitor
+  - name: CBT201
+    url: https://github.com/CBTTape/CBT201
+    exclude:
+    - clomonitor
+  - name: CBT202
+    url: https://github.com/CBTTape/CBT202
+    exclude:
+    - clomonitor
+  - name: CBT203
+    url: https://github.com/CBTTape/CBT203
+    exclude:
+    - clomonitor
+  - name: CBT204
+    url: https://github.com/CBTTape/CBT204
+    exclude:
+    - clomonitor
+  - name: CBT205
+    url: https://github.com/CBTTape/CBT205
+    exclude:
+    - clomonitor
+  - name: CBT206
+    url: https://github.com/CBTTape/CBT206
+    exclude:
+    - clomonitor
+  - name: CBT207
+    url: https://github.com/CBTTape/CBT207
+    exclude:
+    - clomonitor
+  - name: CBT208
+    url: https://github.com/CBTTape/CBT208
+    exclude:
+    - clomonitor
+  - name: CBT209
+    url: https://github.com/CBTTape/CBT209
+    exclude:
+    - clomonitor
+  - name: CBT210
+    url: https://github.com/CBTTape/CBT210
+    exclude:
+    - clomonitor
+  - name: CBT211
+    url: https://github.com/CBTTape/CBT211
+    exclude:
+    - clomonitor
+  - name: CBT212
+    url: https://github.com/CBTTape/CBT212
+    exclude:
+    - clomonitor
+  - name: CBT213
+    url: https://github.com/CBTTape/CBT213
+    exclude:
+    - clomonitor
+  - name: CBT214
+    url: https://github.com/CBTTape/CBT214
+    exclude:
+    - clomonitor
+  - name: CBT215
+    url: https://github.com/CBTTape/CBT215
+    exclude:
+    - clomonitor
+  - name: CBT216
+    url: https://github.com/CBTTape/CBT216
+    exclude:
+    - clomonitor
+  - name: CBT217
+    url: https://github.com/CBTTape/CBT217
+    exclude:
+    - clomonitor
+  - name: CBT218
+    url: https://github.com/CBTTape/CBT218
+    exclude:
+    - clomonitor
+  - name: CBT219
+    url: https://github.com/CBTTape/CBT219
+    exclude:
+    - clomonitor
+  - name: CBT220
+    url: https://github.com/CBTTape/CBT220
+    exclude:
+    - clomonitor
+  - name: CBT221
+    url: https://github.com/CBTTape/CBT221
+    exclude:
+    - clomonitor
+  - name: CBT223
+    url: https://github.com/CBTTape/CBT223
+    exclude:
+    - clomonitor
+  - name: CBT224
+    url: https://github.com/CBTTape/CBT224
+    exclude:
+    - clomonitor
+  - name: CBT225
+    url: https://github.com/CBTTape/CBT225
+    exclude:
+    - clomonitor
+  - name: CBT226
+    url: https://github.com/CBTTape/CBT226
+    exclude:
+    - clomonitor
+  - name: CBT227
+    url: https://github.com/CBTTape/CBT227
+    exclude:
+    - clomonitor
+  - name: CBT228
+    url: https://github.com/CBTTape/CBT228
+    exclude:
+    - clomonitor
+  - name: CBT229
+    url: https://github.com/CBTTape/CBT229
+    exclude:
+    - clomonitor
+  - name: CBT231
+    url: https://github.com/CBTTape/CBT231
+    exclude:
+    - clomonitor
+  - name: CBT232
+    url: https://github.com/CBTTape/CBT232
+    exclude:
+    - clomonitor
+  - name: CBT233
+    url: https://github.com/CBTTape/CBT233
+    exclude:
+    - clomonitor
+  - name: CBT234
+    url: https://github.com/CBTTape/CBT234
+    exclude:
+    - clomonitor
+  - name: CBT235
+    url: https://github.com/CBTTape/CBT235
+    exclude:
+    - clomonitor
+  - name: CBT236
+    url: https://github.com/CBTTape/CBT236
+    exclude:
+    - clomonitor
+  - name: CBT237
+    url: https://github.com/CBTTape/CBT237
+    exclude:
+    - clomonitor
+  - name: CBT238
+    url: https://github.com/CBTTape/CBT238
+    exclude:
+    - clomonitor
+  - name: CBT239
+    url: https://github.com/CBTTape/CBT239
+    exclude:
+    - clomonitor
+  - name: CBT240
+    url: https://github.com/CBTTape/CBT240
+    exclude:
+    - clomonitor
+  - name: CBT241
+    url: https://github.com/CBTTape/CBT241
+    exclude:
+    - clomonitor
+  - name: CBT242
+    url: https://github.com/CBTTape/CBT242
+    exclude:
+    - clomonitor
+  - name: CBT243
+    url: https://github.com/CBTTape/CBT243
+    exclude:
+    - clomonitor
+  - name: CBT244
+    url: https://github.com/CBTTape/CBT244
+    exclude:
+    - clomonitor
+  - name: CBT245
+    url: https://github.com/CBTTape/CBT245
+    exclude:
+    - clomonitor
+  - name: CBT246
+    url: https://github.com/CBTTape/CBT246
+    exclude:
+    - clomonitor
+  - name: CBT247
+    url: https://github.com/CBTTape/CBT247
+    exclude:
+    - clomonitor
+  - name: CBT248
+    url: https://github.com/CBTTape/CBT248
+    exclude:
+    - clomonitor
+  - name: CBT249
+    url: https://github.com/CBTTape/CBT249
+    exclude:
+    - clomonitor
+  - name: CBT250
+    url: https://github.com/CBTTape/CBT250
+    exclude:
+    - clomonitor
+  - name: CBT251
+    url: https://github.com/CBTTape/CBT251
+    exclude:
+    - clomonitor
+  - name: CBT252
+    url: https://github.com/CBTTape/CBT252
+    exclude:
+    - clomonitor
+  - name: CBT253
+    url: https://github.com/CBTTape/CBT253
+    exclude:
+    - clomonitor
+  - name: CBT254
+    url: https://github.com/CBTTape/CBT254
+    exclude:
+    - clomonitor
+  - name: CBT255
+    url: https://github.com/CBTTape/CBT255
+    exclude:
+    - clomonitor
+  - name: CBT256
+    url: https://github.com/CBTTape/CBT256
+    exclude:
+    - clomonitor
+  - name: CBT257
+    url: https://github.com/CBTTape/CBT257
+    exclude:
+    - clomonitor
+  - name: CBT258
+    url: https://github.com/CBTTape/CBT258
+    exclude:
+    - clomonitor
+  - name: CBT259
+    url: https://github.com/CBTTape/CBT259
+    exclude:
+    - clomonitor
+  - name: CBT260
+    url: https://github.com/CBTTape/CBT260
+    exclude:
+    - clomonitor
+  - name: CBT261
+    url: https://github.com/CBTTape/CBT261
+    exclude:
+    - clomonitor
+  - name: CBT262
+    url: https://github.com/CBTTape/CBT262
+    exclude:
+    - clomonitor
+  - name: CBT263
+    url: https://github.com/CBTTape/CBT263
+    exclude:
+    - clomonitor
+  - name: CBT264
+    url: https://github.com/CBTTape/CBT264
+    exclude:
+    - clomonitor
+  - name: CBT265
+    url: https://github.com/CBTTape/CBT265
+    exclude:
+    - clomonitor
+  - name: CBT266
+    url: https://github.com/CBTTape/CBT266
+    exclude:
+    - clomonitor
+  - name: CBT267
+    url: https://github.com/CBTTape/CBT267
+    exclude:
+    - clomonitor
+  - name: CBT268
+    url: https://github.com/CBTTape/CBT268
+    exclude:
+    - clomonitor
+  - name: CBT269
+    url: https://github.com/CBTTape/CBT269
+    exclude:
+    - clomonitor
+  - name: CBT270
+    url: https://github.com/CBTTape/CBT270
+    exclude:
+    - clomonitor
+  - name: CBT271
+    url: https://github.com/CBTTape/CBT271
+    exclude:
+    - clomonitor
+  - name: CBT272
+    url: https://github.com/CBTTape/CBT272
+    exclude:
+    - clomonitor
+  - name: CBT273
+    url: https://github.com/CBTTape/CBT273
+    exclude:
+    - clomonitor
+  - name: CBT274
+    url: https://github.com/CBTTape/CBT274
+    exclude:
+    - clomonitor
+  - name: CBT275
+    url: https://github.com/CBTTape/CBT275
+    exclude:
+    - clomonitor
+  - name: CBT276
+    url: https://github.com/CBTTape/CBT276
+    exclude:
+    - clomonitor
+  - name: CBT277
+    url: https://github.com/CBTTape/CBT277
+    exclude:
+    - clomonitor
+  - name: CBT278
+    url: https://github.com/CBTTape/CBT278
+    exclude:
+    - clomonitor
+  - name: CBT279
+    url: https://github.com/CBTTape/CBT279
+    exclude:
+    - clomonitor
+  - name: CBT280
+    url: https://github.com/CBTTape/CBT280
+    exclude:
+    - clomonitor
+  - name: CBT281
+    url: https://github.com/CBTTape/CBT281
+    exclude:
+    - clomonitor
+  - name: CBT282
+    url: https://github.com/CBTTape/CBT282
+    exclude:
+    - clomonitor
+  - name: CBT283
+    url: https://github.com/CBTTape/CBT283
+    exclude:
+    - clomonitor
+  - name: CBT284
+    url: https://github.com/CBTTape/CBT284
+    exclude:
+    - clomonitor
+  - name: CBT285
+    url: https://github.com/CBTTape/CBT285
+    exclude:
+    - clomonitor
+  - name: CBT286
+    url: https://github.com/CBTTape/CBT286
+    exclude:
+    - clomonitor
+  - name: CBT287
+    url: https://github.com/CBTTape/CBT287
+    exclude:
+    - clomonitor
+  - name: CBT288
+    url: https://github.com/CBTTape/CBT288
+    exclude:
+    - clomonitor
+  - name: CBT289
+    url: https://github.com/CBTTape/CBT289
+    exclude:
+    - clomonitor
+  - name: CBT290
+    url: https://github.com/CBTTape/CBT290
+    exclude:
+    - clomonitor
+  - name: CBT291
+    url: https://github.com/CBTTape/CBT291
+    exclude:
+    - clomonitor
+  - name: CBT292
+    url: https://github.com/CBTTape/CBT292
+    exclude:
+    - clomonitor
+  - name: CBT293
+    url: https://github.com/CBTTape/CBT293
+    exclude:
+    - clomonitor
+  - name: CBT294
+    url: https://github.com/CBTTape/CBT294
+    exclude:
+    - clomonitor
+  - name: CBT295
+    url: https://github.com/CBTTape/CBT295
+    exclude:
+    - clomonitor
+  - name: CBT296
+    url: https://github.com/CBTTape/CBT296
+    exclude:
+    - clomonitor
+  - name: CBT297
+    url: https://github.com/CBTTape/CBT297
+    exclude:
+    - clomonitor
+  - name: CBT298
+    url: https://github.com/CBTTape/CBT298
+    exclude:
+    - clomonitor
+  - name: CBT299
+    url: https://github.com/CBTTape/CBT299
+    exclude:
+    - clomonitor
+  - name: CBT300
+    url: https://github.com/CBTTape/CBT300
+    exclude:
+    - clomonitor
+  - name: CBT301
+    url: https://github.com/CBTTape/CBT301
+    exclude:
+    - clomonitor
+  - name: CBT302
+    url: https://github.com/CBTTape/CBT302
+    exclude:
+    - clomonitor
+  - name: CBT303
+    url: https://github.com/CBTTape/CBT303
+    exclude:
+    - clomonitor
+  - name: CBT304
+    url: https://github.com/CBTTape/CBT304
+    exclude:
+    - clomonitor
+  - name: CBT305
+    url: https://github.com/CBTTape/CBT305
+    exclude:
+    - clomonitor
+  - name: CBT306
+    url: https://github.com/CBTTape/CBT306
+    exclude:
+    - clomonitor
+  - name: CBT307
+    url: https://github.com/CBTTape/CBT307
+    exclude:
+    - clomonitor
+  - name: CBT308
+    url: https://github.com/CBTTape/CBT308
+    exclude:
+    - clomonitor
+  - name: CBT309
+    url: https://github.com/CBTTape/CBT309
+    exclude:
+    - clomonitor
+  - name: CBT310
+    url: https://github.com/CBTTape/CBT310
+    exclude:
+    - clomonitor
+  - name: CBT311
+    url: https://github.com/CBTTape/CBT311
+    exclude:
+    - clomonitor
+  - name: CBT312
+    url: https://github.com/CBTTape/CBT312
+    exclude:
+    - clomonitor
+  - name: CBT313
+    url: https://github.com/CBTTape/CBT313
+    exclude:
+    - clomonitor
+  - name: CBT314
+    url: https://github.com/CBTTape/CBT314
+    exclude:
+    - clomonitor
+  - name: CBT315
+    url: https://github.com/CBTTape/CBT315
+    exclude:
+    - clomonitor
+  - name: CBT316
+    url: https://github.com/CBTTape/CBT316
+    exclude:
+    - clomonitor
+  - name: CBT317
+    url: https://github.com/CBTTape/CBT317
+    exclude:
+    - clomonitor
+  - name: CBT318
+    url: https://github.com/CBTTape/CBT318
+    exclude:
+    - clomonitor
+  - name: CBT319
+    url: https://github.com/CBTTape/CBT319
+    exclude:
+    - clomonitor
+  - name: CBT320
+    url: https://github.com/CBTTape/CBT320
+    exclude:
+    - clomonitor
+  - name: CBT324
+    url: https://github.com/CBTTape/CBT324
+    exclude:
+    - clomonitor
+  - name: CBT325
+    url: https://github.com/CBTTape/CBT325
+    exclude:
+    - clomonitor
+  - name: CBT326
+    url: https://github.com/CBTTape/CBT326
+    exclude:
+    - clomonitor
+  - name: CBT327
+    url: https://github.com/CBTTape/CBT327
+    exclude:
+    - clomonitor
+  - name: CBT328
+    url: https://github.com/CBTTape/CBT328
+    exclude:
+    - clomonitor
+  - name: CBT329
+    url: https://github.com/CBTTape/CBT329
+    exclude:
+    - clomonitor
+  - name: CBT330
+    url: https://github.com/CBTTape/CBT330
+    exclude:
+    - clomonitor
+  - name: CBT331
+    url: https://github.com/CBTTape/CBT331
+    exclude:
+    - clomonitor
+  - name: CBT332
+    url: https://github.com/CBTTape/CBT332
+    exclude:
+    - clomonitor
+  - name: CBT333
+    url: https://github.com/CBTTape/CBT333
+    exclude:
+    - clomonitor
+  - name: CBT334
+    url: https://github.com/CBTTape/CBT334
+    exclude:
+    - clomonitor
+  - name: CBT335
+    url: https://github.com/CBTTape/CBT335
+    exclude:
+    - clomonitor
+  - name: CBT336
+    url: https://github.com/CBTTape/CBT336
+    exclude:
+    - clomonitor
+  - name: CBT337
+    url: https://github.com/CBTTape/CBT337
+    exclude:
+    - clomonitor
+  - name: CBT338
+    url: https://github.com/CBTTape/CBT338
+    exclude:
+    - clomonitor
+  - name: CBT339
+    url: https://github.com/CBTTape/CBT339
+    exclude:
+    - clomonitor
+  - name: CBT340
+    url: https://github.com/CBTTape/CBT340
+    exclude:
+    - clomonitor
+  - name: CBT341
+    url: https://github.com/CBTTape/CBT341
+    exclude:
+    - clomonitor
+  - name: CBT342
+    url: https://github.com/CBTTape/CBT342
+    exclude:
+    - clomonitor
+  - name: CBT343
+    url: https://github.com/CBTTape/CBT343
+    exclude:
+    - clomonitor
+  - name: CBT344
+    url: https://github.com/CBTTape/CBT344
+    exclude:
+    - clomonitor
+  - name: CBT345
+    url: https://github.com/CBTTape/CBT345
+    exclude:
+    - clomonitor
+  - name: CBT346
+    url: https://github.com/CBTTape/CBT346
+    exclude:
+    - clomonitor
+  - name: CBT347
+    url: https://github.com/CBTTape/CBT347
+    exclude:
+    - clomonitor
+  - name: CBT348
+    url: https://github.com/CBTTape/CBT348
+    exclude:
+    - clomonitor
+  - name: CBT349
+    url: https://github.com/CBTTape/CBT349
+    exclude:
+    - clomonitor
+  - name: CBT350
+    url: https://github.com/CBTTape/CBT350
+    exclude:
+    - clomonitor
+  - name: CBT351
+    url: https://github.com/CBTTape/CBT351
+    exclude:
+    - clomonitor
+  - name: CBT352
+    url: https://github.com/CBTTape/CBT352
+    exclude:
+    - clomonitor
+  - name: CBT353
+    url: https://github.com/CBTTape/CBT353
+    exclude:
+    - clomonitor
+  - name: CBT354
+    url: https://github.com/CBTTape/CBT354
+    exclude:
+    - clomonitor
+  - name: CBT355
+    url: https://github.com/CBTTape/CBT355
+    exclude:
+    - clomonitor
+  - name: CBT356
+    url: https://github.com/CBTTape/CBT356
+    exclude:
+    - clomonitor
+  - name: CBT357
+    url: https://github.com/CBTTape/CBT357
+    exclude:
+    - clomonitor
+  - name: CBT358
+    url: https://github.com/CBTTape/CBT358
+    exclude:
+    - clomonitor
+  - name: CBT359
+    url: https://github.com/CBTTape/CBT359
+    exclude:
+    - clomonitor
+  - name: CBT360
+    url: https://github.com/CBTTape/CBT360
+    exclude:
+    - clomonitor
+  - name: CBT361
+    url: https://github.com/CBTTape/CBT361
+    exclude:
+    - clomonitor
+  - name: CBT362
+    url: https://github.com/CBTTape/CBT362
+    exclude:
+    - clomonitor
+  - name: CBT363
+    url: https://github.com/CBTTape/CBT363
+    exclude:
+    - clomonitor
+  - name: CBT364
+    url: https://github.com/CBTTape/CBT364
+    exclude:
+    - clomonitor
+  - name: CBT365
+    url: https://github.com/CBTTape/CBT365
+    exclude:
+    - clomonitor
+  - name: CBT366
+    url: https://github.com/CBTTape/CBT366
+    exclude:
+    - clomonitor
+  - name: CBT367
+    url: https://github.com/CBTTape/CBT367
+    exclude:
+    - clomonitor
+  - name: CBT368
+    url: https://github.com/CBTTape/CBT368
+    exclude:
+    - clomonitor
+  - name: CBT369
+    url: https://github.com/CBTTape/CBT369
+    exclude:
+    - clomonitor
+  - name: CBT370
+    url: https://github.com/CBTTape/CBT370
+    exclude:
+    - clomonitor
+  - name: CBT371
+    url: https://github.com/CBTTape/CBT371
+    exclude:
+    - clomonitor
+  - name: CBT372
+    url: https://github.com/CBTTape/CBT372
+    exclude:
+    - clomonitor
+  - name: CBT373
+    url: https://github.com/CBTTape/CBT373
+    exclude:
+    - clomonitor
+  - name: CBT374
+    url: https://github.com/CBTTape/CBT374
+    exclude:
+    - clomonitor
+  - name: CBT375
+    url: https://github.com/CBTTape/CBT375
+    exclude:
+    - clomonitor
+  - name: CBT376
+    url: https://github.com/CBTTape/CBT376
+    exclude:
+    - clomonitor
+  - name: CBT377
+    url: https://github.com/CBTTape/CBT377
+    exclude:
+    - clomonitor
+  - name: CBT378
+    url: https://github.com/CBTTape/CBT378
+    exclude:
+    - clomonitor
+  - name: CBT379
+    url: https://github.com/CBTTape/CBT379
+    exclude:
+    - clomonitor
+  - name: CBT380
+    url: https://github.com/CBTTape/CBT380
+    exclude:
+    - clomonitor
+  - name: CBT381
+    url: https://github.com/CBTTape/CBT381
+    exclude:
+    - clomonitor
+  - name: CBT382
+    url: https://github.com/CBTTape/CBT382
+    exclude:
+    - clomonitor
+  - name: CBT383
+    url: https://github.com/CBTTape/CBT383
+    exclude:
+    - clomonitor
+  - name: CBT384
+    url: https://github.com/CBTTape/CBT384
+    exclude:
+    - clomonitor
+  - name: CBT385
+    url: https://github.com/CBTTape/CBT385
+    exclude:
+    - clomonitor
+  - name: CBT386
+    url: https://github.com/CBTTape/CBT386
+    exclude:
+    - clomonitor
+  - name: CBT387
+    url: https://github.com/CBTTape/CBT387
+    exclude:
+    - clomonitor
+  - name: CBT388
+    url: https://github.com/CBTTape/CBT388
+    exclude:
+    - clomonitor
+  - name: CBT389
+    url: https://github.com/CBTTape/CBT389
+    exclude:
+    - clomonitor
+  - name: CBT390
+    url: https://github.com/CBTTape/CBT390
+    exclude:
+    - clomonitor
+  - name: CBT391
+    url: https://github.com/CBTTape/CBT391
+    exclude:
+    - clomonitor
+  - name: CBT392
+    url: https://github.com/CBTTape/CBT392
+    exclude:
+    - clomonitor
+  - name: CBT393
+    url: https://github.com/CBTTape/CBT393
+    exclude:
+    - clomonitor
+  - name: CBT394
+    url: https://github.com/CBTTape/CBT394
+    exclude:
+    - clomonitor
+  - name: CBT395
+    url: https://github.com/CBTTape/CBT395
+    exclude:
+    - clomonitor
+  - name: CBT396
+    url: https://github.com/CBTTape/CBT396
+    exclude:
+    - clomonitor
+  - name: CBT397
+    url: https://github.com/CBTTape/CBT397
+    exclude:
+    - clomonitor
+  - name: CBT398
+    url: https://github.com/CBTTape/CBT398
+    exclude:
+    - clomonitor
+  - name: CBT399
+    url: https://github.com/CBTTape/CBT399
+    exclude:
+    - clomonitor
+  - name: CBT400
+    url: https://github.com/CBTTape/CBT400
+    exclude:
+    - clomonitor
+  - name: CBT401
+    url: https://github.com/CBTTape/CBT401
+    exclude:
+    - clomonitor
+  - name: CBT402
+    url: https://github.com/CBTTape/CBT402
+    exclude:
+    - clomonitor
+  - name: CBT403
+    url: https://github.com/CBTTape/CBT403
+    exclude:
+    - clomonitor
+  - name: CBT404
+    url: https://github.com/CBTTape/CBT404
+    exclude:
+    - clomonitor
+  - name: CBT405
+    url: https://github.com/CBTTape/CBT405
+    exclude:
+    - clomonitor
+  - name: CBT406
+    url: https://github.com/CBTTape/CBT406
+    exclude:
+    - clomonitor
+  - name: CBT407
+    url: https://github.com/CBTTape/CBT407
+    exclude:
+    - clomonitor
+  - name: CBT408
+    url: https://github.com/CBTTape/CBT408
+    exclude:
+    - clomonitor
+  - name: CBT409
+    url: https://github.com/CBTTape/CBT409
+    exclude:
+    - clomonitor
+  - name: CBT410
+    url: https://github.com/CBTTape/CBT410
+    exclude:
+    - clomonitor
+  - name: CBT411
+    url: https://github.com/CBTTape/CBT411
+    exclude:
+    - clomonitor
+  - name: CBT412
+    url: https://github.com/CBTTape/CBT412
+    exclude:
+    - clomonitor
+  - name: CBT413
+    url: https://github.com/CBTTape/CBT413
+    exclude:
+    - clomonitor
+  - name: CBT414
+    url: https://github.com/CBTTape/CBT414
+    exclude:
+    - clomonitor
+  - name: CBT415
+    url: https://github.com/CBTTape/CBT415
+    exclude:
+    - clomonitor
+  - name: CBT416
+    url: https://github.com/CBTTape/CBT416
+    exclude:
+    - clomonitor
+  - name: CBT417
+    url: https://github.com/CBTTape/CBT417
+    exclude:
+    - clomonitor
+  - name: CBT418
+    url: https://github.com/CBTTape/CBT418
+    exclude:
+    - clomonitor
+  - name: CBT419
+    url: https://github.com/CBTTape/CBT419
+    exclude:
+    - clomonitor
+  - name: CBT420
+    url: https://github.com/CBTTape/CBT420
+    exclude:
+    - clomonitor
+  - name: CBT421
+    url: https://github.com/CBTTape/CBT421
+    exclude:
+    - clomonitor
+  - name: CBT422
+    url: https://github.com/CBTTape/CBT422
+    exclude:
+    - clomonitor
+  - name: CBT423
+    url: https://github.com/CBTTape/CBT423
+    exclude:
+    - clomonitor
+  - name: CBT424
+    url: https://github.com/CBTTape/CBT424
+    exclude:
+    - clomonitor
+  - name: CBT425
+    url: https://github.com/CBTTape/CBT425
+    exclude:
+    - clomonitor
+  - name: CBT426
+    url: https://github.com/CBTTape/CBT426
+    exclude:
+    - clomonitor
+  - name: CBT427
+    url: https://github.com/CBTTape/CBT427
+    exclude:
+    - clomonitor
+  - name: CBT428
+    url: https://github.com/CBTTape/CBT428
+    exclude:
+    - clomonitor
+  - name: CBT429
+    url: https://github.com/CBTTape/CBT429
+    exclude:
+    - clomonitor
+  - name: CBT430
+    url: https://github.com/CBTTape/CBT430
+    exclude:
+    - clomonitor
+  - name: CBT431
+    url: https://github.com/CBTTape/CBT431
+    exclude:
+    - clomonitor
+  - name: CBT432
+    url: https://github.com/CBTTape/CBT432
+    exclude:
+    - clomonitor
+  - name: CBT433
+    url: https://github.com/CBTTape/CBT433
+    exclude:
+    - clomonitor
+  - name: CBT434
+    url: https://github.com/CBTTape/CBT434
+    exclude:
+    - clomonitor
+  - name: CBT435
+    url: https://github.com/CBTTape/CBT435
+    exclude:
+    - clomonitor
+  - name: CBT436
+    url: https://github.com/CBTTape/CBT436
+    exclude:
+    - clomonitor
+  - name: CBT437
+    url: https://github.com/CBTTape/CBT437
+    exclude:
+    - clomonitor
+  - name: CBT438
+    url: https://github.com/CBTTape/CBT438
+    exclude:
+    - clomonitor
+  - name: CBT439
+    url: https://github.com/CBTTape/CBT439
+    exclude:
+    - clomonitor
+  - name: CBT440
+    url: https://github.com/CBTTape/CBT440
+    exclude:
+    - clomonitor
+  - name: CBT441
+    url: https://github.com/CBTTape/CBT441
+    exclude:
+    - clomonitor
+  - name: CBT442
+    url: https://github.com/CBTTape/CBT442
+    exclude:
+    - clomonitor
+  - name: CBT443
+    url: https://github.com/CBTTape/CBT443
+    exclude:
+    - clomonitor
+  - name: CBT444
+    url: https://github.com/CBTTape/CBT444
+    exclude:
+    - clomonitor
+  - name: CBT445
+    url: https://github.com/CBTTape/CBT445
+    exclude:
+    - clomonitor
+  - name: CBT446
+    url: https://github.com/CBTTape/CBT446
+    exclude:
+    - clomonitor
+  - name: CBT447
+    url: https://github.com/CBTTape/CBT447
+    exclude:
+    - clomonitor
+  - name: CBT448
+    url: https://github.com/CBTTape/CBT448
+    exclude:
+    - clomonitor
+  - name: CBT449
+    url: https://github.com/CBTTape/CBT449
+    exclude:
+    - clomonitor
+  - name: CBT450
+    url: https://github.com/CBTTape/CBT450
+    exclude:
+    - clomonitor
+  - name: CBT451
+    url: https://github.com/CBTTape/CBT451
+    exclude:
+    - clomonitor
+  - name: CBT452
+    url: https://github.com/CBTTape/CBT452
+    exclude:
+    - clomonitor
+  - name: CBT453
+    url: https://github.com/CBTTape/CBT453
+    exclude:
+    - clomonitor
+  - name: CBT454
+    url: https://github.com/CBTTape/CBT454
+    exclude:
+    - clomonitor
+  - name: CBT455
+    url: https://github.com/CBTTape/CBT455
+    exclude:
+    - clomonitor
+  - name: CBT456
+    url: https://github.com/CBTTape/CBT456
+    exclude:
+    - clomonitor
+  - name: CBT457
+    url: https://github.com/CBTTape/CBT457
+    exclude:
+    - clomonitor
+  - name: CBT458
+    url: https://github.com/CBTTape/CBT458
+    exclude:
+    - clomonitor
+  - name: CBT459
+    url: https://github.com/CBTTape/CBT459
+    exclude:
+    - clomonitor
+  - name: CBT460
+    url: https://github.com/CBTTape/CBT460
+    exclude:
+    - clomonitor
+  - name: CBT461
+    url: https://github.com/CBTTape/CBT461
+    exclude:
+    - clomonitor
+  - name: CBT462
+    url: https://github.com/CBTTape/CBT462
+    exclude:
+    - clomonitor
+  - name: CBT463
+    url: https://github.com/CBTTape/CBT463
+    exclude:
+    - clomonitor
+  - name: CBT464
+    url: https://github.com/CBTTape/CBT464
+    exclude:
+    - clomonitor
+  - name: CBT465
+    url: https://github.com/CBTTape/CBT465
+    exclude:
+    - clomonitor
+  - name: CBT466
+    url: https://github.com/CBTTape/CBT466
+    exclude:
+    - clomonitor
+  - name: CBT467
+    url: https://github.com/CBTTape/CBT467
+    exclude:
+    - clomonitor
+  - name: CBT468
+    url: https://github.com/CBTTape/CBT468
+    exclude:
+    - clomonitor
+  - name: CBT469
+    url: https://github.com/CBTTape/CBT469
+    exclude:
+    - clomonitor
+  - name: CBT470
+    url: https://github.com/CBTTape/CBT470
+    exclude:
+    - clomonitor
+  - name: CBT471
+    url: https://github.com/CBTTape/CBT471
+    exclude:
+    - clomonitor
+  - name: CBT472
+    url: https://github.com/CBTTape/CBT472
+    exclude:
+    - clomonitor
+  - name: CBT473
+    url: https://github.com/CBTTape/CBT473
+    exclude:
+    - clomonitor
+  - name: CBT477
+    url: https://github.com/CBTTape/CBT477
+    exclude:
+    - clomonitor
+  - name: CBT478
+    url: https://github.com/CBTTape/CBT478
+    exclude:
+    - clomonitor
+  - name: CBT479
+    url: https://github.com/CBTTape/CBT479
+    exclude:
+    - clomonitor
+  - name: CBT480
+    url: https://github.com/CBTTape/CBT480
+    exclude:
+    - clomonitor
+  - name: CBT481
+    url: https://github.com/CBTTape/CBT481
+    exclude:
+    - clomonitor
+  - name: CBT482
+    url: https://github.com/CBTTape/CBT482
+    exclude:
+    - clomonitor
+  - name: CBT483
+    url: https://github.com/CBTTape/CBT483
+    exclude:
+    - clomonitor
+  - name: CBT484
+    url: https://github.com/CBTTape/CBT484
+    exclude:
+    - clomonitor
+  - name: CBT485
+    url: https://github.com/CBTTape/CBT485
+    exclude:
+    - clomonitor
+  - name: CBT486
+    url: https://github.com/CBTTape/CBT486
+    exclude:
+    - clomonitor
+  - name: CBT487
+    url: https://github.com/CBTTape/CBT487
+    exclude:
+    - clomonitor
+  - name: CBT488
+    url: https://github.com/CBTTape/CBT488
+    exclude:
+    - clomonitor
+  - name: CBT489
+    url: https://github.com/CBTTape/CBT489
+    exclude:
+    - clomonitor
+  - name: CBT490
+    url: https://github.com/CBTTape/CBT490
+    exclude:
+    - clomonitor
+  - name: CBT491
+    url: https://github.com/CBTTape/CBT491
+    exclude:
+    - clomonitor
+  - name: CBT492
+    url: https://github.com/CBTTape/CBT492
+    exclude:
+    - clomonitor
+  - name: CBT493
+    url: https://github.com/CBTTape/CBT493
+    exclude:
+    - clomonitor
+  - name: CBT494
+    url: https://github.com/CBTTape/CBT494
+    exclude:
+    - clomonitor
+  - name: CBT495
+    url: https://github.com/CBTTape/CBT495
+    exclude:
+    - clomonitor
+  - name: CBT496
+    url: https://github.com/CBTTape/CBT496
+    exclude:
+    - clomonitor
+  - name: CBT497
+    url: https://github.com/CBTTape/CBT497
+    exclude:
+    - clomonitor
+  - name: CBT498
+    url: https://github.com/CBTTape/CBT498
+    exclude:
+    - clomonitor
+  - name: CBT499
+    url: https://github.com/CBTTape/CBT499
+    exclude:
+    - clomonitor
+  - name: CBT500
+    url: https://github.com/CBTTape/CBT500
+    exclude:
+    - clomonitor
+  - name: CBT501
+    url: https://github.com/CBTTape/CBT501
+    exclude:
+    - clomonitor
+  - name: CBT502
+    url: https://github.com/CBTTape/CBT502
+    exclude:
+    - clomonitor
+  - name: CBT503
+    url: https://github.com/CBTTape/CBT503
+    exclude:
+    - clomonitor
+  - name: CBT504
+    url: https://github.com/CBTTape/CBT504
+    exclude:
+    - clomonitor
+  - name: CBT505
+    url: https://github.com/CBTTape/CBT505
+    exclude:
+    - clomonitor
+  - name: CBT506
+    url: https://github.com/CBTTape/CBT506
+    exclude:
+    - clomonitor
+  - name: CBT507
+    url: https://github.com/CBTTape/CBT507
+    exclude:
+    - clomonitor
+  - name: CBT508
+    url: https://github.com/CBTTape/CBT508
+    exclude:
+    - clomonitor
+  - name: CBT509
+    url: https://github.com/CBTTape/CBT509
+    exclude:
+    - clomonitor
+  - name: CBT510
+    url: https://github.com/CBTTape/CBT510
+    exclude:
+    - clomonitor
+  - name: CBT511
+    url: https://github.com/CBTTape/CBT511
+    exclude:
+    - clomonitor
+  - name: CBT512
+    url: https://github.com/CBTTape/CBT512
+    exclude:
+    - clomonitor
+  - name: CBT513
+    url: https://github.com/CBTTape/CBT513
+    exclude:
+    - clomonitor
+  - name: CBT514
+    url: https://github.com/CBTTape/CBT514
+    exclude:
+    - clomonitor
+  - name: CBT515
+    url: https://github.com/CBTTape/CBT515
+    exclude:
+    - clomonitor
+  - name: CBT516
+    url: https://github.com/CBTTape/CBT516
+    exclude:
+    - clomonitor
+  - name: CBT517
+    url: https://github.com/CBTTape/CBT517
+    exclude:
+    - clomonitor
+  - name: CBT518
+    url: https://github.com/CBTTape/CBT518
+    exclude:
+    - clomonitor
+  - name: CBT519
+    url: https://github.com/CBTTape/CBT519
+    exclude:
+    - clomonitor
+  - name: CBT520
+    url: https://github.com/CBTTape/CBT520
+    exclude:
+    - clomonitor
+  - name: CBT521
+    url: https://github.com/CBTTape/CBT521
+    exclude:
+    - clomonitor
+  - name: CBT522
+    url: https://github.com/CBTTape/CBT522
+    exclude:
+    - clomonitor
+  - name: CBT523
+    url: https://github.com/CBTTape/CBT523
+    exclude:
+    - clomonitor
+  - name: CBT524
+    url: https://github.com/CBTTape/CBT524
+    exclude:
+    - clomonitor
+  - name: CBT525
+    url: https://github.com/CBTTape/CBT525
+    exclude:
+    - clomonitor
+  - name: CBT526
+    url: https://github.com/CBTTape/CBT526
+    exclude:
+    - clomonitor
+  - name: CBT527
+    url: https://github.com/CBTTape/CBT527
+    exclude:
+    - clomonitor
+  - name: CBT528
+    url: https://github.com/CBTTape/CBT528
+    exclude:
+    - clomonitor
+  - name: CBT529
+    url: https://github.com/CBTTape/CBT529
+    exclude:
+    - clomonitor
+  - name: CBT530
+    url: https://github.com/CBTTape/CBT530
+    exclude:
+    - clomonitor
+  - name: CBT531
+    url: https://github.com/CBTTape/CBT531
+    exclude:
+    - clomonitor
+  - name: CBT532
+    url: https://github.com/CBTTape/CBT532
+    exclude:
+    - clomonitor
+  - name: CBT533
+    url: https://github.com/CBTTape/CBT533
+    exclude:
+    - clomonitor
+  - name: CBT534
+    url: https://github.com/CBTTape/CBT534
+    exclude:
+    - clomonitor
+  - name: CBT535
+    url: https://github.com/CBTTape/CBT535
+    exclude:
+    - clomonitor
+  - name: CBT536
+    url: https://github.com/CBTTape/CBT536
+    exclude:
+    - clomonitor
+  - name: CBT537
+    url: https://github.com/CBTTape/CBT537
+    exclude:
+    - clomonitor
+  - name: CBT538
+    url: https://github.com/CBTTape/CBT538
+    exclude:
+    - clomonitor
+  - name: CBT539
+    url: https://github.com/CBTTape/CBT539
+    exclude:
+    - clomonitor
+  - name: CBT540
+    url: https://github.com/CBTTape/CBT540
+    exclude:
+    - clomonitor
+  - name: CBT541
+    url: https://github.com/CBTTape/CBT541
+    exclude:
+    - clomonitor
+  - name: CBT542
+    url: https://github.com/CBTTape/CBT542
+    exclude:
+    - clomonitor
+  - name: CBT543
+    url: https://github.com/CBTTape/CBT543
+    exclude:
+    - clomonitor
+  - name: CBT544
+    url: https://github.com/CBTTape/CBT544
+    exclude:
+    - clomonitor
+  - name: CBT545
+    url: https://github.com/CBTTape/CBT545
+    exclude:
+    - clomonitor
+  - name: CBT546
+    url: https://github.com/CBTTape/CBT546
+    exclude:
+    - clomonitor
+  - name: CBT547
+    url: https://github.com/CBTTape/CBT547
+    exclude:
+    - clomonitor
+  - name: CBT548
+    url: https://github.com/CBTTape/CBT548
+    exclude:
+    - clomonitor
+  - name: CBT549
+    url: https://github.com/CBTTape/CBT549
+    exclude:
+    - clomonitor
+  - name: CBT550
+    url: https://github.com/CBTTape/CBT550
+    exclude:
+    - clomonitor
+  - name: CBT551
+    url: https://github.com/CBTTape/CBT551
+    exclude:
+    - clomonitor
+  - name: CBT552
+    url: https://github.com/CBTTape/CBT552
+    exclude:
+    - clomonitor
+  - name: CBT553
+    url: https://github.com/CBTTape/CBT553
+    exclude:
+    - clomonitor
+  - name: CBT554
+    url: https://github.com/CBTTape/CBT554
+    exclude:
+    - clomonitor
+  - name: CBT555
+    url: https://github.com/CBTTape/CBT555
+    exclude:
+    - clomonitor
+  - name: CBT556
+    url: https://github.com/CBTTape/CBT556
+    exclude:
+    - clomonitor
+  - name: CBT557
+    url: https://github.com/CBTTape/CBT557
+    exclude:
+    - clomonitor
+  - name: CBT558
+    url: https://github.com/CBTTape/CBT558
+    exclude:
+    - clomonitor
+  - name: CBT559
+    url: https://github.com/CBTTape/CBT559
+    exclude:
+    - clomonitor
+  - name: CBT560
+    url: https://github.com/CBTTape/CBT560
+    exclude:
+    - clomonitor
+  - name: CBT561
+    url: https://github.com/CBTTape/CBT561
+    exclude:
+    - clomonitor
+  - name: CBT562
+    url: https://github.com/CBTTape/CBT562
+    exclude:
+    - clomonitor
+  - name: CBT563
+    url: https://github.com/CBTTape/CBT563
+    exclude:
+    - clomonitor
+  - name: CBT564
+    url: https://github.com/CBTTape/CBT564
+    exclude:
+    - clomonitor
+  - name: CBT565
+    url: https://github.com/CBTTape/CBT565
+    exclude:
+    - clomonitor
+  - name: CBT566
+    url: https://github.com/CBTTape/CBT566
+    exclude:
+    - clomonitor
+  - name: CBT567
+    url: https://github.com/CBTTape/CBT567
+    exclude:
+    - clomonitor
+  - name: CBT568
+    url: https://github.com/CBTTape/CBT568
+    exclude:
+    - clomonitor
+  - name: CBT569
+    url: https://github.com/CBTTape/CBT569
+    exclude:
+    - clomonitor
+  - name: CBT570
+    url: https://github.com/CBTTape/CBT570
+    exclude:
+    - clomonitor
+  - name: CBT571
+    url: https://github.com/CBTTape/CBT571
+    exclude:
+    - clomonitor
+  - name: CBT572
+    url: https://github.com/CBTTape/CBT572
+    exclude:
+    - clomonitor
+  - name: CBT573
+    url: https://github.com/CBTTape/CBT573
+    exclude:
+    - clomonitor
+  - name: CBT574
+    url: https://github.com/CBTTape/CBT574
+    exclude:
+    - clomonitor
+  - name: CBT575
+    url: https://github.com/CBTTape/CBT575
+    exclude:
+    - clomonitor
+  - name: CBT576
+    url: https://github.com/CBTTape/CBT576
+    exclude:
+    - clomonitor
+  - name: CBT577
+    url: https://github.com/CBTTape/CBT577
+    exclude:
+    - clomonitor
+  - name: CBT578
+    url: https://github.com/CBTTape/CBT578
+    exclude:
+    - clomonitor
+  - name: CBT579
+    url: https://github.com/CBTTape/CBT579
+    exclude:
+    - clomonitor
+  - name: CBT580
+    url: https://github.com/CBTTape/CBT580
+    exclude:
+    - clomonitor
+  - name: CBT581
+    url: https://github.com/CBTTape/CBT581
+    exclude:
+    - clomonitor
+  - name: CBT582
+    url: https://github.com/CBTTape/CBT582
+    exclude:
+    - clomonitor
+  - name: CBT583
+    url: https://github.com/CBTTape/CBT583
+    exclude:
+    - clomonitor
+  - name: CBT584
+    url: https://github.com/CBTTape/CBT584
+    exclude:
+    - clomonitor
+  - name: CBT585
+    url: https://github.com/CBTTape/CBT585
+    exclude:
+    - clomonitor
+  - name: CBT586
+    url: https://github.com/CBTTape/CBT586
+    exclude:
+    - clomonitor
+  - name: CBT587
+    url: https://github.com/CBTTape/CBT587
+    exclude:
+    - clomonitor
+  - name: CBT588
+    url: https://github.com/CBTTape/CBT588
+    exclude:
+    - clomonitor
+  - name: CBT589
+    url: https://github.com/CBTTape/CBT589
+    exclude:
+    - clomonitor
+  - name: CBT590
+    url: https://github.com/CBTTape/CBT590
+    exclude:
+    - clomonitor
+  - name: CBT591
+    url: https://github.com/CBTTape/CBT591
+    exclude:
+    - clomonitor
+  - name: CBT592
+    url: https://github.com/CBTTape/CBT592
+    exclude:
+    - clomonitor
+  - name: CBT593
+    url: https://github.com/CBTTape/CBT593
+    exclude:
+    - clomonitor
+  - name: CBT594
+    url: https://github.com/CBTTape/CBT594
+    exclude:
+    - clomonitor
+  - name: CBT595
+    url: https://github.com/CBTTape/CBT595
+    exclude:
+    - clomonitor
+  - name: CBT596
+    url: https://github.com/CBTTape/CBT596
+    exclude:
+    - clomonitor
+  - name: CBT597
+    url: https://github.com/CBTTape/CBT597
+    exclude:
+    - clomonitor
+  - name: CBT598
+    url: https://github.com/CBTTape/CBT598
+    exclude:
+    - clomonitor
+  - name: CBT599
+    url: https://github.com/CBTTape/CBT599
+    exclude:
+    - clomonitor
+  - name: CBT600
+    url: https://github.com/CBTTape/CBT600
+    exclude:
+    - clomonitor
+  - name: CBT601
+    url: https://github.com/CBTTape/CBT601
+    exclude:
+    - clomonitor
+  - name: CBT602
+    url: https://github.com/CBTTape/CBT602
+    exclude:
+    - clomonitor
+  - name: CBT603
+    url: https://github.com/CBTTape/CBT603
+    exclude:
+    - clomonitor
+  - name: CBT604
+    url: https://github.com/CBTTape/CBT604
+    exclude:
+    - clomonitor
+  - name: CBT605
+    url: https://github.com/CBTTape/CBT605
+    exclude:
+    - clomonitor
+  - name: CBT606
+    url: https://github.com/CBTTape/CBT606
+    exclude:
+    - clomonitor
+  - name: CBT607
+    url: https://github.com/CBTTape/CBT607
+    exclude:
+    - clomonitor
+  - name: CBT608
+    url: https://github.com/CBTTape/CBT608
+    exclude:
+    - clomonitor
+  - name: CBT609
+    url: https://github.com/CBTTape/CBT609
+    exclude:
+    - clomonitor
+  - name: CBT610
+    url: https://github.com/CBTTape/CBT610
+    exclude:
+    - clomonitor
+  - name: CBT611
+    url: https://github.com/CBTTape/CBT611
+    exclude:
+    - clomonitor
+  - name: CBT612
+    url: https://github.com/CBTTape/CBT612
+    exclude:
+    - clomonitor
+  - name: CBT613
+    url: https://github.com/CBTTape/CBT613
+    exclude:
+    - clomonitor
+  - name: CBT614
+    url: https://github.com/CBTTape/CBT614
+    exclude:
+    - clomonitor
+  - name: CBT615
+    url: https://github.com/CBTTape/CBT615
+    exclude:
+    - clomonitor
+  - name: CBT616
+    url: https://github.com/CBTTape/CBT616
+    exclude:
+    - clomonitor
+  - name: CBT617
+    url: https://github.com/CBTTape/CBT617
+    exclude:
+    - clomonitor
+  - name: CBT618
+    url: https://github.com/CBTTape/CBT618
+    exclude:
+    - clomonitor
+  - name: CBT619
+    url: https://github.com/CBTTape/CBT619
+    exclude:
+    - clomonitor
+  - name: CBT620
+    url: https://github.com/CBTTape/CBT620
+    exclude:
+    - clomonitor
+  - name: CBT621
+    url: https://github.com/CBTTape/CBT621
+    exclude:
+    - clomonitor
+  - name: CBT622
+    url: https://github.com/CBTTape/CBT622
+    exclude:
+    - clomonitor
+  - name: CBT623
+    url: https://github.com/CBTTape/CBT623
+    exclude:
+    - clomonitor
+  - name: CBT624
+    url: https://github.com/CBTTape/CBT624
+    exclude:
+    - clomonitor
+  - name: CBT625
+    url: https://github.com/CBTTape/CBT625
+    exclude:
+    - clomonitor
+  - name: CBT626
+    url: https://github.com/CBTTape/CBT626
+    exclude:
+    - clomonitor
+  - name: CBT630
+    url: https://github.com/CBTTape/CBT630
+    exclude:
+    - clomonitor
+  - name: CBT631
+    url: https://github.com/CBTTape/CBT631
+    exclude:
+    - clomonitor
+  - name: CBT632
+    url: https://github.com/CBTTape/CBT632
+    exclude:
+    - clomonitor
+  - name: CBT633
+    url: https://github.com/CBTTape/CBT633
+    exclude:
+    - clomonitor
+  - name: CBT634
+    url: https://github.com/CBTTape/CBT634
+    exclude:
+    - clomonitor
+  - name: CBT635
+    url: https://github.com/CBTTape/CBT635
+    exclude:
+    - clomonitor
+  - name: CBT636
+    url: https://github.com/CBTTape/CBT636
+    exclude:
+    - clomonitor
+  - name: CBT637
+    url: https://github.com/CBTTape/CBT637
+    exclude:
+    - clomonitor
+  - name: CBT638
+    url: https://github.com/CBTTape/CBT638
+    exclude:
+    - clomonitor
+  - name: CBT639
+    url: https://github.com/CBTTape/CBT639
+    exclude:
+    - clomonitor
+  - name: CBT640
+    url: https://github.com/CBTTape/CBT640
+    exclude:
+    - clomonitor
+  - name: CBT641
+    url: https://github.com/CBTTape/CBT641
+    exclude:
+    - clomonitor
+  - name: CBT642
+    url: https://github.com/CBTTape/CBT642
+    exclude:
+    - clomonitor
+  - name: CBT643
+    url: https://github.com/CBTTape/CBT643
+    exclude:
+    - clomonitor
+  - name: CBT644
+    url: https://github.com/CBTTape/CBT644
+    exclude:
+    - clomonitor
+  - name: CBT645
+    url: https://github.com/CBTTape/CBT645
+    exclude:
+    - clomonitor
+  - name: CBT646
+    url: https://github.com/CBTTape/CBT646
+    exclude:
+    - clomonitor
+  - name: CBT647
+    url: https://github.com/CBTTape/CBT647
+    exclude:
+    - clomonitor
+  - name: CBT648
+    url: https://github.com/CBTTape/CBT648
+    exclude:
+    - clomonitor
+  - name: CBT649
+    url: https://github.com/CBTTape/CBT649
+    exclude:
+    - clomonitor
+  - name: CBT650
+    url: https://github.com/CBTTape/CBT650
+    exclude:
+    - clomonitor
+  - name: CBT651
+    url: https://github.com/CBTTape/CBT651
+    exclude:
+    - clomonitor
+  - name: CBT652
+    url: https://github.com/CBTTape/CBT652
+    exclude:
+    - clomonitor
+  - name: CBT653
+    url: https://github.com/CBTTape/CBT653
+    exclude:
+    - clomonitor
+  - name: CBT654
+    url: https://github.com/CBTTape/CBT654
+    exclude:
+    - clomonitor
+  - name: CBT655
+    url: https://github.com/CBTTape/CBT655
+    exclude:
+    - clomonitor
+  - name: CBT656
+    url: https://github.com/CBTTape/CBT656
+    exclude:
+    - clomonitor
+  - name: CBT657
+    url: https://github.com/CBTTape/CBT657
+    exclude:
+    - clomonitor
+  - name: CBT658
+    url: https://github.com/CBTTape/CBT658
+    exclude:
+    - clomonitor
+  - name: CBT659
+    url: https://github.com/CBTTape/CBT659
+    exclude:
+    - clomonitor
+  - name: CBT660
+    url: https://github.com/CBTTape/CBT660
+    exclude:
+    - clomonitor
+  - name: CBT661
+    url: https://github.com/CBTTape/CBT661
+    exclude:
+    - clomonitor
+  - name: CBT662
+    url: https://github.com/CBTTape/CBT662
+    exclude:
+    - clomonitor
+  - name: CBT663
+    url: https://github.com/CBTTape/CBT663
+    exclude:
+    - clomonitor
+  - name: CBT664
+    url: https://github.com/CBTTape/CBT664
+    exclude:
+    - clomonitor
+  - name: CBT665
+    url: https://github.com/CBTTape/CBT665
+    exclude:
+    - clomonitor
+  - name: CBT666
+    url: https://github.com/CBTTape/CBT666
+    exclude:
+    - clomonitor
+  - name: CBT667
+    url: https://github.com/CBTTape/CBT667
+    exclude:
+    - clomonitor
+  - name: CBT668
+    url: https://github.com/CBTTape/CBT668
+    exclude:
+    - clomonitor
+  - name: CBT669
+    url: https://github.com/CBTTape/CBT669
+    exclude:
+    - clomonitor
+  - name: CBT670
+    url: https://github.com/CBTTape/CBT670
+    exclude:
+    - clomonitor
+  - name: CBT671
+    url: https://github.com/CBTTape/CBT671
+    exclude:
+    - clomonitor
+  - name: CBT672
+    url: https://github.com/CBTTape/CBT672
+    exclude:
+    - clomonitor
+  - name: CBT673
+    url: https://github.com/CBTTape/CBT673
+    exclude:
+    - clomonitor
+  - name: CBT674
+    url: https://github.com/CBTTape/CBT674
+    exclude:
+    - clomonitor
+  - name: CBT675
+    url: https://github.com/CBTTape/CBT675
+    exclude:
+    - clomonitor
+  - name: CBT676
+    url: https://github.com/CBTTape/CBT676
+    exclude:
+    - clomonitor
+  - name: CBT677
+    url: https://github.com/CBTTape/CBT677
+    exclude:
+    - clomonitor
+  - name: CBT678
+    url: https://github.com/CBTTape/CBT678
+    exclude:
+    - clomonitor
+  - name: CBT679
+    url: https://github.com/CBTTape/CBT679
+    exclude:
+    - clomonitor
+  - name: CBT680
+    url: https://github.com/CBTTape/CBT680
+    exclude:
+    - clomonitor
+  - name: CBT681
+    url: https://github.com/CBTTape/CBT681
+    exclude:
+    - clomonitor
+  - name: CBT682
+    url: https://github.com/CBTTape/CBT682
+    exclude:
+    - clomonitor
+  - name: CBT683
+    url: https://github.com/CBTTape/CBT683
+    exclude:
+    - clomonitor
+  - name: CBT684
+    url: https://github.com/CBTTape/CBT684
+    exclude:
+    - clomonitor
+  - name: CBT685
+    url: https://github.com/CBTTape/CBT685
+    exclude:
+    - clomonitor
+  - name: CBT686
+    url: https://github.com/CBTTape/CBT686
+    exclude:
+    - clomonitor
+  - name: CBT687
+    url: https://github.com/CBTTape/CBT687
+    exclude:
+    - clomonitor
+  - name: CBT688
+    url: https://github.com/CBTTape/CBT688
+    exclude:
+    - clomonitor
+  - name: CBT689
+    url: https://github.com/CBTTape/CBT689
+    exclude:
+    - clomonitor
+  - name: CBT690
+    url: https://github.com/CBTTape/CBT690
+    exclude:
+    - clomonitor
+  - name: CBT691
+    url: https://github.com/CBTTape/CBT691
+    exclude:
+    - clomonitor
+  - name: CBT692
+    url: https://github.com/CBTTape/CBT692
+    exclude:
+    - clomonitor
+  - name: CBT693
+    url: https://github.com/CBTTape/CBT693
+    exclude:
+    - clomonitor
+  - name: CBT694
+    url: https://github.com/CBTTape/CBT694
+    exclude:
+    - clomonitor
+  - name: CBT695
+    url: https://github.com/CBTTape/CBT695
+    exclude:
+    - clomonitor
+  - name: CBT696
+    url: https://github.com/CBTTape/CBT696
+    exclude:
+    - clomonitor
+  - name: CBT697
+    url: https://github.com/CBTTape/CBT697
+    exclude:
+    - clomonitor
+  - name: CBT698
+    url: https://github.com/CBTTape/CBT698
+    exclude:
+    - clomonitor
+  - name: CBT699
+    url: https://github.com/CBTTape/CBT699
+    exclude:
+    - clomonitor
+  - name: CBT700
+    url: https://github.com/CBTTape/CBT700
+    exclude:
+    - clomonitor
+  - name: CBT701
+    url: https://github.com/CBTTape/CBT701
+    exclude:
+    - clomonitor
+  - name: CBT702
+    url: https://github.com/CBTTape/CBT702
+    exclude:
+    - clomonitor
+  - name: CBT703
+    url: https://github.com/CBTTape/CBT703
+    exclude:
+    - clomonitor
+  - name: CBT704
+    url: https://github.com/CBTTape/CBT704
+    exclude:
+    - clomonitor
+  - name: CBT705
+    url: https://github.com/CBTTape/CBT705
+    exclude:
+    - clomonitor
+  - name: CBT706
+    url: https://github.com/CBTTape/CBT706
+    exclude:
+    - clomonitor
+  - name: CBT707
+    url: https://github.com/CBTTape/CBT707
+    exclude:
+    - clomonitor
+  - name: CBT708
+    url: https://github.com/CBTTape/CBT708
+    exclude:
+    - clomonitor
+  - name: CBT709
+    url: https://github.com/CBTTape/CBT709
+    exclude:
+    - clomonitor
+  - name: CBT710
+    url: https://github.com/CBTTape/CBT710
+    exclude:
+    - clomonitor
+  - name: CBT711
+    url: https://github.com/CBTTape/CBT711
+    exclude:
+    - clomonitor
+  - name: CBT712
+    url: https://github.com/CBTTape/CBT712
+    exclude:
+    - clomonitor
+  - name: CBT713
+    url: https://github.com/CBTTape/CBT713
+    exclude:
+    - clomonitor
+  - name: CBT714
+    url: https://github.com/CBTTape/CBT714
+    exclude:
+    - clomonitor
+  - name: CBT715
+    url: https://github.com/CBTTape/CBT715
+    exclude:
+    - clomonitor
+  - name: CBT716
+    url: https://github.com/CBTTape/CBT716
+    exclude:
+    - clomonitor
+  - name: CBT717
+    url: https://github.com/CBTTape/CBT717
+    exclude:
+    - clomonitor
+  - name: CBT718
+    url: https://github.com/CBTTape/CBT718
+    exclude:
+    - clomonitor
+  - name: CBT719
+    url: https://github.com/CBTTape/CBT719
+    exclude:
+    - clomonitor
+  - name: CBT720
+    url: https://github.com/CBTTape/CBT720
+    exclude:
+    - clomonitor
+  - name: CBT721
+    url: https://github.com/CBTTape/CBT721
+    exclude:
+    - clomonitor
+  - name: CBT722
+    url: https://github.com/CBTTape/CBT722
+    exclude:
+    - clomonitor
+  - name: CBT723
+    url: https://github.com/CBTTape/CBT723
+    exclude:
+    - clomonitor
+  - name: CBT724
+    url: https://github.com/CBTTape/CBT724
+    exclude:
+    - clomonitor
+  - name: CBT725
+    url: https://github.com/CBTTape/CBT725
+    exclude:
+    - clomonitor
+  - name: CBT726
+    url: https://github.com/CBTTape/CBT726
+    exclude:
+    - clomonitor
+  - name: CBT727
+    url: https://github.com/CBTTape/CBT727
+    exclude:
+    - clomonitor
+  - name: CBT728
+    url: https://github.com/CBTTape/CBT728
+    exclude:
+    - clomonitor
+  - name: CBT729
+    url: https://github.com/CBTTape/CBT729
+    exclude:
+    - clomonitor
+  - name: CBT730
+    url: https://github.com/CBTTape/CBT730
+    exclude:
+    - clomonitor
+  - name: CBT731
+    url: https://github.com/CBTTape/CBT731
+    exclude:
+    - clomonitor
+  - name: CBT732
+    url: https://github.com/CBTTape/CBT732
+    exclude:
+    - clomonitor
+  - name: CBT733
+    url: https://github.com/CBTTape/CBT733
+    exclude:
+    - clomonitor
+  - name: CBT734
+    url: https://github.com/CBTTape/CBT734
+    exclude:
+    - clomonitor
+  - name: CBT735
+    url: https://github.com/CBTTape/CBT735
+    exclude:
+    - clomonitor
+  - name: CBT736
+    url: https://github.com/CBTTape/CBT736
+    exclude:
+    - clomonitor
+  - name: CBT737
+    url: https://github.com/CBTTape/CBT737
+    exclude:
+    - clomonitor
+  - name: CBT738
+    url: https://github.com/CBTTape/CBT738
+    exclude:
+    - clomonitor
+  - name: CBT739
+    url: https://github.com/CBTTape/CBT739
+    exclude:
+    - clomonitor
+  - name: CBT740
+    url: https://github.com/CBTTape/CBT740
+    exclude:
+    - clomonitor
+  - name: CBT741
+    url: https://github.com/CBTTape/CBT741
+    exclude:
+    - clomonitor
+  - name: CBT742
+    url: https://github.com/CBTTape/CBT742
+    exclude:
+    - clomonitor
+  - name: CBT743
+    url: https://github.com/CBTTape/CBT743
+    exclude:
+    - clomonitor
+  - name: CBT744
+    url: https://github.com/CBTTape/CBT744
+    exclude:
+    - clomonitor
+  - name: CBT745
+    url: https://github.com/CBTTape/CBT745
+    exclude:
+    - clomonitor
+  - name: CBT746
+    url: https://github.com/CBTTape/CBT746
+    exclude:
+    - clomonitor
+  - name: CBT747
+    url: https://github.com/CBTTape/CBT747
+    exclude:
+    - clomonitor
+  - name: CBT748
+    url: https://github.com/CBTTape/CBT748
+    exclude:
+    - clomonitor
+  - name: CBT749
+    url: https://github.com/CBTTape/CBT749
+    exclude:
+    - clomonitor
+  - name: CBT750
+    url: https://github.com/CBTTape/CBT750
+    exclude:
+    - clomonitor
+  - name: CBT751
+    url: https://github.com/CBTTape/CBT751
+    exclude:
+    - clomonitor
+  - name: CBT752
+    url: https://github.com/CBTTape/CBT752
+    exclude:
+    - clomonitor
+  - name: CBT753
+    url: https://github.com/CBTTape/CBT753
+    exclude:
+    - clomonitor
+  - name: CBT754
+    url: https://github.com/CBTTape/CBT754
+    exclude:
+    - clomonitor
+  - name: CBT755
+    url: https://github.com/CBTTape/CBT755
+    exclude:
+    - clomonitor
+  - name: CBT756
+    url: https://github.com/CBTTape/CBT756
+    exclude:
+    - clomonitor
+  - name: CBT757
+    url: https://github.com/CBTTape/CBT757
+    exclude:
+    - clomonitor
+  - name: CBT758
+    url: https://github.com/CBTTape/CBT758
+    exclude:
+    - clomonitor
+  - name: CBT759
+    url: https://github.com/CBTTape/CBT759
+    exclude:
+    - clomonitor
+  - name: CBT760
+    url: https://github.com/CBTTape/CBT760
+    exclude:
+    - clomonitor
+  - name: CBT761
+    url: https://github.com/CBTTape/CBT761
+    exclude:
+    - clomonitor
+  - name: CBT762
+    url: https://github.com/CBTTape/CBT762
+    exclude:
+    - clomonitor
+  - name: CBT763
+    url: https://github.com/CBTTape/CBT763
+    exclude:
+    - clomonitor
+  - name: CBT764
+    url: https://github.com/CBTTape/CBT764
+    exclude:
+    - clomonitor
+  - name: CBT765
+    url: https://github.com/CBTTape/CBT765
+    exclude:
+    - clomonitor
+  - name: CBT766
+    url: https://github.com/CBTTape/CBT766
+    exclude:
+    - clomonitor
+  - name: CBT767
+    url: https://github.com/CBTTape/CBT767
+    exclude:
+    - clomonitor
+  - name: CBT768
+    url: https://github.com/CBTTape/CBT768
+    exclude:
+    - clomonitor
+  - name: CBT769
+    url: https://github.com/CBTTape/CBT769
+    exclude:
+    - clomonitor
+  - name: CBT770
+    url: https://github.com/CBTTape/CBT770
+    exclude:
+    - clomonitor
+  - name: CBT771
+    url: https://github.com/CBTTape/CBT771
+    exclude:
+    - clomonitor
+  - name: CBT772
+    url: https://github.com/CBTTape/CBT772
+    exclude:
+    - clomonitor
+  - name: CBT773
+    url: https://github.com/CBTTape/CBT773
+    exclude:
+    - clomonitor
+  - name: CBT774
+    url: https://github.com/CBTTape/CBT774
+    exclude:
+    - clomonitor
+  - name: CBT775
+    url: https://github.com/CBTTape/CBT775
+    exclude:
+    - clomonitor
+  - name: CBT776
+    url: https://github.com/CBTTape/CBT776
+    exclude:
+    - clomonitor
+  - name: CBT777
+    url: https://github.com/CBTTape/CBT777
+    exclude:
+    - clomonitor
+  - name: CBT778
+    url: https://github.com/CBTTape/CBT778
+    exclude:
+    - clomonitor
+  - name: CBT779
+    url: https://github.com/CBTTape/CBT779
+    exclude:
+    - clomonitor
+  - name: CBT783
+    url: https://github.com/CBTTape/CBT783
+    exclude:
+    - clomonitor
+  - name: CBT784
+    url: https://github.com/CBTTape/CBT784
+    exclude:
+    - clomonitor
+  - name: CBT785
+    url: https://github.com/CBTTape/CBT785
+    exclude:
+    - clomonitor
+  - name: CBT786
+    url: https://github.com/CBTTape/CBT786
+    exclude:
+    - clomonitor
+  - name: CBT787
+    url: https://github.com/CBTTape/CBT787
+    exclude:
+    - clomonitor
+  - name: CBT788
+    url: https://github.com/CBTTape/CBT788
+    exclude:
+    - clomonitor
+  - name: CBT789
+    url: https://github.com/CBTTape/CBT789
+    exclude:
+    - clomonitor
+  - name: CBT790
+    url: https://github.com/CBTTape/CBT790
+    exclude:
+    - clomonitor
+  - name: CBT791
+    url: https://github.com/CBTTape/CBT791
+    exclude:
+    - clomonitor
+  - name: CBT792
+    url: https://github.com/CBTTape/CBT792
+    exclude:
+    - clomonitor
+  - name: CBT793
+    url: https://github.com/CBTTape/CBT793
+    exclude:
+    - clomonitor
+  - name: CBT794
+    url: https://github.com/CBTTape/CBT794
+    exclude:
+    - clomonitor
+  - name: CBT795
+    url: https://github.com/CBTTape/CBT795
+    exclude:
+    - clomonitor
+  - name: CBT796
+    url: https://github.com/CBTTape/CBT796
+    exclude:
+    - clomonitor
+  - name: CBT797
+    url: https://github.com/CBTTape/CBT797
+    exclude:
+    - clomonitor
+  - name: CBT798
+    url: https://github.com/CBTTape/CBT798
+    exclude:
+    - clomonitor
+  - name: CBT799
+    url: https://github.com/CBTTape/CBT799
+    exclude:
+    - clomonitor
+  - name: CBT800
+    url: https://github.com/CBTTape/CBT800
+    exclude:
+    - clomonitor
+  - name: CBT801
+    url: https://github.com/CBTTape/CBT801
+    exclude:
+    - clomonitor
+  - name: CBT802
+    url: https://github.com/CBTTape/CBT802
+    exclude:
+    - clomonitor
+  - name: CBT803
+    url: https://github.com/CBTTape/CBT803
+    exclude:
+    - clomonitor
+  - name: CBT804
+    url: https://github.com/CBTTape/CBT804
+    exclude:
+    - clomonitor
+  - name: CBT805
+    url: https://github.com/CBTTape/CBT805
+    exclude:
+    - clomonitor
+  - name: CBT806
+    url: https://github.com/CBTTape/CBT806
+    exclude:
+    - clomonitor
+  - name: CBT807
+    url: https://github.com/CBTTape/CBT807
+    exclude:
+    - clomonitor
+  - name: CBT809
+    url: https://github.com/CBTTape/CBT809
+    exclude:
+    - clomonitor
+  - name: CBT810
+    url: https://github.com/CBTTape/CBT810
+    exclude:
+    - clomonitor
+  - name: CBT811
+    url: https://github.com/CBTTape/CBT811
+    exclude:
+    - clomonitor
+  - name: CBT812
+    url: https://github.com/CBTTape/CBT812
+    exclude:
+    - clomonitor
+  - name: CBT813
+    url: https://github.com/CBTTape/CBT813
+    exclude:
+    - clomonitor
+  - name: CBT814
+    url: https://github.com/CBTTape/CBT814
+    exclude:
+    - clomonitor
+  - name: CBT815
+    url: https://github.com/CBTTape/CBT815
+    exclude:
+    - clomonitor
+  - name: CBT816
+    url: https://github.com/CBTTape/CBT816
+    exclude:
+    - clomonitor
+  - name: CBT817
+    url: https://github.com/CBTTape/CBT817
+    exclude:
+    - clomonitor
+  - name: CBT818
+    url: https://github.com/CBTTape/CBT818
+    exclude:
+    - clomonitor
+  - name: CBT819
+    url: https://github.com/CBTTape/CBT819
+    exclude:
+    - clomonitor
+  - name: CBT820
+    url: https://github.com/CBTTape/CBT820
+    exclude:
+    - clomonitor
+  - name: CBT821
+    url: https://github.com/CBTTape/CBT821
+    exclude:
+    - clomonitor
+  - name: CBT822
+    url: https://github.com/CBTTape/CBT822
+    exclude:
+    - clomonitor
+  - name: CBT823
+    url: https://github.com/CBTTape/CBT823
+    exclude:
+    - clomonitor
+  - name: CBT824
+    url: https://github.com/CBTTape/CBT824
+    exclude:
+    - clomonitor
+  - name: CBT825
+    url: https://github.com/CBTTape/CBT825
+    exclude:
+    - clomonitor
+  - name: CBT826
+    url: https://github.com/CBTTape/CBT826
+    exclude:
+    - clomonitor
+  - name: CBT827
+    url: https://github.com/CBTTape/CBT827
+    exclude:
+    - clomonitor
+  - name: CBT828
+    url: https://github.com/CBTTape/CBT828
+    exclude:
+    - clomonitor
+  - name: CBT829
+    url: https://github.com/CBTTape/CBT829
+    exclude:
+    - clomonitor
+  - name: CBT830
+    url: https://github.com/CBTTape/CBT830
+    exclude:
+    - clomonitor
+  - name: CBT831
+    url: https://github.com/CBTTape/CBT831
+    exclude:
+    - clomonitor
+  - name: CBT832
+    url: https://github.com/CBTTape/CBT832
+    exclude:
+    - clomonitor
+  - name: CBT833
+    url: https://github.com/CBTTape/CBT833
+    exclude:
+    - clomonitor
+  - name: CBT834
+    url: https://github.com/CBTTape/CBT834
+    exclude:
+    - clomonitor
+  - name: CBT835
+    url: https://github.com/CBTTape/CBT835
+    exclude:
+    - clomonitor
+  - name: CBT836
+    url: https://github.com/CBTTape/CBT836
+    exclude:
+    - clomonitor
+  - name: CBT837
+    url: https://github.com/CBTTape/CBT837
+    exclude:
+    - clomonitor
+  - name: CBT838
+    url: https://github.com/CBTTape/CBT838
+    exclude:
+    - clomonitor
+  - name: CBT839
+    url: https://github.com/CBTTape/CBT839
+    exclude:
+    - clomonitor
+  - name: CBT840
+    url: https://github.com/CBTTape/CBT840
+    exclude:
+    - clomonitor
+  - name: CBT841
+    url: https://github.com/CBTTape/CBT841
+    exclude:
+    - clomonitor
+  - name: CBT842
+    url: https://github.com/CBTTape/CBT842
+    exclude:
+    - clomonitor
+  - name: CBT843
+    url: https://github.com/CBTTape/CBT843
+    exclude:
+    - clomonitor
+  - name: CBT844
+    url: https://github.com/CBTTape/CBT844
+    exclude:
+    - clomonitor
+  - name: CBT845
+    url: https://github.com/CBTTape/CBT845
+    exclude:
+    - clomonitor
+  - name: CBT846
+    url: https://github.com/CBTTape/CBT846
+    exclude:
+    - clomonitor
+  - name: CBT847
+    url: https://github.com/CBTTape/CBT847
+    exclude:
+    - clomonitor
+  - name: CBT848
+    url: https://github.com/CBTTape/CBT848
+    exclude:
+    - clomonitor
+  - name: CBT849
+    url: https://github.com/CBTTape/CBT849
+    exclude:
+    - clomonitor
+  - name: CBT850
+    url: https://github.com/CBTTape/CBT850
+    exclude:
+    - clomonitor
+  - name: CBT851
+    url: https://github.com/CBTTape/CBT851
+    exclude:
+    - clomonitor
+  - name: CBT852
+    url: https://github.com/CBTTape/CBT852
+    exclude:
+    - clomonitor
+  - name: CBT853
+    url: https://github.com/CBTTape/CBT853
+    exclude:
+    - clomonitor
+  - name: CBT854
+    url: https://github.com/CBTTape/CBT854
+    exclude:
+    - clomonitor
+  - name: CBT855
+    url: https://github.com/CBTTape/CBT855
+    exclude:
+    - clomonitor
+  - name: CBT856
+    url: https://github.com/CBTTape/CBT856
+    exclude:
+    - clomonitor
+  - name: CBT857
+    url: https://github.com/CBTTape/CBT857
+    exclude:
+    - clomonitor
+  - name: CBT858
+    url: https://github.com/CBTTape/CBT858
+    exclude:
+    - clomonitor
+  - name: CBT859
+    url: https://github.com/CBTTape/CBT859
+    exclude:
+    - clomonitor
+  - name: CBT860
+    url: https://github.com/CBTTape/CBT860
+    exclude:
+    - clomonitor
+  - name: CBT861
+    url: https://github.com/CBTTape/CBT861
+    exclude:
+    - clomonitor
+  - name: CBT862
+    url: https://github.com/CBTTape/CBT862
+    exclude:
+    - clomonitor
+  - name: CBT863
+    url: https://github.com/CBTTape/CBT863
+    exclude:
+    - clomonitor
+  - name: CBT864
+    url: https://github.com/CBTTape/CBT864
+    exclude:
+    - clomonitor
+  - name: CBT865
+    url: https://github.com/CBTTape/CBT865
+    exclude:
+    - clomonitor
+  - name: CBT866
+    url: https://github.com/CBTTape/CBT866
+    exclude:
+    - clomonitor
+  - name: CBT867
+    url: https://github.com/CBTTape/CBT867
+    exclude:
+    - clomonitor
+  - name: CBT868
+    url: https://github.com/CBTTape/CBT868
+    exclude:
+    - clomonitor
+  - name: CBT869
+    url: https://github.com/CBTTape/CBT869
+    exclude:
+    - clomonitor
+  - name: CBT870
+    url: https://github.com/CBTTape/CBT870
+    exclude:
+    - clomonitor
+  - name: CBT871
+    url: https://github.com/CBTTape/CBT871
+    exclude:
+    - clomonitor
+  - name: CBT872
+    url: https://github.com/CBTTape/CBT872
+    exclude:
+    - clomonitor
+  - name: CBT873
+    url: https://github.com/CBTTape/CBT873
+    exclude:
+    - clomonitor
+  - name: CBT874
+    url: https://github.com/CBTTape/CBT874
+    exclude:
+    - clomonitor
+  - name: CBT875
+    url: https://github.com/CBTTape/CBT875
+    exclude:
+    - clomonitor
+  - name: CBT876
+    url: https://github.com/CBTTape/CBT876
+    exclude:
+    - clomonitor
+  - name: CBT877
+    url: https://github.com/CBTTape/CBT877
+    exclude:
+    - clomonitor
+  - name: CBT878
+    url: https://github.com/CBTTape/CBT878
+    exclude:
+    - clomonitor
+  - name: CBT879
+    url: https://github.com/CBTTape/CBT879
+    exclude:
+    - clomonitor
+  - name: CBT880
+    url: https://github.com/CBTTape/CBT880
+    exclude:
+    - clomonitor
+  - name: CBT881
+    url: https://github.com/CBTTape/CBT881
+    exclude:
+    - clomonitor
+  - name: CBT882
+    url: https://github.com/CBTTape/CBT882
+    exclude:
+    - clomonitor
+  - name: CBT883
+    url: https://github.com/CBTTape/CBT883
+    exclude:
+    - clomonitor
+  - name: CBT884
+    url: https://github.com/CBTTape/CBT884
+    exclude:
+    - clomonitor
+  - name: CBT885
+    url: https://github.com/CBTTape/CBT885
+    exclude:
+    - clomonitor
+  - name: CBT886
+    url: https://github.com/CBTTape/CBT886
+    exclude:
+    - clomonitor
+  - name: CBT887
+    url: https://github.com/CBTTape/CBT887
+    exclude:
+    - clomonitor
+  - name: CBT888
+    url: https://github.com/CBTTape/CBT888
+    exclude:
+    - clomonitor
+  - name: CBT889
+    url: https://github.com/CBTTape/CBT889
+    exclude:
+    - clomonitor
+  - name: CBT890
+    url: https://github.com/CBTTape/CBT890
+    exclude:
+    - clomonitor
+  - name: CBT891
+    url: https://github.com/CBTTape/CBT891
+    exclude:
+    - clomonitor
+  - name: CBT892
+    url: https://github.com/CBTTape/CBT892
+    exclude:
+    - clomonitor
+  - name: CBT893
+    url: https://github.com/CBTTape/CBT893
+    exclude:
+    - clomonitor
+  - name: CBT894
+    url: https://github.com/CBTTape/CBT894
+    exclude:
+    - clomonitor
+  - name: CBT895
+    url: https://github.com/CBTTape/CBT895
+    exclude:
+    - clomonitor
+  - name: CBT896
+    url: https://github.com/CBTTape/CBT896
+    exclude:
+    - clomonitor
+  - name: CBT897
+    url: https://github.com/CBTTape/CBT897
+    exclude:
+    - clomonitor
+  - name: CBT898
+    url: https://github.com/CBTTape/CBT898
+    exclude:
+    - clomonitor
+  - name: CBT899
+    url: https://github.com/CBTTape/CBT899
+    exclude:
+    - clomonitor
+  - name: CBT900
+    url: https://github.com/CBTTape/CBT900
+    exclude:
+    - clomonitor
+  - name: CBT901
+    url: https://github.com/CBTTape/CBT901
+    exclude:
+    - clomonitor
+  - name: CBT902
+    url: https://github.com/CBTTape/CBT902
+    exclude:
+    - clomonitor
+  - name: CBT903
+    url: https://github.com/CBTTape/CBT903
+    exclude:
+    - clomonitor
+  - name: CBT904
+    url: https://github.com/CBTTape/CBT904
+    exclude:
+    - clomonitor
+  - name: CBT905
+    url: https://github.com/CBTTape/CBT905
+    exclude:
+    - clomonitor
+  - name: CBT906
+    url: https://github.com/CBTTape/CBT906
+    exclude:
+    - clomonitor
+  - name: CBT907
+    url: https://github.com/CBTTape/CBT907
+    exclude:
+    - clomonitor
+  - name: CBT908
+    url: https://github.com/CBTTape/CBT908
+    exclude:
+    - clomonitor
+  - name: CBT909
+    url: https://github.com/CBTTape/CBT909
+    exclude:
+    - clomonitor
+  - name: CBT910
+    url: https://github.com/CBTTape/CBT910
+    exclude:
+    - clomonitor
+  - name: CBT911
+    url: https://github.com/CBTTape/CBT911
+    exclude:
+    - clomonitor
+  - name: CBT912
+    url: https://github.com/CBTTape/CBT912
+    exclude:
+    - clomonitor
+  - name: CBT913
+    url: https://github.com/CBTTape/CBT913
+    exclude:
+    - clomonitor
+  - name: CBT914
+    url: https://github.com/CBTTape/CBT914
+    exclude:
+    - clomonitor
+  - name: CBT915
+    url: https://github.com/CBTTape/CBT915
+    exclude:
+    - clomonitor
+  - name: CBT916
+    url: https://github.com/CBTTape/CBT916
+    exclude:
+    - clomonitor
+  - name: CBT917
+    url: https://github.com/CBTTape/CBT917
+    exclude:
+    - clomonitor
+  - name: CBT918
+    url: https://github.com/CBTTape/CBT918
+    exclude:
+    - clomonitor
+  - name: CBT919
+    url: https://github.com/CBTTape/CBT919
+    exclude:
+    - clomonitor
+  - name: CBT920
+    url: https://github.com/CBTTape/CBT920
+    exclude:
+    - clomonitor
+  - name: CBT921
+    url: https://github.com/CBTTape/CBT921
+    exclude:
+    - clomonitor
+  - name: CBT922
+    url: https://github.com/CBTTape/CBT922
+    exclude:
+    - clomonitor
+  - name: CBT923
+    url: https://github.com/CBTTape/CBT923
+    exclude:
+    - clomonitor
+  - name: CBT924
+    url: https://github.com/CBTTape/CBT924
+    exclude:
+    - clomonitor
+  - name: CBT925
+    url: https://github.com/CBTTape/CBT925
+    exclude:
+    - clomonitor
+  - name: CBT926
+    url: https://github.com/CBTTape/CBT926
+    exclude:
+    - clomonitor
+  - name: CBT927
+    url: https://github.com/CBTTape/CBT927
+    exclude:
+    - clomonitor
+  - name: CBT928
+    url: https://github.com/CBTTape/CBT928
+    exclude:
+    - clomonitor
+  - name: CBT929
+    url: https://github.com/CBTTape/CBT929
+    exclude:
+    - clomonitor
+  - name: CBT930
+    url: https://github.com/CBTTape/CBT930
+    exclude:
+    - clomonitor
+  - name: CBT931
+    url: https://github.com/CBTTape/CBT931
+    exclude:
+    - clomonitor
+  - name: CBT934
+    url: https://github.com/CBTTape/CBT934
+    exclude:
+    - clomonitor
+  - name: CBT935
+    url: https://github.com/CBTTape/CBT935
+    exclude:
+    - clomonitor
+  - name: CBT936
+    url: https://github.com/CBTTape/CBT936
+    exclude:
+    - clomonitor
+  - name: CBT938
+    url: https://github.com/CBTTape/CBT938
+    exclude:
+    - clomonitor
+  - name: CBT939
+    url: https://github.com/CBTTape/CBT939
+    exclude:
+    - clomonitor
+  - name: CBT940
+    url: https://github.com/CBTTape/CBT940
+    exclude:
+    - clomonitor
+  - name: CBT941
+    url: https://github.com/CBTTape/CBT941
+    exclude:
+    - clomonitor
+  - name: CBT942
+    url: https://github.com/CBTTape/CBT942
+    exclude:
+    - clomonitor
+  - name: CBT943
+    url: https://github.com/CBTTape/CBT943
+    exclude:
+    - clomonitor
+  - name: CBT944
+    url: https://github.com/CBTTape/CBT944
+    exclude:
+    - clomonitor
+  - name: CBT945
+    url: https://github.com/CBTTape/CBT945
+    exclude:
+    - clomonitor
+  - name: CBT946
+    url: https://github.com/CBTTape/CBT946
+    exclude:
+    - clomonitor
+  - name: CBT947
+    url: https://github.com/CBTTape/CBT947
+    exclude:
+    - clomonitor
+  - name: CBT948
+    url: https://github.com/CBTTape/CBT948
+    exclude:
+    - clomonitor
+  - name: CBT949
+    url: https://github.com/CBTTape/CBT949
+    exclude:
+    - clomonitor
+  - name: CBT950
+    url: https://github.com/CBTTape/CBT950
+    exclude:
+    - clomonitor
+  - name: CBT951
+    url: https://github.com/CBTTape/CBT951
+    exclude:
+    - clomonitor
+  - name: CBT952
+    url: https://github.com/CBTTape/CBT952
+    exclude:
+    - clomonitor
+  - name: CBT953
+    url: https://github.com/CBTTape/CBT953
+    exclude:
+    - clomonitor
+  - name: CBT954
+    url: https://github.com/CBTTape/CBT954
+    exclude:
+    - clomonitor
+  - name: CBT955
+    url: https://github.com/CBTTape/CBT955
+    exclude:
+    - clomonitor
+  - name: CBT956
+    url: https://github.com/CBTTape/CBT956
+    exclude:
+    - clomonitor
+  - name: CBT957
+    url: https://github.com/CBTTape/CBT957
+    exclude:
+    - clomonitor
+  - name: CBT958
+    url: https://github.com/CBTTape/CBT958
+    exclude:
+    - clomonitor
+  - name: CBT959
+    url: https://github.com/CBTTape/CBT959
+    exclude:
+    - clomonitor
+  - name: CBT960
+    url: https://github.com/CBTTape/CBT960
+    exclude:
+    - clomonitor
+  - name: CBT961
+    url: https://github.com/CBTTape/CBT961
+    exclude:
+    - clomonitor
+  - name: CBT962
+    url: https://github.com/CBTTape/CBT962
+    exclude:
+    - clomonitor
+  - name: CBT963
+    url: https://github.com/CBTTape/CBT963
+    exclude:
+    - clomonitor
+  - name: CBT964
+    url: https://github.com/CBTTape/CBT964
+    exclude:
+    - clomonitor
+  - name: CBT965
+    url: https://github.com/CBTTape/CBT965
+    exclude:
+    - clomonitor
+  - name: CBT966
+    url: https://github.com/CBTTape/CBT966
+    exclude:
+    - clomonitor
+  - name: CBT967
+    url: https://github.com/CBTTape/CBT967
+    exclude:
+    - clomonitor
+  - name: CBT968
+    url: https://github.com/CBTTape/CBT968
+    exclude:
+    - clomonitor
+  - name: CBT969
+    url: https://github.com/CBTTape/CBT969
+    exclude:
+    - clomonitor
+  - name: CBT970
+    url: https://github.com/CBTTape/CBT970
+    exclude:
+    - clomonitor
+  - name: CBT971
+    url: https://github.com/CBTTape/CBT971
+    exclude:
+    - clomonitor
+  - name: CBT972
+    url: https://github.com/CBTTape/CBT972
+    exclude:
+    - clomonitor
+  - name: CBT973
+    url: https://github.com/CBTTape/CBT973
+    exclude:
+    - clomonitor
+  - name: CBT974
+    url: https://github.com/CBTTape/CBT974
+    exclude:
+    - clomonitor
+  - name: CBT975
+    url: https://github.com/CBTTape/CBT975
+    exclude:
+    - clomonitor
+  - name: CBT976
+    url: https://github.com/CBTTape/CBT976
+    exclude:
+    - clomonitor
+  - name: CBT977
+    url: https://github.com/CBTTape/CBT977
+    exclude:
+    - clomonitor
+  - name: CBT978
+    url: https://github.com/CBTTape/CBT978
+    exclude:
+    - clomonitor
+  - name: CBT979
+    url: https://github.com/CBTTape/CBT979
+    exclude:
+    - clomonitor
+  - name: CBT980
+    url: https://github.com/CBTTape/CBT980
+    exclude:
+    - clomonitor
+  - name: CBT981
+    url: https://github.com/CBTTape/CBT981
+    exclude:
+    - clomonitor
+  - name: CBT982
+    url: https://github.com/CBTTape/CBT982
+    exclude:
+    - clomonitor
+  - name: CBT983
+    url: https://github.com/CBTTape/CBT983
+    exclude:
+    - clomonitor
+  - name: CBT984
+    url: https://github.com/CBTTape/CBT984
+    exclude:
+    - clomonitor
+  - name: CBT985
+    url: https://github.com/CBTTape/CBT985
+    exclude:
+    - clomonitor
+  - name: CBT986
+    url: https://github.com/CBTTape/CBT986
+    exclude:
+    - clomonitor
+  - name: CBT987
+    url: https://github.com/CBTTape/CBT987
+    exclude:
+    - clomonitor
+  - name: CBT988
+    url: https://github.com/CBTTape/CBT988
+    exclude:
+    - clomonitor
+  - name: CBT989
+    url: https://github.com/CBTTape/CBT989
+    exclude:
+    - clomonitor
+  - name: CBT990
+    url: https://github.com/CBTTape/CBT990
+    exclude:
+    - clomonitor
+  - name: CBT991
+    url: https://github.com/CBTTape/CBT991
+    exclude:
+    - clomonitor
+  - name: CBT992
+    url: https://github.com/CBTTape/CBT992
+    exclude:
+    - clomonitor
+  - name: CBT993
+    url: https://github.com/CBTTape/CBT993
+    exclude:
+    - clomonitor
+  - name: CBT994
+    url: https://github.com/CBTTape/CBT994
+    exclude:
+    - clomonitor
+  - name: CBT995
+    url: https://github.com/CBTTape/CBT995
+    exclude:
+    - clomonitor
+  - name: CBT996
+    url: https://github.com/CBTTape/CBT996
+    exclude:
+    - clomonitor
+  - name: CBT997
+    url: https://github.com/CBTTape/CBT997
+    exclude:
+    - clomonitor
+  - name: CBT998
+    url: https://github.com/CBTTape/CBT998
+    exclude:
+    - clomonitor
+  - name: CBT999
+    url: https://github.com/CBTTape/CBT999
+    exclude:
+    - clomonitor
 - name: cobol-check
   display_name: COBOL Check
   description: The mission of the COBOL Check project is to provide a fine-grained
@@ -39,36 +4083,6 @@
   repositories:
   - name: cobol-check
     url: https://github.com/openmainframeproject/cobol-check
-    exclude:
-    - clomonitor
-- name: cobol-programming-course
-  display_name: COBOL Programming Course
-  description: The COBOL Programming Course is an open source initiative under the
-    Open Mainframe Project that offers introductory-level educational COBOL materials
-    with modern tooling.
-  category: Visual Effects and Computer Graphics
-  logo_url: https://artwork.openmainframeproject.org/projects/cobol-programming-courseNone
-  logo_url_dark: https://artwork.openmainframeproject.org/projects/cobol-programming-courseNone
-  devstats_url: null
-  maturity: graduated
-  repositories:
-  - name: cobol-programming-course
-    url: https://github.com/openmainframeproject/cobol-programming-course
-    exclude:
-    - clomonitor
-- name: cobol-working-group
-  display_name: COBOL Working Group
-  description: The COBOL Working Group aims to promote the language by changing its
-    perception and making materials more accessible to help more developers and students
-    learn it on their mainframe journey.
-  category: Visual Effects and Computer Graphics
-  logo_url: https://artwork.openmainframeproject.org/projects/cobol-working-groupNone
-  logo_url_dark: https://artwork.openmainframeproject.org/projects/cobol-working-groupNone
-  devstats_url: null
-  maturity: working-group
-  repositories:
-  - name: wg-cobol
-    url: https://github.com/openmainframeproject/wg-cobol
     exclude:
     - clomonitor
 - name: feilong
@@ -100,65 +4114,60 @@
     url: https://github.com/galasa-dev/galasa.dev
     exclude:
     - clomonitor
-- name: genevaers
-  display_name: GenevaERS
-  description: GenevaERS is the single-pass optimization engine for data extraction
-    and reporting on z/OS. Originally developed by PricewaterhouseCoopers as the Geneva
-    Enterprise Reporting System and acquired by IBM, GenevaERS offers businesses a
-    high-level reporting solution uniquely tuned for big data scanning and improved
-    financial transparency for better decision-making. This project combines the processing
-    power of GenevaERS, the reliability of the mainframe and the dynamic open source
-    community.
-  category: Visual Effects and Computer Graphics
-  logo_url: https://artwork.openmainframeproject.org/projects/genevaersNone
-  logo_url_dark: https://artwork.openmainframeproject.org/projects/genevaersNone
-  devstats_url: null
-  maturity: graduated
-  repositories:
-  - name: Community
-    url: https://github.com/genevaers/Community
+  - name: TSC
+    url: https://github.com/galasa-dev/TSC
     exclude:
     - clomonitor
-- name: omp-linux-distributions-wg
-  display_name: Linux Distributions Working Group
-  description: The purpose of this working group is to oversee the health and maintenance
-    of the s390x port of various Linux distributions to ensure that the s390x port
-    remains a supported architecture for them all. To this end, the group will collaborate
-    on shared challenges and successes, work together to nurture new contributors,
-    and make sure they also have the infrastructure they need.
-  category: Visual Effects and Computer Graphics
-  logo_url: https://artwork.openmainframeproject.org/projects/omp-linux-distributions-wgNone
-  logo_url_dark: https://artwork.openmainframeproject.org/projects/omp-linux-distributions-wgNone
-  devstats_url: null
-  maturity: working-group
-  repositories: []
-- name: mainframe-modernization-wg
-  display_name: Mainframe Modernization WG
-  description: The purpose of this working group is to oversee the health and maintenance
-    of the s390x port of various Linux distributions to ensure that the s390x port
-    remains a supported architecture for them all.
-  category: Visual Effects and Computer Graphics
-  logo_url: https://artwork.openmainframeproject.org/projects/mainframe-modernization-wgNone
-  logo_url_dark: https://artwork.openmainframeproject.org/projects/mainframe-modernization-wgNone
-  devstats_url: null
-  maturity: working-group
-  repositories: []
-- name: mainframe-open-education
-  display_name: Mainframe Open Education
-  description: 'The Project''s mission is to provide an open-source platform for mainframe
-    users to develop essential skills for future hires and to encourage knowledge
-    sharing
-
-    and community contribution. We aim to align a foundational curriculum with cultivating
-    new mainframe skills for enterprise computing in today''s hybrid data center.'
-  category: Visual Effects and Computer Graphics
-  logo_url: https://artwork.openmainframeproject.org/projects/mainframe-open-educationNone
-  logo_url_dark: https://artwork.openmainframeproject.org/projects/mainframe-open-educationNone
-  devstats_url: null
-  maturity: graduated
-  repositories:
-  - name: omp-education
-    url: https://github.com/openmainframeproject/omp-education
+  - name: argocd-ibmcloud
+    url: https://github.com/galasa-dev/argocd-ibmcloud
+    exclude:
+    - clomonitor
+  - name: automation
+    url: https://github.com/galasa-dev/automation
+    exclude:
+    - clomonitor
+  - name: cli
+    url: https://github.com/galasa-dev/cli
+    exclude:
+    - clomonitor
+  - name: galasa
+    url: https://github.com/galasa-dev/galasa
+    exclude:
+    - clomonitor
+  - name: githubapp-copyright
+    url: https://github.com/galasa-dev/githubapp-copyright
+    exclude:
+    - clomonitor
+  - name: helm
+    url: https://github.com/galasa-dev/helm
+    exclude:
+    - clomonitor
+  - name: homebrew-tap
+    url: https://github.com/galasa-dev/homebrew-tap
+    exclude:
+    - clomonitor
+  - name: integratedtests
+    url: https://github.com/galasa-dev/integratedtests
+    exclude:
+    - clomonitor
+  - name: isolated
+    url: https://github.com/galasa-dev/isolated
+    exclude:
+    - clomonitor
+  - name: playground
+    url: https://github.com/galasa-dev/playground
+    exclude:
+    - clomonitor
+  - name: projectmanagement
+    url: https://github.com/galasa-dev/projectmanagement
+    exclude:
+    - clomonitor
+  - name: simplatform
+    url: https://github.com/galasa-dev/simplatform
+    exclude:
+    - clomonitor
+  - name: webui
+    url: https://github.com/galasa-dev/webui
     exclude:
     - clomonitor
 - name: software-discovery-tool
@@ -175,21 +4184,6 @@
     url: https://github.com/openmainframeproject/software-discovery-tool
     exclude:
     - clomonitor
-- name: tersedecompress
-  display_name: TerseDecompress
-  description: TerseDecompress is a java program that can be used to decompress files
-    which have been previously compressed on an IBM Mainframe using the TERSE / AMATERSE
-    program (on IBM z/OS or IBM z/VM).
-  category: Visual Effects and Computer Graphics
-  logo_url: https://artwork.openmainframeproject.org/projects/tersedecompressNone
-  logo_url_dark: https://artwork.openmainframeproject.org/projects/tersedecompressNone
-  devstats_url: null
-  maturity: sandbox
-  repositories:
-  - name: tersedecompress
-    url: https://github.com/openmainframeproject/tersedecompress
-    exclude:
-    - clomonitor
 - name: tessia
   display_name: Tessia
   description: A tool to automate and simplify the installation/configuration/testing
@@ -202,91 +4196,5 @@
   repositories:
   - name: tessia
     url: https://github.com/tessia-project/tessia
-    exclude:
-    - clomonitor
-- name: null
-  display_name: TSTerm
-  description: A terminal written in TypeScript
-  category: Visual Effects and Computer Graphics
-  logo_url: https://artwork.openmainframeproject.org/projects/tsterm/horizontal/color/tsterm-horizontal-color.svg
-  logo_url_dark: https://artwork.openmainframeproject.org/projects/tsterm/horizontal/color/tsterm-horizontal-color.svg
-  devstats_url: null
-  maturity: sandbox
-  repositories:
-  - name: TSTerm
-    url: https://github.com/TSTerminal/TSTerm
-    exclude:
-    - clomonitor
-- name: zvm-community-tools
-  display_name: z/VM Community Tools
-  description: The Open Mainframe Project intends to increase collaboration across
-    the mainframe community and to developed shared tool sets and resources.
-  category: Visual Effects and Computer Graphics
-  logo_url: https://artwork.openmainframeproject.org/projects/zvm-community-tools/horizontal/color/zvm-community-tools-horizontal-color.svg
-  logo_url_dark: https://artwork.openmainframeproject.org/projects/zvm-community-tools/horizontal/color/zvm-community-tools-horizontal-color.svg
-  devstats_url: null
-  maturity: sandbox
-  repositories:
-  - name: zvm-community-tools
-    url: https://github.com/openmainframeproject/zvm-community-tools
-    exclude:
-    - clomonitor
-- name: zopen
-  display_name: Zopen
-  description: 'The z/OS Open Tools github organization serves as a collaborative
-    github organization for z/OS UNIX developers, users, and organizations who contribute
-    to and utilize open-source tools on z/OS.
-
-    z/OS Open Tools started in 2022 with a handful of projects and now currently hosts
-    over 180+ projects, with the aim of providing the build recipes as well as the
-    patches to enable popular open source packages to build and run on z/OS. z/OS
-    Open Tools includes ports for popular open source projects like Git, Bash, Curl,
-    CMake, Make, GPG, LLama.cpp, Vim, Nano and many more.
-
-    z/OS Open Tools also distributes binaries for each of the tools as Github releases.
-    It also provides a z/OS UNIX package manager (zopen) that makes it easy to consume
-    the 180+ tools directly on z/OS.'
-  category: Visual Effects and Computer Graphics
-  logo_url: https://artwork.openmainframeproject.org/projects/zopenNone
-  logo_url_dark: https://artwork.openmainframeproject.org/projects/zopenNone
-  devstats_url: null
-  maturity: sandbox
-  repositories:
-  - name: m4port
-    url: https://github.com/zopencommunity/m4port
-    exclude:
-    - clomonitor
-- name: zorse
-  display_name: Zorse
-  description: 'The mission of the Project is to curate a dataset of production COBOL
-    and associated mainframe languages (JCL, REXX, PL/I) on which Large Language
-
-    Models (LLMs) can be fine-tuned and develop an evaluation suite to measure LLMs''
-    ability to comprehend, explain, and write code in the associated language.'
-  category: Visual Effects and Computer Graphics
-  logo_url: https://artwork.openmainframeproject.org/projects/zorseNone
-  logo_url_dark: https://artwork.openmainframeproject.org/projects/zorseNone
-  devstats_url: null
-  maturity: sandbox
-  repositories:
-  - name: COBOLEval
-    url: https://github.com/zorse-project/COBOLEval
-    exclude:
-    - clomonitor
-- name: zowe
-  display_name: Zowe
-  description: Zowe is an open source project created to host technologies that benefit
-    the Z platform from all members of the Z community (Integrated Software Vendors,
-    System Integrators and z/OS consumers). Zowe, like Mac OS or Windows, comes with
-    a set of APIs and OS capabilities that applications build on and also includes
-    some applications out of the box.
-  category: Visual Effects and Computer Graphics
-  logo_url: https://artwork.openmainframeproject.org/projects/zoweNone
-  logo_url_dark: https://artwork.openmainframeproject.org/projects/zoweNone
-  devstats_url: null
-  maturity: graduated
-  repositories:
-  - name: zac
-    url: https://github.com/zowe/zac
     exclude:
     - clomonitor

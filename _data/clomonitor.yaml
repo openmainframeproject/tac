@@ -27,6 +27,18 @@
     url: https://github.com/CBTTape/Dicussions
     exclude:
     - clomonitor
+  - name: .github
+    url: https://github.com/CBTTape/.github
+    exclude:
+    - clomonitor
+  - name: .github
+    url: https://github.com/CBTTape/.github
+    exclude:
+    - clomonitor
+  - name: CBT006
+    url: https://github.com/CBTTape/CBT006
+    exclude:
+    - clomonitor
 - name: cobol-check
   display_name: COBOL Check
   description: The mission of the COBOL Check project is to provide a fine-grained
@@ -100,6 +112,18 @@
     url: https://github.com/galasa-dev/galasa.dev
     exclude:
     - clomonitor
+  - name: TSC
+    url: https://github.com/galasa-dev/TSC
+    exclude:
+    - clomonitor
+  - name: TSC
+    url: https://github.com/galasa-dev/TSC
+    exclude:
+    - clomonitor
+  - name: argocd-ibmcloud
+    url: https://github.com/galasa-dev/argocd-ibmcloud
+    exclude:
+    - clomonitor
 - name: genevaers
   display_name: GenevaERS
   description: GenevaERS is the single-pass optimization engine for data extraction
@@ -117,6 +141,18 @@
   repositories:
   - name: Community
     url: https://github.com/genevaers/Community
+    exclude:
+    - clomonitor
+  - name: Demo
+    url: https://github.com/genevaers/Demo
+    exclude:
+    - clomonitor
+  - name: Demo
+    url: https://github.com/genevaers/Demo
+    exclude:
+    - clomonitor
+  - name: DevOps
+    url: https://github.com/genevaers/DevOps
     exclude:
     - clomonitor
 - name: omp-linux-distributions-wg
@@ -204,33 +240,6 @@
     url: https://github.com/tessia-project/tessia
     exclude:
     - clomonitor
-- name: null
-  display_name: TSTerm
-  description: A terminal written in TypeScript
-  category: Visual Effects and Computer Graphics
-  logo_url: https://artwork.openmainframeproject.org/projects/tsterm/horizontal/color/tsterm-horizontal-color.svg
-  logo_url_dark: https://artwork.openmainframeproject.org/projects/tsterm/horizontal/color/tsterm-horizontal-color.svg
-  devstats_url: null
-  maturity: sandbox
-  repositories:
-  - name: TSTerm
-    url: https://github.com/TSTerminal/TSTerm
-    exclude:
-    - clomonitor
-- name: zvm-community-tools
-  display_name: z/VM Community Tools
-  description: The Open Mainframe Project intends to increase collaboration across
-    the mainframe community and to developed shared tool sets and resources.
-  category: Visual Effects and Computer Graphics
-  logo_url: https://artwork.openmainframeproject.org/projects/zvm-community-tools/horizontal/color/zvm-community-tools-horizontal-color.svg
-  logo_url_dark: https://artwork.openmainframeproject.org/projects/zvm-community-tools/horizontal/color/zvm-community-tools-horizontal-color.svg
-  devstats_url: null
-  maturity: sandbox
-  repositories:
-  - name: zvm-community-tools
-    url: https://github.com/openmainframeproject/zvm-community-tools
-    exclude:
-    - clomonitor
 - name: zopen
   display_name: Zopen
   description: 'The z/OS Open Tools github organization serves as a collaborative
@@ -256,6 +265,18 @@
     url: https://github.com/zopencommunity/m4port
     exclude:
     - clomonitor
+  - name: .github
+    url: https://github.com/zopencommunity/.github
+    exclude:
+    - clomonitor
+  - name: .github
+    url: https://github.com/zopencommunity/.github
+    exclude:
+    - clomonitor
+  - name: antport
+    url: https://github.com/zopencommunity/antport
+    exclude:
+    - clomonitor
 - name: zorse
   display_name: Zorse
   description: 'The mission of the Project is to curate a dataset of production COBOL
@@ -273,6 +294,14 @@
     url: https://github.com/zorse-project/COBOLEval
     exclude:
     - clomonitor
+  - name: zorse
+    url: https://github.com/zorse-project/zorse
+    exclude:
+    - clomonitor
+  - name: zorse
+    url: https://github.com/zorse-project/zorse
+    exclude:
+    - clomonitor
 - name: zowe
   display_name: Zowe
   description: Zowe is an open source project created to host technologies that benefit
@@ -288,5 +317,17 @@
   repositories:
   - name: zac
     url: https://github.com/zowe/zac
+    exclude:
+    - clomonitor
+  - name: .github
+    url: https://github.com/zowe/.github
+    exclude:
+    - clomonitor
+  - name: .github
+    url: https://github.com/zowe/.github
+    exclude:
+    - clomonitor
+  - name: Onboarding-scripts
+    url: https://github.com/zowe/Onboarding-scripts
     exclude:
     - clomonitor

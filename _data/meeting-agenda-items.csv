@@ -1,8 +1,8 @@
 title,url,number,scheduled_date,status,last_review_date,meeting_label
+zOpen,https://github.com/openmainframeproject/tac/issues/625,625,2025-03-13,Upcoming Meeting Agenda Items,2024-03-21,2-annual-review
 CBT Tape,https://github.com/openmainframeproject/tac/issues/530,530,2026-02-12,Future Meeting Agenda Items,2025-02-13,2-annual-review
 Ambassador Program applications open,https://github.com/openmainframeproject/tac/issues/753,753,,In Voting,,
 Mainframe infrastructure coming online status,https://github.com/openmainframeproject/tac/issues/596,596,,Next Meeting Agenda Items,,
-zOpen,https://github.com/openmainframeproject/tac/issues/625,625,2025-03-13,Next Meeting Agenda Items,2024-03-21,2-annual-review
 Zorse,https://github.com/openmainframeproject/tac/issues/642,642,2025-07-10,Future Meeting Agenda Items,2024-07-11,2-annual-review
 Zowe,https://github.com/openmainframeproject/tac/issues/526,526,2025-11-13,Future Meeting Agenda Items,2024-11-14,2-annual-review
 COBOL Working Group,https://github.com/openmainframeproject/tac/issues/581,581,2026-01-08,Future Meeting Agenda Items,2025-01-09,2-annual-review
@@ -21,10 +21,14 @@ Galasa,https://github.com/openmainframeproject/tac/issues/584,584,2025-04-24,Fut
 CD Foundation Best Practices SIG,https://github.com/openmainframeproject/tac/issues/460,460,,On Hold,,
 CLOTributor for Open Mainframe Project,https://github.com/openmainframeproject/tac/issues/620,620,,On Hold,,
 z/VM Community Tools,https://github.com/openmainframeproject/tac/issues/454,454,2024-12-12,On Hold,2022-06-09,2-annual-review
-COBOL Check,https://github.com/openmainframeproject/tac/issues/578,578,2024-08-22,On Hold,2023-06-08,2-annual-review
+COBOL Check,https://github.com/openmainframeproject/tac/issues/578,578,2025-03-27,On Hold,2023-06-08,2-annual-review
 Improve the security posture of our projects,https://github.com/openmainframeproject/tac/issues/541,541,,On Hold,,
 Possible partnership with LFOMP of mobile application for the 3 security facilities in IBM z/OS ,https://github.com/openmainframeproject/tac/issues/729,729,2025-01-23,On Hold,,
 TSTerm,https://github.com/openmainframeproject/tac/issues/506,506,2024-09-12,On Hold,2023-09-14,2-annual-review
 MainframeGPT,https://github.com/openmainframeproject/tac/issues/644,644,,On Hold,,1-new-project-wg
 New Project Proposal - nick,https://github.com/openmainframeproject/tac/issues/757,757,,On Hold,,
 Strategy Session,https://github.com/openmainframeproject/tac/issues/763,763,2025-02-13,Upcoming Meeting Agenda Items,,
+Discontinue community.openmainframeproject.org,https://github.com/openmainframeproject/tac/issues/803,803,,Upcoming Meeting Agenda Items,,
+Summer Mentorship Program 2025,https://github.com/openmainframeproject/tac/issues/805,805,,Upcoming Meeting Agenda Items,,
+GSE UK Virtual Conference 2025,https://github.com/openmainframeproject/tac/issues/807,807,,Upcoming Meeting Agenda Items,,
+IBM TechXchange 2025,https://github.com/openmainframeproject/tac/issues/809,809,,Upcoming Meeting Agenda Items,,

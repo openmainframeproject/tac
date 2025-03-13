@@ -14,9 +14,10 @@ title: "{{ "now" | date: "%Y-%m-%d" }}"
 
 # {{ site.foundation_name }} Technical Advisory Council (TAC) Meeting - {{ "now" | date: "%B %e, %Y" }}
 
-{%- if site.tac_lfx_meeting_url -%}
+{%- if site.tac_lfx_meeting_url %}
+
 Join the meeting at [{{ site.tac_lfx_meeting_url }}]({{ site.tac_lfx_meeting_url }})
-{%- endif -%}
+{%- endif %}
 
 ## Voting Representative Attendees
 
@@ -40,14 +41,16 @@ Join the meeting at [{{ site.tac_lfx_meeting_url }}]({{ site.tac_lfx_meeting_url
 {%- endif -%}
 {% endfor %}
 
-{%- if site.vote_of_tac_committee_title -%}
+{%- if site.vote_of_tac_committee_title %}
+
 ### {{ site.vote_of_tac_committee_title }}
 {% for member in site.data.tacmembers -%}
 {% if member["Appointed By"] == "Vote of TAC Committee" %}
 - [ ] {{ member["Full Name"] }} - {{ member["Account Name: Account Name"] }}
 {%- endif -%}
 {% endfor %}
-{%- endif -%}
+
+{%- endif %}
 
 ## Non-Voting Attendees
 
@@ -100,18 +103,17 @@ the Linux Foundation.
 {%- if agendaitem.meeting_label == "4-tac-meeting-short" %}
   - {{ agendaitem.title }} [#{{ agendaitem.number }}]({{ agendaitem.url }})
 {%- endif -%}
-{% endfor %}
-{% for agendaitem in agendaitems -%}
-{%- if agendaitem.meeting_label != "4-tac-meeting-short" -%}
-{%- if agendaitem.meeting_label contains "2-annual-review" -%}
+{% endfor -%}
+{% for agendaitem in agendaitems %}
+{%- if agendaitem.meeting_label contains "2-annual-review" %}
 - Annual Review: {{ agendaitem.title }} [#{{ agendaitem.number }}]({{ agendaitem.url }})
-{%- elsif agendaitem.meeting_label contains "1-new-project-wg" -%}
+{%- elsif agendaitem.meeting_label contains "1-new-project-wg" %}
 - New Project/Working Group Proposal: {{ agendaitem.title }} [#{{ agendaitem.number }}]({{ agendaitem.url }})
-{%- else -%}
+{%- elsif agendaitem.meeting_label != "4-tac-meeting-short" %}
 - {{ agendaitem.title }} [#{{ agendaitem.number }}]({{ agendaitem.url }})
 {%- endif -%}
-{%- endif %}
 {% endfor %}
+
 ## Notes
 
 

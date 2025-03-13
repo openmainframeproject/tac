@@ -33,10 +33,8 @@ Join the meeting at [{{ site.tac_lfx_meeting_url }}]({{ site.tac_lfx_meeting_url
 {%- for project in site.data.projects -%}
 {% if project["TAC Representative"] contains member["Full Name"] %}
 - [ ] {{ member["Full Name"] }} - {{ project["Name"] }} Representative
-{%- break -%}
 {% elsif project["Chair"] contains member["Full Name"] %}
 - [ ] {{ member["Full Name"] }} - {{ project["Name"] }} Representative
-{%- break -%}
 {%- endif -%}
 {%- endfor -%}
 {%- endif -%}
@@ -59,10 +57,8 @@ Join the meeting at [{{ site.tac_lfx_meeting_url }}]({{ site.tac_lfx_meeting_url
 {%- for project in site.data.projects -%}
 {% if project["TAC Representative"] contains member["Full Name"] %}
 - [ ] {{ member["Full Name"] }} - {{ project["Name"] }} Representative
-{%- break -%}
 {% elsif project["Chair"] contains member["Full Name"] %}
 - [ ] {{ member["Full Name"] }} - {{ project["Name"] }} Representative
-{%- break -%}
 {%- endif -%}
 {%- endfor -%}
 {%- endif -%}
@@ -107,7 +103,13 @@ the Linux Foundation.
 {% endfor %}
 {% for agendaitem in agendaitems -%}
 {%- if agendaitem.meeting_label != "4-tac-meeting-short" -%}
+{%- if agendaitem.meeting_label contains "2-annual-review" -%}
+- Annual Review: {{ agendaitem.title }} [#{{ agendaitem.number }}]({{ agendaitem.url }})
+{%- elsif agendaitem.meeting_label contains "1-new-project-wg" -%}
+- New Project/Working Group Proposal: {{ agendaitem.title }} [#{{ agendaitem.number }}]({{ agendaitem.url }})
+{%- else -%}
 - {{ agendaitem.title }} [#{{ agendaitem.number }}]({{ agendaitem.url }})
+{%- endif -%}
 {%- endif %}
 {% endfor %}
 ## Notes

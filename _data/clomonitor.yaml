@@ -14,9 +14,10 @@
     - clomonitor
 - name: cbt-tape
   display_name: CBT Tape
-  description: CBT Tape is an open library of free software distribution for the IBM
-    mainframe Multiple Virtual Storage (MVS) and OS/390 and z/OS operating system
-    environments
+  description: "The mission of the Project is to provide an open library of free software\
+    \ distribution for the IBM mainframe Multiple Virtual Storage (MVS), OS/390 and\
+    \ z/OS operating system environments that continues to evolve to meet today\u2019\
+    s modern needs."
   category: Visual Effects and Computer Graphics
   logo_url: https://artwork.openmainframeproject.org/projects/cbt-tapeNone
   logo_url_dark: https://artwork.openmainframeproject.org/projects/cbt-tapeNone

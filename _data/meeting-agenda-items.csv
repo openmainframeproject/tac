@@ -1,7 +1,6 @@
 title,url,number,scheduled_date,status,last_review_date,meeting_label
 New Working Group Proposal - SBOM for mainframe applications,https://github.com/openmainframeproject/tac/issues/848,848,2025-05-22,In Voting,,1-new-project-wg
 Discontinue community.openmainframeproject.org,https://github.com/openmainframeproject/tac/issues/803,803,,On Hold,,4-tac-meeting-short
-New Project Proposal - Mainframe Software Hub for Linux,https://github.com/openmainframeproject/tac/issues/825,825,2025-05-08,On Hold,,1-new-project-wg
 Galasa,https://github.com/openmainframeproject/tac/issues/584,584,2026-04-23,Future Meeting Agenda Items,2025-04-24,2-annual-review
 Mainframe infrastructure coming online status,https://github.com/openmainframeproject/tac/issues/596,596,,Next Meeting Agenda Items,,4-tac-meeting-short
 Create process for reporting conduct and tool usage violations,https://github.com/openmainframeproject/tac/issues/832,832,,Next Meeting Agenda Items,,4-tac-meeting-short
@@ -10,6 +9,7 @@ COBOL Programming Course,https://github.com/openmainframeproject/tac/issues/585,
 CBT Tape,https://github.com/openmainframeproject/tac/issues/530,530,2026-02-12,Future Meeting Agenda Items,2025-02-13,2-annual-review
 Ambassador Program applications open,https://github.com/openmainframeproject/tac/issues/753,753,,Future Meeting Agenda Items,,4-tac-meeting-short
 Zorse,https://github.com/openmainframeproject/tac/issues/642,642,2025-07-10,Future Meeting Agenda Items,2024-07-11,2-annual-review
+Mainframe Software Hub for Linux,https://github.com/openmainframeproject/tac/issues/825,825,2026-05-14,Future Meeting Agenda Items,,2-annual-review
 Zowe,https://github.com/openmainframeproject/tac/issues/526,526,2025-11-13,Future Meeting Agenda Items,2024-11-14,2-annual-review
 COBOL Working Group,https://github.com/openmainframeproject/tac/issues/581,581,2026-01-08,Future Meeting Agenda Items,2025-01-09,2-annual-review
 Linux Distributions Working Group,https://github.com/openmainframeproject/tac/issues/532,532,2025-12-11,Future Meeting Agenda Items,2024-12-12,2-annual-review

@@ -259,12 +259,12 @@
     url: https://github.com/TSTerminal/TSTerm4Zowe
     exclude:
     - clomonitor
-  - name: Term4Z
-    url: https://github.com/TSTerminal/Term4Z
+  - name: TSTerm4Zowe
+    url: https://github.com/TSTerminal/TSTerm4Zowe
     exclude:
     - clomonitor
-  - name: tspackager
-    url: https://github.com/TSTerminal/tspackager
+  - name: Term4Z
+    url: https://github.com/TSTerminal/Term4Z
     exclude:
     - clomonitor
 - name: zvm-community-tools

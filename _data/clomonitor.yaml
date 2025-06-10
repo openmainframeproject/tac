@@ -241,6 +241,53 @@
     url: https://github.com/tessia-project/tessia
     exclude:
     - clomonitor
+- name: tsterm
+  display_name: TSTerm
+  description: TSTerm is a software package that provides 3270 terminal functionality
+    in a TypeScript implementation.
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.openmainframeproject.org/projects/tstermNone
+  logo_url_dark: https://artwork.openmainframeproject.org/projects/tstermNone
+  devstats_url: null
+  maturity: sandbox
+  repositories:
+  - name: TSTerm
+    url: https://github.com/TSTerminal/TSTerm
+    exclude:
+    - clomonitor
+  - name: TSTerm4Zowe
+    url: https://github.com/TSTerminal/TSTerm4Zowe
+    exclude:
+    - clomonitor
+  - name: TSTerm4Zowe
+    url: https://github.com/TSTerminal/TSTerm4Zowe
+    exclude:
+    - clomonitor
+  - name: Term4Z
+    url: https://github.com/TSTerminal/Term4Z
+    exclude:
+    - clomonitor
+- name: zvm-community-tools
+  display_name: z/VM Community Tools
+  description: 'Create a repository of z/VM tools for use by the z/VM community, collecting
+    the various tools shared via listservs and other locations without a formal home
+    into a single repository. The aim is not to replace other maintained/established
+    repositories but refer to them, though those repositories can join this project
+    if they wish.
+
+
+    This will provide the community a single location for locating z/VM community
+    tools.'
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.openmainframeproject.org/projects/zvm-community-toolsNone
+  logo_url_dark: https://artwork.openmainframeproject.org/projects/zvm-community-toolsNone
+  devstats_url: null
+  maturity: sandbox
+  repositories:
+  - name: zvm-community-tools
+    url: https://github.com/openmainframeproject/zvm-community-tools
+    exclude:
+    - clomonitor
 - name: zopen
   display_name: Zopen
   description: 'The z/OS Open Tools github organization serves as a collaborative
@@ -274,8 +321,8 @@
     url: https://github.com/zopencommunity/.github
     exclude:
     - clomonitor
-  - name: antport
-    url: https://github.com/zopencommunity/antport
+  - name: aflplusplusport
+    url: https://github.com/zopencommunity/aflplusplusport
     exclude:
     - clomonitor
 - name: zorse

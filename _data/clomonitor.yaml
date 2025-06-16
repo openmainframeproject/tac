@@ -24,20 +24,8 @@
   devstats_url: null
   maturity: incubating
   repositories:
-  - name: Dicussions
-    url: https://github.com/CBTTape/Dicussions
-    exclude:
-    - clomonitor
-  - name: .github
-    url: https://github.com/CBTTape/.github
-    exclude:
-    - clomonitor
-  - name: .github
-    url: https://github.com/CBTTape/.github
-    exclude:
-    - clomonitor
-  - name: CBT006
-    url: https://github.com/CBTTape/CBT006
+  - name: CBT566
+    url: https://github.com/CBTTape/CBT566
     exclude:
     - clomonitor
 - name: cobol-check
@@ -109,20 +97,28 @@
   devstats_url: null
   maturity: incubating
   repositories:
+  - name: projectmanagement
+    url: https://github.com/galasa-dev/projectmanagement
+    exclude:
+    - clomonitor
+  - name: simplatform
+    url: https://github.com/galasa-dev/simplatform
+    exclude:
+    - clomonitor
   - name: galasa.dev
     url: https://github.com/galasa-dev/galasa.dev
     exclude:
     - clomonitor
-  - name: TSC
-    url: https://github.com/galasa-dev/TSC
+  - name: galasa
+    url: https://github.com/galasa-dev/galasa
     exclude:
     - clomonitor
-  - name: TSC
-    url: https://github.com/galasa-dev/TSC
+  - name: helm
+    url: https://github.com/galasa-dev/helm
     exclude:
     - clomonitor
-  - name: argocd-ibmcloud
-    url: https://github.com/galasa-dev/argocd-ibmcloud
+  - name: webui
+    url: https://github.com/galasa-dev/webui
     exclude:
     - clomonitor
 - name: genevaers
@@ -148,12 +144,16 @@
     url: https://github.com/genevaers/Demo
     exclude:
     - clomonitor
-  - name: Demo
-    url: https://github.com/genevaers/Demo
+  - name: Performance-Engine
+    url: https://github.com/genevaers/Performance-Engine
     exclude:
     - clomonitor
-  - name: DevOps
-    url: https://github.com/genevaers/DevOps
+  - name: Workbench
+    url: https://github.com/genevaers/Workbench
+    exclude:
+    - clomonitor
+  - name: User-Documentation
+    url: https://github.com/genevaers/User-Documentation
     exclude:
     - clomonitor
 - name: omp-linux-distributions-wg
@@ -255,18 +255,6 @@
     url: https://github.com/TSTerminal/TSTerm
     exclude:
     - clomonitor
-  - name: TSTerm4Zowe
-    url: https://github.com/TSTerminal/TSTerm4Zowe
-    exclude:
-    - clomonitor
-  - name: TSTerm4Zowe
-    url: https://github.com/TSTerminal/TSTerm4Zowe
-    exclude:
-    - clomonitor
-  - name: Term4Z
-    url: https://github.com/TSTerminal/Term4Z
-    exclude:
-    - clomonitor
 - name: zvm-community-tools
   display_name: z/VM Community Tools
   description: 'Create a repository of z/VM tools for use by the z/VM community, collecting
@@ -309,20 +297,8 @@
   devstats_url: null
   maturity: sandbox
   repositories:
-  - name: m4port
-    url: https://github.com/zopencommunity/m4port
-    exclude:
-    - clomonitor
-  - name: .github
-    url: https://github.com/zopencommunity/.github
-    exclude:
-    - clomonitor
-  - name: .github
-    url: https://github.com/zopencommunity/.github
-    exclude:
-    - clomonitor
-  - name: aflplusplusport
-    url: https://github.com/zopencommunity/aflplusplusport
+  - name: meta
+    url: https://github.com/zopencommunity/meta
     exclude:
     - clomonitor
 - name: zorse
@@ -342,14 +318,6 @@
     url: https://github.com/zorse-project/COBOLEval
     exclude:
     - clomonitor
-  - name: zorse
-    url: https://github.com/zorse-project/zorse
-    exclude:
-    - clomonitor
-  - name: zorse
-    url: https://github.com/zorse-project/zorse
-    exclude:
-    - clomonitor
 - name: zowe
   display_name: Zowe
   description: Zowe is an open source project created to host technologies that benefit
@@ -363,19 +331,7 @@
   devstats_url: null
   maturity: graduated
   repositories:
-  - name: zac
-    url: https://github.com/zowe/zac
-    exclude:
-    - clomonitor
-  - name: .github
-    url: https://github.com/zowe/.github
-    exclude:
-    - clomonitor
-  - name: .github
-    url: https://github.com/zowe/.github
-    exclude:
-    - clomonitor
-  - name: Onboarding-scripts
-    url: https://github.com/zowe/Onboarding-scripts
+  - name: community
+    url: https://github.com/zowe/community
     exclude:
     - clomonitor

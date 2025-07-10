@@ -1,7 +1,7 @@
 title,url,number,scheduled_date,status,last_review_date,meeting_label
 Mainframe Open Education,https://github.com/openmainframeproject/tac/issues/494,494,2025-07-24,Future Meeting Agenda Items,2024-06-27,2-annual-review
+Zorse,https://github.com/openmainframeproject/tac/issues/642,642,2025-08-14,Future Meeting Agenda Items,2024-07-11,2-annual-review
 COBOL Check,https://github.com/openmainframeproject/tac/issues/578,578,2025-06-26,On Hold,2023-06-08,2-annual-review
-Zorse,https://github.com/openmainframeproject/tac/issues/642,642,2025-07-10,Upcoming Meeting Agenda Items,2024-07-11,2-annual-review
 z/VM Community Tools,https://github.com/openmainframeproject/tac/issues/454,454,2026-06-11,Future Meeting Agenda Items,2025-06-12,2-annual-review
 New Working Group Proposal - SBOM for mainframe applications,https://github.com/openmainframeproject/tac/issues/848,848,2025-05-22,In Voting,,1-new-project-wg
 Discontinue community.openmainframeproject.org,https://github.com/openmainframeproject/tac/issues/803,803,,On Hold,,4-tac-meeting-short
@@ -28,7 +28,6 @@ Improve the security posture of our projects,https://github.com/openmainframepro
 Possible partnership with LFOMP of mobile application for the 3 security facilities in IBM z/OS ,https://github.com/openmainframeproject/tac/issues/729,729,2025-01-23,On Hold,,3-tac-meeting-long
 MainframeGPT,https://github.com/openmainframeproject/tac/issues/644,644,,On Hold,,1-new-project-wg
 TAC Strategy Session,https://github.com/openmainframeproject/tac/issues/763,763,2025-04-24,Upcoming Meeting Agenda Items,,3-tac-meeting-long
-IBM TechXchange 2025,https://github.com/openmainframeproject/tac/issues/809,809,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
 Create process for reporting conduct and tool usage violations,https://github.com/openmainframeproject/tac/issues/832,832,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
 TAC Vice Chair Election,https://github.com/openmainframeproject/tac/issues/725,725,2025-12-11,Upcoming Meeting Agenda Items,2025-01-09,3-tac-meeting-long
 Infra Request - archlinux-s390x,https://github.com/openmainframeproject/tac/issues/860,860,,On Hold,,

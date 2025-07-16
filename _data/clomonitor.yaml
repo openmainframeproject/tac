@@ -105,10 +105,6 @@
     url: https://github.com/galasa-dev/simplatform
     exclude:
     - clomonitor
-  - name: galasa.dev
-    url: https://github.com/galasa-dev/galasa.dev
-    exclude:
-    - clomonitor
   - name: galasa
     url: https://github.com/galasa-dev/galasa
     exclude:

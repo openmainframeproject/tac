@@ -4,25 +4,19 @@ nav_order: 999
 
 # Code of Conduct
 
-{{ site.foundation_name }} aims to foster a collaborative, inclusive, and safe environment for all participants. {{ site.foundation_name }} and each hosted project have established Codes of Conduct to help provide guidelines on appropriate conduct and how to report violations.
+{{ site.foundation_name }} aims to foster a collaborative, inclusive, and safe environment for all participants. {{ site.foundation_name }} and each hosted project has established a Code of Conduct to help provide guidelines on appropriate conduct and how to report violations.
 
-For all hosted projects, refer to the CODE_OF_CONDUCT.md file in the each code repository that points to policy in use.
+For all hosted projects, refer to the `CODE_OF_CONDUCT.md` file in each code repository that points to the policy in use.
 
 For all other activities and events that are sanctioned by {{ site.foundation_name }}, refer to the [LF Events Code of Conduct](https://events.linuxfoundation.org/about/code-of-conduct/).
-
----
 
 ## How to Report a Violation
 
 Please send an email to [conduct@openmainframeproject.org](mailto:conduct@openmainframeproject.org).
 
----
-
 ## Violation Review Process
 
 Upon receiving a violation claim, staff members will review violations confidentially.  The claim(s) will be investigated within three business days.  After the investigation, a private session with the Technical Advisory Council will be held to review the violation and to determine the appropriate course of action.
-
----
 
 ## Enforcement
 
@@ -30,7 +24,7 @@ Upon receiving a violation claim, staff members will review violations confident
 
 #### Community Impact
 
-A violation through a single incident, including use of inappropriate language or other behavior deemed unprofessional or unwelcome in the community.
+A violation through a single incident, including the use of inappropriate language or other behavior deemed unprofessional or unwelcome in the community.
 
 #### Consequence
 
@@ -54,5 +48,5 @@ Demonstrating a pattern of violation of community standards, including sustained
 
 #### Consequence
 
-A ban from any sort of public interaction within the community. Bans persist until a TAC majority approves a ban repeal. Banned parties must submit their ban appeals, waiting at least 365 days from the ban date or previous appeal submission if rejected.
+A ban from any sort of public interaction within the community. Bans persist until a TAC majority approves a ban repeal. Banned parties must submit their ban appeals, waiting at least 365 days from the ban date or the previous appeal submission if rejected.
 

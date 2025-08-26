@@ -1,16 +1,16 @@
 title,url,number,scheduled_date,status,last_review_date,meeting_label
+Update Code of Conduct will reporting and enforecement guidelines,https://github.com/openmainframeproject/tac/pull/880,880,2025-08-14,Upcoming Meeting Agenda Items,,3-tac-meeting-long
+TAC Strategy Session,https://github.com/openmainframeproject/tac/issues/763,763,2025-04-24,Upcoming Meeting Agenda Items,,3-tac-meeting-long
+Improve the security posture of our projects,https://github.com/openmainframeproject/tac/issues/541,541,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
+Discontinue community.openmainframeproject.org,https://github.com/openmainframeproject/tac/issues/803,803,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
+TAC Vice Chair Election,https://github.com/openmainframeproject/tac/issues/725,725,2025-12-11,Upcoming Meeting Agenda Items,2025-01-09,3-tac-meeting-long
+Zorse,https://github.com/openmainframeproject/tac/issues/642,642,2025-08-14,Upcoming Meeting Agenda Items,2024-07-11,2-annual-review
 Mainframe Open Education,https://github.com/openmainframeproject/tac/issues/494,494,2026-07-23,Future Meeting Agenda Items,2025-07-24,2-annual-review
 Feilong,https://github.com/openmainframeproject/tac/issues/579,579,2026-08-13,Future Meeting Agenda Items,2025-08-14,2-annual-review
-COBOL Check,https://github.com/openmainframeproject/tac/issues/578,578,2025-06-26,On Hold,2023-06-08,2-annual-review
 z/VM Community Tools,https://github.com/openmainframeproject/tac/issues/454,454,2026-06-11,Future Meeting Agenda Items,2025-06-12,2-annual-review
 SBOM for mainframe applications Working Group,https://github.com/openmainframeproject/tac/issues/848,848,2026-05-28,Future Meeting Agenda Items,2025-05-22,2-annual-review
-Discontinue community.openmainframeproject.org,https://github.com/openmainframeproject/tac/issues/803,803,,On Hold,,4-tac-meeting-short
 Galasa,https://github.com/openmainframeproject/tac/issues/584,584,2026-04-23,Future Meeting Agenda Items,2025-04-24,2-annual-review
 Mainframe infrastructure coming online status,https://github.com/openmainframeproject/tac/issues/596,596,,Next Meeting Agenda Items,,4-tac-meeting-short
-Zorse,https://github.com/openmainframeproject/tac/issues/642,642,2025-08-14,Next Meeting Agenda Items,2024-07-11,2-annual-review
-Update Code of Conduct will reporting and enforecement guidelines,https://github.com/openmainframeproject/tac/pull/880,880,2025-08-14,Next Meeting Agenda Items,,3-tac-meeting-long
-TAC Strategy Session,https://github.com/openmainframeproject/tac/issues/763,763,2025-04-24,Next Meeting Agenda Items,,3-tac-meeting-long
-TAC Vice Chair Election,https://github.com/openmainframeproject/tac/issues/725,725,2025-12-11,Next Meeting Agenda Items,2025-01-09,3-tac-meeting-long
 COBOL Programming Course,https://github.com/openmainframeproject/tac/issues/585,585,2026-04-09,Future Meeting Agenda Items,2025-04-24,2-annual-review
 CBT Tape,https://github.com/openmainframeproject/tac/issues/530,530,2026-02-12,Future Meeting Agenda Items,2025-02-13,2-annual-review
 Mainframe Software Hub for Linux,https://github.com/openmainframeproject/tac/issues/825,825,2026-06-25,Future Meeting Agenda Items,,2-annual-review
@@ -22,12 +22,13 @@ Ambitus,https://github.com/openmainframeproject/tac/issues/577,577,2025-09-11,Fu
 TerseDecompress,https://github.com/openmainframeproject/tac/issues/576,576,2026-01-22,Future Meeting Agenda Items,2025-01-09,2-annual-review
 Software Discovery Tool,https://github.com/openmainframeproject/tac/issues/580,580,2026-05-14,Future Meeting Agenda Items,2025-05-08,2-annual-review
 TSTerm,https://github.com/openmainframeproject/tac/issues/506,506,2026-05-28,Future Meeting Agenda Items,2025-05-08,2-annual-review
+Looking for Open Mainframe Projects for Western Students,https://github.com/openmainframeproject/tac/issues/690,690,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
 Mainframe Modernization WG,https://github.com/openmainframeproject/tac/issues/529,529,2025-09-25,Future Meeting Agenda Items,2024-09-26,2-annual-review
 GenevaERS,https://github.com/openmainframeproject/tac/issues/575,575,2025-10-23,Future Meeting Agenda Items,2024-09-26,2-annual-review
 Tessia,https://github.com/openmainframeproject/tac/issues/531,531,2025-10-09,Future Meeting Agenda Items,2024-10-10,2-annual-review
 CD Foundation Best Practices SIG,https://github.com/openmainframeproject/tac/issues/460,460,,On Hold,,4-tac-meeting-short
 CLOTributor for Open Mainframe Project,https://github.com/openmainframeproject/tac/issues/620,620,,On Hold,,4-tac-meeting-short
-Improve the security posture of our projects,https://github.com/openmainframeproject/tac/issues/541,541,,On Hold,,4-tac-meeting-short
 Possible partnership with LFOMP of mobile application for the 3 security facilities in IBM z/OS ,https://github.com/openmainframeproject/tac/issues/729,729,2025-01-23,On Hold,,3-tac-meeting-long
 MainframeGPT,https://github.com/openmainframeproject/tac/issues/644,644,,On Hold,,1-new-project-wg
+COBOL Check,https://github.com/openmainframeproject/tac/issues/578,578,2025-06-26,On Hold,2023-06-08,2-annual-review
 Infra Request - archlinux-s390x,https://github.com/openmainframeproject/tac/issues/860,860,,On Hold,,

@@ -2,7 +2,7 @@
 nav_order: 999
 ---
 
-# Open Mainframe Project Community Code of Conduct**
+# Open Mainframe Project Community Code of Conduct
 
 * TOC
 {:toc}

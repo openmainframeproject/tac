@@ -247,8 +247,8 @@
   devstats_url: null
   maturity: sandbox
   repositories:
-  - name: TSTerm
-    url: https://github.com/TSTerminal/TSTerm
+  - name: Term4Z
+    url: https://github.com/TSTerminal/Term4Z
     exclude:
     - clomonitor
 - name: zvm-community-tools
@@ -293,8 +293,8 @@
   devstats_url: null
   maturity: sandbox
   repositories:
-  - name: meta
-    url: https://github.com/zopencommunity/meta
+  - name: gitport
+    url: https://github.com/zopencommunity/gitport
     exclude:
     - clomonitor
 - name: zorse

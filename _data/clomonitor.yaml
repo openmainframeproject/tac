@@ -24,8 +24,8 @@
   devstats_url: null
   maturity: incubating
   repositories:
-  - name: CBT566
-    url: https://github.com/CBTTape/CBT566
+  - name: CBT898
+    url: https://github.com/CBTTape/CBT898
     exclude:
     - clomonitor
 - name: cobol-check

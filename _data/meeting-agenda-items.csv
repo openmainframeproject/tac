@@ -1,4 +1,5 @@
 title,url,number,scheduled_date,status,last_review_date,meeting_label
+ztrust Working Group,https://github.com/openmainframeproject/tac/issues/901,901,2025-11-13,Future Meeting Agenda Items,,1-new-project-wg
 New Project Proposal - [Sandbox Proposal] AI Dataset Health for z/OS (ai-dataset-health-zos),https://github.com/openmainframeproject/tac/issues/895,895,2025-10-23,Next Meeting Agenda Items,,1-new-project-wg
 GenevaERS,https://github.com/openmainframeproject/tac/issues/575,575,2025-10-23,Next Meeting Agenda Items,2024-09-26,2-annual-review
 Tessia,https://github.com/openmainframeproject/tac/issues/531,531,2025-10-09,Upcoming Meeting Agenda Items,2024-10-10,2-annual-review
@@ -28,4 +29,3 @@ CLOTributor for Open Mainframe Project,https://github.com/openmainframeproject/t
 COBOL Check,https://github.com/openmainframeproject/tac/issues/578,578,2025-06-26,On Hold,2023-06-08,2-annual-review
 Infra Request - archlinux-s390x,https://github.com/openmainframeproject/tac/issues/860,860,,On Hold,,
 Presentation from @SecurityCRob on leveraging OpenSSF for Open Mainframe Project,https://github.com/openmainframeproject/tac/issues/904,904,2025-09-25,On Hold,,3-tac-meeting-long
-ztrust Working Group,https://github.com/openmainframeproject/tac/issues/901,901,,LF Onboarding,,1-new-project-wg

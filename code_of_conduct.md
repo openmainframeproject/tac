@@ -19,7 +19,7 @@ This community code of conduct (“CoC”) applies:
 
 ## Events Code of Conduct
 
-OMP events produced by the Linux Foundation with professional event staff are also governed by the Linux Foundation Events Code of Conduct, available at http://events.linuxfoundation.org/code-of-conduct. This community CoC is destined to be used in conjunction with the LF Events Code of Conduct.
+OMP events produced by the Linux Foundation with professional event staff are also governed by the Linux Foundation Events Code of Conduct, available at http://events.linuxfoundation.org/code-of-conduct. This community CoC is designed to be used in conjunction with the LF Events Code of Conduct.
 
 ## Project Codes of Conduct
 
@@ -27,13 +27,13 @@ Some hosted projects of OMP have their own code of conduct, which, if so, would 
 
 ## Our Standards
 
-Examples of behavior that contributes to a positive environment for our community include:
+Examples of behavior that contribute to a positive environment for our community include:
 
 * Demonstrating empathy and kindness toward other people
 * Being respectful of differing opinions, viewpoints, and experiences
 * Giving and gracefully accepting constructive feedback
 * Accepting responsibility and apologizing to those affected by our mistakes, and learning from the experience
-* Focusing on what is best not just for us as individuals, but for the overall community \
+* Focusing on what is best not just for us as individuals, but for the overall community
 
 Examples of unacceptable behavior include:
 
@@ -42,7 +42,7 @@ Examples of unacceptable behavior include:
 * Public or private harassment
 * Publishing others’ private information, such as a physical or email address, without their explicit permission
 * Using OMP projects or community spaces for political campaigning or promotion of political causes that are unrelated to advancing the deployment and use of Linux and Open Source in mainframe computing environments. To clarify, this policy does not restrict individuals’ personal attire, including attire that expresses personal beliefs or aspects of identity.
-* Other conduct which could reasonably be considered inappropriate in a professional setting \
+* Other conduct which could reasonably be considered inappropriate in a professional setting
 
 The following behaviors are also prohibited:
 
@@ -99,4 +99,8 @@ All incidents resolved by the TAC have been handled in accordance with the Open 
 
 #### Incident 2025-1
 
-A report was received regarding a community member who made comments via email accusing a committee of racial bias, and in further email communications, made reference to challenging an individual to a "duel". The TAC met and reviewed the comments. The TAC made the decision to issue a warning to the community member based on the enforcement guidelines in the Open Mainframe Project Code of Conduct.
+A report was received regarding a community member who made comments via email accusing a committee of racial bias, and in further email communications, made reference to challenging an individual to a "duel". The TAC met and reviewed the comments. The TAC decided to issue a warning to the community member based on the enforcement guidelines in the Open Mainframe Project Code of Conduct.
+
+#### Incident 2025-2
+
+A report was made regarding continued disparaging and hostile statements about the Open Mainframe Project community on social media and Open Mainframe Project communication channels, connected to Incident 2025-1. The TAC met and reviewed the comments. The TAC decided to issue a warning to the community member based on the enforcement guidelines in the Open Mainframe Project Code of Conduct.

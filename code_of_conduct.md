@@ -104,3 +104,7 @@ A report was received regarding a community member who made comments via email a
 #### Incident 2025-2
 
 A report was made regarding continued disparaging and hostile statements about the Open Mainframe Project community on social media and Open Mainframe Project communication channels, connected to Incident 2025-1. The TAC met and reviewed the comments. The TAC decided to issue a warning to the community member based on the enforcement guidelines in the Open Mainframe Project Code of Conduct.
+
+#### Incident 2025-3
+
+A report was made regarding continued disparaging and hostile statements about the Open Mainframe Project community on social media and Open Mainframe Project communication channels, connected to Incident 2025-1 and 2025-2. The TAC met and reviewed the comments. The TAC decided to issue a permanent ban to the community member based on the enforcement guidelines in the Open Mainframe Project Code of Conduct.

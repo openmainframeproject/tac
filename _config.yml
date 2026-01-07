@@ -31,7 +31,7 @@ landscape_url: 'https://landscape.openmainframeproject.org'
 calendar_url: 'https://calendar.openmainframeproject.org'
 slack_url: 'https://slack.openmainframeproject.org'
 directed_fund_charter_url: 'https://charter.openmainframeproject.org'
-tac_issues_url: 'https://github.com/openmainframeproject/tac/issues/new'
+tac_issues_url: 'https://github.com/openmainframeproject/tac/issues/new?template=01-tac-agenda.yml'
 helpdesk_url: "https://servicedesk.openmainframeproject.org"
 mailing_list_url: "https://lists.openmainframeproject.org"
 wiki_url: "https://wiki.openmainframeproject.org"
@@ -39,10 +39,13 @@ lfx_insights_url: "https://insights.lfx.linuxfoundation.org/foundation/open-main
 tac_mailing_list_url: "https://lists.openmainframeproject.org/g/omp-technical"
 website_url: "https://openmainframeproject.org"
 blog_url: "https://openmainframeproject.org/blog"
+tac_lfx_meeting_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-mainframe-project?view=list&projects=open-mainframe-project
 lfscanning_repo_url: https://github.com/lfscanning/spdx-omp
 tac_member_list_url: https://openmainframeproject.org/about/technical-advisory-council
 lf_staff_list_url: https://openmainframeproject.org/about/leadership
 mission_statement_url: https://openmainframeproject.org/about/ 
+tac_agenda_url: https://github.com/orgs/openmainframeproject/projects/21
+artwork_url: 'https://artwork.openmainframeproject.org'
 
 # Founation Settings
 foundation_name: "Open Mainframe Project"
@@ -75,3 +78,17 @@ mermaid:
   # Version of mermaid library
   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
   version: "10.9.0"
+
+callouts:
+  note:
+    title: Note
+    color: blue
+
+defaults:
+  -
+    scope: 
+      path: "meetings/*/README.md"
+      type: "pages"
+    values:
+      title: My Title
+      parent: Meetings

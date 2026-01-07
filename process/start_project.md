@@ -9,7 +9,9 @@ nav_order: 1
 * TOC
 {:toc}
 
-The Open Mainframe Project is a host of open-source projects and open-collaboration working groups to benefit the mainframe ecosystem. Anyone can bring a new project or working group or start a new project or working group at the Open Mainframe Project.
+{{ site.foundation_name }} hosts open-source projects and open-collaboration working groups to benefit the mainframe ecosystem. Anyone can bring a new project or start a new project at {{ site.foundation_name }}.
+
+This document outlines why you should host your project at the {{ site.foundation_name }}, what makes a good {{ site.foundation_name }} hosted project, and the steps for bringing a project to the {{ site.foundation_name }}.
 
 ## Why host your project at the {{ site.foundation_name }}?
 
@@ -29,7 +31,7 @@ Groundbreaking and game-changing projects are a collective effort across organiz
 
 Shared R&D with a broad ecosystem means bringing more contributors and maintainers into your project - including your competitors.
 
-- Our [staff](https://www.openmainframeproject.org/about/staff) works with the project to establish open, neutral governance that makes roles clear and paths to leadership available.
+- [LF Staff]{{ site.lf_staff_list_url }}) works with the project to establish open, neutral governance that makes roles clear and paths to leadership available.
 - All projects have a Code of Conduct to ensure collaboration in a safe and welcoming environment.
 - Outreach done through the {{ site.foundation_name }} is done from a neutral perspective, separating product promotion and vendor favoritism and promoting the community's work.
 
@@ -37,8 +39,8 @@ Shared R&D with a broad ecosystem means bringing more contributors and maintaine
 
 Your project will get broad motion picture, visual effects, tech, and open source exposure through our large audience, extensive media outreach partnerships with publications such as Linux.com and TFiR, and key partners.
 
-- Your project will be featured on the [Open Mainframe Project](https://www.openmainframeproject.org/) and the [Linux Foundation](https://www.linuxfoundation.org/projects) websites.
-- Always available guest blog post(s) on the [Open Mainframe Project blog](https://www.openmainframeproject.org/blog/) on project updates.
+- Your project will be featured on both the [{{ site.foundation_name }}]({{ site.website_url }}) and the [Linux Foundation](https://www.linuxfoundation.org/projects) websites, as well as the [{{ site.foundation_name }} Landscape](https://l.lfenergy.org)
+- Always available guest blog post(s) on the [{{ site.foundation_name }} blog]({{ site.blog_url }}) on project updates.
 - Post one technical article about an open-source project you care about to [Linux.com](https://www.linux.com/), which has over 1 million unique visitors per month.
 - As appropriate, support your announcements with social outreach and quotes from Linux Foundation and {{ site.foundation_name }} leadership.
 - Access to opportunities for contributed articles, videos, podcasts, and events
@@ -75,7 +77,7 @@ Sustainable projects are those the industry adopts and drive economic value with
 
 ## Preparing to bring your project here
 
-The “LF Way” is that there is no one way. The LF assumes that each open source project is different in its own way, which leads to building a unique governance and solution to sustain their communities.
+The “LF Way”, which is aligned with how {{ site.foundation_name }} operates, is that there is no one way. {{ site.foundation_name }} assumes that each open source project is different in its own way, which leads to building a unique governance and solution to sustain their communities.
 
 ### Requirements to host a project here
 
@@ -98,7 +100,7 @@ Often projects are new open-source projects, but that isn’t a requirement - ex
 - Assess the potential universe of project participants. Identify ecosystem constituents and concerns of each. 
 - Identify any trademarks leveraged by the project (these will be owned by the LF neutrally) 
 - Outline infrastructure, marketing any other requirements needed for the project. 
-- Submit the [project proposal](https://github.com/openmainframeproject/tac/issues/new/choose) to the TAC for consideration
+- Complete the [project proposal](/process/proposal_template) and submit it to the TAC for consideration
 
 The {{ site.foundation_name }} staff is happy to engage and advise during this process - let us know how we can help!
 

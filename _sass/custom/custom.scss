@@ -12,11 +12,11 @@ dl[id$="_projects_with_bestpractices"] {
     content: "" !important;
   }
   & div {
-    flex-basis: 16%;
-    padding: 1em;
+    flex-basis: 12%;
+    margin: 10px;
   }
   & dt img[src^="https://landscape"] {
-    height: 100px;
+    height: 150px;
   }
   & dt {
     text-align: center;
@@ -36,5 +36,9 @@ dl[id$="_projects_with_bestpractices"] {
       font-family: Arial;
       font-size: 17px;
       color: #999999;
+  }
+  & div dd p {
+    margin-bottom: 0;
+    margin-top: 0;
   }
 }

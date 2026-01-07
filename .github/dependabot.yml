@@ -7,7 +7,6 @@ updates:
     groups:
       all:
         dependency-type: "production"
-
   - package-ecosystem: bundler
     directory: /
     schedule:

@@ -20,7 +20,7 @@
         {%- endcapture -%}
         <td>{{ level-camelcase }}</td>
         <td>{{ project["Accepted Date"] | replace: "^", "" | date: "%F" }}</td>
-        {% assign agendaitems = site.data.meeting-agenda-items | where: "meeting_label", "2-annual-review" | sort: "title" -%}
+        {% assign agendaitems = site.data.meeting-agenda-items | find_exp: "item", "item.meeting_label contains 2-annual-review" | sort: "title" -%}
         {% assign found = false %}
         {%- for agendaitem in agendaitems -%}
         {%- if agendaitem['title'] == project['Name'] %}

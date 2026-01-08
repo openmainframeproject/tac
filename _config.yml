@@ -37,6 +37,9 @@ mailing_list_url: "https://lists.openmainframeproject.org"
 wiki_url: "https://wiki.openmainframeproject.org"
 lfx_insights_url: "https://insights.lfx.linuxfoundation.org/foundation/open-mainframe-project"
 tac_mailing_list_url: "https://lists.openmainframeproject.org/g/omp-technical"
+tac_mailing_list_email: omp-technical@lists.openmainframeproject.org
+tac_private_mailing_list_email: omp-tac-private@lists.openmainframeproject.org
+leads_mailing_list_email: omp-technical-leads@lists.openmainframeproject.org
 website_url: "https://openmainframeproject.org"
 blog_url: "https://openmainframeproject.org/blog"
 tac_lfx_meeting_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-mainframe-project?view=list&projects=open-mainframe-project
@@ -46,12 +49,22 @@ lf_staff_list_url: https://openmainframeproject.org/about/leadership
 mission_statement_url: https://openmainframeproject.org/about/ 
 tac_agenda_url: https://github.com/orgs/openmainframeproject/projects/21
 artwork_url: 'https://artwork.openmainframeproject.org'
+election_guidelines_url: 'https://github.com/openmainframeproject/foundation/blob/main/elections.md'
 
-# Founation Settings
+# Foundation Settings
 foundation_name: "Open Mainframe Project"
 clotributor_name: openmainframeproject
 membership_top_tier: 'Platinum'
+vote_of_tac_committee_title: "Industry Representatives"
+vote_of_tac_committee_count: 2
 archived_lifecycle_stage: "Emeritus"
+tac_projects: 
+  - "Active Stage Projects"
+project_types:
+  - singular: "Project"
+    plural: "Projects"
+  - singular: "Working Group"
+    plural: "Working Groups"
 
 aux_links:
   "Need help or have a question? Contact us here":

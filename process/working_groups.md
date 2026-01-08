@@ -7,11 +7,8 @@ has_children: true
 # Working Groups
 _Modeled off of CNCF Working Group model ( https://github.com/cncf/toc/blob/master/workinggroups/README.md )_
 
-- [Process](#process)
-- [FAQs](#faqs)
-    - [Q: Who can propose a new working group?](#q-who-can-propose-a-new-working-group)
-    - [Q: Can working groups have infrastructure during formation to enable collaboration?](#q-can-working-groups-have-infrastructure-during-formation-to-enable-collaboration)
-    - [Q: What if the goals or mission of the working group change?](#q-what-if-the-goals-or-mission-of-the-working-group-change)
+* TOC
+{:toc}
 
 The purpose of working groups is to study and report on a particular question and make recommendations based on its findings. The result of a working group may be a new project proposal, landscape, whitepaper, or even a report detailing its findings. Working groups do not intend to host a complete project or specification. Working Groups can be formed at any time but must be sponsored by a [TAC member][] and with an affirmative vote of the Open Mainframe Project TAC. The TAC can also shut down a working group with a majority vote.
 
@@ -56,4 +53,4 @@ A: The TAC recognizes that in the lifecycle of a working group, goals or mission
 
 [TAC member]: /#tac-members
 [request on the foundation repo]: https://servicedesk.openmainframeproject.org
-[GitHub Issue]: https://github.com/openmainframeproject/tac/issues/new/choose
+[GitHub Issue]: https://github.com/openmainframeproject/tac/issues/new/choose?template=03-new-working-group-proposal.yml

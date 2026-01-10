@@ -1,5 +1,5 @@
 title,url,number,scheduled_date,status,last_review_date,meeting_label
-TerseDecompress,https://github.com/openmainframeproject/tac/issues/576,576,2026-01-22,Next Meeting Agenda Items,2025-01-09,2-annual-review
+TerseDecompress,https://github.com/openmainframeproject/tac/issues/576,576,2026-02-26,Future Meeting Agenda Items,2025-01-09,2-annual-review
 LF Engineering Services,https://github.com/openmainframeproject/tac/issues/957,957,,Next Meeting Agenda Items,,
 COBOL Check,https://github.com/openmainframeproject/tac/issues/578,578,2025-06-26,Next Meeting Agenda Items,2023-06-08,2-annual-review
 GenevaERS,https://github.com/openmainframeproject/tac/issues/575,575,2026-12-10,Future Meeting Agenda Items,2025-12-11,2-annual-review
@@ -25,7 +25,6 @@ Software Discovery Tool,https://github.com/openmainframeproject/tac/issues/580,5
 TSTerm,https://github.com/openmainframeproject/tac/issues/506,506,2026-05-28,Future Meeting Agenda Items,2025-05-08,2-annual-review
 CLOTributor for Open Mainframe Project,https://github.com/openmainframeproject/tac/issues/620,620,,On Hold,,4-tac-meeting-short
 Discuss interests in creating a Security WG,https://github.com/openmainframeproject/tac/issues/541,541,,On Hold,,4-tac-meeting-short
-Infra Request - archlinux-s390x,https://github.com/openmainframeproject/tac/issues/860,860,,On Hold,,
 COBOL Working Group,https://github.com/openmainframeproject/tac/issues/581,581,2026-01-08,On Hold,2025-01-09,2-annual-review
 Mentorship Program 2026 strategy,https://github.com/openmainframeproject/tac/issues/907,907,2025-10-09,On Hold,,3-tac-meeting-long
 New Project Proposal - [Sandbox Proposal] AI Dataset Health for z/OS (ai-dataset-health-zos),https://github.com/openmainframeproject/tac/issues/895,895,2025-10-23,On Hold,,1-new-project-wg

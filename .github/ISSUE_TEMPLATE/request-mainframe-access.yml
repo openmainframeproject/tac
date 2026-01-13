@@ -35,7 +35,7 @@ body:
     id: maintainers
     attributes:
       label: Names of primary maintainers/project leads
-      description: Please also add to the issue title above in place of PROJECT
+      description: Two named individuals are required.
     validations:
       required: true
   - type: textarea
@@ -58,6 +58,7 @@ body:
       options:
         - z/OS
         - Linux on s390x
+        - z/VM
     validations:
       required: true
   - type: textarea

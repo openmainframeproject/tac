@@ -194,6 +194,28 @@
     url: https://github.com/openmainframeproject/omp-education
     exclude:
     - clomonitor
+- name: mainframe-software-hub-for-linux
+  display_name: Mainframe Software Hub for Linux
+  description: The mission of the Project is to provide open source packages not available
+    in distribution repositories or community-provided packages for easy consumption.
+  category: Visual Effects and Computer Graphics
+  logo_url: https://artwork.openmainframeproject.org/projects/mainframe-software-hub-for-linuxNone
+  logo_url_dark: https://artwork.openmainframeproject.org/projects/mainframe-software-hub-for-linuxNone
+  devstats_url: null
+  maturity: incubating
+  repositories:
+  - name: docs
+    url: https://github.com/linuxonzapps/docs
+    exclude:
+    - clomonitor
+  - name: tsc
+    url: https://github.com/linuxonzapps/tsc
+    exclude:
+    - clomonitor
+  - name: zlinux-artifacts-builder
+    url: https://github.com/linuxonzapps/zlinux-artifacts-builder
+    exclude:
+    - clomonitor
 - name: software-discovery-tool
   display_name: Software Discovery Tool
   description: The mission of the Project is to develop a library and associated software

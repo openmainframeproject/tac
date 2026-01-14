@@ -108,3 +108,9 @@ A report was made regarding continued disparaging and hostile statements about t
 #### Incident 2025-3
 
 A report was made regarding continued disparaging and hostile statements about the Open Mainframe Project community on social media and Open Mainframe Project communication channels, connected to Incident 2025-1 and 2025-2. The TAC met and reviewed the comments. The TAC decided to issue a permanent ban to the community member based on the enforcement guidelines in the Open Mainframe Project Code of Conduct.
+
+### Incidents Reported in 2026
+
+#### Incident 2026-1
+
+A report was made regarding an attendee at a community meeting livestreaming the meeting without the consent of the meeting particpants, and in the chat of that livestream comments were made about the meeting participants that were considered unprofessional. The TAC reviewed the comments, and decided to issue a warning to the community member based on the enforcement guidelines in the Open Mainframe Project Code of Conduct.

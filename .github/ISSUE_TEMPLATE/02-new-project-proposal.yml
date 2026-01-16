@@ -10,8 +10,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you for looking to bring your project to the Open Mainframe Project. Please put the name of the project in the title above replacing PROJECT NAME, and then answer the questions below to have this project be added to the agenda at a future TAC meeting for consideration as a new project. Please refer to the guideance in the [project lifecycle](https://tac.openmainframeproject.org/process/project_stages#proposal-process).
-        Please also note you must be available to lead this discussion on a TAC meeting. You can get information on TAC meetings and how to join the meetings at https://tac.openmainframeproject.org/meetings.
+        Thank you for looking to bring your project to the Open Mainframe Project. Please put the name of the project in the title above replacing PROJECT NAME, and then answer the questions below to have this project be added to the agenda at a future TAC meeting for consideration as a new project. Please refer to the guideance in the [project lifecycle](https://tac.openmainframeproject.org/process/lifecycle.html).
+        Please also note you must be available to lead this discussion on a TAC meeting. You can get information on TAC meetings and how to join the meetings at [tac.openmainframeproject.org/meetings](https://tac.openmainframeproject.org/meetings/) meetings.
   - type: textarea
     id: project-description
     attributes:
@@ -33,29 +33,18 @@ body:
       description: If so, what is different about this project?
     validations:
       required: true 
-  - type: dropdown
+  - type: textarea
     id: tac-sponsor
     attributes:
       label: Sponsor from TAC
-      description: Sponsor helps mentor projects - if the project doesn’t currently have a sponsor, the TAC will appoint one as part of the approval process
-      options:
-        - To be appointed
-        - Giancarlo Frix
-        - Gregory MacKinnon
-        - James Caffrey
-        - Joe Bostian	
-        - Kip Twitchell	
-        - Mark Post	
-        - Phil Tully
-        - Robert Dahlberg	
-        - Sean Grady	
-        - Sudharsana Srinivasan
+      description: Projects must be sponsored by a TAC member.
     validations:
       required: true
   - type: dropdown
     id: project-stage
     attributes:
       label: Proposed Project Stage
+      description: Please refer to the [project lifecycle](https://tac.openmainframeproject.org/process/lifecycle.html) for a description of the stages.
       options:
         - Sandbox
         - Incubation

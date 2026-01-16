@@ -110,7 +110,7 @@ body:
   - type: textarea
     id: issue-tracker
     attributes:
-      label: Communication channels
+      label: Issue Tracker
       description: Detail current issue tracker being used 
     validations:
       required: true
@@ -127,11 +127,16 @@ body:
     validations:
       required: true
   - type: textarea
-    id: social-media-accounts
     attributes:
-      label: Social media accounts
+      label: |
+        Detail any existing community infrastructure, including:
+          - Github/GitLab, or other location where the code is hosted
+          - Website and/or docs
+          - Communication channels ( such as Mailing lists, Slack, IRC )
+          - Social Media Accounts
+          - PyPi, npm, or other App Stores maintainted by the project
     validations:
-      required: true
+      required: true 
   - type: textarea
     id: community-size-sponsorship
     attributes:

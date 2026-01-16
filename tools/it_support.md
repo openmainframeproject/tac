@@ -30,7 +30,11 @@ Tools not listed above are maintained by the individual project communities and 
 
 ## Build Infrastructure support
 
-{{ site.foundation_name }} does not provide support for any project build infrastructure.
+{{ site.foundation_name }} partners with LF Release Engineering to provide support for projects with GitHub configuration and infrastructure.
+
+Additionally, {{ site.foundation_name }} provides [mainframe infrastucture](../programs/infrastructure) for projects to use.
+
+{{ site.foundation_name }} does not provide support for any other infrastructure.
 
 ## Questions?
 

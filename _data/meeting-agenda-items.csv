@@ -1,6 +1,6 @@
 title,url,number,scheduled_date,status,last_review_date,meeting_label
+CBT Tape,https://github.com/openmainframeproject/tac/issues/530,530,2026-02-12,Upcoming Meeting Agenda Items,2025-02-13,2-annual-review
 Infra Request - z/VM Community Tools,https://github.com/openmainframeproject/tac/issues/966,966,,Infrastructure Requests,,
-CBT Tape,https://github.com/openmainframeproject/tac/issues/530,530,2026-02-12,Next Meeting Agenda Items,2025-02-13,2-annual-review
 TAC Vice Chair Election,https://github.com/openmainframeproject/tac/issues/933,933,,Next Meeting Agenda Items,,4-tac-meeting-short
 LF Engineering Services,https://github.com/openmainframeproject/tac/issues/957,957,,Next Meeting Agenda Items,,
 TerseDecompress,https://github.com/openmainframeproject/tac/issues/576,576,2026-02-26,Future Meeting Agenda Items,2025-01-09,2-annual-review
@@ -33,3 +33,4 @@ Presentation from @SecurityCRob on leveraging OpenSSF for Open Mainframe Project
 Review/renew TAC Industry Representatives for 2027,https://github.com/openmainframeproject/tac/issues/965,965,2026-10-08,Future Meeting Agenda Items,,
 New Project Proposal - Lua/TSO — scripting platform for z/OS (System REXX replacement),https://github.com/openmainframeproject/tac/issues/972,972,,LF Onboarding,,
 Infra Request - AI Dataset Health for z/OS,https://github.com/openmainframeproject/tac/issues/975,975,,Infrastructure Requests,,
+COBOL WG Update,https://github.com/openmainframeproject/tac/issues/981,981,,Upcoming Meeting Agenda Items,,

@@ -1,6 +1,7 @@
 title,url,number,scheduled_date,status,last_review_date,meeting_label
 TAC Strategy Session,https://github.com/openmainframeproject/tac/issues/763,763,2025-09-11,Next Meeting Agenda Items,,4-tac-meeting-short
-Mainframe infrastructure coming online status,https://github.com/openmainframeproject/tac/issues/596,596,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
+Mainframe infrastructure coming online status,https://github.com/openmainframeproject/tac/issues/596,596,,Next Meeting Agenda Items,,4-tac-meeting-short
+Security Advisory: Active Exploitation of Weak GitHub Actions Configurations,https://github.com/openmainframeproject/tac/issues/995,995,,Next Meeting Agenda Items,,4-tac-meeting-short
 New Project Proposal - [Sandbox Proposal] AI Dataset Health for z/OS (ai-dataset-health-zos),https://github.com/openmainframeproject/tac/issues/895,895,2025-10-23,In Voting,,1-new-project-wg
 Infra Request - z/VM Community Tools,https://github.com/openmainframeproject/tac/issues/966,966,,Infrastructure Requests,,
 TAC Vice Chair Election,https://github.com/openmainframeproject/tac/issues/933,933,2026-11-12,Future Meeting Agenda Items,2026-02-12,4-tac-meeting-short
@@ -32,6 +33,6 @@ Presentation from @SecurityCRob on leveraging OpenSSF for Open Mainframe Project
 Review/renew TAC Industry Representatives for 2027,https://github.com/openmainframeproject/tac/issues/965,965,2026-10-08,Future Meeting Agenda Items,,
 New Project Proposal - Lua/TSO — scripting platform for z/OS (System REXX replacement),https://github.com/openmainframeproject/tac/issues/972,972,,Infrastructure Requests,,
 Infra Request - AI Dataset Health for z/OS,https://github.com/openmainframeproject/tac/issues/975,975,,Infrastructure Requests,,
-Security Advisory: Active Exploitation of Weak GitHub Actions Configurations,https://github.com/openmainframeproject/tac/issues/995,995,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
 zOpen,https://github.com/openmainframeproject/tac/issues/625,625,2026-03-26,Upcoming Meeting Agenda Items,2025-03-13,2-annual-review
+Summer Mentorships,https://github.com/openmainframeproject/tac/issues/1007,1007,,Upcoming Meeting Agenda Items,,4-tac-meeting-short
 Infra Request - Nix,https://github.com/openmainframeproject/tac/issues/999,999,,Infrastructure Requests,,

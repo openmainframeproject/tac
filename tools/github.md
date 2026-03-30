@@ -128,6 +128,12 @@ As project communities and members look for the {{ site.foundation_name }} to pr
 
 If there are concerns about this, feel free to [submit a request][].
 
+### How can I get access to GitHub Copilot?
+
+Follow the instructions here: [LF Project Maintainer GitHub Copilot Enterprise Access](https://docs.releng.linuxfoundation.org/en/latest/github-copilot-access.html)
+
+---
+
 [submit a request]: {{ site.helpdesk_url }} 
 [Code of Conduct]: /code_of_conduct
 [GitHub commit signoff policy]: https://docs.github.com/en/organizations/managing-organization-settings/managing-the-commit-signoff-policy-for-your-organization

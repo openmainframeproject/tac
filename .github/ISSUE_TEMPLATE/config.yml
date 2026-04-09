@@ -3,3 +3,5 @@ contact_links:
   - name: Open Mainframe Ambassador application
     url: https://openmainframeproject.org/blog/open-mainframe-project-launches-applications-for-2024-ambassadors/
     about: Apply to be an Open Mainframe Ambassador
+  - name: Request GitHub Copilot Enterprise access
+    url: https://docs.releng.linuxfoundation.org/en/latest/github-copilot-access.html

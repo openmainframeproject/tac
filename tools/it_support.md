@@ -41,7 +41,7 @@ Additionally, {{ site.foundation_name }} provides [mainframe infrastucture](../p
 The Linux Foundation team is always happy to support projects in thier IT and build infrastructure needs. Please [file a ticket][Generic IT Request] to reach the team.
 
 [LFX EasyCLA]: https://easycla.lfx.linuxfoundation.org/
-[LFX Project Control Center]: https://lfx.linuxfoundation.org/tools/project-control-center
+[LFX Project Control Center]: https://lfx.linuxfoundation.org/tools/pcc
 [support.linuxfoundation.org]: https://support.linuxfoundation.org
 [Domain IT Request]: https://jira.linuxfoundation.org/plugins/servlet/desk/portal/2?requestGroup=19
 [Generic IT Request]: https://jira.linuxfoundation.org/plugins/servlet/desk/portal/2/create/37

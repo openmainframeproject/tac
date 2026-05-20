@@ -34,8 +34,8 @@ TAC Projects must be proposed via a new [GitHub Issue](https://github.com/openma
 *   External dependencies (including licenses)
     *   Note that any proposed project should not bundle any closed-source software.
 *   Initial committers
-    *   How long has each worked on the project? 
-    *   The extent of contributions (how many commits)?  
+    *   How long has each worked on the project?
+    *   The extent of contributions (how many commits)?
     *   Diversity of community (is the contributor base diverse in terms of being spread across different organizations/companies)?
 *   Infrastructure requests (CI / build infrastructure)
 *   Communication channels (such as Slack/IRC channels, mailing lists, forums, and/or other discussion tools)
@@ -49,16 +49,16 @@ TAC Projects must be proposed via a new [GitHub Issue](https://github.com/openma
 
 Projects will present at the next TAC meeting no sooner than two weeks after their submission date.
 
-Proposed projects will receive a 30-45 minute presentation slot at an upcoming TAC meeting as the schedule allows. The project proposal must include a presentation that conforms to the presentation structure below to ensure uniform and complete submissions ( projects may leverage the [Open Mainframe Project presentation template](https://artwork.openmainframeproject.org/other/open-mainframe-project/#open-mainframe-project-presentation-template) if desired )
+Proposed projects will receive a 30-45 minute presentation slot at an upcoming TAC meeting as the schedule allows. The project proposal must include a presentation that conforms to the presentation structure below to ensure uniform and complete submissions ( projects may leverage the [Open Mainframe Project presentation template](https://artwork.openmainframeproject.org/other/open-mainframe-project/#presentation-template) if desired )
 
 *   Overview of the project and its purpose
 *   How does this submission support the Open Mainframe Project Mission and Vision Statements?
-*   What use cases/scenarios does the proposed solution address? 
-    *   Why are these important to the platform? 
+*   What use cases/scenarios does the proposed solution address?
+    *   Why are these important to the platform?
     *   Why are these important to the mainframe community?
-*   Does the solution have any users? 
+*   Does the solution have any users?
     *   How do you plan to attract users if accepted?
-*   How many committers are you planning to have upfront, and from which companies? 
+*   How many committers are you planning to have upfront, and from which companies?
     *   How do you plan to attract committers and contributors if accepted?
 *   Architecture (functional / non-functional aspects), design, feature overview
 *   Demo
@@ -81,7 +81,7 @@ Projects being submitted to the Open Mainframe Project at the sandbox level are 
 
 ### Requirements
 
-To be accepted as a Sandbox Stage project, the project must complete the Proposal Process. 
+To be accepted as a Sandbox Stage project, the project must complete the Proposal Process.
 
 ### Benefits
 
@@ -95,7 +95,7 @@ The Sandbox Stage benefits are outlined below.
 
 ### Expectations
 
-Sandbox Stage projects should provide a quarterly report to the TAC outlining its progress on completing the requirements for the Incubation Stage. 
+Sandbox Stage projects should provide a quarterly report to the TAC outlining its progress on completing the requirements for the Incubation Stage.
 
 It’s expected that projects in the Sandbox Stage move to the Incubation Stage within one year. In the case of a Sandbox Stage project that is not renewed with Open Mainframe Project, the trademark and any other assets will be returned to the project maintainers or an organization they designate.
 
@@ -112,19 +112,19 @@ To be accepted to the Incubation Stage, in addition to the proposal process, a p
     *   A LICENSE file in every code repository, with the license chosen an OSI-approved license.
     *   A README file welcoming new community members to the project and explaining why the project is useful and how to get started ( follow the guidelines at the [README checklist](https://github.com/ddbeck/readme-checklist) to create an excellent README file ).
     *   A CONTRIBUTING file explaining to other developers and your community of users how to contribute to the project. The file should explain the types of contributions needed and how the process works.
-    *   A CODEOWNERS or COMMITTERS file to define individuals or teams that are responsible for code in a repository; document current project owners and current and emeritus committers. 
+    *   A CODEOWNERS or COMMITTERS file to define individuals or teams that are responsible for code in a repository; document current project owners and current and emeritus committers.
     *   A CODE_OF_CONDUCT file that sets the ground rules for participants’ behavior associated and helps to facilitate a friendly, welcoming environment. By default, projects should leverage the Linux Foundation Code of Conduct unless an alternate Code of Conduct is approved prior.
     *   A RELEASE file that provides documentation on the release methodology, cadence, criteria, etc.
     *   A GOVERNANCE file that documents the project’s technical governance.
     *   A SUPPORT file to let users and developers know about ways to get help with your project.
-*   Have achieved and maintained an [OpenSSF Best Practices Badge](https://bestpractices.coreinfrastructure.org/) at the ['passing' level](https://bestpractices.coreinfrastructure.org/en/criteria/0). 
+*   Have achieved and maintained an [OpenSSF Best Practices Badge](https://bestpractices.coreinfrastructure.org/) at the ['passing' level](https://bestpractices.coreinfrastructure.org/en/criteria/0).
 *   Have had a successful license scan with any critical issues remedied.
 *   An overview of the project’s architecture and features defined.
 *   A project roadmap is defined, which should address the following questions.
     *   What use cases are possible now?
     *   What does the next year look like regarding additional features and use cases covered?
 *   Community and contributor growth assessment
-    *   The current number of contributors and committers, and the number of different organizations contributing to the project. 
+    *   The current number of contributors and committers, and the number of different organizations contributing to the project.
         *   Generally, the TAC will look for 2 to 3 committers, but one committer may be acceptable for a high-quality project.
     *   Demonstrate a sustained flow of commits / merged contributions
     *   A credible plan for developing a thriving user community, particularly expanding the number of committers and contributors?
@@ -138,9 +138,9 @@ Incubation Stage projects will constitute “TAC Projects” under the [Open Mai
 
 ### Expectations
 
-Incubation Stage projects should provide a quarterly report to the TAC outlining its progress on completing the requirements for the Active Stage. 
+Incubation Stage projects should provide a quarterly report to the TAC outlining its progress on completing the requirements for the Active Stage.
 
-Every 12 months, each Incubation Stage project will be reviewed by the TAC to assess its progress towards graduating to the Active Stage. If the project has not met the requirements for graduating to the Active Stage, the TAC may renew the project at the Incubation Stage for another 12 months with a majority vote of the TAC. 
+Every 12 months, each Incubation Stage project will be reviewed by the TAC to assess its progress towards graduating to the Active Stage. If the project has not met the requirements for graduating to the Active Stage, the TAC may renew the project at the Incubation Stage for another 12 months with a majority vote of the TAC.
 
 It is expected that Incubation Stage projects graduate to the Active Stage within 2 years from moving to the Incubation Stage. In the case of an Incubation Stage project that is not renewed with Open Mainframe Project, the trademark and any assets will be returned to the project maintainers or an organization they designate.
 

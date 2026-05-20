@@ -36,7 +36,7 @@ tac_issues_url: 'https://github.com/openmainframeproject/tac/issues/new?template
 helpdesk_url: "https://servicedesk.openmainframeproject.org"
 mailing_list_url: "https://lists.openmainframeproject.org"
 wiki_url: "https://wiki.openmainframeproject.org"
-lfx_insights_url: "https://insights.lfx.linuxfoundation.org/foundation/open-mainframe-project"
+lfx_insights_url: "https://insights.linuxfoundation.org/collection/details/open-mainframe-project-omp"
 tac_mailing_list_url: "https://lists.openmainframeproject.org/g/omp-technical"
 tac_mailing_list_email: omp-technical@lists.openmainframeproject.org
 tac_private_mailing_list_email: omp-tac-private@lists.openmainframeproject.org
@@ -47,7 +47,7 @@ tac_lfx_meeting_url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open
 lfscanning_repo_url: https://github.com/lfscanning/spdx-omp
 tac_member_list_url: https://openmainframeproject.org/about/technical-advisory-council
 lf_staff_list_url: https://openmainframeproject.org/about/leadership
-mission_statement_url: https://openmainframeproject.org/about/ 
+mission_statement_url: https://openmainframeproject.org/about/
 tac_agenda_url: https://github.com/orgs/openmainframeproject/projects/21
 artwork_url: 'https://artwork.openmainframeproject.org'
 election_guidelines_url: 'https://github.com/openmainframeproject/foundation/blob/main/elections.md'
@@ -59,7 +59,7 @@ membership_top_tier: 'Platinum'
 vote_of_tac_committee_title: "Industry Representatives"
 vote_of_tac_committee_count: 2
 archived_lifecycle_stage: "Emeritus"
-tac_projects: 
+tac_projects:
   - "Active Stage Projects"
 project_types:
   - singular: "Project"
@@ -74,7 +74,7 @@ footer_content: Copyright &copy; The Linux Foundation&reg;. All rights reserved.
 
 readme_index:
   with_frontmatter: true
-  
+
 ga_tracking: 359859504
 ga_tracking_anonymize_ip: true
 
@@ -100,7 +100,7 @@ callouts:
 
 defaults:
   -
-    scope: 
+    scope:
       path: "meetings/*/README.md"
       type: "pages"
     values:

@@ -61,7 +61,6 @@ The Open Mainframe Mentorship program follows the [Open Mainframe Project Code o
 
 ## FAQ
 
-Mentorship FAQs can be found here:
-[https://docs.linuxfoundation.org/lfx/mentorship/mentorship-faqs](url)
+Mentorship FAQs can be found at [https://docs.linuxfoundation.org/lfx/mentorship/mentorship-faqs](https://docs.linuxfoundation.org/lfx/mentorship/mentorship-faqs)
 
 

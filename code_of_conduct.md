@@ -19,7 +19,7 @@ This community code of conduct (“CoC”) applies:
 
 ## Events Code of Conduct
 
-OMP events produced by the Linux Foundation with professional event staff are also governed by the Linux Foundation Events Code of Conduct, available at http://events.linuxfoundation.org/code-of-conduct. This community CoC is designed to be used in conjunction with the LF Events Code of Conduct.
+OMP events produced by the Linux Foundation with professional event staff are also governed by the Linux Foundation Events Code of Conduct, available at [https://events.linuxfoundation.org/code-of-conduct](https://events.linuxfoundation.org/code-of-conduct). This community CoC is designed to be used in conjunction with the LF Events Code of Conduct.
 
 ## Project Codes of Conduct
 
@@ -85,7 +85,7 @@ The following are examples of remedies the Technical Advisory Council may consid
 
 ## Acknowledgements
 
-This Code of Conduct is adapted from the Contributor Covenant ([http://contributor-covenant.org](http://contributor-covenant.org/)), version 2.0, available at [http://contributor-covenant.org/version/2/0/code_of_conduct/](http://contributor-covenant.org/version/2/0/code_of_conduct/)
+This Code of Conduct is adapted from the Contributor Covenant ([https://contributor-covenant.org](https://contributor-covenant.org/)), version 2.0, available at [https://contributor-covenant.org/version/2/0/code_of_conduct/](https://contributor-covenant.org/version/2/0/code_of_conduct/)
 
 ## Transparency Report
 

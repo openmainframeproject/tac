@@ -9,8 +9,8 @@ Open Mainframe Project, in partnership with IBM, hosts a mainframe environment f
 
 ## How to request mainframe resources
 
-Please [create a request](https://github.com/openmainframeproject/tac/issues/new/choose) to request mainframe resources. Applications are reviewed regularly and subject to TAC approval. 
+Please [create a request]({% link programs/infrastructure/apply.md %}) to request mainframe resources. Applications are reviewed regularly and subject to TAC approval.
 
 ## How to request support
 
-Please [create a support request](https://github.com/openmainframeproject/tac/issues/new/choose) for any issues with your mainframe resources.
+Please [create a support request]({% link programs/infrastructure/support.md %}) for any issues with your mainframe resources.

@@ -2,7 +2,7 @@ blank_issues_enabled: false
 contact_links:
   - name: Support for Mainframe Infrastructure
     url: https://www.ibm.com/mysupport
-    about: Instructions on how to submit support requests can be found [here](https://dtsc.dfw.ibm.com/MVSDS/'HTTPD1.DSN01.PUBLIC.HOME.PDF(CSPGUID)')
+    about: Instructions on how to submit support requests can be found at https://dtsc.dfw.ibm.com/MVSDS/'HTTPD1.DSN01.PUBLIC.HOME.PDF(CSPGUID)'
   - name: Open Mainframe Ambassador application
     url: https://openmainframeproject.org/blog/open-mainframe-project-launches-applications-for-2024-ambassadors/
     about: Apply to be an Open Mainframe Ambassador

@@ -5,14 +5,12 @@ title: Mainframe Access
 
 # Mainframe Access for Open Source Projects
 
-Open Mainframe Project, in partnership with IBM, hosts a mainframe environment for open-source projects that wish to support the mainframe architecture. TAC approved open source projects are eligible for a guest instance running Linux or z/OS.
+Open Mainframe Project, in partnership with IBM, provides mainframe environments for
+approved open source projects to develop and test on the mainframe architecture.
+Eligible projects may receive guest environments running Linux or IBM z/OS.
 
-## How to request mainframe resources
+## Getting Started: Mainframe Resource Process
 
-Please [create a request]({% link programs/infrastructure/apply.md %}) to request mainframe resources. Applications are reviewed regularly and subject to TAC approval.
-
-Once approved by the TAC, projects can apply for resources [here](https://forms.office.com/pages/responsepage.aspx?id=V3D2_MlQ1EqY8__KZK3Z6Wzm91s-e5BLsQr1P2kZm_ZUNVJTV1JONFBGTFU1Qkw4WVFGM0dMNDIzOC4u&route=shorturl).
-
-## How to request support
-
-Please [create a support request]({% link programs/infrastructure/support.md %}) for any issues with your mainframe resources. Instructions on how to use the support portal can be found [here](https://dtsc.dfw.ibm.com/MVSDS/'HTTPD1.DSN01.PUBLIC.HOME.PDF(CSPGUID)').
+- Step 1: [Submit Your Project for TAC Approval]({% link programs/infrastructure/apply.md %})
+- Step 2: [Request Mainframe Resources](https://forms.office.com/pages/responsepage.aspx?id=V3D2_MlQ1EqY8__KZK3Z6Wzm91s-e5BLsQr1P2kZm_ZUNVJTV1JONFBGTFU1Qkw4WVFGM0dMNDIzOC4u&route=shorturl) – **Only available for TAC approved
+projects**.

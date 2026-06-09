@@ -12,6 +12,8 @@ Eligible projects may receive guest environments running Linux or IBM z/OS.
 
 ## Getting Started: Mainframe Resource Process
 
-- Step 1: [Submit Your Project for TAC Approval]({% link programs/infrastructure/apply.md %})
-- Step 2: [Request Mainframe Resources](https://forms.office.com/pages/responsepage.aspx?id=V3D2_MlQ1EqY8__KZK3Z6Wzm91s-e5BLsQr1P2kZm_ZUNVJTV1JONFBGTFU1Qkw4WVFGM0dMNDIzOC4u&route=shorturl) – **Only available for TAC approved
-projects**.
+- Step 1: [Submit Your Project for TAC Approval]
+- Step 2: [Request Mainframe Resources] – **Only available for TAC approved projects**.
+
+[Request Mainframe Resources]: https://community.ibm.com/zsystems/omp/forms/project-request-form/
+[Submit Your Project for TAC Approval]: {% link programs/infrastructure/apply.md %}

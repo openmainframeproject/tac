@@ -1,11 +1,11 @@
 title,url,number,scheduled_date,status,last_review_date,meeting_label
-COBOL Working Group,https://github.com/openmainframeproject/tac/issues/581,581,2026-09-24,Future Meeting Agenda Items,2025-01-09,2-annual-review
+Software Discovery Tool,https://github.com/openmainframeproject/tac/issues/580,580,2026-06-11,Upcoming Meeting Agenda Items,2025-05-08,2-annual-review
+z/VM Community Tools,https://github.com/openmainframeproject/tac/issues/454,454,2026-06-25,Next Meeting Agenda Items,2025-06-12,2-annual-review
 Mainframe Software Hub for Linux,https://github.com/openmainframeproject/tac/issues/825,825,2026-06-25,Next Meeting Agenda Items,,2-annual-review
+COBOL Working Group,https://github.com/openmainframeproject/tac/issues/581,581,2026-09-24,Future Meeting Agenda Items,2025-01-09,2-annual-review
 Mainframe infrastructure coming online status,https://github.com/openmainframeproject/tac/issues/596,596,2026-05-14,Upcoming Meeting Agenda Items,,4-tac-meeting-short
 SBOM for mainframe applications Working Group,https://github.com/openmainframeproject/tac/issues/848,848,2026-05-28,On Hold,2025-05-22,2-annual-review
 TSTerm,https://github.com/openmainframeproject/tac/issues/506,506,2026-05-28,On Hold,2025-05-08,2-annual-review
-z/VM Community Tools,https://github.com/openmainframeproject/tac/issues/454,454,2026-06-11,Upcoming Meeting Agenda Items,2025-06-12,2-annual-review
-Software Discovery Tool,https://github.com/openmainframeproject/tac/issues/580,580,2026-06-11,Upcoming Meeting Agenda Items,2025-05-08,2-annual-review
 COBOL Programming Course,https://github.com/openmainframeproject/tac/issues/585,585,2026-07-09,Future Meeting Agenda Items,2025-04-24,2-annual-review
 Galasa,https://github.com/openmainframeproject/tac/issues/584,584,2027-04-22,Future Meeting Agenda Items,2026-04-23,2-annual-review
 zOpen,https://github.com/openmainframeproject/tac/issues/625,625,2027-03-25,Future Meeting Agenda Items,2025-03-13,2-annual-review
@@ -23,6 +23,4 @@ TerseDecompress,https://github.com/openmainframeproject/tac/issues/576,576,2027-
 CBT Tape,https://github.com/openmainframeproject/tac/issues/530,530,2026-02-12,On Hold,2025-02-13,2-annual-review
 Review/renew TAC Industry Representatives for 2027,https://github.com/openmainframeproject/tac/issues/965,965,2026-10-08,Future Meeting Agenda Items,,
 New Project Proposal - Lua/TSO — scripting platform for z/OS (System REXX replacement),https://github.com/openmainframeproject/tac/issues/972,972,,Infrastructure Requests,,
-Infra Request - Nix,https://github.com/openmainframeproject/tac/issues/999,999,,Infrastructure Requests,,
-Infra Request - OpenShift AI for openSUSE,https://github.com/openmainframeproject/tac/issues/1021,1021,,Infrastructure Requests,,
 TAC Strategy Planning for 2027,https://github.com/openmainframeproject/tac/issues/1041,1041,2026-09-10,Future Meeting Agenda Items,,

@@ -5,7 +5,7 @@ has_children: true
 ---
 
 # Working Groups
-_Modeled off of CNCF Working Group model ( https://github.com/cncf/toc/blob/master/workinggroups/README.md )_
+_Modeled off of the [CNCF Working Group model](https://github.com/cncf/toc/blob/e5914292259c836cb57c9990cdc562222fe26942/workinggroups/README.md)_
 
 * TOC
 {:toc}
@@ -21,7 +21,7 @@ Working Groups must be proposed via a new [GitHub Issue]. Working Group proposal
 - Goals of the working group
     - _Goals are the distinct outcomes that are to be anticipated from the working group, serving as a method for validating activities._
 - Non-goals of the working group
-    - _Non-goals are things that the working group is intentionally choosing not to do, the things not expected to change due to the working group's efforts, or the subject matter areas that the working groups don’t want to address at this time. _
+    - _Non-goals are things that the working group is intentionally choosing not to do, the things not expected to change due to the working group's efforts, or the subject matter areas that the working groups don’t want to address at this time._
 - Deliverables
     - _provide a list of planned deliverables or links to the deliverables. A best practice is to have a directory named deliverables in the repo for hosting and managing deliverables._
 

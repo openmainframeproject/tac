@@ -1,4 +1,6 @@
 title,url,number,scheduled_date,status,last_review_date,meeting_label
+Mainframe Open Education,https://github.com/openmainframeproject/tac/issues/494,494,2026-07-23,Upcoming Meeting Agenda Items,2025-07-24,2-annual-review
+CBT Tape,https://github.com/openmainframeproject/tac/issues/530,530,2026-07-23,Upcoming Meeting Agenda Items,2025-02-13,2-annual-review
 COBOL Programming Course,https://github.com/openmainframeproject/tac/issues/585,585,2027-07-08,Future Meeting Agenda Items,2026-07-09,2-annual-review
 Infra Request - junixsocket (Christian Kohlschütter),https://github.com/openmainframeproject/tac/issues/594,594,,In Voting,,
 Infra Request - AI Powered Mainframe Data Modernization,https://github.com/openmainframeproject/tac/issues/1053,1053,,In Voting,,
@@ -16,8 +18,6 @@ Linux Distributions Working Group,https://github.com/openmainframeproject/tac/is
 Tessia,https://github.com/openmainframeproject/tac/issues/531,531,2026-10-08,Future Meeting Agenda Items,2025-10-09,2-annual-review
 Mainframe Modernization WG,https://github.com/openmainframeproject/tac/issues/529,529,2026-09-24,Future Meeting Agenda Items,2025-09-25,2-annual-review
 Ambitus,https://github.com/openmainframeproject/tac/issues/577,577,2026-09-10,Future Meeting Agenda Items,2025-09-11,2-annual-review
-Mainframe Open Education,https://github.com/openmainframeproject/tac/issues/494,494,2026-07-23,Future Meeting Agenda Items,2025-07-24,2-annual-review
-CBT Tape,https://github.com/openmainframeproject/tac/issues/530,530,2026-07-23,Future Meeting Agenda Items,2025-02-13,2-annual-review
 Feilong,https://github.com/openmainframeproject/tac/issues/579,579,2026-08-13,Future Meeting Agenda Items,2025-08-14,2-annual-review
 SBOM for mainframe applications Working Group,https://github.com/openmainframeproject/tac/issues/848,848,2026-08-13,Future Meeting Agenda Items,2025-05-22,2-annual-review
 Zowe,https://github.com/openmainframeproject/tac/issues/526,526,2026-11-12,Future Meeting Agenda Items,2025-11-13,2-annual-review

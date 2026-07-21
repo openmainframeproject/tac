@@ -1,4 +1,5 @@
 title,url,number,scheduled_date,status,last_review_date,meeting_label
+OpenTelemetry Producer on z/OS - <Project name to be done>,https://github.com/openmainframeproject/tac/issues/1052,1052,2026-09-10,Future Meeting Agenda Items,,
 Mainframe Open Education,https://github.com/openmainframeproject/tac/issues/494,494,2026-07-23,Upcoming Meeting Agenda Items,2025-07-24,2-annual-review
 CBT Tape,https://github.com/openmainframeproject/tac/issues/530,530,2026-07-23,Upcoming Meeting Agenda Items,2025-02-13,2-annual-review
 COBOL Programming Course,https://github.com/openmainframeproject/tac/issues/585,585,2027-07-08,Future Meeting Agenda Items,2026-07-09,2-annual-review
@@ -27,6 +28,5 @@ New Project Proposal - Lua/TSO — scripting platform for z/OS (System REXX repl
 Infra Request - AI Dataset Health for z/OS,https://github.com/openmainframeproject/tac/issues/975,975,,Infrastructure Requests,,
 TAC Strategy Planning for 2027,https://github.com/openmainframeproject/tac/issues/1041,1041,2026-09-10,Future Meeting Agenda Items,,
 Review Mainframe Infra applications,https://github.com/openmainframeproject/tac/issues/1060,1060,,Upcoming Meeting Agenda Items,,
-OpenTelemetry Producer on z/OS - <Project name to be done>,https://github.com/openmainframeproject/tac/issues/1052,1052,,LF Onboarding,,
 Help with reviewing non-OMP project entries in the landscape,https://github.com/openmainframeproject/tac/issues/1067,1067,,Upcoming Meeting Agenda Items,,
 Add Guide,https://github.com/openmainframeproject/omp-landscape/pull/1084,1084,,Next Meeting Agenda Items,,

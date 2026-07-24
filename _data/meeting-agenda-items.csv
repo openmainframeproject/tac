@@ -1,4 +1,6 @@
 title,url,number,scheduled_date,status,last_review_date,meeting_label
+Feilong,https://github.com/openmainframeproject/tac/issues/579,579,2026-08-13,Next Meeting Agenda Items,2025-08-14,2-annual-review
+SBOM for mainframe applications Working Group,https://github.com/openmainframeproject/tac/issues/848,848,2026-08-13,Next Meeting Agenda Items,2025-05-22,2-annual-review
 OpenTelemetry Producer on z/OS - <Project name to be done>,https://github.com/openmainframeproject/tac/issues/1052,1052,2026-09-10,Future Meeting Agenda Items,,
 Mainframe Open Education,https://github.com/openmainframeproject/tac/issues/494,494,2026-07-23,Upcoming Meeting Agenda Items,2025-07-24,2-annual-review
 CBT Tape,https://github.com/openmainframeproject/tac/issues/530,530,2026-07-23,Upcoming Meeting Agenda Items,2025-02-13,2-annual-review
@@ -19,8 +21,6 @@ Linux Distributions Working Group,https://github.com/openmainframeproject/tac/is
 Tessia,https://github.com/openmainframeproject/tac/issues/531,531,2026-10-08,Future Meeting Agenda Items,2025-10-09,2-annual-review
 Mainframe Modernization WG,https://github.com/openmainframeproject/tac/issues/529,529,2026-09-24,Future Meeting Agenda Items,2025-09-25,2-annual-review
 Ambitus,https://github.com/openmainframeproject/tac/issues/577,577,2026-09-10,Future Meeting Agenda Items,2025-09-11,2-annual-review
-Feilong,https://github.com/openmainframeproject/tac/issues/579,579,2026-08-13,Future Meeting Agenda Items,2025-08-14,2-annual-review
-SBOM for mainframe applications Working Group,https://github.com/openmainframeproject/tac/issues/848,848,2026-08-13,Future Meeting Agenda Items,2025-05-22,2-annual-review
 Zowe,https://github.com/openmainframeproject/tac/issues/526,526,2026-11-12,Future Meeting Agenda Items,2025-11-13,2-annual-review
 TerseDecompress,https://github.com/openmainframeproject/tac/issues/576,576,2027-02-11,Future Meeting Agenda Items,2026-02-26,2-annual-review
 Review/renew TAC Industry Representatives for 2027,https://github.com/openmainframeproject/tac/issues/965,965,2026-10-08,Future Meeting Agenda Items,,
@@ -29,4 +29,4 @@ Infra Request - AI Dataset Health for z/OS,https://github.com/openmainframeproje
 TAC Strategy Planning for 2027,https://github.com/openmainframeproject/tac/issues/1041,1041,2026-09-10,Future Meeting Agenda Items,,
 Review Mainframe Infra applications,https://github.com/openmainframeproject/tac/issues/1060,1060,,Upcoming Meeting Agenda Items,,
 Help with reviewing non-OMP project entries in the landscape,https://github.com/openmainframeproject/tac/issues/1067,1067,,Upcoming Meeting Agenda Items,,
-Add Guide,https://github.com/openmainframeproject/omp-landscape/pull/1084,1084,,Next Meeting Agenda Items,,
+Add Guide,https://github.com/openmainframeproject/omp-landscape/pull/1084,1084,,Upcoming Meeting Agenda Items,,

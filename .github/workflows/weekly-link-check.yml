@@ -20,7 +20,6 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@003a5c4d8d6321bd302e38f6f0ec593f77f06600 # v1.180.1
         with:
-          ruby-version: '3.2.3'
           bundler-cache: true
 
       - name: Build site with Jekyll

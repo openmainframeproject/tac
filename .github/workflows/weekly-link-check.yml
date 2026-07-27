@@ -43,7 +43,6 @@ jobs:
               },
               enforce_https: false,
               ignore_status_codes: [403, 429, 0],
-              check-external-hash: true,
               allow_hash_href: true
             }).run
           ' > htmlproofer.log 2>&1

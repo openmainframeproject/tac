@@ -31,9 +31,8 @@ jobs:
         id: htmlproofer
         continue-on-error: true
         run: |
-          gem install html-proofer -v 5.0.8
+          gem install html-proofer
           htmlproofer ./_site \
-            --check-html \
             --check-external-hash \
             --ignore-empty-alt \
             > htmlproofer.log 2>&1

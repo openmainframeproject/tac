@@ -33,6 +33,8 @@ jobs:
         run: |
           gem install html-proofer
           htmlproofer ./_site \
+            --internal-domains "tac.openmainframeproject.org" \
+            --swap-urls "^https?://tac\.openmainframeproject\.org/pages/openmainframeproject/tac/:/" \
             --ignore-status-codes "403,429,0" \
             --check-external-hash \
             --allow-hash-href \

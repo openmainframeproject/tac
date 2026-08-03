@@ -36,7 +36,7 @@ tac_issues_url: 'https://github.com/openmainframeproject/tac/issues/new?template
 helpdesk_url: "https://servicedesk.openmainframeproject.org"
 mailing_list_url: "https://lists.openmainframeproject.org"
 wiki_url: "https://wiki.openmainframeproject.org"
-lfx_insights_url: "https://insights.linuxfoundation.org/collection/details/open-mainframe-project-omp"
+lfx_insights_url: "https://insights.linuxfoundation.org/collection/details/open-mainframe-project"
 tac_mailing_list_url: "https://lists.openmainframeproject.org/g/omp-technical"
 tac_mailing_list_email: omp-technical@lists.openmainframeproject.org
 tac_private_mailing_list_email: omp-tac-private@lists.openmainframeproject.org

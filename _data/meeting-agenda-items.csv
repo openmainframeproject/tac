@@ -1,4 +1,5 @@
 title,url,number,scheduled_date,status,last_review_date,meeting_label
+TSTerm,https://github.com/openmainframeproject/tac/issues/506,506,2026-08-27,Next Meeting Agenda Items,2025-05-08,2-annual-review
 Feilong,https://github.com/openmainframeproject/tac/issues/579,579,2026-10-22,Future Meeting Agenda Items,2025-08-14,2-annual-review
 SBOM for mainframe applications Working Group,https://github.com/openmainframeproject/tac/issues/848,848,2026-08-13,Upcoming Meeting Agenda Items,2025-05-22,2-annual-review
 Mainframe Open Education,https://github.com/openmainframeproject/tac/issues/494,494,2027-07-22,Future Meeting Agenda Items,2026-07-23,2-annual-review
@@ -11,7 +12,6 @@ Mainframe Software Hub for Linux,https://github.com/openmainframeproject/tac/iss
 z/VM Community Tools,https://github.com/openmainframeproject/tac/issues/454,454,2027-06-24,Future Meeting Agenda Items,2026-06-25,2-annual-review
 Software Discovery Tool,https://github.com/openmainframeproject/tac/issues/580,580,2027-06-10,Future Meeting Agenda Items,2026-06-11,2-annual-review
 COBOL Working Group,https://github.com/openmainframeproject/tac/issues/581,581,2026-09-24,Future Meeting Agenda Items,2025-01-09,2-annual-review
-TSTerm,https://github.com/openmainframeproject/tac/issues/506,506,2026-05-28,On Hold,2025-05-08,2-annual-review
 Galasa,https://github.com/openmainframeproject/tac/issues/584,584,2027-04-22,Future Meeting Agenda Items,2026-04-23,2-annual-review
 zOpen,https://github.com/openmainframeproject/tac/issues/625,625,2027-03-25,Future Meeting Agenda Items,2025-03-13,2-annual-review
 TAC Vice Chair Election,https://github.com/openmainframeproject/tac/issues/933,933,2026-11-12,Future Meeting Agenda Items,2026-02-12,4-tac-meeting-short

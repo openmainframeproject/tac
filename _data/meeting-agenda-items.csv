@@ -1,4 +1,6 @@
 title,url,number,scheduled_date,status,last_review_date,meeting_label
+Infra Request - junixsocket (Christian Kohlschütter),https://github.com/openmainframeproject/tac/issues/594,594,,Infrastructure Requests,,
+Infra Request - Zcrafter AI MCP,https://github.com/openmainframeproject/tac/issues/1101,1101,,Upcoming Meeting Agenda Items,,
 OpenTelemetry Producer on z/OS - <Project name to be done>,https://github.com/openmainframeproject/tac/issues/1052,1052,2026-09-10,Next Meeting Agenda Items,,
 TAC Strategy Planning for 2027,https://github.com/openmainframeproject/tac/issues/1041,1041,2026-09-10,Next Meeting Agenda Items,,
 Ambitus,https://github.com/openmainframeproject/tac/issues/577,577,2026-09-10,Next Meeting Agenda Items,2025-09-11,2-annual-review
@@ -8,8 +10,6 @@ Feilong,https://github.com/openmainframeproject/tac/issues/579,579,2026-10-22,Fu
 Mainframe Open Education,https://github.com/openmainframeproject/tac/issues/494,494,2027-07-22,Future Meeting Agenda Items,2026-07-23,2-annual-review
 CBT Tape,https://github.com/openmainframeproject/tac/issues/530,530,2027-07-22,Future Meeting Agenda Items,2026-07-23,2-annual-review
 COBOL Programming Course,https://github.com/openmainframeproject/tac/issues/585,585,2027-07-08,Future Meeting Agenda Items,2026-07-09,2-annual-review
-Infra Request - junixsocket (Christian Kohlschütter),https://github.com/openmainframeproject/tac/issues/594,594,,In Voting,,
-Infra Request - AI Powered Mainframe Data Modernization,https://github.com/openmainframeproject/tac/issues/1053,1053,,In Voting,,
 Mainframe Software Hub for Linux,https://github.com/openmainframeproject/tac/issues/825,825,2027-06-24,Future Meeting Agenda Items,2026-06-25,2-annual-review
 z/VM Community Tools,https://github.com/openmainframeproject/tac/issues/454,454,2027-06-24,Future Meeting Agenda Items,2026-06-25,2-annual-review
 Software Discovery Tool,https://github.com/openmainframeproject/tac/issues/580,580,2027-06-10,Future Meeting Agenda Items,2026-06-11,2-annual-review
@@ -26,9 +26,7 @@ Zowe,https://github.com/openmainframeproject/tac/issues/526,526,2026-11-12,Futur
 TerseDecompress,https://github.com/openmainframeproject/tac/issues/576,576,2027-02-11,Future Meeting Agenda Items,2026-02-26,2-annual-review
 Review/renew TAC Industry Representatives for 2027,https://github.com/openmainframeproject/tac/issues/965,965,2026-10-08,Future Meeting Agenda Items,,
 New Project Proposal - Lua/TSO — scripting platform for z/OS (System REXX replacement),https://github.com/openmainframeproject/tac/issues/972,972,,Infrastructure Requests,,
-Infra Request - AI Dataset Health for z/OS,https://github.com/openmainframeproject/tac/issues/975,975,,Infrastructure Requests,,
 Review Mainframe Infra applications,https://github.com/openmainframeproject/tac/issues/1060,1060,,Upcoming Meeting Agenda Items,,
 Help with reviewing non-OMP project entries in the landscape,https://github.com/openmainframeproject/tac/issues/1067,1067,,Upcoming Meeting Agenda Items,,
 Add Guide,https://github.com/openmainframeproject/omp-landscape/pull/1084,1084,,Upcoming Meeting Agenda Items,,
 CRA Compliance,https://github.com/openmainframeproject/tac/issues/1094,1094,2026-08-27,Upcoming Meeting Agenda Items,,3-tac-meeting-long
-Infra Request - Zcrafter AI MCP,https://github.com/openmainframeproject/tac/issues/1101,1101,,On Hold,,

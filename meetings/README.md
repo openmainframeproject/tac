@@ -11,7 +11,7 @@ TAC meetings are intended to be the focal point for the technical community of {
 
 ## Meeting Agenda
 
-The agenda for the next TAC meeting can be found [here]({% link meetings/template.md %}).
+The agenda for the next TAC meeting can be found [here](template).
 
 Propose agenda items by [creating a new issue]({{ site.tac_issues_url }}) under 'TAC Meeting agenda item' for an upcoming TAC meeting.
 

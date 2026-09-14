@@ -60,9 +60,9 @@ clotributor_name: openmainframeproject
 membership_top_tier: 'Platinum'
 vote_of_tac_committee_title: "Industry Representatives"
 vote_of_tac_committee_count: 2
-archived_lifecycle_stage: "Emeritus"
+archived_lifecycle_stage: "Archived"
 tac_projects:
-  - "Active Stage Projects"
+  - "Graduated Stage Projects"
 project_types:
   - singular: "Project"
     plural: "Projects"

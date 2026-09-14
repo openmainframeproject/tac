@@ -128,7 +128,7 @@ To be accepted to the Incubation Stage, in addition to the proposal process, a p
         *   Generally, the TAC will look for 2 to 3 committers, but one committer may be acceptable for a high-quality project.
     *   Demonstrate a sustained flow of commits / merged contributions
     *   A credible plan for developing a thriving user community, particularly expanding the number of committers and contributors?
-    *   Outline of the plan for the project to complete the requirements for Active Stage
+    *   Outline of the plan for the project to complete the requirements for Graduated Stage
 
 Sandbox Projects may propose to be reviewed to move to the Incubation Stage at any time by creating a GitHub Issue to add to a future TAC meeting agenda ( minimum two weeks' notice required ) or may be moved to the Incubation Stage during its annual review. Projects should prepare a presentation outlining how they completed the Incubation Stage requirements.
 
@@ -138,19 +138,19 @@ Incubation Stage projects will constitute “TAC Projects” under the [Open Mai
 
 ### Expectations
 
-Incubation Stage projects should provide a quarterly report to the TAC outlining its progress on completing the requirements for the Active Stage.
+Incubation Stage projects should provide a quarterly report to the TAC outlining its progress on completing the requirements for the Graduated Stage.
 
-Every 12 months, each Incubation Stage project will be reviewed by the TAC to assess its progress towards graduating to the Active Stage. If the project has not met the requirements for graduating to the Active Stage, the TAC may renew the project at the Incubation Stage for another 12 months with a majority vote of the TAC.
+Every 12 months, each Incubation Stage project will be reviewed by the TAC to assess its progress towards graduating to the Graduated Stage. If the project has not met the requirements for graduating to the Graduated Stage, the TAC may renew the project at the Incubation Stage for another 12 months with a majority vote of the TAC.
 
-It is expected that Incubation Stage projects graduate to the Active Stage within 2 years from moving to the Incubation Stage. In the case of an Incubation Stage project that is not renewed with Open Mainframe Project, the trademark and any assets will be returned to the project maintainers or an organization they designate.
+It is expected that Incubation Stage projects graduate to the Graduated Stage within 2 years from moving to the Incubation Stage. In the case of an Incubation Stage project that is not renewed with Open Mainframe Project, the trademark and any assets will be returned to the project maintainers or an organization they designate.
 
-## Active Stage
+## Graduated Stage
 
-Active Stage projects are considered mature projects that generally are ready for production use. Projects at this stage are focused on growing an ecosystem of users and are often being leveraged in vendor products or being used by end-users.
+Graduated Stage projects are considered mature projects that generally are ready for production use. Projects at this stage are focused on growing an ecosystem of users and are often being leveraged in vendor products or being used by end-users.
 
 ### Requirements
 
-To be accepted at the Active Stage, a project must have completed the Incubation Stage requirements plus the following requirements:
+To be accepted at the Graduated Stage, a project must have completed the Incubation Stage requirements plus the following requirements:
 
 *   Have committers from at least two organizations.
 *   Have achieved and maintained an [OpenSSF Best Practices Badge](https://bestpractices.coreinfrastructure.org/) at the ['Gold' level](https://bestpractices.coreinfrastructure.org/en/criteria/2).
@@ -159,19 +159,19 @@ To be accepted at the Active Stage, a project must have completed the Incubation
 *   A healthy number of public adopters identified within the project ( using an ADOPTERS.md page or having showcased on the project’s website ).
 *   Elect or appoint a project lead to represent the project on the TAC.
 
-Incubation Projects may propose to be reviewed to graduate to the Active Stage at any time by creating a GitHub Issue to add to a future TAC meeting agenda ( minimum two weeks notice required ) or may graduate to the Active Stage during its annual review. Projects should prepare a presentation outlining how it has completed the Active Stage requirements.
+Incubation Projects may propose to be reviewed to graduate to the Graduated Stage at any time by creating a GitHub Issue to add to a future TAC meeting agenda ( minimum two weeks notice required ) or may graduate to the Graduated Stage during its annual review. Projects should prepare a presentation outlining how it has completed the Graduated Stage requirements.
 
-Both a ⅔ supermajority vote of the TAC and an affirmative majority vote of the Governing Board are required for a project to graduate to or be approved at the Active Stage.
+Both a ⅔ supermajority vote of the TAC and an affirmative majority vote of the Governing Board are required for a project to graduate to or be approved at the Graduated Stage.
 
 ### Benefits
 
-Active Stage projects will be considered a “TAC top-level project” as defined in the [Open Mainframe Project charter](https://github.com/openmainframeproject/foundation/blob/master/CHARTER.md). Active Stage projects will receive the benefits outlined in the [Project Benefits by Stage](https://github.com/openmainframeproject/tac/blob/master/process/project_benefits_by_stage.md) document.
+Graduated Stage projects will be considered a “TAC top-level project” as defined in the [Open Mainframe Project charter](https://github.com/openmainframeproject/foundation/blob/master/CHARTER.md). Graduated Stage projects will receive the benefits outlined in the [Project Benefits by Stage](https://github.com/openmainframeproject/tac/blob/master/process/project_benefits_by_stage.md) document.
 
 ### Expectations
 
-Active Stage projects should provide a bi-annual report to the TAC on if the project is still fulfilling the requirements for the Active Stage.
+Graduated Stage projects should provide a bi-annual report to the TAC on if the project is still fulfilling the requirements for the Graduated Stage.
 
-Active Stage projects will be reviewed annually by the TAC to determine if the project still meets the requirements for Active Stage. If the TAC deems the project does not meet the requirements for Active Stage it may be considered for Emeritus Stage if it meets the criteria.
+Graduated Stage projects will be reviewed annually by the TAC to determine if the project still meets the requirements for Graduated Stage. If the TAC deems the project does not meet the requirements for Graduated Stage it may be considered for Emeritus Stage if it meets the criteria.
 
 ## Emeritus Stage
 
@@ -184,4 +184,4 @@ Projects only can enter the Emeritus Stage by either:
 
 When in the Emeritus Stage, the project’s code repository administration is transferred to a designated individual by the TAC. No new features or bug fixes will be addressed unless it is deemed a security issue. Open Mainframe Project will hold all assets in perpetuity.
 
-A project can move back to Active Stage following the guidelines for a project being accepted at the Active Stage above.
+A project can move back to Graduated Stage following the guidelines for a project being accepted at the Graduated Stage above.

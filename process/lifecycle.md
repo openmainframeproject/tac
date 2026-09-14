@@ -171,17 +171,17 @@ Graduated Stage projects will be considered a “TAC top-level project” as def
 
 Graduated Stage projects should provide a bi-annual report to the TAC on if the project is still fulfilling the requirements for the Graduated Stage.
 
-Graduated Stage projects will be reviewed annually by the TAC to determine if the project still meets the requirements for Graduated Stage. If the TAC deems the project does not meet the requirements for Graduated Stage it may be considered for Emeritus Stage if it meets the criteria.
+Graduated Stage projects will be reviewed annually by the TAC to determine if the project still meets the requirements for Graduated Stage. If the TAC deems the project does not meet the requirements for Graduated Stage it may be considered for Archived Stage if it meets the criteria.
 
-## Emeritus Stage
+## Archived Stage
 
 Projects like products have lifecycles, and often in open source, the relevance for a given project over time can diminish. Nonetheless, having a home for projects no longer receiving active development is crucial for long-term sustainability and asset management.
 
-Projects only can enter the Emeritus Stage by either:
+Projects only can enter the Archived Stage by either:
 
 *   On request from the project itself, requiring a ⅔ supermajority vote of all active project committers.
 *   By a ⅔ supermajority vote of the TAC if there has been insufficient activity in the project for 6 months or if the project fails to move to the next stage within the expected time indicated in this document.
 
-When in the Emeritus Stage, the project’s code repository administration is transferred to a designated individual by the TAC. No new features or bug fixes will be addressed unless it is deemed a security issue. Open Mainframe Project will hold all assets in perpetuity.
+When in the Archived Stage, the project’s code repository administration is transferred to a designated individual by the TAC. No new features or bug fixes will be addressed unless it is deemed a security issue. Open Mainframe Project will hold all assets in perpetuity.
 
 A project can move back to Graduated Stage following the guidelines for a project being accepted at the Graduated Stage above.

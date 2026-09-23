@@ -11,12 +11,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
+        id: app-token
+        with:
+          client-id: ${{ vars.APP_CLIENT_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
       - uses: jmertic/lfx-tac-actions@3cc53bcc460908d9a414290e83e8104357b0d652 # 20260908
         with:
           landscape_url: https://landscape.openmainframeproject.org
           lfx_tac_committee_url: https://projectadmin.lfx.linuxfoundation.org/project/a0941000002wBymAAE/collaboration/committees/163b26f7-a49b-40a3-89bb-e0592296c003
           tac_agenda_gh_project_url: https://github.com/orgs/openmainframeproject/projects/21
         env:
-          token: ${{ secrets.PAT }}
+          token: ${{ steps.app-token.outputs.token }}
           repository: ${{ github.repository }}
           ref: ${{ github.ref }}

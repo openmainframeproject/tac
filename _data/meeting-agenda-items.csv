@@ -1,14 +1,14 @@
 title,url,number,scheduled_date,status,last_review_date,meeting_label
-OPLEANO,https://github.com/openmainframeproject/tac/issues/1052,1052,2026-09-10,Future Meeting Agenda Items,2026-09-10,2-annual-review
+Infra Request - Zcrafter AI MCP,https://github.com/openmainframeproject/tac/issues/1101,1101,2026-09-24,In Voting,,
+Infra Request - GNU Awk (gawk),https://github.com/openmainframeproject/tac/issues/1139,1139,,In Voting,,
+Gait,https://github.com/openmainframeproject/tac/issues/1115,1115,2026-09-24,In Voting,,1-new-project-wg
+Mainframe Modernization WG,https://github.com/openmainframeproject/tac/issues/529,529,2026-09-24,Next Meeting Agenda Items,2025-09-25,2-annual-review
+COBOL Working Group,https://github.com/openmainframeproject/tac/issues/581,581,2026-09-24,Next Meeting Agenda Items,2025-01-09,2-annual-review
+OPLEANO,https://github.com/openmainframeproject/tac/issues/1052,1052,2027-09-16,Future Meeting Agenda Items,2026-09-10,2-annual-review
 New Project Proposal - Lua/TSO — scripting platform for z/OS (System REXX replacement),https://github.com/openmainframeproject/tac/issues/972,972,,Next Meeting Agenda Items,,
-Infra Request - GNU Awk (gawk),https://github.com/openmainframeproject/tac/issues/1139,1139,,Upcoming Meeting Agenda Items,,
 Review/renew TAC Industry Representatives for 2027,https://github.com/openmainframeproject/tac/issues/965,965,2026-10-08,Next Meeting Agenda Items,,4-tac-meeting-short
 Tessia,https://github.com/openmainframeproject/tac/issues/531,531,2026-10-08,Next Meeting Agenda Items,2025-10-09,2-annual-review
-Infra Request - Zcrafter AI MCP,https://github.com/openmainframeproject/tac/issues/1101,1101,2026-09-24,Upcoming Meeting Agenda Items,,
 TAC Strategy Planning for 2027,https://github.com/openmainframeproject/tac/issues/1041,1041,2026-10-08,Next Meeting Agenda Items,,3-tac-meeting-long
-Mainframe Modernization WG,https://github.com/openmainframeproject/tac/issues/529,529,2026-09-24,Upcoming Meeting Agenda Items,2025-09-25,2-annual-review
-COBOL Working Group,https://github.com/openmainframeproject/tac/issues/581,581,2026-09-24,Upcoming Meeting Agenda Items,2025-01-09,2-annual-review
-Gait,https://github.com/openmainframeproject/tac/issues/1115,1115,2026-09-24,Upcoming Meeting Agenda Items,,1-new-project-wg
 Ambitus,https://github.com/openmainframeproject/tac/issues/577,577,2027-09-09,Future Meeting Agenda Items,2026-09-10,2-annual-review
 TSTerm,https://github.com/openmainframeproject/tac/issues/506,506,2027-08-26,Future Meeting Agenda Items,2026-08-27,2-annual-review
 SBOM for mainframe applications Working Group,https://github.com/openmainframeproject/tac/issues/848,848,2027-08-12,Future Meeting Agenda Items,2026-08-13,2-annual-review

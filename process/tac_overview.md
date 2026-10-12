@@ -11,9 +11,9 @@ parent: Processes
 
 The TAC’s responsibilities include:
 
-- Setting an overall technical vision for the {{ site.foundation_name }}
+- Setting an overall technical vision for the {{ site.foundation_name }};
 - Approving new projects and working groups;
-- Overseeing the Project Lifecycle;
+- Overseeing the [Project Lifecycle]({% link process/lifecycle.md %});
 - Enabling collaboration between projects and working groups;
 - Making recommendations to the Budget Committee for any resource needs;
 - Voting on other decisions that come before the TAC.
@@ -23,7 +23,7 @@ Additional responsibilities are described in [{{ site.foundation_name }} Directe
 ## What the TAC is NOT responsible for
 
 - The TAC does **not** manage the day-to-day activities and operations of hosted projects and working groups, such as committer rights, release schedules, and roadmaps.
-- The TAC is **not** responsible for overseeing day-to-day operations of Academy Software Foundation. This is the responsibility of the foundation staff.
+- The TAC is **not** responsible for overseeing day-to-day operations of {{ site.foundation_name }}. This is the responsibility of the foundation staff.
 - The TAC does **not** directly manage the overall budget for the {{ site.foundation_name }}. The TAC makes resource recommendations to the Budget Committee and Governing Board, and provides feedback on the use of those resources.
 
 ## Composition

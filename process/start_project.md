@@ -25,7 +25,7 @@ Groundbreaking and game-changing projects are a collective effort across organiz
 
 - All projects are set up as 501c6 Series LLC legal entities, giving the project a non-profit status and autonomy to set their policies and processes with expert guidance.
 - To ensure neutral management, the project has access to {{ site.foundation_name }}-owned infrastructures such as mailing lists, websites, and domain names.
-- [{{ site.foundation_name }} project lifecycle](/process/lifecycle) guides the project to establish a sustainable project.
+- [{{ site.foundation_name }} project lifecycle]({% link process/lifecycle.md %}) guides the project to establish a sustainable project.
 
 ### Bring in contributors from different organizations ( including your competitors )
 
@@ -39,7 +39,7 @@ Shared R&D with a broad ecosystem means bringing more contributors and maintaine
 
 Your project will get broad industry and open source exposure through our large audience, extensive media outreach partnerships with publications such as Linux.com and TFiR, and key partners.
 
-- Your project will be featured on both the [{{ site.foundation_name }}]({{ site.website_url }}) and the [Linux Foundation](https://www.linuxfoundation.org/projects) websites, as well as the [{{ site.foundation_name }} Landscape](https://l.lfenergy.org)
+- Your project will be featured on both the [{{ site.foundation_name }}]({{ site.website_url }}) and the [Linux Foundation](https://www.linuxfoundation.org/projects) websites, as well as the [{{ site.foundation_name }} Landscape]({{ site.landscape_url }})
 - Always available guest blog post(s) on the [{{ site.foundation_name }} blog]({{ site.blog_url }}) on project updates.
 - Post one technical article about an open-source project you care about to [Linux.com](https://www.linux.com/), which has over 1 million unique visitors per month.
 - As appropriate, support your announcements with social outreach and quotes from Linux Foundation and {{ site.foundation_name }} leadership.
@@ -113,7 +113,7 @@ Often projects are new open-source projects, but that isn’t a requirement - ex
 - Assess the potential universe of project participants. Identify ecosystem constituents and concerns of each.
 - Identify any trademarks leveraged by the project (these will be owned by the LF neutrally)
 - Outline infrastructure, marketing any other requirements needed for the project.
-- Complete the [project proposal](/process/proposal_template) and submit it to the TAC for consideration
+- Complete the [project proposal]({% link process/proposal_template.md %}) and submit it to the TAC for consideration
 
 The {{ site.foundation_name }} staff is happy to engage and advise during this process - let us know how we can help!
 
@@ -125,7 +125,7 @@ Once the TAC Chairperson reviews the proposal, the LF Staff will follow up with 
 - Have a successful license scan with any critical issues remedied.
 - Provide administrator access to all project tools, such as it’s GitHub organization, collaboration and communicaton tools, and build/testing infrastructure.
 
-Generally, the TAC will schedule project proposals at the following [TAC Meeting](/meetings), provided there is at least one week between the submitted project proposal and the scheduled TAC meeting.
+Generally, the TAC will schedule project proposals at the following [TAC Meeting]({% link meetings/README.md %}), provided there is at least one week between the submitted project proposal and the scheduled TAC meeting.
 
 Proposed projects will have a 20-minute presentation timeslot at an upcoming TAC meeting as the schedule allows. The project proposal must include a presentation conforming to the structure below to ensure uniform and complete submissions.
 
@@ -148,6 +148,6 @@ Proposed projects will have a 20-minute presentation timeslot at an upcoming TAC
 - It's rare to see a project accepted at the [Graduated stage], as even incoming projects that have existed for years require a fair amount of governance and operations changes as they come into the {{ site.foundation_name }}; those projects tend to come in at the [Incubation stage] and move to the [Graduated stage] within a year.
 - The TAC may ask for the project to go back and address specific questions and/or concerns and then re-propose the project. Any project that the TAC has not approved, or any project that the TAC does not renew, can only re-propose the project with the approval of the TAC.
 
-[Sandbox stage]: /process/lifecycle#sandbox-stage
-[Incubation stage]: /process/lifecycle#incubation-stage
-[Graduated stage]: /process/lifecycle#graduated-stage
+[Sandbox stage]: {% link process/lifecycle.md %}#sandbox-stage
+[Incubation stage]: {% link process/lifecycle.md %}#incubation-stage
+[Graduated stage]: {% link process/lifecycle.md %}#graduated-stage

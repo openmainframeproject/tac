@@ -1,8 +1,8 @@
 ---
 title: Mentee Final Evaluation
-grand_parent: Programs
-parent: Mentorship Program
-nav_order: 3
+grand_parent: Mentorship Program
+parent: Archive
+nav_exclude: true
 ---
 
 # Mentee Final Evaluation

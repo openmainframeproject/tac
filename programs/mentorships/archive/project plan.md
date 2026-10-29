@@ -1,8 +1,8 @@
 ---
 title: Project Plan
-grand_parent: Programs
-parent: Mentorship Program
-nav_order: 1
+grand_parent: Mentorship Program
+parent: Archive
+nav_exclude: true
 ---
 
 # Project Plan

@@ -21,6 +21,8 @@ jobs:
           landscape_url: https://landscape.openmainframeproject.org
           lfx_tac_committee_url: https://projectadmin.lfx.linuxfoundation.org/project/a0941000002wBymAAE/collaboration/committees/163b26f7-a49b-40a3-89bb-e0592296c003
           tac_agenda_gh_project_url: https://github.com/orgs/openmainframeproject/projects/21
+          tac_gh_repo_url: ${{ github.server_url }}/${{ github.repository }}
+          checkcommitteeurl: true
         env:
           token: ${{ steps.app-token.outputs.token }}
           repository: ${{ github.repository }}

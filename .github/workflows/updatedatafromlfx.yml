@@ -16,7 +16,7 @@ jobs:
         with:
           client-id: ${{ vars.APP_CLIENT_ID }}
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
-      - uses: jmertic/lfx-tac-actions@3cc53bcc460908d9a414290e83e8104357b0d652 # 20260908
+      - uses: jmertic/lfx-tac-actions@60c5cb28ac5ea2f02d8919573662900d9e23828f # 20261030
         with:
           landscape_url: https://landscape.openmainframeproject.org
           lfx_tac_committee_url: https://projectadmin.lfx.linuxfoundation.org/project/a0941000002wBymAAE/collaboration/committees/163b26f7-a49b-40a3-89bb-e0592296c003

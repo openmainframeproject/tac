@@ -1,0 +1,59 @@
+name: Weekly LFX committee URL check
+
+# Checks approved projects for a missing PCC LFX TSC committee URL, using the checkcommitteeurls step of
+# jmertic/lfx-tac-actions. If the check fails, an issue is opened (or updated) with a link to the run.
+#
+# The daily "Update Data From LFX" workflow used to pass `checkcommitteeurl: true`. That input name does not
+# exist (the real one is `checkcommitteeurls`, default false), so the check was silently skipped on every run.
+
+on:
+  schedule:
+    - cron: '17 13 * * 1' # Mondays 13:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/create-github-app-token@64ab729a6294000f5aa4a4bc0b73d1f32bc45510 # v3.3.0
+        id: app-token
+        with:
+          client-id: ${{ vars.APP_CLIENT_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+
+      - name: Check committee URLs
+        uses: jmertic/lfx-tac-actions@60c5cb28ac5ea2f02d8919573662900d9e23828f # 20261030
+        with:
+          landscape_url: https://landscape.openmainframeproject.org
+          lfx_tac_committee_url: https://projectadmin.lfx.linuxfoundation.org/project/a0941000002wBymAAE/collaboration/committees/163b26f7-a49b-40a3-89bb-e0592296c003
+          tac_agenda_gh_project_url: https://github.com/orgs/openmainframeproject/projects/21
+          tac_gh_repo_url: ${{ github.server_url }}/${{ github.repository }}
+          # Only run the check; the daily workflow owns the data refresh.
+          updateprojects: false
+          updatetacmembers: false
+          updatetacagendaitems: false
+          checkcommitteeurls: true
+        env:
+          token: ${{ steps.app-token.outputs.token }}
+          repository: ${{ github.repository }}
+          ref: ${{ github.ref }}
+
+      - name: Open or update an issue when the check fails
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          TITLE: Missing PCC LFX TSC committee URLs
+        run: |
+          body="The weekly committee URL check found a problem. See the [workflow run]($RUN_URL) for which projects are missing a PCC LFX TSC committee URL."
+          existing=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --label automated-report \
+            --search "\"$TITLE\" in:title" --json number --jq '.[0].number // empty')
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --repo "$GITHUB_REPOSITORY" --body "$body"
+          else
+            gh issue create --repo "$GITHUB_REPOSITORY" --title "$TITLE" --label automated-report --body "$body"
+          fi

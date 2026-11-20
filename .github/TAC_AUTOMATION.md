@@ -8,13 +8,13 @@ Settings and all message wording live in [`tac-automation.json`](tac-automation.
 
 | When | What happens | Workflow |
 |---|---|---|
-| New project proposal is opened | Thank-you comment; issue added to the board in **LF Onboarding** | `tac-intake.yml` |
+| New project or working group proposal is opened | Thank-you comment; issue added to the board in **LF Onboarding** | `tac-intake.yml` |
 | New agenda item is opened or edited | Thank-you comment; `4-tac-meeting-short` / `3-tac-meeting-long` label from the "how much time" answer | `tac-intake.yml` |
 | Item moves into **LF Onboarding** | Message on the issue | `tac-board-sync.yml` (every 10 min) |
 | Item moves into **In Voting** | Message on the issue | `tac-board-sync.yml` |
 | Item moves from LF Onboarding into an Agenda column | Message on the issue | `tac-board-sync.yml` |
 | **Scheduled Date** is set (or changed) | Message with the date (a change names the old date) | `tac-board-sync.yml` |
-| Nightly, 06:00 UTC | Items in an Agenda column move to Upcoming / Next / Future based on Scheduled Date | `tac-board-sync.yml` |
+| Nightly, 06:00 UTC | Items in an Agenda column move to Upcoming / Next / Future based on the TAC meeting dates | `tac-board-sync.yml` |
 | `/rollover-review` comment on an annual review issue (or Actions > Run workflow) | Scheduled Date moves out one year; comment says what changed | `tac-annual-review-rollover.yml` |
 | Mondays | Check approved projects for a missing PCC LFX TSC committee URL; open an issue if it fails | `weekly-committee-url-check.yml` |
 
@@ -24,9 +24,13 @@ organization project, so the board is checked every 10 minutes. Each comment end
 Only items changed in the last 24 hours (`sync.lookbackHours`) are considered, so turning this on does not
 comment on every existing item.
 
-**Agenda column rule (nightly):** Scheduled Date within 14 days -> Upcoming, within 42 days -> Next, later -> Future
-(`agendaWindows`). Only items already in one of those three columns are touched. Items whose date has passed, or
-that have no date, are left alone and listed in the run summary.
+**Agenda column rule (nightly):** based on TAC meeting dates. **Upcoming** = Scheduled Date is on or before the next
+meeting, **Next** = on or before the meeting after that, **Future** = later. Meeting dates are generated from the
+`meetings` block in `tac-automation.json` (currently Thursdays, 2nd and 4th of the month). **When a meeting is
+cancelled, add its date to `meetings.cancelled`** (use `meetings.extra` for a one-off meeting); the columns shift
+accordingly the next night. Only items already in one of the three Agenda columns are touched. The run summary lists
+items that need a person: dates that have passed, dates that are not a meeting date (for example a cancelled
+meeting), and Agenda items with no date.
 
 ## One-time setup
 
@@ -41,9 +45,9 @@ that have no date, are left alone and listed in the run summary.
 
 ## Reusing this in another TAC repo
 
-Copy `tac-automation.json`, `scripts/`, and the four `tac-*.yml` / `weekly-committee-url-check.yml` workflows, then edit
+Copy `tac-automation.json`, `scripts/`, and the three `tac-*.yml` workflows and `weekly-committee-url-check.yml`, then edit
 the JSON: `projectUrl`, `columns`, `fields`, `labels`, `topicLength` (heading and answers from that repo's agenda
-template), `newProjectTitlePrefixes`, `vars` (site links, foundation name) and the message wording. In
+template), `newProjectTitlePrefixes`, `meetings`, `vars` (site links, foundation name) and the message wording. In
 `weekly-committee-url-check.yml` swap the `landscape_url` and `lfx_tac_committee_url` for that TAC's.
 
 ## Tests

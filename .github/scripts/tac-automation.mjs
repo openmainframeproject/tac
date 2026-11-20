@@ -56,12 +56,50 @@ export function prettyDate(iso) {
   });
 }
 
-/** Which Agenda column a Scheduled Date belongs in today, or null if the date has passed. */
-export function targetColumn(daysUntil, windows, cols) {
-  if (daysUntil < 0) return null;
-  if (daysUntil <= windows.upcomingDays) return cols.upcoming;
-  if (daysUntil <= windows.nextDays) return cols.next;
+const WEEKDAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+const ISO = /^\d{4}-\d{2}-\d{2}$/;
+
+export function addDays(iso, n) {
+  return new Date(Date.parse(`${iso}T00:00:00Z`) + n * 86400000).toISOString().slice(0, 10);
+}
+
+/** Days ahead that meeting dates are generated for. */
+export const MEETING_HORIZON_DAYS = 400;
+
+/**
+ * TAC meeting dates on or after `today`: every `weekday` whose position in the month is in `nth`
+ * (all of them if nth is omitted), plus `extra`, minus `cancelled`. Sorted, YYYY-MM-DD.
+ */
+export function meetingDates(today, rule) {
+  const wd = WEEKDAYS.indexOf(rule.weekday ?? 'Thursday');
+  if (wd < 0) throw new Error(`meetings.weekday must be a day name, got "${rule.weekday}"`);
+  const dates = new Set(rule.extra ?? []);
+  for (let i = 0; i <= MEETING_HORIZON_DAYS; i++) {
+    const iso = addDays(today, i);
+    const day = new Date(`${iso}T00:00:00Z`);
+    if (day.getUTCDay() !== wd) continue;
+    const nth = Math.floor((day.getUTCDate() - 1) / 7) + 1;
+    if (!rule.nth || rule.nth.includes(nth)) dates.add(iso);
+  }
+  for (const c of rule.cancelled ?? []) dates.delete(c);
+  return [...dates].filter((d) => d >= today).sort();
+}
+
+/** Which Agenda column a Scheduled Date belongs in, or null if the date has passed. */
+export function targetColumn(date, today, dates, cols) {
+  if (date < today) return null;
+  const [first, second] = dates;
+  if (first === undefined || date <= first) return cols.upcoming;
+  if (second === undefined || date <= second) return cols.next;
   return cols.future;
+}
+
+export function validateConfig(config) {
+  const m = config.meetings ?? {};
+  if (!WEEKDAYS.includes(m.weekday)) throw new Error(`meetings.weekday must be one of ${WEEKDAYS.join(', ')}`);
+  for (const d of [...(m.cancelled ?? []), ...(m.extra ?? [])]) {
+    if (!ISO.test(d)) throw new Error(`meetings dates must be YYYY-MM-DD, got "${d}"`);
+  }
 }
 
 /** Answer to one question of a GitHub issue form (rendered as "### Heading\n\nanswer"). */
@@ -411,25 +449,31 @@ export async function runNightlyMove(ctx, project, items) {
   const cols = cfg.columns;
   const agenda = [cols.upcoming, cols.next, cols.future];
   const today = todayIn(cfg.timezone, ctx.now);
+  const dates = meetingDates(today, cfg.meetings);
+  const horizon = addDays(today, MEETING_HORIZON_DAYS);
   const moved = [];
   const overdue = [];
   const undated = [];
+  const offMeeting = [];
+  ctx.log(`Next meetings: ${dates.slice(0, 3).join(', ')} (Upcoming = ${dates[0]}, Next = ${dates[1]}).`);
 
   for (const it of items) {
     if (!it.issue.open || it.issue.repo !== ctx.repo) continue;
     if (!it.status || !agenda.some((c) => eq(c, it.status))) continue; // only touch the three Agenda columns
     if (!it.date) { undated.push(it); continue; }
-    const target = targetColumn(daysBetween(today, it.date), cfg.agendaWindows, cols);
+    const target = targetColumn(it.date, today, dates, cols);
     if (!target) { overdue.push(it); continue; }
+    if (it.date <= horizon && !dates.includes(it.date)) offMeeting.push(it);
     if (eq(target, it.status)) continue;
     ctx.log(`${ctx.dryRun ? '[dry-run] would move' : 'move'} #${it.issue.number} "${it.issue.title}" (${it.date}): ${it.status} -> ${target}`);
     if (!ctx.dryRun) await setSingleSelect(ctx, project, it.itemId, cfg.fields.status, target);
     moved.push({ number: it.issue.number, from: it.status, to: target });
   }
   for (const it of overdue) ctx.log(`needs attention: #${it.issue.number} "${it.issue.title}" is in "${it.status}" but its date ${it.date} has passed`);
+  for (const it of offMeeting) ctx.log(`needs attention: #${it.issue.number} "${it.issue.title}" is dated ${it.date}, which is not a TAC meeting date (cancelled, or not a meeting day) - reschedule it`);
   for (const it of undated) ctx.log(`no date: #${it.issue.number} "${it.issue.title}" is in "${it.status}" without a Scheduled Date`);
-  ctx.log(`nightly move finished: ${moved.length} moved, ${overdue.length} past-dated, ${undated.length} undated (${today}).`);
-  return { moved, overdue, undated };
+  ctx.log(`nightly move finished: ${moved.length} moved, ${overdue.length} past-dated, ${offMeeting.length} not on a meeting date, ${undated.length} undated (${today}).`);
+  return { moved, overdue, undated, offMeeting };
 }
 
 /* ------------------------------------------------------------------ annual review rollover */
@@ -477,6 +521,7 @@ async function main() {
   const mode = process.argv[2];
   const env = process.env;
   const config = loadConfig();
+  validateConfig(config);
   const repo = env.GITHUB_REPOSITORY;
   if (!env.GITHUB_TOKEN || !repo) throw new Error('GITHUB_TOKEN and GITHUB_REPOSITORY are required.');
 

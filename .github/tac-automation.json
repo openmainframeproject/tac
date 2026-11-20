@@ -17,10 +17,12 @@
     "future": "Future Meeting Agenda Items"
   },
 
-  "agendaWindows": {
-    "_comment": "Nightly move: days until Scheduled Date <= upcomingDays -> upcoming; <= nextDays -> next; otherwise future. Past dates are left alone and reported.",
-    "upcomingDays": 14,
-    "nextDays": 42
+  "meetings": {
+    "_comment": "TAC meeting dates are generated from this rule. Upcoming = the next meeting on or after today, Next = the one after it, Future = anything later. When a meeting is cancelled add its date to cancelled (YYYY-MM-DD); use extra for one-off meetings. Items dated on a cancelled date land in the next real meeting's column and are listed in the nightly run summary so they can be rescheduled.",
+    "weekday": "Thursday",
+    "nth": [2, 4],
+    "cancelled": ["2026-11-26"],
+    "extra": []
   },
 
   "labels": {
@@ -29,7 +31,7 @@
     "annualReview": "2-annual-review"
   },
 
-  "newProjectTitlePrefixes": ["New Project Proposal"],
+  "newProjectTitlePrefixes": ["New Project Proposal", "New Working Group Proposal"],
 
   "topicLength": {
     "heading": "How much time do you need for this topic?",

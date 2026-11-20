@@ -5,7 +5,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {
-  addYears, daysBetween, targetColumn, todayIn, formSection, lengthFor, projectNameFromTitle, render, message,
+  addYears, addDays, daysBetween, meetingDates, validateConfig, targetColumn, todayIn, formSection, lengthFor, projectNameFromTitle, render, message,
   runIntake, runSync, runNightlyMove, runRollover, marker,
 } from './tac-automation.mjs';
 
@@ -117,15 +117,38 @@ test('todayIn uses the configured time zone', () => {
   assert.equal(todayIn('UTC', new Date('2026-11-21T03:00:00Z')), '2026-11-21');
 });
 
-test('targetColumn boundaries', () => {
-  const w = config.agendaWindows;
-  assert.equal(targetColumn(-1, w, COLS), null);
-  assert.equal(targetColumn(0, w, COLS), COLS.upcoming);
-  assert.equal(targetColumn(14, w, COLS), COLS.upcoming);
-  assert.equal(targetColumn(15, w, COLS), COLS.next);
-  assert.equal(targetColumn(42, w, COLS), COLS.next);
-  assert.equal(targetColumn(43, w, COLS), COLS.future);
+test('meeting dates: 2nd and 4th Thursdays, minus cancelled, from today on', () => {
+  const dates = meetingDates('2026-11-20', config.meetings);
+  assert.deepEqual(dates.slice(0, 4), ['2026-12-10', '2026-12-24', '2027-01-14', '2027-01-28']);
+  assert.ok(!dates.includes('2026-11-26'), 'cancelled Thanksgiving meeting is not a meeting');
+  // today is a meeting day -> it still counts as the upcoming meeting
+  assert.equal(meetingDates('2026-12-10', config.meetings)[0], '2026-12-10');
+  assert.equal(meetingDates('2026-12-11', config.meetings)[0], '2026-12-24');
+  // cancel the next meeting and extra one-off meeting
+  const rule = { ...config.meetings, cancelled: ['2026-11-26', '2026-12-10'], extra: ['2026-12-03'] };
+  assert.deepEqual(meetingDates('2026-11-20', rule).slice(0, 3), ['2026-12-03', '2026-12-24', '2027-01-14']);
+  // every Thursday when nth is left out
+  assert.deepEqual(meetingDates('2026-11-20', { weekday: 'Thursday' }).slice(0, 3), ['2026-11-26', '2026-12-03', '2026-12-10']);
+  assert.equal(addDays('2026-12-31', 1), '2027-01-01');
+});
+
+test('targetColumn: Upcoming = next meeting, Next = the one after, Future = later', () => {
+  const dates = ['2026-12-10', '2026-12-24', '2027-01-14'];
+  const t = (d) => targetColumn(d, '2026-11-20', dates, COLS);
+  assert.equal(t('2026-11-19'), null);
+  assert.equal(t('2026-11-20'), COLS.upcoming);
+  assert.equal(t('2026-12-10'), COLS.upcoming);
+  assert.equal(t('2026-12-11'), COLS.next);
+  assert.equal(t('2026-12-24'), COLS.next);
+  assert.equal(t('2026-12-25'), COLS.future);
+  assert.equal(t('2027-01-14'), COLS.future);
   assert.equal(daysBetween('2026-11-20', '2026-12-04'), 14);
+});
+
+test('validateConfig accepts the shipped config and rejects bad meeting settings', () => {
+  validateConfig(config);
+  assert.throws(() => validateConfig({ meetings: { weekday: 'Thurs' } }), /weekday/);
+  assert.throws(() => validateConfig({ meetings: { weekday: 'Thursday', cancelled: ['11/26/2026'] } }), /YYYY-MM-DD/);
 });
 
 test('issue form parsing and short/long mapping', () => {
@@ -196,9 +219,16 @@ test('new project: thanks comment first, then added to the board in LF Onboardin
   assert.equal(f.comments(7).length, 1);
 });
 
-test('new project intake ignores working group proposals, bots, closed issues and edits', async () => {
+test('working group proposals get the same intake as new projects', async () => {
   const f = makeFake();
-  await runIntake(f.ctx(), issueEvent({ title: 'New Working Group Proposal - X' }));
+  await runIntake(f.ctx(), issueEvent({ title: 'New Working Group Proposal - Mainframe Cats' }));
+  assert.match(f.comments(7)[0], /Thanks for submitting \*\*Mainframe Cats\*\*/);
+  assert.ok(f.mutations.some((m) => m.op === 'AddItem'));
+});
+
+test('intake ignores other issues, bots, closed issues and edits of new projects', async () => {
+  const f = makeFake();
+  await runIntake(f.ctx(), issueEvent({ title: 'Mentorship proposal: something' }));
   await runIntake(f.ctx(), issueEvent({ user: { login: 'dependabot[bot]', type: 'Bot' } }));
   await runIntake(f.ctx(), issueEvent({ state: 'closed' }));
   await runIntake(f.ctx(), { ...issueEvent(), action: 'edited' });
@@ -271,34 +301,51 @@ test('a changed Scheduled Date gets a reschedule message that names the old date
 
 /* ---------------------------------------------------------------- nightly move */
 
-test('nightly move puts items in the right Agenda column and leaves everything else alone', async () => {
+test('nightly move uses meeting dates, leaves other columns alone, and flags dates that are not meetings', async () => {
+  // today (New York) is 2026-11-20; meetings: 12-10 (Upcoming), 12-24 (Next), then 2027-01-14...
   const f = makeFake({ items: [
-    { number: 21, status: COLS.future, date: '2026-12-04' },   // 14 days  -> Upcoming
-    { number: 22, status: COLS.upcoming, date: '2026-12-10' }, // 20 days  -> Next
-    { number: 23, status: COLS.next, date: '2027-01-14' },     // 55 days  -> Future
-    { number: 24, status: COLS.next, date: '2026-12-10' },     // already right
+    { number: 21, status: COLS.future, date: '2026-12-10' },   // -> Upcoming
+    { number: 22, status: COLS.upcoming, date: '2026-12-24' }, // -> Next
+    { number: 23, status: COLS.next, date: '2027-01-14' },     // -> Future
+    { number: 24, status: COLS.next, date: '2026-12-24' },     // already right
     { number: 25, status: COLS.upcoming, date: '2026-11-12' }, // date passed: report only
     { number: 26, status: COLS.next },                         // no date: report only
     { number: 27, status: COLS.voting, date: '2026-11-25' },   // not an Agenda column
     { number: 28, status: COLS.onboarding, date: '2026-11-25' },
     { number: 29, status: COLS.future, date: '2026-12-10', state: 'CLOSED' },
+    { number: 30, status: COLS.future, date: '2026-12-17' },   // a Thursday, but not a meeting -> Next, flagged
+    { number: 31, status: COLS.upcoming, date: '2026-11-26' }, // cancelled meeting -> stays Upcoming, flagged
   ] });
   const project = { id: 'PVT_1', fields: new Map([
     ['status', { id: 'F_status', name: 'Status', options: Object.values(COLS).concat('Done').map((name, i) => ({ id: `opt${i}`, name })) }],
   ]) };
   const res = await runNightlyMove(f.ctx(), project, await listAll(f));
-  assert.deepEqual(res.moved.map((m) => [m.number, m.to]), [[21, COLS.upcoming], [22, COLS.next], [23, COLS.future]]);
+  assert.deepEqual(res.moved.map((m) => [m.number, m.to]), [[21, COLS.upcoming], [22, COLS.next], [23, COLS.future], [30, COLS.next]]);
   assert.deepEqual(res.overdue.map((i) => i.issue.number), [25]);
   assert.deepEqual(res.undated.map((i) => i.issue.number), [26]);
-  assert.equal(f.mutations.filter((m) => m.op === 'SetField').length, 3);
+  assert.deepEqual(res.offMeeting.map((i) => i.issue.number), [30, 31]);
+  assert.equal(f.mutations.filter((m) => m.op === 'SetField').length, 4);
 
   const before = f.mutations.length;
   await runNightlyMove(f.ctx(), project, await listAll(f));
   assert.equal(f.mutations.length, before, 'second run changes nothing');
 });
 
+test('cancelling the upcoming meeting shifts the columns', async () => {
+  const cancelled = { ...config, meetings: { ...config.meetings, cancelled: ['2026-11-26', '2026-12-10'] } };
+  const f = makeFake({ items: [
+    { number: 41, status: COLS.upcoming, date: '2026-12-10' }, // meeting cancelled -> dates on/before 12-24 are Upcoming
+    { number: 42, status: COLS.next, date: '2026-12-24' },     // now the upcoming meeting
+    { number: 43, status: COLS.future, date: '2027-01-14' },   // now Next
+  ] });
+  const project = { id: 'PVT_1', fields: new Map([['status', { id: 'F_status', name: 'Status', options: Object.values(COLS).map((name, i) => ({ id: `opt${i}`, name })) }]]) };
+  const res = await runNightlyMove(f.ctx({ config: cancelled }), project, await listAll(f));
+  assert.deepEqual(res.moved.map((m) => [m.number, m.to]), [[42, COLS.upcoming], [43, COLS.next]]);
+  assert.deepEqual(res.offMeeting.map((i) => i.issue.number), [41]);
+});
+
 test('nightly move dry run changes nothing', async () => {
-  const f = makeFake({ items: [{ number: 21, status: COLS.future, date: '2026-12-04' }] });
+  const f = makeFake({ items: [{ number: 21, status: COLS.future, date: '2026-12-10' }] });
   const project = { id: 'PVT_1', fields: new Map([['status', { id: 'F_status', name: 'Status', options: Object.values(COLS).map((name, i) => ({ id: `opt${i}`, name })) }]]) };
   const res = await runNightlyMove(f.ctx({ dryRun: true }), project, await listAll(f));
   assert.equal(res.moved.length, 1);

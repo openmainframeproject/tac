@@ -52,7 +52,8 @@
 
   "rollover": {
     "command": "/rollover-review",
-    "years": 1
+    "years": 1,
+    "snap": "nearest"
   },
 
   "vars": {
@@ -116,6 +117,8 @@
 
     "rollover": [
       "The scheduled date for this annual review was moved out {{years}} by @{{actor}}: **{{oldDate}}** -> **{{newDate}}**.",
+      "",
+      "{{snapNote}}",
       "",
       "See the [annual review process]({{reviewUrl}}) for what to prepare for the next review."
     ],

@@ -5,7 +5,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {
-  addYears, addDays, daysBetween, meetingDates, validateConfig, targetColumn, todayIn, formSection, lengthFor, projectNameFromTitle, render, message,
+  addYears, addDays, daysBetween, meetingDates, snapToMeeting, validateConfig, targetColumn, todayIn, formSection, lengthFor, projectNameFromTitle, render, message,
   runIntake, runSync, runNightlyMove, runRollover, marker,
 } from './tac-automation.mjs';
 
@@ -145,9 +145,30 @@ test('targetColumn: Upcoming = next meeting, Next = the one after, Future = late
   assert.equal(daysBetween('2026-11-20', '2026-12-04'), 14);
 });
 
+test('snapToMeeting: nearest (default), after, none; ties go earlier; cancelled meetings are skipped', () => {
+  const rule = config.meetings; // 2nd and 4th Thursdays, 2026-11-26 cancelled
+  // 2027-12-10 is a Friday; meetings that month are Dec 9 and Dec 23
+  assert.equal(snapToMeeting('2027-12-10', rule), '2027-12-09');
+  assert.equal(snapToMeeting('2027-12-10', rule, 'nearest'), '2027-12-09');
+  assert.equal(snapToMeeting('2027-12-10', rule, 'after'), '2027-12-23');
+  assert.equal(snapToMeeting('2027-12-10', rule, 'none'), '2027-12-10');
+  // already a meeting date: unchanged in every mode
+  assert.equal(snapToMeeting('2028-03-09', rule), '2028-03-09');
+  assert.equal(snapToMeeting('2028-03-09', rule, 'after'), '2028-03-09');
+  // crosses a month boundary: Feb 2029 meetings are the 8th and 22nd, Mar 8 is next
+  assert.equal(snapToMeeting('2029-02-28', rule), '2029-02-22');
+  // cancelled meeting is not a candidate
+  assert.equal(snapToMeeting('2027-12-10', { ...rule, cancelled: ['2027-12-09'] }), '2027-12-23');
+  // equal distance -> the earlier meeting
+  const tie = { weekday: 'Thursday', nth: [], extra: ['2027-06-01', '2027-06-05'] };
+  assert.equal(snapToMeeting('2027-06-03', tie), '2027-06-01');
+  assert.throws(() => snapToMeeting('2027-12-10', rule, 'sideways'), /nearest, after or none/);
+});
+
 test('validateConfig accepts the shipped config and rejects bad meeting settings', () => {
   validateConfig(config);
   assert.throws(() => validateConfig({ meetings: { weekday: 'Thurs' } }), /weekday/);
+  assert.throws(() => validateConfig({ rollover: { snap: 'sometimes' }, meetings: { weekday: 'Thursday' } }), /rollover.snap/);
   assert.throws(() => validateConfig({ meetings: { weekday: 'Thursday', cancelled: ['11/26/2026'] } }), /YYYY-MM-DD/);
 });
 
@@ -177,7 +198,7 @@ test('project name is taken from the title without eating hyphens in the name', 
 test('every message in the config renders with no placeholders left over', () => {
   const vars = {
     title: 'T', submitter: '@a', column: 'C', date: 'D', previousDate: 'P', actor: 'x', oldDate: 'O', newDate: 'N',
-    years: 'one year', lengthNote: 'L', annualReviewLabel: '2-annual-review',
+    years: 'one year', lengthNote: 'L', annualReviewLabel: '2-annual-review', snapNote: 'S',
   };
   for (const name of Object.keys(config.messages)) {
     const text = message(config, name, vars);
@@ -354,20 +375,38 @@ test('nightly move dry run changes nothing', async () => {
 
 /* ---------------------------------------------------------------- rollover */
 
-test('rollover moves the date out a year, comments, and the sync job does not repeat the announcement', async () => {
+test('rollover moves the date out a year onto a meeting date, comments, and sync does not repeat the announcement', async () => {
   const f = makeFake({ perms: { bob: 'write' }, items: [{ number: 31, status: COLS.future, date: '2026-12-10', labels: ['2-annual-review'], author: 'carol' }] });
   await runRollover(f.ctx(), { issueNumber: 31, actor: 'bob', checkPermission: true });
 
   const dateSet = f.mutations.find((m) => m.op === 'SetField');
   assert.equal(dateSet.field, 'F_date');
-  assert.equal(dateSet.value.date, '2027-12-10');
+  assert.equal(dateSet.value.date, '2027-12-09', '2027-12-10 is a Friday; snapped to the nearest meeting');
   const c = f.comments(31).at(-1);
-  assert.match(c, /moved out one year by @bob: \*\*Thursday, December 10, 2026\*\* -> \*\*Friday, December 10, 2027\*\*/);
-  assert.ok(c.includes(marker('scheduled:2027-12-10')));
+  assert.match(c, /moved out one year by @bob: \*\*Thursday, December 10, 2026\*\* -> \*\*Thursday, December 9, 2027\*\*/);
+  assert.match(c, /One year out would be Friday, December 10, 2027, which is not a TAC meeting date, so it was moved to the nearest meeting\./);
+  assert.ok(c.includes(marker('scheduled:2027-12-09')));
 
   const n = f.comments(31).length;
   await runSync(f.ctx(), await listAll(f));
   assert.equal(f.comments(31).length, n, 'no duplicate "scheduled" message after a rollover');
+});
+
+test('rollover: no snap note when a year out already is a meeting date; snap can be switched off or set to "after"', async () => {
+  const run = async (snap, date = '2027-03-09') => {
+    const f = makeFake({ perms: {}, items: [{ number: 31, status: COLS.future, date, labels: ['2-annual-review'] }] });
+    await runRollover(f.ctx({ config: { ...config, rollover: { ...config.rollover, snap } } }), { issueNumber: 31, actor: 'x', checkPermission: false });
+    return { date: f.mutations.find((m) => m.op === 'SetField').value.date, comment: f.comments(31).at(-1) };
+  };
+  const same = await run('nearest'); // 2028-03-09 is the 2nd Thursday of March 2028
+  assert.equal(same.date, '2028-03-09');
+  assert.ok(!/not a TAC meeting date/.test(same.comment));
+  assert.ok(!/\n\n\n/.test(same.comment), 'no stray blank lines when there is no snap note');
+
+  assert.equal((await run('none', '2026-12-10')).date, '2027-12-10');
+  const after = await run('after', '2026-12-10');
+  assert.equal(after.date, '2027-12-23');
+  assert.match(after.comment, /moved to the next meeting\./);
 });
 
 test('rollover is ignored for people without write access, and explains itself on the wrong issue', async () => {
@@ -391,7 +430,7 @@ test('rollover is ignored for people without write access, and explains itself o
 test('rollover from the Actions button skips the comment-permission lookup', async () => {
   const f = makeFake({ items: [{ number: 31, status: COLS.future, date: '2028-02-29', labels: ['2-annual-review'] }] });
   await runRollover(f.ctx(), { issueNumber: 31, actor: 'dispatcher', checkPermission: false });
-  assert.equal(f.mutations.find((m) => m.op === 'SetField').value.date, '2029-02-28');
+  assert.equal(f.mutations.find((m) => m.op === 'SetField').value.date, '2029-02-22', '2029-02-28 is a Wednesday; nearest meeting is Feb 22');
 });
 
 /* ---------------------------------------------------------------- helpers */

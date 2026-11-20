@@ -30,7 +30,9 @@ export function message(config, name, vars = {}) {
   const t = config.messages?.[name];
   if (!t) throw new Error(`No message "${name}" in tac-automation.json`);
   const text = Array.isArray(t) ? t.join('\n') : t;
-  return render(text, { boardUrl: config.projectUrl, command: config.rollover?.command, ...config.vars, ...vars });
+  return render(text, { boardUrl: config.projectUrl, command: config.rollover?.command, ...config.vars, ...vars })
+    .replace(/\n{3,}/g, '\n\n')
+    .trim();
 }
 
 /** YYYY-MM-DD for "now" in the given IANA time zone. */
@@ -67,22 +69,40 @@ export function addDays(iso, n) {
 export const MEETING_HORIZON_DAYS = 400;
 
 /**
- * TAC meeting dates on or after `today`: every `weekday` whose position in the month is in `nth`
- * (all of them if nth is omitted), plus `extra`, minus `cancelled`. Sorted, YYYY-MM-DD.
+ * TAC meeting dates from `from` through `from + horizonDays`: every `weekday` whose position in the month
+ * is in `nth` (all of them if nth is omitted), plus `extra`, minus `cancelled`. Sorted, YYYY-MM-DD.
  */
-export function meetingDates(today, rule) {
+export function meetingDates(from, rule, horizonDays = MEETING_HORIZON_DAYS) {
   const wd = WEEKDAYS.indexOf(rule.weekday ?? 'Thursday');
   if (wd < 0) throw new Error(`meetings.weekday must be a day name, got "${rule.weekday}"`);
   const dates = new Set(rule.extra ?? []);
-  for (let i = 0; i <= MEETING_HORIZON_DAYS; i++) {
-    const iso = addDays(today, i);
+  for (let i = 0; i <= horizonDays; i++) {
+    const iso = addDays(from, i);
     const day = new Date(`${iso}T00:00:00Z`);
     if (day.getUTCDay() !== wd) continue;
     const nth = Math.floor((day.getUTCDate() - 1) / 7) + 1;
     if (!rule.nth || rule.nth.includes(nth)) dates.add(iso);
   }
   for (const c of rule.cancelled ?? []) dates.delete(c);
-  return [...dates].filter((d) => d >= today).sort();
+  const end = addDays(from, horizonDays);
+  return [...dates].filter((d) => d >= from && d <= end).sort();
+}
+
+/**
+ * Move a date onto a TAC meeting date. mode: "nearest" (ties go to the earlier meeting), "after" (first
+ * meeting on or after the date) or "none". A date that is already a meeting date is returned unchanged.
+ */
+export function snapToMeeting(iso, rule, mode = 'nearest') {
+  if (mode === 'none') return iso;
+  if (!['nearest', 'after'].includes(mode)) throw new Error(`rollover.snap must be nearest, after or none, got "${mode}"`);
+  const candidates = meetingDates(addDays(iso, -31), rule, 62);
+  if (candidates.includes(iso) || !candidates.length) return iso;
+  if (mode === 'after') return candidates.find((d) => d >= iso) ?? iso;
+  let best = candidates[0];
+  for (const d of candidates) {
+    if (Math.abs(daysBetween(iso, d)) < Math.abs(daysBetween(iso, best))) best = d;
+  }
+  return best;
 }
 
 /** Which Agenda column a Scheduled Date belongs in, or null if the date has passed. */
@@ -95,6 +115,9 @@ export function targetColumn(date, today, dates, cols) {
 }
 
 export function validateConfig(config) {
+  if (!['nearest', 'after', 'none'].includes(config.rollover?.snap ?? 'nearest')) {
+    throw new Error('rollover.snap must be nearest, after or none');
+  }
   const m = config.meetings ?? {};
   if (!WEEKDAYS.includes(m.weekday)) throw new Error(`meetings.weekday must be one of ${WEEKDAYS.join(', ')}`);
   for (const d of [...(m.cancelled ?? []), ...(m.extra ?? [])]) {
@@ -500,13 +523,15 @@ export async function runRollover(ctx, { issueNumber, actor, checkPermission }) 
   if (!item || !item.date) return postComment(ctx, issue, message(cfg, 'rolloverNoDate', vars), []);
 
   const years = cfg.rollover.years;
-  const newDate = addYears(item.date, years);
-  ctx.log(`${ctx.dryRun ? '[dry-run] would move' : 'move'} #${issueNumber} Scheduled Date ${item.date} -> ${newDate}`);
+  const rawDate = addYears(item.date, years);
+  const newDate = snapToMeeting(rawDate, cfg.meetings, cfg.rollover.snap ?? 'nearest');
+  const snapNote = newDate === rawDate ? '' : `${years === 1 ? 'One year out' : `${years} years out`} would be ${prettyDate(rawDate)}, which is not a TAC meeting date, so it was moved to ${cfg.rollover.snap === 'after' ? 'the next' : 'the nearest'} meeting.`;
+  ctx.log(`${ctx.dryRun ? '[dry-run] would move' : 'move'} #${issueNumber} Scheduled Date ${item.date} -> ${newDate}${snapNote ? ` (snapped from ${rawDate})` : ''}`);
   if (!ctx.dryRun) await setDate(ctx, project, item.itemId, cfg.fields.scheduledDate, newDate);
   // The scheduled:<date> marker tells the sync job this date change is already announced.
   await postComment(
     ctx, issue,
-    message(cfg, 'rollover', { ...vars, years: years === 1 ? 'one year' : `${years} years`, oldDate: prettyDate(item.date), newDate: prettyDate(newDate) }),
+    message(cfg, 'rollover', { ...vars, years: years === 1 ? 'one year' : `${years} years`, oldDate: prettyDate(item.date), newDate: prettyDate(newDate), snapNote }),
     [`scheduled:${newDate}`],
   );
 }

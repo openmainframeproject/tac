@@ -15,7 +15,7 @@ Settings and all message wording live in [`tac-automation.json`](tac-automation.
 | Item moves from LF Onboarding into an Agenda column | Message on the issue | `tac-board-sync.yml` |
 | **Scheduled Date** is set (or changed) | Message with the date (a change names the old date) | `tac-board-sync.yml` |
 | Nightly, 06:00 UTC | Items in an Agenda column move to Upcoming / Next / Future based on the TAC meeting dates | `tac-board-sync.yml` |
-| `/rollover-review` comment on an annual review issue (or Actions > Run workflow) | Scheduled Date moves out one year; comment says what changed | `tac-annual-review-rollover.yml` |
+| `/rollover-review` comment on an annual review issue (or Actions > Run workflow) | Scheduled Date moves out one year, snapped to the nearest TAC meeting date; comment says what changed | `tac-annual-review-rollover.yml` |
 | Mondays | Check approved projects for a missing PCC LFX TSC committee URL; open an issue if it fails | `weekly-committee-url-check.yml` |
 
 **Why the column messages poll:** GitHub Actions has no trigger for a card moving between columns on an
@@ -31,6 +31,10 @@ cancelled, add its date to `meetings.cancelled`** (use `meetings.extra` for a on
 accordingly the next night. Only items already in one of the three Agenda columns are touched. The run summary lists
 items that need a person: dates that have passed, dates that are not a meeting date (for example a cancelled
 meeting), and Agenda items with no date.
+
+**Annual review rollover:** one year out rarely lands on a meeting day, so the new date is snapped to the nearest TAC
+meeting (cancelled meetings are skipped; a tie goes to the earlier one), and the comment says so. Set `rollover.snap`
+to `after` for "first meeting on or after the anniversary", or `none` for the exact date.
 
 ## One-time setup
 

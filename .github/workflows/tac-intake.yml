@@ -1,0 +1,37 @@
+name: TAC intake
+
+# New issue comes in:
+#   - New project proposal -> thank-you comment, added to the board in "LF Onboarding"
+#   - Agenda item          -> thank-you comment, short/long label from the "how much time" answer
+# Settings and message copy: .github/tac-automation.json
+
+on:
+  issues:
+    types: [opened, edited]
+
+permissions:
+  contents: read
+
+# One run at a time per issue so an edit right after opening can't race the thank-you comment.
+concurrency:
+  group: tac-intake-${{ github.event.issue.number }}
+  cancel-in-progress: false
+
+jobs:
+  intake:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/create-github-app-token@64ab729a6294000f5aa4a4bc0b73d1f32bc45510 # v3.3.0
+        id: app-token
+        with:
+          client-id: ${{ vars.APP_CLIENT_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          sparse-checkout: .github
+
+      - name: Run intake
+        run: node .github/scripts/tac-automation.mjs intake
+        env:
+          GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}

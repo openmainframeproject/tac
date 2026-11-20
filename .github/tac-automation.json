@@ -1,0 +1,129 @@
+{
+  "_readme": "Per-TAC settings for the automation in .github/scripts/tac-automation.mjs. To reuse in another TAC repo, copy this file and the scripts/workflows, then edit projectUrl, the column/field/label names, the vars and the message copy below. Messages are arrays of lines; {{placeholders}} are filled in at run time.",
+
+  "projectUrl": "https://github.com/orgs/openmainframeproject/projects/21",
+  "timezone": "America/New_York",
+
+  "fields": {
+    "status": "Status",
+    "scheduledDate": "Scheduled Date"
+  },
+
+  "columns": {
+    "onboarding": "LF Onboarding",
+    "voting": "In Voting",
+    "upcoming": "Upcoming Meeting Agenda Items",
+    "next": "Next Meeting Agenda Items",
+    "future": "Future Meeting Agenda Items"
+  },
+
+  "agendaWindows": {
+    "_comment": "Nightly move: days until Scheduled Date <= upcomingDays -> upcoming; <= nextDays -> next; otherwise future. Past dates are left alone and reported.",
+    "upcomingDays": 14,
+    "nextDays": 42
+  },
+
+  "labels": {
+    "agenda": "meeting-agenda",
+    "newProject": "1-new-project-wg",
+    "annualReview": "2-annual-review"
+  },
+
+  "newProjectTitlePrefixes": ["New Project Proposal"],
+
+  "topicLength": {
+    "heading": "How much time do you need for this topic?",
+    "match": {
+      "short": ["5 minutes or less"],
+      "long": ["20 minutes"]
+    },
+    "shortMaxMinutes": 10,
+    "labels": {
+      "short": "4-tac-meeting-short",
+      "long": "3-tac-meeting-long"
+    }
+  },
+
+  "sync": {
+    "lookbackHours": 24
+  },
+
+  "rollover": {
+    "command": "/rollover-review",
+    "years": 1
+  },
+
+  "vars": {
+    "foundation": "Open Mainframe Project",
+    "meetingsUrl": "https://tac.openmainframeproject.org/meetings/",
+    "lifecycleUrl": "https://tac.openmainframeproject.org/process/lifecycle.html",
+    "votingUrl": "https://tac.openmainframeproject.org/process/voting.html",
+    "reviewUrl": "https://tac.openmainframeproject.org/process/review_cycle.html"
+  },
+
+  "messages": {
+    "newProject": [
+      "Thanks for submitting **{{title}}** to the {{foundation}}, {{submitter}}! 🎉",
+      "",
+      "Here is what happens next:",
+      "",
+      "1. Your proposal has been added to the **LF Onboarding** column on the [TAC agenda board]({{boardUrl}}). The LF staff will follow up here with any next steps.",
+      "2. Once it is ready, it will be placed on an upcoming TAC meeting agenda. We will post the date on this issue when it is scheduled.",
+      "3. You will need to be available to lead the discussion at that meeting. Details on joining are on the [TAC meetings page]({{meetingsUrl}}).",
+      "",
+      "The [project lifecycle]({{lifecycleUrl}}) describes the stages a project moves through. We will keep this issue updated as things progress."
+    ],
+
+    "onboarding": [
+      "This item has moved to **LF Onboarding**. The LF staff are working through the next steps with you, {{submitter}}.",
+      "",
+      "Please keep an eye on this issue for questions and requests. Once onboarding is complete it will be placed on a TAC meeting agenda and we will let you know here."
+    ],
+
+    "onboardingComplete": [
+      "LF Onboarding is complete for this item, {{submitter}}, and it has moved to the TAC agenda (**{{column}}**).",
+      "",
+      "We will confirm the meeting date on this issue once it is scheduled. Please plan to be available to lead the discussion - see the [TAC meetings page]({{meetingsUrl}})."
+    ],
+
+    "inVoting": [
+      "This item is now **In Voting**.",
+      "",
+      "TAC voting members can vote during a regular TAC meeting or electronically - see the [voting process]({{votingUrl}}). We will post the outcome on this issue."
+    ],
+
+    "scheduled": [
+      "This item is scheduled for the TAC meeting on **{{date}}**.",
+      "",
+      "{{submitter}}, please be available to lead the discussion and bring any materials you would like to share. Meeting details are on the [TAC meetings page]({{meetingsUrl}})."
+    ],
+
+    "rescheduled": [
+      "The scheduled TAC meeting date for this item has changed from {{previousDate}} to **{{date}}**.",
+      "",
+      "{{submitter}}, please let us know here if that date does not work for you."
+    ],
+
+    "agendaThanks": [
+      "Thanks for submitting this agenda item, {{submitter}}!",
+      "",
+      "{{lengthNote}}",
+      "",
+      "The TAC will review it and schedule it for an upcoming meeting. We will post the date here once it is set. You will need to be available to lead the discussion - see the [TAC meetings page]({{meetingsUrl}})."
+    ],
+
+    "rollover": [
+      "The scheduled date for this annual review was moved out {{years}} by @{{actor}}: **{{oldDate}}** -> **{{newDate}}**.",
+      "",
+      "See the [annual review process]({{reviewUrl}}) for what to prepare for the next review."
+    ],
+
+    "rolloverNoDate": [
+      "@{{actor}} I could not move the date out because this item has no **Scheduled Date** on the [TAC agenda board]({{boardUrl}}) (or is not on the board). Set one and run `{{command}}` again."
+    ],
+
+    "rolloverWrongIssue": [
+      "@{{actor}} `{{command}}` only works on annual review issues (label `{{annualReviewLabel}}`)."
+    ]
+  }
+}

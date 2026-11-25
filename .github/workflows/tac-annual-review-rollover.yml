@@ -1,0 +1,51 @@
+name: TAC annual review rollover
+
+# Shortcut for annual review issues: moves the item's "Scheduled Date" out one year (snapped to the nearest
+# TAC meeting date, see `meetings` and `rollover` in tac-automation.json) and comments on the issue with what
+# changed.
+#
+#   - Comment `/rollover-review` on an issue labeled `2-annual-review` (people with write access only), or
+#   - Actions > TAC annual review rollover > Run workflow, with the issue number.
+#
+# The nightly board job then moves the item to the right Agenda column for its new date.
+
+on:
+  issue_comment:
+    types: [created]
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: Annual review issue number
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: tac-rollover-${{ github.event.issue.number || inputs.issue_number }}
+  cancel-in-progress: false
+
+jobs:
+  rollover:
+    # Cheap filter here; the script re-checks the command and the commenter's permission.
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.issue.pull_request == null && startsWith(github.event.comment.body, '/rollover-review'))
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/create-github-app-token@64ab729a6294000f5aa4a4bc0b73d1f32bc45510 # v3.3.0
+        id: app-token
+        with:
+          client-id: ${{ vars.APP_CLIENT_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          sparse-checkout: .github
+
+      - name: Roll the review date out
+        run: node .github/scripts/tac-automation.mjs rollover
+        env:
+          GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
+          ISSUE_NUMBER: ${{ inputs.issue_number }}
